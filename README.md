@@ -7,7 +7,9 @@ Ett försök att samla ihop alla vandringarna
 
 ## Fundering
 * kan vi samla alla spår typ som jag testat lite på [www.alltrails.com 263fc48](https://www.alltrails.com/sv-se/explore/list/fb-relaterade-vandringar-263fc48)
-  * test med [kalkyklark](https://www.strava.com/activities/13262989561) 
+<img width="1447" alt="image" src="https://github.com/user-attachments/assets/f29a2f9f-6c77-4fb0-aca0-27d9ae6fdba1" />
+
+* test med [kalkyklark](https://www.strava.com/activities/13262989561) 
 * Strava är duktiga på att koppla ihop exempelvis [mig](https://www.strava.com/athletes/60983368) [Carolina](https://www.strava.com/athletes/51624350) och [Rolf](https://www.strava.com/athletes/3540129) när dom ser att vi laddar upp liknande spår
 
 <img width="1026" alt="image" src="https://github.com/user-attachments/assets/21ba5f39-d81d-4033-9a14-712064df3306" />
