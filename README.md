@@ -2,7 +2,7 @@
 Ett försök att samla ihop alla vandringarna
 
 * 2024 jan 3 Lidingö till Gåshaga
-   * FB evenbt [611101457969047](https://www.facebook.com/events/611101457969047)
+   * FB event [611101457969047](https://www.facebook.com/events/611101457969047)
    * [spår](https://www.strava.com/activities/13262989561) 
 
 ## Fundering
