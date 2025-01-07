@@ -6,7 +6,7 @@ Ett försök att samla ihop alla vandringarna
    * [spår](https://www.strava.com/activities/13262989561) 
 
 ## Fundering
-* test samla spår/event med [kalkyklark](https://www.strava.com/activities/13262989561) 
+* test samla spår/event med [kalkyklark](https://docs.google.com/spreadsheets/d/1W-dqV-ZWSe35Imq1w8ZRu566eSLe2Y3Y9iFvGwALzCk/edit?usp=sharing) 
 
 * kan vi samla alla spår typ som jag testat lite på [www.alltrails.com 263fc48](https://www.alltrails.com/sv-se/explore/list/fb-relaterade-vandringar-263fc48)
 <img width="1447" alt="image" src="https://github.com/user-attachments/assets/f29a2f9f-6c77-4fb0-aca0-27d9ae6fdba1" />
