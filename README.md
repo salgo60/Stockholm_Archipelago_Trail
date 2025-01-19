@@ -6,8 +6,7 @@ Ett försök att samla ihop alla vandringarna
    * [spår](https://www.strava.com/activities/13262989561) 
 
 ## Fundering
-* test samla spår/event med [kalkyklark](https://docs.google.com/spreadsheets/d/1W-dqV-ZWSe35Imq1w8ZRu566eSLe2Y3Y9iFvGwALzCk/edit?usp=sharing)
-  * lite bökigt att hitta gamla vandringar i FB....
+* samlat alla spår/event med [kalkyklark](https://docs.google.com/spreadsheets/d/1W-dqV-ZWSe35Imq1w8ZRu566eSLe2Y3Y9iFvGwALzCk/edit?usp=sharing)
 
 <img width="1296" alt="image" src="https://github.com/user-attachments/assets/00b03412-dd71-4477-83e3-01788a8eef44" />
 
