@@ -8,8 +8,8 @@ Ett försök att samla ihop alla vandringarna
 1) [Naturkartan](https://www.naturkartan.se/sv/) / [app](https://apps.apple.com/se/app/naturkartan/id1223011883)
 2) [TopoGPS](https://www.topo-gps.com/sv/route/194850) exempel hur en rutt kan delas
 3) [Grillplatser.nu](https://grillplatser.nu/Karta/Kommun/Stockholm)
-4) [Grillplatser i Nbaturreservat i Stockholms län](https://w.wiki/CnrQ) - ej komplett
-   1) [Naturreservat i Stockholms län](https://w.wiki/CnsF)
+4) [Grillplatser i Naturreservat i Stockholms län](https://w.wiki/CnrQ) - ej komplett
+   1) Naturreservat i Stockholms län - [karta](https://w.wiki/CnsF) [lista](https://w.wiki/Cny2)
   
  <img width="1292" alt="image" src="https://github.com/user-attachments/assets/8672f95e-0ea5-42f6-96bc-2d5ce0db87e9" />
 
