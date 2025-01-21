@@ -4,7 +4,11 @@ Ett försök att samla ihop alla vandringarna
 * 2024 jan 3 Lidingö till Gåshaga
    * FB event [611101457969047](https://www.facebook.com/events/611101457969047)
    * [spår](https://www.strava.com/activities/13262989561) 
-
+## resurser
+1) [Naturkartan](https://www.naturkartan.se/sv/) / [app](https://apps.apple.com/se/app/naturkartan/id1223011883)
+2) [TopoGPS](https://www.topo-gps.com/sv/route/194850) exempel hur en rutt kan delas
+3) [Grillplatser.nu](https://grillplatser.nu/Karta/Kommun/Stockholm)
+4) [Grillplatser i Nbaturreservat i Stockholms län](https://w.wiki/CnrQ) - ej komplett
 ## Fundering
 * samlat alla spår/event med [kalkyklark](https://docs.google.com/spreadsheets/d/1W-dqV-ZWSe35Imq1w8ZRu566eSLe2Y3Y9iFvGwALzCk/edit?usp=sharing)
 
