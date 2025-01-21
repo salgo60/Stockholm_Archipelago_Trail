@@ -9,6 +9,10 @@ Ett försök att samla ihop alla vandringarna
 2) [TopoGPS](https://www.topo-gps.com/sv/route/194850) exempel hur en rutt kan delas
 3) [Grillplatser.nu](https://grillplatser.nu/Karta/Kommun/Stockholm)
 4) [Grillplatser i Nbaturreservat i Stockholms län](https://w.wiki/CnrQ) - ej komplett
+   1) [Naturreservat i Stockholms län](https://w.wiki/CnsF)
+  
+ <img width="1292" alt="image" src="https://github.com/user-attachments/assets/8672f95e-0ea5-42f6-96bc-2d5ce0db87e9" />
+
 ## Fundering
 * samlat alla spår/event med [kalkyklark](https://docs.google.com/spreadsheets/d/1W-dqV-ZWSe35Imq1w8ZRu566eSLe2Y3Y9iFvGwALzCk/edit?usp=sharing)
 
