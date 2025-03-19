@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>SAT Runmarö Final</name>
+    <author>
+      <name>Michael Lemmel - Community</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/257619995"/>
+    <time>2024-11-15T15:23:32.921Z</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>SAT Runmarö Final</name>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="59.280144" lon="18.731475">
+        <ele>3.6</ele>
+        <name>Stryrsvik, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>14</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.280082" lon="18.731535">
+        <ele>5.5</ele>
+      </trkpt>
+      <trkpt lat="59.279741" lon="18.731975">
+        <ele>11.9</ele>
+      </trkpt>
+      <trkpt lat="59.279495" lon="18.732328">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.279275" lon="18.732995">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.279184" lon="18.733504">
+        <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="59.279093" lon="18.734012">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.279074" lon="18.734118">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.278976" lon="18.734683">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.278878" lon="18.735249">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.27872" lon="18.735976">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.278946" lon="18.736311">
+        <ele>12.4</ele>
+      </trkpt>
+      <trkpt lat="59.279083" lon="18.736407">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.279333" lon="18.73644">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.27953" lon="18.73637">
+        <ele>15.6</ele>
+      </trkpt>
+      <trkpt lat="59.279763" lon="18.736354">
+        <ele>17.2</ele>
+      </trkpt>
+      <trkpt lat="59.279938" lon="18.736461">
+        <ele>18.7</ele>
+      </trkpt>
+      <trkpt lat="59.280171" lon="18.736515">
+        <ele>20.2</ele>
+      </trkpt>
+      <trkpt lat="59.280374" lon="18.736654">
+        <ele>21.7</ele>
+      </trkpt>
+      <trkpt lat="59.280632" lon="18.736783">
+        <ele>23.1</ele>
+      </trkpt>
+      <trkpt lat="59.280799" lon="18.736949">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="59.280988" lon="18.737346">
+        <ele>22.3</ele>
+      </trkpt>
+      <trkpt lat="59.281174" lon="18.737915">
+        <ele>21.6</ele>
+      </trkpt>
+      <trkpt lat="59.281361" lon="18.738483">
+        <ele>19.6</ele>
+      </trkpt>
+      <trkpt lat="59.28155" lon="18.738958">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.281739" lon="18.739433">
+        <ele>17.7</ele>
+      </trkpt>
+      <trkpt lat="59.281911" lon="18.739859">
+        <ele>18.1</ele>
+      </trkpt>
+      <trkpt lat="59.282084" lon="18.740286">
+        <ele>18.1</ele>
+      </trkpt>
+      <trkpt lat="59.28211" lon="18.740353">
+        <ele>18.3</ele>
+        <name>Lollos keramikverkstad, Runmarö</name>
+        <extensions>
+          <oa:mapZoom>14</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.282317" lon="18.740897">
+        <ele>19.5</ele>
+      </trkpt>
+      <trkpt lat="59.28252" lon="18.741252">
+        <ele>21.8</ele>
+      </trkpt>
+      <trkpt lat="59.282819" lon="18.741573">
+        <ele>25.1</ele>
+      </trkpt>
+      <trkpt lat="59.283092" lon="18.741843">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="59.283365" lon="18.742113">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="59.283638" lon="18.742383">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="59.283917" lon="18.742646">
+        <ele>25.1</ele>
+      </trkpt>
+      <trkpt lat="59.284337" lon="18.742904">
+        <ele>27.7</ele>
+      </trkpt>
+      <trkpt lat="59.284517" lon="18.743247">
+        <ele>27.9</ele>
+      </trkpt>
+      <trkpt lat="59.284698" lon="18.74359">
+        <ele>27.9</ele>
+      </trkpt>
+      <trkpt lat="59.284761" lon="18.743939">
+        <ele>27.2</ele>
+      </trkpt>
+      <trkpt lat="59.284767" lon="18.744427">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="59.284693" lon="18.745125">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="59.284731" lon="18.745548">
+        <ele>23.1</ele>
+      </trkpt>
+      <trkpt lat="59.284873" lon="18.746262">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="59.284945" lon="18.746712">
+        <ele>27.4</ele>
+      </trkpt>
+      <trkpt lat="59.285016" lon="18.747163">
+        <ele>29.2</ele>
+      </trkpt>
+      <trkpt lat="59.285146" lon="18.747717">
+        <ele>29.8</ele>
+      </trkpt>
+      <trkpt lat="59.285275" lon="18.748272">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="59.285405" lon="18.748826">
+        <ele>27.4</ele>
+      </trkpt>
+      <trkpt lat="59.285543" lon="18.749185">
+        <ele>26.1</ele>
+      </trkpt>
+      <trkpt lat="59.285593" lon="18.749315">
+        <ele>25.9</ele>
+        <name>Marieberg, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.285682" lon="18.749545">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="59.285913" lon="18.749796">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.286143" lon="18.750048">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="59.286409" lon="18.750195">
+        <ele>23.3</ele>
+      </trkpt>
+      <trkpt lat="59.286632" lon="18.749969">
+        <ele>24.1</ele>
+      </trkpt>
+      <trkpt lat="59.286833" lon="18.749757">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="59.287032" lon="18.749545">
+        <ele>26.3</ele>
+      </trkpt>
+      <trkpt lat="59.287197" lon="18.749357">
+        <ele>26.9</ele>
+      </trkpt>
+      <trkpt lat="59.287312" lon="18.749668">
+        <ele>27.1</ele>
+      </trkpt>
+      <trkpt lat="59.287353" lon="18.749883">
+        <ele>26.4</ele>
+      </trkpt>
+      <trkpt lat="59.28738" lon="18.750264">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.287394" lon="18.751106">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="59.287387" lon="18.751283">
+        <ele>20.2</ele>
+      </trkpt>
+      <trkpt lat="59.28738" lon="18.751455">
+        <ele>19.7</ele>
+      </trkpt>
+      <trkpt lat="59.287359" lon="18.751675">
+        <ele>19.4</ele>
+      </trkpt>
+      <trkpt lat="59.287411" lon="18.752098">
+        <ele>18.1</ele>
+      </trkpt>
+      <trkpt lat="59.287556" lon="18.752329">
+        <ele>18.3</ele>
+      </trkpt>
+      <trkpt lat="59.287685" lon="18.752469">
+        <ele>19.2</ele>
+      </trkpt>
+      <trkpt lat="59.287854" lon="18.752522">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="59.288024" lon="18.752635">
+        <ele>23.2</ele>
+      </trkpt>
+      <trkpt lat="59.288279" lon="18.753029">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.288534" lon="18.753423">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="59.288828" lon="18.753879">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="59.289123" lon="18.754335">
+        <ele>28.4</ele>
+      </trkpt>
+      <trkpt lat="59.289417" lon="18.754791">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="59.289712" lon="18.755247">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.289961" lon="18.755644">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="59.290211" lon="18.756041">
+        <ele>26.1</ele>
+      </trkpt>
+      <trkpt lat="59.290405" lon="18.756148">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="59.290542" lon="18.756126">
+        <ele>27.8</ele>
+      </trkpt>
+      <trkpt lat="59.290457" lon="18.756406">
+        <ele>26.1</ele>
+      </trkpt>
+      <trkpt lat="59.29035" lon="18.756728">
+        <ele>25.5</ele>
+      </trkpt>
+      <trkpt lat="59.290244" lon="18.756969">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="59.290495" lon="18.757235">
+        <ele>27.8</ele>
+      </trkpt>
+      <trkpt lat="59.290668" lon="18.757499">
+        <ele>28.9</ele>
+      </trkpt>
+      <trkpt lat="59.290821" lon="18.757823">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="59.29095" lon="18.758225">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="59.29105" lon="18.758589">
+        <ele>29.1</ele>
+      </trkpt>
+      <trkpt lat="59.291247" lon="18.759352">
+        <ele>28.4</ele>
+      </trkpt>
+      <trkpt lat="59.291308" lon="18.759589">
+        <ele>28.6</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.291443" lon="18.760116">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="59.291488" lon="18.760309">
+        <ele>28.8</ele>
+      </trkpt>
+      <trkpt lat="59.291634" lon="18.760931">
+        <ele>30.3</ele>
+      </trkpt>
+      <trkpt lat="59.29178" lon="18.761553">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="59.291926" lon="18.762175">
+        <ele>30.2</ele>
+      </trkpt>
+      <trkpt lat="59.292072" lon="18.762797">
+        <ele>29.4</ele>
+      </trkpt>
+      <trkpt lat="59.292238" lon="18.763421">
+        <ele>29.1</ele>
+      </trkpt>
+      <trkpt lat="59.292288" lon="18.763607">
+        <ele>29.1</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.292404" lon="18.764045">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="59.292501" lon="18.764531">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="59.292563" lon="18.764936">
+        <ele>28.7</ele>
+      </trkpt>
+      <trkpt lat="59.292603" lon="18.765514">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="59.292663" lon="18.766076">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.292737" lon="18.766462">
+        <ele>26.7</ele>
+      </trkpt>
+      <trkpt lat="59.292958" lon="18.767077">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="59.293165" lon="18.767647">
+        <ele>20.6</ele>
+      </trkpt>
+      <trkpt lat="59.29339" lon="18.768246">
+        <ele>19.4</ele>
+      </trkpt>
+      <trkpt lat="59.293615" lon="18.768844">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.29384" lon="18.769443">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.293973" lon="18.769795">
+        <ele>16.7</ele>
+      </trkpt>
+      <trkpt lat="59.294121" lon="18.770319">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.294226" lon="18.770769">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.29433" lon="18.771219">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.294469" lon="18.771884">
+        <ele>13.0</ele>
+      </trkpt>
+      <trkpt lat="59.29458" lon="18.772414">
+        <ele>14.2</ele>
+        <name>Långvik, Runmarö</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.294608" lon="18.77255">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.294816" lon="18.773304">
+        <ele>15.6</ele>
+      </trkpt>
+      <trkpt lat="59.294898" lon="18.773132">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.294969" lon="18.772875">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.295051" lon="18.77266">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.295243" lon="18.772424">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.295456" lon="18.772263">
+        <ele>17.6</ele>
+      </trkpt>
+      <trkpt lat="59.29567" lon="18.772102">
+        <ele>16.5</ele>
+      </trkpt>
+      <trkpt lat="59.296041" lon="18.771865">
+        <ele>2.8</ele>
+      </trkpt>
+      <trkpt lat="59.296219" lon="18.771798">
+        <ele>-0.1</ele>
+        <name>Långvik, Runmarö</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.296041" lon="18.771865">
+        <ele>2.8</ele>
+      </trkpt>
+      <trkpt lat="59.29567" lon="18.772102">
+        <ele>16.5</ele>
+      </trkpt>
+      <trkpt lat="59.295456" lon="18.772263">
+        <ele>17.6</ele>
+      </trkpt>
+      <trkpt lat="59.295243" lon="18.772424">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.295051" lon="18.77266">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.294969" lon="18.772875">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.294898" lon="18.773132">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.294816" lon="18.773304">
+        <ele>15.6</ele>
+      </trkpt>
+      <trkpt lat="59.294933" lon="18.773732">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.295042" lon="18.77412">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.295152" lon="18.774508">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.295209" lon="18.774947">
+        <ele>18.6</ele>
+      </trkpt>
+      <trkpt lat="59.29519" lon="18.775265">
+        <ele>18.4</ele>
+      </trkpt>
+      <trkpt lat="59.295165" lon="18.775475">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.295145" lon="18.775563">
+        <ele>17.4</ele>
+      </trkpt>
+      <trkpt lat="59.294985" lon="18.776238">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.294825" lon="18.776913">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.294665" lon="18.777588">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.29451" lon="18.77828">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.294438" lon="18.778603">
+        <ele>13.9</ele>
+        <name>59.294438,18.778603</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.292693" lon="18.780398">
+        <ele>11.68051</ele>
+      </trkpt>
+      <trkpt lat="59.292468" lon="18.780645">
+        <ele>11.01992</ele>
+      </trkpt>
+      <trkpt lat="59.292238" lon="18.780473">
+        <ele>11.88223</ele>
+      </trkpt>
+      <trkpt lat="59.292063" lon="18.781064">
+        <ele>14.43822</ele>
+      </trkpt>
+      <trkpt lat="59.291789" lon="18.781557">
+        <ele>19.59925</ele>
+      </trkpt>
+      <trkpt lat="59.291181" lon="18.782802">
+        <ele>20.65844</ele>
+      </trkpt>
+      <trkpt lat="59.290737" lon="18.783488">
+        <ele>21.01015</ele>
+      </trkpt>
+      <trkpt lat="59.289473" lon="18.783496">
+        <ele>18.0</ele>
+        <name>Lerkila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.289144" lon="18.783077">
+        <ele>19.7</ele>
+      </trkpt>
+      <trkpt lat="59.288999" lon="18.78268">
+        <ele>21.4</ele>
+      </trkpt>
+      <trkpt lat="59.288854" lon="18.782283">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="59.288655" lon="18.782137">
+        <ele>23.0</ele>
+        <name>Lerkila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.288635" lon="18.782123">
+        <ele>22.9</ele>
+      </trkpt>
+      <trkpt lat="59.288344" lon="18.781962">
+        <ele>22.9</ele>
+      </trkpt>
+      <trkpt lat="59.288048" lon="18.781876">
+        <ele>21.5</ele>
+      </trkpt>
+      <trkpt lat="59.287895" lon="18.781382">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="59.287813" lon="18.780749">
+        <ele>28.2</ele>
+      </trkpt>
+      <trkpt lat="59.287703" lon="18.780052">
+        <ele>26.9</ele>
+      </trkpt>
+      <trkpt lat="59.287374" lon="18.780095">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="59.287226" lon="18.780084">
+        <ele>27.4</ele>
+      </trkpt>
+      <trkpt lat="59.286821" lon="18.779837">
+        <ele>29.8</ele>
+      </trkpt>
+      <trkpt lat="59.286768" lon="18.779738">
+        <ele>30.1</ele>
+        <name>Lerkila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.286277" lon="18.778768">
+        <ele>28.65194</ele>
+      </trkpt>
+      <trkpt lat="59.285844" lon="18.778435">
+        <ele>26.37166</ele>
+      </trkpt>
+      <trkpt lat="59.285488" lon="18.779143">
+        <ele>26.59734</ele>
+      </trkpt>
+      <trkpt lat="59.285586" lon="18.780913">
+        <ele>26.71091</ele>
+      </trkpt>
+      <trkpt lat="59.286606" lon="18.783005">
+        <ele>23.3368</ele>
+      </trkpt>
+      <trkpt lat="59.286397" lon="18.783263">
+        <ele>21.4</ele>
+        <name>Lerkila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.286217" lon="18.783305">
+        <ele>21.1</ele>
+      </trkpt>
+      <trkpt lat="59.285827" lon="18.783544">
+        <ele>21.3</ele>
+      </trkpt>
+      <trkpt lat="59.285436" lon="18.783782">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.285305" lon="18.78346">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="59.285202" lon="18.783277">
+        <ele>25.5</ele>
+        <name>Lerkila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.285184" lon="18.783246">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="59.28502" lon="18.782838">
+        <ele>26.8</ele>
+      </trkpt>
+      <trkpt lat="59.284636" lon="18.782495">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="59.284439" lon="18.782345">
+        <ele>29.9</ele>
+      </trkpt>
+      <trkpt lat="59.284362" lon="18.782259">
+        <ele>30.2</ele>
+      </trkpt>
+      <trkpt lat="59.28411" lon="18.781916">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="59.283814" lon="18.781551">
+        <ele>30.8</ele>
+      </trkpt>
+      <trkpt lat="59.283628" lon="18.781207">
+        <ele>29.4</ele>
+      </trkpt>
+      <trkpt lat="59.283496" lon="18.780843">
+        <ele>27.2</ele>
+      </trkpt>
+      <trkpt lat="59.28342" lon="18.780435">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="59.283398" lon="18.779748">
+        <ele>22.5</ele>
+      </trkpt>
+      <trkpt lat="59.283376" lon="18.779062">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="59.283321" lon="18.778633">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="59.283222" lon="18.778246">
+        <ele>21.4</ele>
+      </trkpt>
+      <trkpt lat="59.283179" lon="18.778117">
+        <ele>21.6</ele>
+      </trkpt>
+      <trkpt lat="59.282872" lon="18.777731">
+        <ele>22.1</ele>
+      </trkpt>
+      <trkpt lat="59.282565" lon="18.777238">
+        <ele>21.3</ele>
+      </trkpt>
+      <trkpt lat="59.282378" lon="18.776809">
+        <ele>20.5</ele>
+      </trkpt>
+      <trkpt lat="59.282313" lon="18.776444">
+        <ele>19.4</ele>
+      </trkpt>
+      <trkpt lat="59.282247" lon="18.776165">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.282137" lon="18.775671">
+        <ele>16.4</ele>
+      </trkpt>
+      <trkpt lat="59.282061" lon="18.775349">
+        <ele>15.8</ele>
+      </trkpt>
+      <trkpt lat="59.282028" lon="18.775306">
+        <ele>15.8</ele>
+      </trkpt>
+      <trkpt lat="59.281863" lon="18.775221">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.281699" lon="18.774899">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.281556" lon="18.774534">
+        <ele>17.7</ele>
+      </trkpt>
+      <trkpt lat="59.281485" lon="18.774223">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.281469" lon="18.774284">
+        <ele>18.0</ele>
+        <name>Uppeby, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.28134" lon="18.774772">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.281112" lon="18.775187">
+        <ele>15.9</ele>
+      </trkpt>
+      <trkpt lat="59.280885" lon="18.775603">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.280671" lon="18.775834">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.28046" lon="18.776293">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.280249" lon="18.776751">
+        <ele>17.1</ele>
+      </trkpt>
+      <trkpt lat="59.28017" lon="18.777025">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.2798" lon="18.777229">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.279523" lon="18.777862">
+        <ele>14.6</ele>
+      </trkpt>
+      <trkpt lat="59.279433" lon="18.778607">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.27935" lon="18.77946">
+        <ele>14.6</ele>
+      </trkpt>
+      <trkpt lat="59.279324" lon="18.780158">
+        <ele>16.7</ele>
+      </trkpt>
+      <trkpt lat="59.279298" lon="18.780855">
+        <ele>19.6</ele>
+      </trkpt>
+      <trkpt lat="59.27926" lon="18.781431">
+        <ele>21.5</ele>
+      </trkpt>
+      <trkpt lat="59.279221" lon="18.782008">
+        <ele>21.1</ele>
+      </trkpt>
+      <trkpt lat="59.279042" lon="18.782343">
+        <ele>18.8</ele>
+      </trkpt>
+      <trkpt lat="59.278862" lon="18.782679">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.278775" lon="18.783188">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.27875" lon="18.783682">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.278689" lon="18.784401">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.278628" lon="18.78512">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.278566" lon="18.785839">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.27841" lon="18.786421">
+        <ele>9.5</ele>
+      </trkpt>
+      <trkpt lat="59.278254" lon="18.787004">
+        <ele>8.5</ele>
+      </trkpt>
+      <trkpt lat="59.278098" lon="18.787587">
+        <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="59.278102" lon="18.788182">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.277925" lon="18.788553">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.277866" lon="18.789022">
+        <ele>12.3</ele>
+      </trkpt>
+      <trkpt lat="59.277807" lon="18.789492">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.277642" lon="18.790218">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.277483" lon="18.790649">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.277332" lon="18.79106">
+        <ele>11.0</ele>
+        <name>Nore, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.277325" lon="18.79108">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.277232" lon="18.791364">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.276926" lon="18.791439">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.276621" lon="18.791514">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.276586" lon="18.791551">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.276393" lon="18.791755">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.276199" lon="18.792163">
+        <ele>7.4</ele>
+      </trkpt>
+      <trkpt lat="59.276053" lon="18.792619">
+        <ele>6.5</ele>
+      </trkpt>
+      <trkpt lat="59.275864" lon="18.792869">
+        <ele>5.7</ele>
+      </trkpt>
+      <trkpt lat="59.275867" lon="18.79306">
+        <ele>5.1</ele>
+      </trkpt>
+      <trkpt lat="59.27593" lon="18.793296">
+        <ele>5.6</ele>
+      </trkpt>
+      <trkpt lat="59.275963" lon="18.793475">
+        <ele>5.7</ele>
+        <name>Nore, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.27593" lon="18.793296">
+        <ele>5.6</ele>
+      </trkpt>
+      <trkpt lat="59.275867" lon="18.79306">
+        <ele>5.1</ele>
+      </trkpt>
+      <trkpt lat="59.275864" lon="18.792869">
+        <ele>5.7</ele>
+      </trkpt>
+      <trkpt lat="59.276053" lon="18.792619">
+        <ele>6.5</ele>
+      </trkpt>
+      <trkpt lat="59.276199" lon="18.792163">
+        <ele>7.4</ele>
+      </trkpt>
+      <trkpt lat="59.276393" lon="18.791755">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.276586" lon="18.791551">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.276515" lon="18.791416">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.276425" lon="18.791311">
+        <ele>9.2</ele>
+      </trkpt>
+      <trkpt lat="59.27627" lon="18.791146">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.276241" lon="18.791116">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.276037" lon="18.790696">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.275898" lon="18.79069">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.275785" lon="18.790733">
+        <ele>11.2</ele>
+      </trkpt>
+      <trkpt lat="59.275586" lon="18.790708">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.275443" lon="18.790597">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.275319" lon="18.790403">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.275166" lon="18.790301">
+        <ele>10.9</ele>
+      </trkpt>
+      <trkpt lat="59.274992" lon="18.790201">
+        <ele>11.5</ele>
+      </trkpt>
+      <trkpt lat="59.274825" lon="18.789983">
+        <ele>12.4</ele>
+      </trkpt>
+      <trkpt lat="59.274676" lon="18.789825">
+        <ele>12.8</ele>
+        <name>Nore, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.274623" lon="18.789769">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.274521" lon="18.789455">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.274395" lon="18.789265">
+        <ele>14.8</ele>
+      </trkpt>
+      <trkpt lat="59.274214" lon="18.789192">
+        <ele>15.0</ele>
+      </trkpt>
+      <trkpt lat="59.27396" lon="18.789035">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.273674" lon="18.788824">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.273535" lon="18.788742">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.273326" lon="18.788797">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.273145" lon="18.788799">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.273015" lon="18.788853">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.272901" lon="18.788828">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.272645" lon="18.788613">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.272528" lon="18.788499">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.27238" lon="18.788271">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.272064" lon="18.787934">
+        <ele>15.0</ele>
+      </trkpt>
+      <trkpt lat="59.271982" lon="18.787739">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.271922" lon="18.78766">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.271848" lon="18.787401">
+        <ele>15.5</ele>
+      </trkpt>
+      <trkpt lat="59.271805" lon="18.787325">
+        <ele>15.4</ele>
+      </trkpt>
+      <trkpt lat="59.271765" lon="18.78729">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.27173" lon="18.787205">
+        <ele>15.4</ele>
+      </trkpt>
+      <trkpt lat="59.271698" lon="18.787041">
+        <ele>15.8</ele>
+      </trkpt>
+      <trkpt lat="59.271674" lon="18.786841">
+        <ele>16.4</ele>
+      </trkpt>
+      <trkpt lat="59.271637" lon="18.786788">
+        <ele>16.5</ele>
+      </trkpt>
+      <trkpt lat="59.271586" lon="18.786787">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.271491" lon="18.786572">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.271407" lon="18.78648">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.271319" lon="18.786249">
+        <ele>15.9</ele>
+      </trkpt>
+      <trkpt lat="59.271282" lon="18.786055">
+        <ele>16.1</ele>
+      </trkpt>
+      <trkpt lat="59.271247" lon="18.785997">
+        <ele>15.7</ele>
+      </trkpt>
+      <trkpt lat="59.271165" lon="18.785641">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.271133" lon="18.785555">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.271085" lon="18.785479">
+        <ele>14.8</ele>
+      </trkpt>
+      <trkpt lat="59.271054" lon="18.78539">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.271" lon="18.785309">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.270955" lon="18.785281">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.270887" lon="18.785161">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.270866" lon="18.785066">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.270817" lon="18.784819">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.270799" lon="18.784761">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.270762" lon="18.784709">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.27067" lon="18.784646">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.270568" lon="18.784422">
+        <ele>12.1</ele>
+      </trkpt>
+      <trkpt lat="59.270448" lon="18.784309">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.270338" lon="18.784199">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.270279" lon="18.784254">
+        <ele>10.7</ele>
+      </trkpt>
+      <trkpt lat="59.270178" lon="18.784263">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.270129" lon="18.784236">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.270062" lon="18.784094">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.269907" lon="18.783934">
+        <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.269728" lon="18.783685">
+        <ele>10.0</ele>
+      </trkpt>
+      <trkpt lat="59.269634" lon="18.783582">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.269537" lon="18.783241">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.269394" lon="18.783151">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.269192" lon="18.782919">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.269089" lon="18.782741">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.268964" lon="18.782579">
+        <ele>9.5</ele>
+      </trkpt>
+      <trkpt lat="59.268952" lon="18.782265">
+        <ele>9.6</ele>
+        <name>Långstrand, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.268901" lon="18.78211">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.268883" lon="18.781853">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.268761" lon="18.781548">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.268704" lon="18.781551">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.268572" lon="18.781667">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.268436" lon="18.781842">
+        <ele>6.9</ele>
+      </trkpt>
+      <trkpt lat="59.268233" lon="18.782187">
+        <ele>5.9</ele>
+      </trkpt>
+      <trkpt lat="59.26822" lon="18.781965">
+        <ele>5.8</ele>
+      </trkpt>
+      <trkpt lat="59.268218" lon="18.781771">
+        <ele>6.5</ele>
+        <name>Långstrand, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.268215" lon="18.781418">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.268283" lon="18.780992">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.268565" lon="18.780506">
+        <ele>9.8</ele>
+      </trkpt>
+      <trkpt lat="59.26881" lon="18.78013">
+        <ele>11.1</ele>
+      </trkpt>
+      <trkpt lat="59.269055" lon="18.779754">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.269437" lon="18.779374">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.269558" lon="18.778871">
+        <ele>12.8</ele>
+      </trkpt>
+      <trkpt lat="59.269678" lon="18.778367">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.269749" lon="18.777679">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.269819" lon="18.77699">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.26984" lon="18.776789">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.269471" lon="18.776621">
+        <ele>12.2</ele>
+      </trkpt>
+      <trkpt lat="59.269102" lon="18.776453">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.268733" lon="18.776285">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.268364" lon="18.776117">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.268235" lon="18.776057">
+        <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="59.268072" lon="18.776196">
+        <ele>9.5</ele>
+        <name>Kila, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.267886" lon="18.776355">
+        <ele>9.8</ele>
+      </trkpt>
+      <trkpt lat="59.267655" lon="18.776322">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.267424" lon="18.77629">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.267058" lon="18.776167">
+        <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.266706" lon="18.776056">
+        <ele>9.2</ele>
+      </trkpt>
+      <trkpt lat="59.266548" lon="18.776068">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.266398" lon="18.776024">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.265997" lon="18.775932">
+        <ele>9.6</ele>
+      </trkpt>
+      <trkpt lat="59.265596" lon="18.775841">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.265171" lon="18.775584">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.265087" lon="18.775361">
+        <ele>14.9</ele>
+      </trkpt>
+      <trkpt lat="59.264925" lon="18.774969">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.264888" lon="18.774879">
+        <ele>17.0</ele>
+        <name>Kila, Värmdö kommun</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.264764" lon="18.774577">
+        <ele>18.3</ele>
+      </trkpt>
+      <trkpt lat="59.264601" lon="18.774269">
+        <ele>19.7</ele>
+      </trkpt>
+      <trkpt lat="59.264628" lon="18.773442">
+        <ele>18.1</ele>
+      </trkpt>
+      <trkpt lat="59.264883" lon="18.772885">
+        <ele>14.8</ele>
+      </trkpt>
+      <trkpt lat="59.264773" lon="18.772428">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.264662" lon="18.771971">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.264643" lon="18.771426">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.264624" lon="18.77088">
+        <ele>11.4</ele>
+      </trkpt>
+      <trkpt lat="59.264593" lon="18.770799">
+        <ele>11.3</ele>
+        <name>Kila, Värmdö kommun</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.26448" lon="18.770499">
+        <ele>10.6</ele>
+      </trkpt>
+      <trkpt lat="59.264205" lon="18.770721">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.263954" lon="18.771085">
+        <ele>14.9</ele>
+      </trkpt>
+      <trkpt lat="59.263735" lon="18.771259">
+        <ele>16.1</ele>
+      </trkpt>
+      <trkpt lat="59.263386" lon="18.771202">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.263037" lon="18.771146">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.262844" lon="18.771339">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.262547" lon="18.771331">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.262245" lon="18.771603">
+        <ele>19.2</ele>
+      </trkpt>
+      <trkpt lat="59.262118" lon="18.771645">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.261817" lon="18.771478">
+        <ele>19.3</ele>
+      </trkpt>
+      <trkpt lat="59.26159" lon="18.771195">
+        <ele>18.7</ele>
+      </trkpt>
+      <trkpt lat="59.261379" lon="18.770931">
+        <ele>17.9</ele>
+        <name>Söderby, Värmdö kommun</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.261364" lon="18.770912">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.261265" lon="18.770515">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.261155" lon="18.770354">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.261119" lon="18.77035">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.26107" lon="18.770343">
+        <ele>17.1</ele>
+      </trkpt>
+      <trkpt lat="59.260823" lon="18.770569">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.260472" lon="18.770928">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.260135" lon="18.771239">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.259787" lon="18.77147">
+        <ele>17.1</ele>
+      </trkpt>
+      <trkpt lat="59.259447" lon="18.771781">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.259167" lon="18.772012">
+        <ele>18.8</ele>
+      </trkpt>
+      <trkpt lat="59.258994" lon="18.772044">
+        <ele>18.1</ele>
+      </trkpt>
+      <trkpt lat="59.258813" lon="18.77213">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.258671" lon="18.772296">
+        <ele>16.1</ele>
+      </trkpt>
+      <trkpt lat="59.258413" lon="18.772543">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.258207" lon="18.772682">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.258035" lon="18.772709">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.257858" lon="18.772799">
+        <ele>9.7</ele>
+        <name>Söderby, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.257846" lon="18.772806">
+        <ele>9.6</ele>
+      </trkpt>
+      <trkpt lat="59.257752" lon="18.772838">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.257648" lon="18.772843">
+        <ele>8.3</ele>
+      </trkpt>
+      <trkpt lat="59.25758" lon="18.772806">
+        <ele>8.2</ele>
+      </trkpt>
+      <trkpt lat="59.257462" lon="18.77258">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.257326" lon="18.772205">
+        <ele>6.6</ele>
+      </trkpt>
+      <trkpt lat="59.25719" lon="18.771829">
+        <ele>7.3</ele>
+      </trkpt>
+      <trkpt lat="59.257045" lon="18.771325">
+        <ele>7.4</ele>
+      </trkpt>
+      <trkpt lat="59.256952" lon="18.770925">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.256722" lon="18.771242">
+        <ele>6.4</ele>
+        <name>Söderby, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.256952" lon="18.770925">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.257092" lon="18.77063">
+        <ele>9.8</ele>
+      </trkpt>
+      <trkpt lat="59.257266" lon="18.770139">
+        <ele>11.6</ele>
+      </trkpt>
+      <trkpt lat="59.257367" lon="18.769981">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.257463" lon="18.769846">
+        <ele>12.8</ele>
+      </trkpt>
+      <trkpt lat="59.257664" lon="18.769646">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.257865" lon="18.769446">
+        <ele>15.8</ele>
+      </trkpt>
+      <trkpt lat="59.258016" lon="18.769245">
+        <ele>17.6</ele>
+      </trkpt>
+      <trkpt lat="59.258127" lon="18.768972">
+        <ele>18.7</ele>
+      </trkpt>
+      <trkpt lat="59.258263" lon="18.768556">
+        <ele>21.5</ele>
+      </trkpt>
+      <trkpt lat="59.258431" lon="18.767959">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="59.258598" lon="18.767362">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="59.258772" lon="18.766784">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="59.258947" lon="18.766206">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.259063" lon="18.76594">
+        <ele>23.3</ele>
+      </trkpt>
+      <trkpt lat="59.25878" lon="18.765311">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.258496" lon="18.764683">
+        <ele>21.8</ele>
+      </trkpt>
+      <trkpt lat="59.258433" lon="18.764541">
+        <ele>21.7</ele>
+        <name>Söderby, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.258213" lon="18.764054">
+        <ele>21.2</ele>
+      </trkpt>
+      <trkpt lat="59.258121" lon="18.763548">
+        <ele>21.2</ele>
+      </trkpt>
+      <trkpt lat="59.257848" lon="18.763241">
+        <ele>20.0</ele>
+      </trkpt>
+      <trkpt lat="59.257651" lon="18.762932">
+        <ele>17.7</ele>
+      </trkpt>
+      <trkpt lat="59.257516" lon="18.762278">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.257264" lon="18.76171">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.257013" lon="18.761141">
+        <ele>12.2</ele>
+      </trkpt>
+      <trkpt lat="59.25685" lon="18.760538">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.256687" lon="18.759935">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.256684" lon="18.75984">
+        <ele>7.9</ele>
+        <name>59.256684,18.759840</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.256664" lon="18.759097">
+        <ele>8.0</ele>
+      </trkpt>
+      <trkpt lat="59.256568" lon="18.758483">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.256615" lon="18.757879">
+        <ele>10.8</ele>
+      </trkpt>
+      <trkpt lat="59.256662" lon="18.757274">
+        <ele>11.1</ele>
+      </trkpt>
+      <trkpt lat="59.256709" lon="18.75667">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.256871" lon="18.756151">
+        <ele>7.4</ele>
+      </trkpt>
+      <trkpt lat="59.257043" lon="18.755816">
+        <ele>5.8</ele>
+      </trkpt>
+      <trkpt lat="59.257214" lon="18.75548">
+        <ele>5.9</ele>
+      </trkpt>
+      <trkpt lat="59.257485" lon="18.755019">
+        <ele>6.9</ele>
+      </trkpt>
+      <trkpt lat="59.257756" lon="18.754557">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.258027" lon="18.754095">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.258332" lon="18.753813">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.258672" lon="18.753807">
+        <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.258978" lon="18.753564">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.259283" lon="18.753321">
+        <ele>10.8</ele>
+      </trkpt>
+      <trkpt lat="59.259343" lon="18.753268">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.259736" lon="18.752914">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.260129" lon="18.75256">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.260468" lon="18.752174">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.260807" lon="18.751787">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.261154" lon="18.751322">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.26126" lon="18.750678">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.261369" lon="18.75061">
+        <ele>8.4</ele>
+      </trkpt>
+      <trkpt lat="59.261504" lon="18.750527">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.26186" lon="18.750676">
+        <ele>8.4</ele>
+      </trkpt>
+      <trkpt lat="59.261995" lon="18.750791">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.262292" lon="18.751042">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.262467" lon="18.751023">
+        <ele>11.5</ele>
+      </trkpt>
+      <trkpt lat="59.262669" lon="18.75099">
+        <ele>13.4</ele>
+      </trkpt>
+      <trkpt lat="59.262903" lon="18.751037">
+        <ele>15.7</ele>
+      </trkpt>
+      <trkpt lat="59.263067" lon="18.751097">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.26314" lon="18.750635">
+        <ele>15.9</ele>
+      </trkpt>
+      <trkpt lat="59.263208" lon="18.750201">
+        <ele>14.7</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.263213" lon="18.750172">
+        <ele>14.6</ele>
+      </trkpt>
+      <trkpt lat="59.263267" lon="18.749681">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.263322" lon="18.74919">
+        <ele>14.9</ele>
+      </trkpt>
+      <trkpt lat="59.263676" lon="18.749441">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="59.264031" lon="18.749692">
+        <ele>25.3</ele>
+      </trkpt>
+      <trkpt lat="59.264425" lon="18.749928">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.264536" lon="18.750184">
+        <ele>28.0</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.264601" lon="18.750335">
+        <ele>28.1</ele>
+      </trkpt>
+      <trkpt lat="59.264776" lon="18.750743">
+        <ele>28.1</ele>
+      </trkpt>
+      <trkpt lat="59.265045" lon="18.750936">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.265314" lon="18.751129">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.265467" lon="18.751687">
+        <ele>26.9</ele>
+      </trkpt>
+      <trkpt lat="59.265621" lon="18.752245">
+        <ele>26.2</ele>
+      </trkpt>
+      <trkpt lat="59.265928" lon="18.752367">
+        <ele>26.4</ele>
+      </trkpt>
+      <trkpt lat="59.266235" lon="18.752488">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="59.266542" lon="18.75261">
+        <ele>20.5</ele>
+      </trkpt>
+      <trkpt lat="59.266761" lon="18.753007">
+        <ele>15.7</ele>
+      </trkpt>
+      <trkpt lat="59.26698" lon="18.753404">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.267052" lon="18.754015">
+        <ele>11.6</ele>
+      </trkpt>
+      <trkpt lat="59.267123" lon="18.754627">
+        <ele>11.5</ele>
+      </trkpt>
+      <trkpt lat="59.267123" lon="18.755292">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.267035" lon="18.756036">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.266948" lon="18.75678">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.266877" lon="18.75738">
+        <ele>17.7</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.26686" lon="18.757524">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.267002" lon="18.758082">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.267145" lon="18.758639">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.267437" lon="18.75889">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.26773" lon="18.75914">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.268022" lon="18.75939">
+        <ele>12.3</ele>
+      </trkpt>
+      <trkpt lat="59.268359" lon="18.75945">
+        <ele>13.2</ele>
+      </trkpt>
+      <trkpt lat="59.268696" lon="18.759508">
+        <ele>16.1</ele>
+      </trkpt>
+      <trkpt lat="59.269034" lon="18.759567">
+        <ele>17.2</ele>
+      </trkpt>
+      <trkpt lat="59.269371" lon="18.759626">
+        <ele>19.3</ele>
+      </trkpt>
+      <trkpt lat="59.269579" lon="18.759948">
+        <ele>18.9</ele>
+      </trkpt>
+      <trkpt lat="59.269788" lon="18.76027">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.270207" lon="18.760227">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.270626" lon="18.760184">
+        <ele>19.3</ele>
+      </trkpt>
+      <trkpt lat="59.271046" lon="18.760142">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.271465" lon="18.760099">
+        <ele>19.9</ele>
+      </trkpt>
+      <trkpt lat="59.271605" lon="18.760058">
+        <ele>20.5</ele>
+        <name>59.271605,18.760058</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.271824" lon="18.760571">
+        <ele>20.73664</ele>
+      </trkpt>
+      <trkpt lat="59.27178" lon="18.761644">
+        <ele>14.37462</ele>
+      </trkpt>
+      <trkpt lat="59.271824" lon="18.76246">
+        <ele>14.32944</ele>
+      </trkpt>
+      <trkpt lat="59.271736" lon="18.763232">
+        <ele>13.63878</ele>
+      </trkpt>
+      <trkpt lat="59.271955" lon="18.764305">
+        <ele>13.01743</ele>
+      </trkpt>
+      <trkpt lat="59.272328" lon="18.765292">
+        <ele>12.26905</ele>
+      </trkpt>
+      <trkpt lat="59.272942" lon="18.76615">
+        <ele>11.13168</ele>
+      </trkpt>
+      <trkpt lat="59.273468" lon="18.765507">
+        <ele>13.7545</ele>
+      </trkpt>
+      <trkpt lat="59.27406" lon="18.765807">
+        <ele>13.20577</ele>
+      </trkpt>
+      <trkpt lat="59.274344" lon="18.765727">
+        <ele>15.3</ele>
+        <name>59.274302,18.765721</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.274362" lon="18.765199">
+        <ele>14.9</ele>
+      </trkpt>
+      <trkpt lat="59.274565" lon="18.764832">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.274767" lon="18.764465">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.275124" lon="18.764252">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.275481" lon="18.764039">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.275837" lon="18.763825">
+        <ele>19.2</ele>
+      </trkpt>
+      <trkpt lat="59.276232" lon="18.763576">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.276627" lon="18.763327">
+        <ele>17.3</ele>
+      </trkpt>
+      <trkpt lat="59.276925" lon="18.762818">
+        <ele>16.0</ele>
+      </trkpt>
+      <trkpt lat="59.277097" lon="18.762424">
+        <ele>16.7</ele>
+      </trkpt>
+      <trkpt lat="59.277269" lon="18.76203">
+        <ele>18.6</ele>
+      </trkpt>
+      <trkpt lat="59.277437" lon="18.761647">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.277605" lon="18.761264">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.277927" lon="18.760654">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.278249" lon="18.760045">
+        <ele>13.4</ele>
+      </trkpt>
+      <trkpt lat="59.278424" lon="18.759715">
+        <ele>13.9</ele>
+        <name>Runmarö hembygdsgård, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.278572" lon="18.759435">
+        <ele>14.3</ele>
+      </trkpt>
+      <trkpt lat="59.278894" lon="18.758826">
+        <ele>14.4</ele>
+      </trkpt>
+      <trkpt lat="59.278665" lon="18.758511">
+        <ele>17.1</ele>
+      </trkpt>
+      <trkpt lat="59.278368" lon="18.75802">
+        <ele>20.0</ele>
+      </trkpt>
+      <trkpt lat="59.278242" lon="18.757529">
+        <ele>19.5</ele>
+      </trkpt>
+      <trkpt lat="59.278162" lon="18.756713">
+        <ele>19.9</ele>
+      </trkpt>
+      <trkpt lat="59.278081" lon="18.755897">
+        <ele>20.1</ele>
+      </trkpt>
+      <trkpt lat="59.278001" lon="18.755081">
+        <ele>19.2</ele>
+      </trkpt>
+      <trkpt lat="59.277921" lon="18.754265">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.277841" lon="18.753449">
+        <ele>20.0</ele>
+      </trkpt>
+      <trkpt lat="59.277804" lon="18.752644">
+        <ele>21.9</ele>
+      </trkpt>
+      <trkpt lat="59.277767" lon="18.75184">
+        <ele>21.7</ele>
+      </trkpt>
+      <trkpt lat="59.27773" lon="18.751467">
+        <ele>21.1</ele>
+      </trkpt>
+      <trkpt lat="59.277661" lon="18.750783">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.2775" lon="18.750029">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.277455" lon="18.749821">
+        <ele>17.8</ele>
+        <name>Länsväg 697, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.277339" lon="18.749276">
+        <ele>17.5</ele>
+      </trkpt>
+      <trkpt lat="59.277218" lon="18.748478">
+        <ele>16.0</ele>
+      </trkpt>
+      <trkpt lat="59.277097" lon="18.747679">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.276942" lon="18.746894">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.2768" lon="18.746406">
+        <ele>17.7</ele>
+      </trkpt>
+      <trkpt lat="59.276657" lon="18.745919">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.276511" lon="18.745143">
+        <ele>16.0</ele>
+      </trkpt>
+      <trkpt lat="59.276395" lon="18.744716">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.27611" lon="18.744185">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.275825" lon="18.743655">
+        <ele>11.9</ele>
+      </trkpt>
+      <trkpt lat="59.27568" lon="18.743166">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.275535" lon="18.742678">
+        <ele>11.9</ele>
+      </trkpt>
+      <trkpt lat="59.275817" lon="18.742431">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.275817" lon="18.742432">
+        <ele>13.5</ele>
+        <name>Svängen, Runmarö</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.275918" lon="18.742343">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.276145" lon="18.742021">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.276338" lon="18.741663">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.276451" lon="18.741275">
+        <ele>19.7</ele>
+      </trkpt>
+      <trkpt lat="59.276538" lon="18.740863">
+        <ele>21.4</ele>
+      </trkpt>
+      <trkpt lat="59.276655" lon="18.740307">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="59.276736" lon="18.73987">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="59.276817" lon="18.739433">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="59.276985" lon="18.738744">
+        <ele>23.7</ele>
+      </trkpt>
+      <trkpt lat="59.27715" lon="18.738347">
+        <ele>21.8</ele>
+      </trkpt>
+      <trkpt lat="59.277326" lon="18.738002">
+        <ele>20.7</ele>
+      </trkpt>
+      <trkpt lat="59.27754" lon="18.737777">
+        <ele>20.0</ele>
+      </trkpt>
+      <trkpt lat="59.277755" lon="18.737551">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.278018" lon="18.737275">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.278339" lon="18.73688">
+        <ele>18.7</ele>
+      </trkpt>
+      <trkpt lat="59.278492" lon="18.736518">
+        <ele>16.4</ele>
+      </trkpt>
+      <trkpt lat="59.278644" lon="18.736156">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.27872" lon="18.735976">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.278878" lon="18.735249">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.278976" lon="18.734683">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.279074" lon="18.734118">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.279093" lon="18.734012">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.279184" lon="18.733504">
+        <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="59.279275" lon="18.732995">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.279495" lon="18.732328">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.279741" lon="18.731975">
+        <ele>11.9</ele>
+      </trkpt>
+      <trkpt lat="59.280082" lon="18.731535">
+        <ele>5.5</ele>
+      </trkpt>
+      <trkpt lat="59.280215" lon="18.731408">
+        <ele>1.3</ele>
+        <name>Stryrsvik, Värmdö kommun</name>
+        <extensions>
+          <oa:mapZoom>17</oa:mapZoom>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
