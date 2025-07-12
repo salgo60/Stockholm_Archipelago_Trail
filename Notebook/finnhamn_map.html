@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_37d9a022ff0eed203c817b04a5376cd1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_37d9a022ff0eed203c817b04a5376cd1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_37d9a022ff0eed203c817b04a5376cd1 = L.map(
+                "map_37d9a022ff0eed203c817b04a5376cd1",
+                {
+                    center: [59.486, 18.807],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bb30ec43c56fa2ffe1b7fd74eaea8853 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bb30ec43c56fa2ffe1b7fd74eaea8853.addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var marker_f89a958013537c92dace8cbaf6aa83a9 = L.marker(
+                [59.487, 18.809],
+                {
+}
+            ).addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var icon_186b8ddfdcc5f0fbd41398cf5dacf304 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e20f9631e97e9f323092d492ff4da332 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b25deefceb40d0ddf84d59cb64a8376 = $(`<div id="html_2b25deefceb40d0ddf84d59cb64a8376" style="width: 100.0%; height: 100.0%;">Drinking Water Pump</div>`)[0];
+                popup_e20f9631e97e9f323092d492ff4da332.setContent(html_2b25deefceb40d0ddf84d59cb64a8376);
+            
+        
+
+        marker_f89a958013537c92dace8cbaf6aa83a9.bindPopup(popup_e20f9631e97e9f323092d492ff4da332)
+        ;
+
+        
+    
+    
+                marker_f89a958013537c92dace8cbaf6aa83a9.setIcon(icon_186b8ddfdcc5f0fbd41398cf5dacf304);
+            
+    
+            var marker_949d506ecbc8115e4941f07cc86afcdf = L.marker(
+                [59.4865, 18.806],
+                {
+}
+            ).addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var icon_9d488ce78419f1d846517f407e0c0602 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d346e6a05b0847e766afe033b05bb31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c95d10880746b1650b8278f83b6b3838 = $(`<div id="html_c95d10880746b1650b8278f83b6b3838" style="width: 100.0%; height: 100.0%;">Svedtiljas Restaurant</div>`)[0];
+                popup_2d346e6a05b0847e766afe033b05bb31.setContent(html_c95d10880746b1650b8278f83b6b3838);
+            
+        
+
+        marker_949d506ecbc8115e4941f07cc86afcdf.bindPopup(popup_2d346e6a05b0847e766afe033b05bb31)
+        ;
+
+        
+    
+    
+                marker_949d506ecbc8115e4941f07cc86afcdf.setIcon(icon_9d488ce78419f1d846517f407e0c0602);
+            
+    
+            var marker_10a786a57c60a92977ac2313bc7cc677 = L.marker(
+                [59.4863, 18.805],
+                {
+}
+            ).addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var icon_4fb657f0535b408b0bccd75fe0b451ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9396bc9503174e0339898766c58a9b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_352e52b4bd6053b3c46f95c7b21bd6e3 = $(`<div id="html_352e52b4bd6053b3c46f95c7b21bd6e3" style="width: 100.0%; height: 100.0%;">Bike Rental at Svedtiljas</div>`)[0];
+                popup_9396bc9503174e0339898766c58a9b1d.setContent(html_352e52b4bd6053b3c46f95c7b21bd6e3);
+            
+        
+
+        marker_10a786a57c60a92977ac2313bc7cc677.bindPopup(popup_9396bc9503174e0339898766c58a9b1d)
+        ;
+
+        
+    
+    
+                marker_10a786a57c60a92977ac2313bc7cc677.setIcon(icon_4fb657f0535b408b0bccd75fe0b451ca);
+            
+    
+            var marker_8963769ffbddf5cd8bd0fe042af84568 = L.marker(
+                [59.4858, 18.808],
+                {
+}
+            ).addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var icon_e209fa9c4115233aa018b6960ae4a562 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bed",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7cd1635b85e1ad34fad8e432e7ed175 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35f4ac93b83a20c4d215ad5f22480c51 = $(`<div id="html_35f4ac93b83a20c4d215ad5f22480c51" style="width: 100.0%; height: 100.0%;">Lotstornet Hotel</div>`)[0];
+                popup_a7cd1635b85e1ad34fad8e432e7ed175.setContent(html_35f4ac93b83a20c4d215ad5f22480c51);
+            
+        
+
+        marker_8963769ffbddf5cd8bd0fe042af84568.bindPopup(popup_a7cd1635b85e1ad34fad8e432e7ed175)
+        ;
+
+        
+    
+    
+                marker_8963769ffbddf5cd8bd0fe042af84568.setIcon(icon_e209fa9c4115233aa018b6960ae4a562);
+            
+    
+            var marker_f708d8857ab938af9ff7b998da4715a7 = L.marker(
+                [59.4872, 18.804],
+                {
+}
+            ).addTo(map_37d9a022ff0eed203c817b04a5376cd1);
+        
+    
+            var icon_3224e520efc3262c1b9941de50f400bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6823e1e374ff81e0b89ab36ec1f0bde8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dd8544d1bf3e94def51b8cc467f5601 = $(`<div id="html_1dd8544d1bf3e94def51b8cc467f5601" style="width: 100.0%; height: 100.0%;">Trail Start</div>`)[0];
+                popup_6823e1e374ff81e0b89ab36ec1f0bde8.setContent(html_1dd8544d1bf3e94def51b8cc467f5601);
+            
+        
+
+        marker_f708d8857ab938af9ff7b998da4715a7.bindPopup(popup_6823e1e374ff81e0b89ab36ec1f0bde8)
+        ;
+
+        
+    
+    
+                marker_f708d8857ab938af9ff7b998da4715a7.setIcon(icon_3224e520efc3262c1b9941de50f400bc);
+            
+</script>
+</html>
