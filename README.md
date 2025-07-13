@@ -7,8 +7,8 @@ A try to add vakue to Stockholm Archipelago Trail
 
 Click the badge to launch an interactive map in Binder 🚀
 
-### Viola
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Finteractive_map2.ipynb)
+### Voilà App  
+[![Open in Voilà](https://img.shields.io/badge/launch-Voilà%20App-orange?logo=voila&style=for-the-badge)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Finteractive_map2.ipynb)
 
 
 ## Resources
