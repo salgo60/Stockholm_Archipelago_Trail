@@ -3,7 +3,7 @@ A try to add vakue to Stockholm Archipelago Trail
 
 ## Binder with POC [video](https://youtu.be/bepljHYFqp4)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/HEAD?filepath=Notebook%stockholm_archipelago_trail_map_poc.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/HEAD?filepath=notebook/stockholm_archipelago_trail_map_poc.ipynb)
 
 Click the badge to launch an interactive map in Binder 🚀
 
