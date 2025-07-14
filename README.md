@@ -7,7 +7,7 @@ A try to add vakue to Stockholm Archipelago Trail
 
 Click the badge to launch an interactive map in Binder 🚀
 
-## variant med snippets hiur data kan hämtas från Wikidata OpenStreet Map
+## variant med snippets hur data kan hämtas från Wikidata OpenStreet Map
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/main?filepath=Notebook/Show%20case%20Stockholm%20Archipelago%20Trail%20showcase%202.ipynb)
 
 
