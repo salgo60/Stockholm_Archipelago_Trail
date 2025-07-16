@@ -16,7 +16,8 @@ TBA
 * video TBD
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/main?filepath=Notebook/Show%20case%20Stockholm%20Archipelago%20Trail%20showcase%202.ipynb)
 
-
+## Tältplatser Naturreservat version 1 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/Stockholm_Archipelago_Trail/HEAD?filepath=notebook%2FCampingplatser%20och%20Naturreservat%20v1.ipynb)
 ## Resources
 1) [Naturkartan](https://www.naturkartan.se/sv/) / [app](https://apps.apple.com/se/app/naturkartan/id1223011883)
 2) [Grillplatser.nu](https://grillplatser.nu/Karta/Kommun/Stockholm)
