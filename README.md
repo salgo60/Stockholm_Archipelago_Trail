@@ -1,5 +1,6 @@
 # Stockholm Archipelago Trail
 A try to add vakue to Stockholm Archipelago Trail 
+* see futher [Stockholm Archipelago Trail issues](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues?q=is%3Aissue) and [Roslagsleden issues Roslagsleden](https://github.com/salgo60/Roslagsleden/issues?q=is%3Aissue)
 
 ## Binder with POC [video](https://youtu.be/bepljHYFqp4)
 
