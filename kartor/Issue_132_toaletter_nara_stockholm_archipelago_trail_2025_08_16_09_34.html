@@ -1,0 +1,4520 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_879927a163fb17d6ffd830fe27e93de0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_879927a163fb17d6ffd830fe27e93de0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_879927a163fb17d6ffd830fe27e93de0 = L.map(
+                "map_879927a163fb17d6ffd830fe27e93de0",
+                {
+                    center: [59.85125080484505, 19.108122192450793],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2db2045b13ea595e23cb11c4de45c7db = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2db2045b13ea595e23cb11c4de45c7db.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+        function geo_json_928a02799f4ce3a9b3df0f435db7459c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue"};
+            }
+        }
+
+        function geo_json_928a02799f4ce3a9b3df0f435db7459c_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_928a02799f4ce3a9b3df0f435db7459c = L.geoJson(null, {
+                onEachFeature: geo_json_928a02799f4ce3a9b3df0f435db7459c_onEachFeature,
+            
+                style: geo_json_928a02799f4ce3a9b3df0f435db7459c_styler,
+            ...{
+}
+        });
+
+        function geo_json_928a02799f4ce3a9b3df0f435db7459c_add (data) {
+            geo_json_928a02799f4ce3a9b3df0f435db7459c
+                .addData(data);
+        }
+            geo_json_928a02799f4ce3a9b3df0f435db7459c_add({"features": [{"geometry": {"coordinates": [[19.1084972, 59.8511841], [19.1083557, 59.8512017], [19.1081084, 59.8512709], [19.1079367, 59.8513033], [19.1077486, 59.8512565]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_928a02799f4ce3a9b3df0f435db7459c.bindTooltip(
+                `<div>
+                     SAT Arholma
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_928a02799f4ce3a9b3df0f435db7459c.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_36a8c9c4dc2cdbf917f0eeab3bdccfc4 = L.marker(
+                [59.8511841, 19.1084972],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_471edc408e87a8dfd84e6a26e70b9bb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_36a8c9c4dc2cdbf917f0eeab3bdccfc4.bindTooltip(
+                `<div>
+                     SAT Arholma
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36a8c9c4dc2cdbf917f0eeab3bdccfc4.setIcon(icon_471edc408e87a8dfd84e6a26e70b9bb4);
+            
+    
+        function geo_json_dec95e6b033be89d93d395deb7152d46_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "green"};
+            }
+        }
+
+        function geo_json_dec95e6b033be89d93d395deb7152d46_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_dec95e6b033be89d93d395deb7152d46 = L.geoJson(null, {
+                onEachFeature: geo_json_dec95e6b033be89d93d395deb7152d46_onEachFeature,
+            
+                style: geo_json_dec95e6b033be89d93d395deb7152d46_styler,
+            ...{
+}
+        });
+
+        function geo_json_dec95e6b033be89d93d395deb7152d46_add (data) {
+            geo_json_dec95e6b033be89d93d395deb7152d46
+                .addData(data);
+        }
+            geo_json_dec95e6b033be89d93d395deb7152d46_add({"features": [{"geometry": {"coordinates": [[19.12108, 59.8451422], [19.1208788, 59.8453766]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_dec95e6b033be89d93d395deb7152d46.bindTooltip(
+                `<div>
+                     SAT Lidö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_dec95e6b033be89d93d395deb7152d46.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_ac79bfc820a740e8b496674d4430b41f = L.marker(
+                [59.8451422, 19.12108],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_898c39dbb7b3029a66099b28d19e294d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ac79bfc820a740e8b496674d4430b41f.bindTooltip(
+                `<div>
+                     SAT Lidö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac79bfc820a740e8b496674d4430b41f.setIcon(icon_898c39dbb7b3029a66099b28d19e294d);
+            
+    
+        function geo_json_4512aae52bd4d5307eed30962f478198_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "purple"};
+            }
+        }
+
+        function geo_json_4512aae52bd4d5307eed30962f478198_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_4512aae52bd4d5307eed30962f478198 = L.geoJson(null, {
+                onEachFeature: geo_json_4512aae52bd4d5307eed30962f478198_onEachFeature,
+            
+                style: geo_json_4512aae52bd4d5307eed30962f478198_styler,
+            ...{
+}
+        });
+
+        function geo_json_4512aae52bd4d5307eed30962f478198_add (data) {
+            geo_json_4512aae52bd4d5307eed30962f478198
+                .addData(data);
+        }
+            geo_json_4512aae52bd4d5307eed30962f478198_add({"features": [{"geometry": {"coordinates": [[19.109939, 59.8502567], [19.1097363, 59.8502755], [19.1096106, 59.8502628], [19.1094933, 59.8502843], [19.1093833, 59.8503533], [19.1095188, 59.850623], [19.1095517, 59.8509492]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_4512aae52bd4d5307eed30962f478198.bindTooltip(
+                `<div>
+                     SAT Landsort
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_4512aae52bd4d5307eed30962f478198.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_2eb146997029adaf47d8e46eb32225d0 = L.marker(
+                [59.8502567, 19.109939],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_3866796381bacc644fc6a8aafc831efd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2eb146997029adaf47d8e46eb32225d0.bindTooltip(
+                `<div>
+                     SAT Landsort
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2eb146997029adaf47d8e46eb32225d0.setIcon(icon_3866796381bacc644fc6a8aafc831efd);
+            
+    
+        function geo_json_feb6460f6e5d0b628917a0136672b98f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "orange"};
+            }
+        }
+
+        function geo_json_feb6460f6e5d0b628917a0136672b98f_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_feb6460f6e5d0b628917a0136672b98f = L.geoJson(null, {
+                onEachFeature: geo_json_feb6460f6e5d0b628917a0136672b98f_onEachFeature,
+            
+                style: geo_json_feb6460f6e5d0b628917a0136672b98f_styler,
+            ...{
+}
+        });
+
+        function geo_json_feb6460f6e5d0b628917a0136672b98f_add (data) {
+            geo_json_feb6460f6e5d0b628917a0136672b98f
+                .addData(data);
+        }
+            geo_json_feb6460f6e5d0b628917a0136672b98f_add({"features": [{"geometry": {"coordinates": [[19.1110846, 59.8453376], [19.1102317, 59.8453833], [19.1100539, 59.8454454], [19.1098891, 59.845666], [19.1098328, 59.8457281], [19.1096056, 59.8458087], [19.1093054, 59.8458955], [19.1091266, 59.8459381], [19.1089657, 59.8459542], [19.1085707, 59.845979], [19.1084201, 59.8460093], [19.1083078, 59.8460497], [19.107479, 59.8464863], [19.1072644, 59.8465671], [19.106553, 59.8467227]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_feb6460f6e5d0b628917a0136672b98f.bindTooltip(
+                `<div>
+                     SAT Grinda
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_feb6460f6e5d0b628917a0136672b98f.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_4c7fbe963bc46620f618b7d1dbc6709f = L.marker(
+                [59.8453376, 19.1110846],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_026bcbeefc487d3ae528738e0ec04de5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4c7fbe963bc46620f618b7d1dbc6709f.bindTooltip(
+                `<div>
+                     SAT Grinda
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c7fbe963bc46620f618b7d1dbc6709f.setIcon(icon_026bcbeefc487d3ae528738e0ec04de5);
+            
+    
+        function geo_json_483a7005acba16abea2254a68dea9b71_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkred"};
+            }
+        }
+
+        function geo_json_483a7005acba16abea2254a68dea9b71_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_483a7005acba16abea2254a68dea9b71 = L.geoJson(null, {
+                onEachFeature: geo_json_483a7005acba16abea2254a68dea9b71_onEachFeature,
+            
+                style: geo_json_483a7005acba16abea2254a68dea9b71_styler,
+            ...{
+}
+        });
+
+        function geo_json_483a7005acba16abea2254a68dea9b71_add (data) {
+            geo_json_483a7005acba16abea2254a68dea9b71
+                .addData(data);
+        }
+            geo_json_483a7005acba16abea2254a68dea9b71_add({"features": [{"geometry": {"coordinates": [[19.12108, 59.8451422], [19.1209445, 59.8450717], [19.1206181, 59.8450348], [19.1202576, 59.8450281], [19.1199832, 59.8450518], [19.1194073, 59.8450425], [19.1191568, 59.8449195], [19.1190992, 59.8448419], [19.1189505, 59.8445486], [19.1187268, 59.8443704], [19.1185691, 59.8441227], [19.1186, 59.8440333], [19.1187296, 59.8439237], [19.1190679, 59.8435395], [19.1190179, 59.8430437], [19.119195, 59.84289], [19.1191083, 59.8426367], [19.1191836, 59.8423694], [19.1191536, 59.8423136], [19.1190903, 59.8422446], [19.1189562, 59.8421759], [19.1184063, 59.8420378], [19.1180348, 59.8419852], [19.1178659, 59.8419765], [19.1176486, 59.8419926], [19.1175373, 59.8419751], [19.1172516, 59.8418592], [19.1171122, 59.8418222], [19.1169445, 59.8417966], [19.1167822, 59.8418013], [19.1166455, 59.8418276], [19.1164141, 59.8419593], [19.1162649, 59.8420047], [19.1155337, 59.8420196], [19.11531, 59.8419994], [19.1145614, 59.8418087], [19.1141054, 59.841651], [19.1137192, 59.8415608], [19.1111758, 59.8414098]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_483a7005acba16abea2254a68dea9b71.bindTooltip(
+                `<div>
+                     SAT Nämdö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_483a7005acba16abea2254a68dea9b71.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_549262d4ed8a496e38403368034c0a73 = L.marker(
+                [59.8451422, 19.12108],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_e00975dc42eb6dd1ef64b333a0a4c85d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_549262d4ed8a496e38403368034c0a73.bindTooltip(
+                `<div>
+                     SAT Nämdö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_549262d4ed8a496e38403368034c0a73.setIcon(icon_e00975dc42eb6dd1ef64b333a0a4c85d);
+            
+    
+        function geo_json_2060b1610d5ea498e9fa399cd843fa1b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "cadetblue"};
+            }
+        }
+
+        function geo_json_2060b1610d5ea498e9fa399cd843fa1b_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_2060b1610d5ea498e9fa399cd843fa1b = L.geoJson(null, {
+                onEachFeature: geo_json_2060b1610d5ea498e9fa399cd843fa1b_onEachFeature,
+            
+                style: geo_json_2060b1610d5ea498e9fa399cd843fa1b_styler,
+            ...{
+}
+        });
+
+        function geo_json_2060b1610d5ea498e9fa399cd843fa1b_add (data) {
+            geo_json_2060b1610d5ea498e9fa399cd843fa1b
+                .addData(data);
+        }
+            geo_json_2060b1610d5ea498e9fa399cd843fa1b_add({"features": [{"geometry": {"coordinates": [[19.1095517, 59.8509492], [19.1092654, 59.8509954], [19.1088086, 59.8511268], [19.1084972, 59.8511841]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_2060b1610d5ea498e9fa399cd843fa1b.bindTooltip(
+                `<div>
+                     SAT Nåttarö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_2060b1610d5ea498e9fa399cd843fa1b.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_c49972d01e87e7f946e75e3cb5e2f97e = L.marker(
+                [59.8509492, 19.1095517],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_7f5cd43ddda73bc58a6641e375d2a168 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c49972d01e87e7f946e75e3cb5e2f97e.bindTooltip(
+                `<div>
+                     SAT Nåttarö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c49972d01e87e7f946e75e3cb5e2f97e.setIcon(icon_7f5cd43ddda73bc58a6641e375d2a168);
+            
+    
+        function geo_json_54aa1c5adfc3756300e7304a8849f52b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "lightgray"};
+            }
+        }
+
+        function geo_json_54aa1c5adfc3756300e7304a8849f52b_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_54aa1c5adfc3756300e7304a8849f52b = L.geoJson(null, {
+                onEachFeature: geo_json_54aa1c5adfc3756300e7304a8849f52b_onEachFeature,
+            
+                style: geo_json_54aa1c5adfc3756300e7304a8849f52b_styler,
+            ...{
+}
+        });
+
+        function geo_json_54aa1c5adfc3756300e7304a8849f52b_add (data) {
+            geo_json_54aa1c5adfc3756300e7304a8849f52b
+                .addData(data);
+        }
+            geo_json_54aa1c5adfc3756300e7304a8849f52b_add({"features": [{"geometry": {"coordinates": [[19.1118566, 59.8506981], [19.1126597, 59.851378], [19.1128622, 59.8515713], [19.1132115, 59.8519666], [19.1133889, 59.8521728], [19.11409, 59.8530322], [19.114372, 59.8532113], [19.1146836, 59.8534073], [19.1148533, 59.8535534], [19.1149053, 59.8535926], [19.1152468, 59.8538906], [19.115442, 59.8542131], [19.1158594, 59.8546788], [19.1160592, 59.854996], [19.1162428, 59.8553174], [19.1166842, 59.8556996], [19.1168063, 59.8557879], [19.117925, 59.8565962], [19.1181114, 59.8567211], [19.1182659, 59.8568616], [19.1184692, 59.8569736], [19.1186854, 59.857014], [19.1188535, 59.8569546], [19.1192183, 59.8568684], [19.1195282, 59.8568503], [19.1197333, 59.8570731], [19.1199379, 59.8571949], [19.1199791, 59.8573769], [19.1200002, 59.8576206], [19.1200735, 59.8577958], [19.12018, 59.8578684], [19.120241, 59.8579087], [19.1207598, 59.8585186], [19.1208169, 59.8587486], [19.1210379, 59.8589614], [19.1212821, 59.8592314], [19.1214101, 59.8594843], [19.1219434, 59.8597453], [19.1221151, 59.859853]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_54aa1c5adfc3756300e7304a8849f52b.bindTooltip(
+                `<div>
+                     SAT Rånö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_54aa1c5adfc3756300e7304a8849f52b.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_b12314864a5f99f3b8cfc884afabbb2e = L.marker(
+                [59.8506981, 19.1118566],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_817b1ca8c2d87b5c425f026649394fd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b12314864a5f99f3b8cfc884afabbb2e.bindTooltip(
+                `<div>
+                     SAT Rånö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b12314864a5f99f3b8cfc884afabbb2e.setIcon(icon_817b1ca8c2d87b5c425f026649394fd1);
+            
+    
+        function geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue"};
+            }
+        }
+
+        function geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436 = L.geoJson(null, {
+                onEachFeature: geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_onEachFeature,
+            
+                style: geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_styler,
+            ...{
+}
+        });
+
+        function geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_add (data) {
+            geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436
+                .addData(data);
+        }
+            geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436_add({"features": [{"geometry": {"coordinates": [[19.123542, 59.8608119], [19.1235928, 59.8609905], [19.1236171, 59.8610759], [19.123703, 59.8612159], [19.1237013, 59.8612505]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436.bindTooltip(
+                `<div>
+                     SAT Utö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_ebae28e09a165274be624955ae1fbc0d = L.marker(
+                [59.8608119, 19.123542],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_9804666c990b96e19250b6306d53fa45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ebae28e09a165274be624955ae1fbc0d.bindTooltip(
+                `<div>
+                     SAT Utö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ebae28e09a165274be624955ae1fbc0d.setIcon(icon_9804666c990b96e19250b6306d53fa45);
+            
+    
+        function geo_json_098265e24aa0fcaca29e5b067b339e1a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkgreen"};
+            }
+        }
+
+        function geo_json_098265e24aa0fcaca29e5b067b339e1a_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_098265e24aa0fcaca29e5b067b339e1a = L.geoJson(null, {
+                onEachFeature: geo_json_098265e24aa0fcaca29e5b067b339e1a_onEachFeature,
+            
+                style: geo_json_098265e24aa0fcaca29e5b067b339e1a_styler,
+            ...{
+}
+        });
+
+        function geo_json_098265e24aa0fcaca29e5b067b339e1a_add (data) {
+            geo_json_098265e24aa0fcaca29e5b067b339e1a
+                .addData(data);
+        }
+            geo_json_098265e24aa0fcaca29e5b067b339e1a_add({"features": [{"geometry": {"coordinates": [[19.120241, 59.8579087], [19.1209049, 59.8579615], [19.1211095, 59.8579619], [19.1214289, 59.8579335], [19.1217755, 59.8578821], [19.1222439, 59.8577412], [19.1225344, 59.8577264], [19.122791, 59.8578004], [19.1233515, 59.8579859], [19.1236064, 59.8581183], [19.1239556, 59.8581397], [19.1240762, 59.8581664], [19.1242863, 59.8582421], [19.1243903, 59.8583755], [19.1245922, 59.8583981], [19.1246852, 59.8584169], [19.1251621, 59.8583769], [19.1254196, 59.8584038], [19.1258809, 59.85835], [19.1261277, 59.8583392], [19.126632, 59.8582476], [19.1272328, 59.8582045], [19.127383, 59.8581722], [19.1281938, 59.8579787], [19.1285911, 59.857901], [19.1289279, 59.8578004]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_098265e24aa0fcaca29e5b067b339e1a.bindTooltip(
+                `<div>
+                     SAT Ålö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_098265e24aa0fcaca29e5b067b339e1a.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_d3a59c18aa26f1c520379d72e61798bc = L.marker(
+                [59.8579087, 19.120241],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_3b2251740c3de20d8fa97a98d4df18a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d3a59c18aa26f1c520379d72e61798bc.bindTooltip(
+                `<div>
+                     SAT Ålö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d3a59c18aa26f1c520379d72e61798bc.setIcon(icon_3b2251740c3de20d8fa97a98d4df18a3);
+            
+    
+        function geo_json_c77d7fd237e919377e873383851bffa4_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "pink"};
+            }
+        }
+
+        function geo_json_c77d7fd237e919377e873383851bffa4_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_c77d7fd237e919377e873383851bffa4 = L.geoJson(null, {
+                onEachFeature: geo_json_c77d7fd237e919377e873383851bffa4_onEachFeature,
+            
+                style: geo_json_c77d7fd237e919377e873383851bffa4_styler,
+            ...{
+}
+        });
+
+        function geo_json_c77d7fd237e919377e873383851bffa4_add (data) {
+            geo_json_c77d7fd237e919377e873383851bffa4
+                .addData(data);
+        }
+            geo_json_c77d7fd237e919377e873383851bffa4_add({"features": [{"geometry": {"coordinates": [[19.1229095, 59.846984], [19.1231592, 59.8470104], [19.1233144, 59.8470262], [19.123408, 59.8470258], [19.123478, 59.8470032], [19.1235557, 59.8469351], [19.1236293, 59.8468565], [19.1236722, 59.8467951], [19.1237308, 59.8467324], [19.1237687, 59.8466657], [19.1238254, 59.8465871], [19.1238975, 59.8464879], [19.1239815, 59.8464064], [19.124024, 59.8463652], [19.1241121, 59.8462669], [19.1242086, 59.8461861], [19.1242408, 59.846116], [19.1242593, 59.8459788], [19.1243159, 59.8458412], [19.1243374, 59.8457118], [19.1244125, 59.8455771], [19.1244876, 59.8454747], [19.1245627, 59.8453992], [19.1246485, 59.8453615], [19.1247978, 59.8452414], [19.1248964, 59.8451064], [19.1250025, 59.8450166], [19.1251528, 59.8449034], [19.1252386, 59.8448118], [19.1253566, 59.8447256], [19.125421, 59.844677], [19.125539, 59.8446016], [19.1256141, 59.8445477], [19.1257643, 59.8444722], [19.1259194, 59.8443723], [19.1261183, 59.8442998], [19.1262256, 59.8442405], [19.1264509, 59.8441974], [19.1266703, 59.8440885], [19.1268908, 59.8440249], [19.1274058, 59.8438686], [19.1276311, 59.8437931], [19.1277813, 59.84375], [19.1279208, 59.8437069], [19.1281997, 59.8436638]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_c77d7fd237e919377e873383851bffa4.bindTooltip(
+                `<div>
+                     SAT Svartsö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_c77d7fd237e919377e873383851bffa4.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_ea67a44ba6e4944a3d109a63695bb8ae = L.marker(
+                [59.846984, 19.1229095],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_ea350078dbd255c76f5603ff1b1d94f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ea67a44ba6e4944a3d109a63695bb8ae.bindTooltip(
+                `<div>
+                     SAT Svartsö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ea67a44ba6e4944a3d109a63695bb8ae.setIcon(icon_ea350078dbd255c76f5603ff1b1d94f5);
+            
+    
+        function geo_json_d5a7eed1c5b7650d2462b5e96372e752_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "lightblue"};
+            }
+        }
+
+        function geo_json_d5a7eed1c5b7650d2462b5e96372e752_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_d5a7eed1c5b7650d2462b5e96372e752 = L.geoJson(null, {
+                onEachFeature: geo_json_d5a7eed1c5b7650d2462b5e96372e752_onEachFeature,
+            
+                style: geo_json_d5a7eed1c5b7650d2462b5e96372e752_styler,
+            ...{
+}
+        });
+
+        function geo_json_d5a7eed1c5b7650d2462b5e96372e752_add (data) {
+            geo_json_d5a7eed1c5b7650d2462b5e96372e752
+                .addData(data);
+        }
+            geo_json_d5a7eed1c5b7650d2462b5e96372e752_add({"features": [{"geometry": {"coordinates": [[19.1281997, 59.8436638], [19.1283499, 59.8436314], [19.1285753, 59.8436476], [19.1288113, 59.8436261], [19.1289615, 59.8436261], [19.1290688, 59.8435991], [19.1292726, 59.8436207], [19.1294336, 59.8436153], [19.1296052, 59.8436045], [19.1297554, 59.8435883], [19.1298842, 59.8436045], [19.1300451, 59.8435883], [19.1301953, 59.8436045], [19.1302489, 59.8435829], [19.1303577, 59.8435907], [19.1304743, 59.8435991]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_d5a7eed1c5b7650d2462b5e96372e752.bindTooltip(
+                `<div>
+                     SAT Ornö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_d5a7eed1c5b7650d2462b5e96372e752.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_a6967dca779229ddf237c23df9fe1d81 = L.marker(
+                [59.8436638, 19.1281997],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_43afa589533f37aebd32b7aa4b1f1432 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a6967dca779229ddf237c23df9fe1d81.bindTooltip(
+                `<div>
+                     SAT Ornö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6967dca779229ddf237c23df9fe1d81.setIcon(icon_43afa589533f37aebd32b7aa4b1f1432);
+            
+    
+        function geo_json_35ad5cb80d1f28c52fbacab02e43544d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "lightgreen"};
+            }
+        }
+
+        function geo_json_35ad5cb80d1f28c52fbacab02e43544d_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_35ad5cb80d1f28c52fbacab02e43544d = L.geoJson(null, {
+                onEachFeature: geo_json_35ad5cb80d1f28c52fbacab02e43544d_onEachFeature,
+            
+                style: geo_json_35ad5cb80d1f28c52fbacab02e43544d_styler,
+            ...{
+}
+        });
+
+        function geo_json_35ad5cb80d1f28c52fbacab02e43544d_add (data) {
+            geo_json_35ad5cb80d1f28c52fbacab02e43544d
+                .addData(data);
+        }
+            geo_json_35ad5cb80d1f28c52fbacab02e43544d_add({"features": [{"geometry": {"coordinates": [[19.1304743, 59.8435991], [19.1306505, 59.8436613], [19.1307655, 59.8437019], [19.1311778, 59.843909], [19.1319711, 59.8442056], [19.1324305, 59.8444694], [19.1330153, 59.8446329], [19.1337405, 59.8449756], [19.1340708, 59.8451619], [19.1344335, 59.8454147], [19.1346296, 59.8454676], [19.1349247, 59.8456346], [19.135199, 59.8457175], [19.1354271, 59.8457481], [19.135897, 59.8459108], [19.1362901, 59.8461573], [19.1364677, 59.8462062], [19.1367838, 59.8463351]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_35ad5cb80d1f28c52fbacab02e43544d.bindTooltip(
+                `<div>
+                     SAT Fjärdlång
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_35ad5cb80d1f28c52fbacab02e43544d.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_6913f1836e4c536da65e09c7ce432df6 = L.marker(
+                [59.8435991, 19.1304743],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_18dc4ebca7556c8c76e07da93622e506 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6913f1836e4c536da65e09c7ce432df6.bindTooltip(
+                `<div>
+                     SAT Fjärdlång
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6913f1836e4c536da65e09c7ce432df6.setIcon(icon_18dc4ebca7556c8c76e07da93622e506);
+            
+    
+        function geo_json_83fd9726ef2c615cf823eb3d84ffcca5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "gray"};
+            }
+        }
+
+        function geo_json_83fd9726ef2c615cf823eb3d84ffcca5_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_83fd9726ef2c615cf823eb3d84ffcca5 = L.geoJson(null, {
+                onEachFeature: geo_json_83fd9726ef2c615cf823eb3d84ffcca5_onEachFeature,
+            
+                style: geo_json_83fd9726ef2c615cf823eb3d84ffcca5_styler,
+            ...{
+}
+        });
+
+        function geo_json_83fd9726ef2c615cf823eb3d84ffcca5_add (data) {
+            geo_json_83fd9726ef2c615cf823eb3d84ffcca5
+                .addData(data);
+        }
+            geo_json_83fd9726ef2c615cf823eb3d84ffcca5_add({"features": [{"geometry": {"coordinates": [[19.1016841, 59.8365907], [19.1012994, 59.8365933], [19.1003203, 59.8364965], [19.0999313, 59.8364768], [19.099706, 59.8364883], [19.0996376, 59.8365186], [19.0994542, 59.8367615], [19.0993825, 59.8368796], [19.0990504, 59.8370465], [19.0989285, 59.8371197], [19.098507, 59.8371241], [19.0981395, 59.8371135], [19.0977333, 59.837078], [19.0972714, 59.8369981], [19.0969663, 59.8370101], [19.0967947, 59.8370168], [19.0964564, 59.8370147], [19.0961558, 59.836971], [19.095792, 59.8368796], [19.0953729, 59.8366968], [19.0950407, 59.8364306], [19.0947956, 59.8363074], [19.0946188, 59.8362693], [19.0941411, 59.8363285], [19.0937489, 59.8364027], [19.0932631, 59.8364816], [19.0926523, 59.8364345], [19.092162, 59.8364226], [19.0916084, 59.83651], [19.0910548, 59.8365736], [19.0907068, 59.836522], [19.0899713, 59.8364226], [19.0895913, 59.8363695], [19.0893027, 59.8363292]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_83fd9726ef2c615cf823eb3d84ffcca5.bindTooltip(
+                `<div>
+                     SAT Brottö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_83fd9726ef2c615cf823eb3d84ffcca5.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_19606bba0f097bf7f046568a91b5a317 = L.marker(
+                [59.8365907, 19.1016841],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_59b7037b0d68f1146a61c0537afc1e79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_19606bba0f097bf7f046568a91b5a317.bindTooltip(
+                `<div>
+                     SAT Brottö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_19606bba0f097bf7f046568a91b5a317.setIcon(icon_59b7037b0d68f1146a61c0537afc1e79);
+            
+    
+        function geo_json_305bb6119f8ae85692dc2015521f19f4_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black"};
+            }
+        }
+
+        function geo_json_305bb6119f8ae85692dc2015521f19f4_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_305bb6119f8ae85692dc2015521f19f4 = L.geoJson(null, {
+                onEachFeature: geo_json_305bb6119f8ae85692dc2015521f19f4_onEachFeature,
+            
+                style: geo_json_305bb6119f8ae85692dc2015521f19f4_styler,
+            ...{
+}
+        });
+
+        function geo_json_305bb6119f8ae85692dc2015521f19f4_add (data) {
+            geo_json_305bb6119f8ae85692dc2015521f19f4
+                .addData(data);
+        }
+            geo_json_305bb6119f8ae85692dc2015521f19f4_add({"features": [{"geometry": {"coordinates": [[19.1237013, 59.8612505], [19.1235733, 59.8612554], [19.1235028, 59.8612822], [19.1234737, 59.8613103], [19.1234227, 59.8613042], [19.1233789, 59.8612871], [19.1233328, 59.8612932], [19.1233255, 59.8613213], [19.1233279, 59.8613652], [19.1233036, 59.8613908], [19.1232575, 59.8613944], [19.1232283, 59.8613688], [19.1232089, 59.86127], [19.1231336, 59.8611651], [19.1230364, 59.861109], [19.1229903, 59.8611017], [19.1229684, 59.8611127], [19.1229538, 59.8611444], [19.1229344, 59.8612322], [19.1228346, 59.8612855], [19.122774, 59.861327], [19.122638, 59.861392], [19.122502, 59.8614725], [19.1224578, 59.8615399]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_305bb6119f8ae85692dc2015521f19f4.bindTooltip(
+                `<div>
+                     SAT Runmarö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_305bb6119f8ae85692dc2015521f19f4.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_bbfbb1ced2511b8042950a8a6e6e481d = L.marker(
+                [59.8612505, 19.1237013],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_6b95c286567eca8d42f8f7c3fe4ed51b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bbfbb1ced2511b8042950a8a6e6e481d.bindTooltip(
+                `<div>
+                     SAT Runmarö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bbfbb1ced2511b8042950a8a6e6e481d.setIcon(icon_6b95c286567eca8d42f8f7c3fe4ed51b);
+            
+    
+        function geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "beige"};
+            }
+        }
+
+        function geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4 = L.geoJson(null, {
+                onEachFeature: geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_onEachFeature,
+            
+                style: geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_styler,
+            ...{
+}
+        });
+
+        function geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_add (data) {
+            geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4
+                .addData(data);
+        }
+            geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4_add({"features": [{"geometry": {"coordinates": [[19.1289279, 59.8578004], [19.1293128, 59.8580562], [19.1295171, 59.8582685], [19.1296238, 59.8584807], [19.129892, 59.8587642], [19.1298906, 59.8589648], [19.1298181, 59.8590662], [19.1297626, 59.8591582], [19.1297232, 59.8592235], [19.1297426, 59.8594122], [19.129674, 59.8596228], [19.1296238, 59.8597541], [19.129478, 59.8599347], [19.129433, 59.8601172], [19.1295126, 59.8602497], [19.129706, 59.8603455], [19.1299841, 59.8605105], [19.1302425, 59.8606185], [19.1304227, 59.860667], [19.1305663, 59.8607299], [19.1306149, 59.8607885], [19.1307333, 59.8609157], [19.130686, 59.8610362], [19.1308014, 59.8611566], [19.1310151, 59.8613314], [19.1311831, 59.8614143], [19.1314047, 59.8614861], [19.1315414, 59.8614874], [19.1317158, 59.8615454], [19.1318031, 59.8616001], [19.1318586, 59.8617008], [19.1321113, 59.861852], [19.1322529, 59.8619246], [19.1323664, 59.8619742], [19.1325019, 59.8620221], [19.1328005, 59.8619936]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4.bindTooltip(
+                `<div>
+                     SAT Ingmarsö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_42e3441cc91db482a072deea158fb0e2 = L.marker(
+                [59.8578004, 19.1289279],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_93879ca5e2ade0f2be3a370f7247b99e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_42e3441cc91db482a072deea158fb0e2.bindTooltip(
+                `<div>
+                     SAT Ingmarsö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_42e3441cc91db482a072deea158fb0e2.setIcon(icon_93879ca5e2ade0f2be3a370f7247b99e);
+            
+    
+        function geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "lightred"};
+            }
+        }
+
+        function geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52 = L.geoJson(null, {
+                onEachFeature: geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_onEachFeature,
+            
+                style: geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_styler,
+            ...{
+}
+        });
+
+        function geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_add (data) {
+            geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52
+                .addData(data);
+        }
+            geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52_add({"features": [{"geometry": {"coordinates": [[19.1367838, 59.8463351], [19.1368491, 59.8465165], [19.1367793, 59.8466952], [19.1366324, 59.8468946], [19.1367286, 59.8469394], [19.1368582, 59.8469587], [19.1370662, 59.8470489], [19.1371351, 59.8471506], [19.1375513, 59.8471989], [19.1377005, 59.8473614], [19.1384004, 59.8480295], [19.138768, 59.8482554], [19.1387664, 59.8483395], [19.138896, 59.8485279], [19.1391668, 59.8489656], [19.1390276, 59.8491735], [19.1388784, 59.8492821], [19.1388232, 59.8494458], [19.1386758, 59.8494866], [19.1384797, 59.8497171], [19.1384975, 59.8498048], [19.1385662, 59.8499222], [19.1384837, 59.8500188], [19.1383463, 59.850074], [19.1383601, 59.8501913], [19.1384543, 59.8505758], [19.1385133, 59.8507173], [19.1387291, 59.8509335], [19.1386194, 59.8510571], [19.13865, 59.8512132], [19.1385617, 59.8513244], [19.1385617, 59.8514314]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52.bindTooltip(
+                `<div>
+                     SAT Yxlan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_cf0845cb79ca9ccead21e0b06f1f8f27 = L.marker(
+                [59.8463351, 19.1367838],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_01e8f1ecb6f61928a0a19dc43b58079a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cf0845cb79ca9ccead21e0b06f1f8f27.bindTooltip(
+                `<div>
+                     SAT Yxlan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf0845cb79ca9ccead21e0b06f1f8f27.setIcon(icon_01e8f1ecb6f61928a0a19dc43b58079a);
+            
+    
+        function geo_json_afeae3d35ab5872621793a04bf40e48b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue"};
+            }
+        }
+
+        function geo_json_afeae3d35ab5872621793a04bf40e48b_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_afeae3d35ab5872621793a04bf40e48b = L.geoJson(null, {
+                onEachFeature: geo_json_afeae3d35ab5872621793a04bf40e48b_onEachFeature,
+            
+                style: geo_json_afeae3d35ab5872621793a04bf40e48b_styler,
+            ...{
+}
+        });
+
+        function geo_json_afeae3d35ab5872621793a04bf40e48b_add (data) {
+            geo_json_afeae3d35ab5872621793a04bf40e48b
+                .addData(data);
+        }
+            geo_json_afeae3d35ab5872621793a04bf40e48b_add({"features": [{"geometry": {"coordinates": [[19.1110846, 59.8453376], [19.1111161, 59.8449253], [19.1110611, 59.8448169], [19.1108841, 59.8446175], [19.110815, 59.8445379], [19.1107914, 59.8444481], [19.110869, 59.8443545], [19.1111035, 59.844144], [19.1112582, 59.8440098], [19.1113092, 59.8439107], [19.1113132, 59.8438191], [19.1112421, 59.8435469], [19.1112475, 59.8433644], [19.1112502, 59.8430403], [19.111218, 59.8428759], [19.1111107, 59.8426111], [19.111049, 59.8424973], [19.1110101, 59.8423477], [19.1110075, 59.8421718], [19.111167, 59.8415466], [19.1111758, 59.8414098], [19.1111282, 59.8413364], [19.1110463, 59.8412731], [19.1103409, 59.8408546], [19.1096637, 59.8405137], [19.1091668, 59.8401842], [19.1087725, 59.8399258], [19.1086699, 59.8398797], [19.1084084, 59.8397941], [19.1083143, 59.8397494], [19.1080195, 59.8396091], [19.1076922, 59.8393871], [19.1062602, 59.8382179], [19.10604, 59.8380381], [19.1056484, 59.8375718], [19.1053587, 59.8372511], [19.1051079, 59.8370948], [19.1049805, 59.8370631], [19.1048518, 59.8370537], [19.1043583, 59.837084], [19.1042282, 59.8370698], [19.1041262, 59.8370281], [19.1038955, 59.8369149], [19.1036167, 59.8366998], [19.1034543, 59.8365745], [19.1031124, 59.8360718], [19.102997, 59.8360098], [19.1028844, 59.8359896], [19.1027717, 59.8359815], [19.1026618, 59.835991], [19.1025022, 59.836088], [19.1020972, 59.8363926], [19.1018799, 59.8365031], [19.1016841, 59.8365907]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_afeae3d35ab5872621793a04bf40e48b.bindTooltip(
+                `<div>
+                     SAT Finnhamn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_afeae3d35ab5872621793a04bf40e48b.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_6359d465cf3b7eaa6fbfc8daab591b82 = L.marker(
+                [59.8453376, 19.1110846],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_7f21520fce2d58d12233b782ee4a7fc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6359d465cf3b7eaa6fbfc8daab591b82.bindTooltip(
+                `<div>
+                     SAT Finnhamn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6359d465cf3b7eaa6fbfc8daab591b82.setIcon(icon_7f21520fce2d58d12233b782ee4a7fc2);
+            
+    
+        function geo_json_87a61b98e5aa7b0bc15be5b04b676771_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "green"};
+            }
+        }
+
+        function geo_json_87a61b98e5aa7b0bc15be5b04b676771_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_87a61b98e5aa7b0bc15be5b04b676771 = L.geoJson(null, {
+                onEachFeature: geo_json_87a61b98e5aa7b0bc15be5b04b676771_onEachFeature,
+            
+                style: geo_json_87a61b98e5aa7b0bc15be5b04b676771_styler,
+            ...{
+}
+        });
+
+        function geo_json_87a61b98e5aa7b0bc15be5b04b676771_add (data) {
+            geo_json_87a61b98e5aa7b0bc15be5b04b676771
+                .addData(data);
+        }
+            geo_json_87a61b98e5aa7b0bc15be5b04b676771_add({"features": [{"geometry": {"coordinates": [[19.109939, 59.8502567], [19.1100727, 59.8502515], [19.1102089, 59.8502019], [19.1102863, 59.8501474], [19.1104723, 59.8498992], [19.1105259, 59.8497372], [19.1105805, 59.8495724], [19.1105032, 59.8493171], [19.1103878, 59.8490896], [19.110362, 59.8489727], [19.1101921, 59.8488437]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_87a61b98e5aa7b0bc15be5b04b676771.bindTooltip(
+                `<div>
+                     SAT Furusund
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_87a61b98e5aa7b0bc15be5b04b676771.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_463be97598fede7e7d10f85c39fd0d82 = L.marker(
+                [59.8502567, 19.109939],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_a42be52c8055e7df661f521278e9d3ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_463be97598fede7e7d10f85c39fd0d82.bindTooltip(
+                `<div>
+                     SAT Furusund
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_463be97598fede7e7d10f85c39fd0d82.setIcon(icon_a42be52c8055e7df661f521278e9d3ec);
+            
+    
+        function geo_json_1b4122860a2f6189402368a416fce943_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "purple"};
+            }
+        }
+
+        function geo_json_1b4122860a2f6189402368a416fce943_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_1b4122860a2f6189402368a416fce943 = L.geoJson(null, {
+                onEachFeature: geo_json_1b4122860a2f6189402368a416fce943_onEachFeature,
+            
+                style: geo_json_1b4122860a2f6189402368a416fce943_styler,
+            ...{
+}
+        });
+
+        function geo_json_1b4122860a2f6189402368a416fce943_add (data) {
+            geo_json_1b4122860a2f6189402368a416fce943
+                .addData(data);
+        }
+            geo_json_1b4122860a2f6189402368a416fce943_add({"features": [{"geometry": {"coordinates": [[19.1379507, 59.8521858], [19.1380721, 59.8521385], [19.1381992, 59.8520374], [19.1382654, 59.8518793], [19.1382733, 59.8517224], [19.138403, 59.8516333], [19.1385565, 59.8515722], [19.1385617, 59.8514314]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_1b4122860a2f6189402368a416fce943.bindTooltip(
+                `<div>
+                     SAT Sandhamn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_1b4122860a2f6189402368a416fce943.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_fc0a62cb700ec3170f9bdb0ddd44f1e9 = L.marker(
+                [59.8521858, 19.1379507],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_01598f6b160eabae09a20b1a3ebefa73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fc0a62cb700ec3170f9bdb0ddd44f1e9.bindTooltip(
+                `<div>
+                     SAT Sandhamn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fc0a62cb700ec3170f9bdb0ddd44f1e9.setIcon(icon_01598f6b160eabae09a20b1a3ebefa73);
+            
+    
+        function geo_json_5337cf0cd2554e28b40db2c117759dfc_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "orange"};
+            }
+        }
+
+        function geo_json_5337cf0cd2554e28b40db2c117759dfc_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_5337cf0cd2554e28b40db2c117759dfc = L.geoJson(null, {
+                onEachFeature: geo_json_5337cf0cd2554e28b40db2c117759dfc_onEachFeature,
+            
+                style: geo_json_5337cf0cd2554e28b40db2c117759dfc_styler,
+            ...{
+}
+        });
+
+        function geo_json_5337cf0cd2554e28b40db2c117759dfc_add (data) {
+            geo_json_5337cf0cd2554e28b40db2c117759dfc
+                .addData(data);
+        }
+            geo_json_5337cf0cd2554e28b40db2c117759dfc_add({"features": [{"geometry": {"coordinates": [[19.1328005, 59.8619936], [19.1328483, 59.8620442], [19.1329509, 59.8622148], [19.1331228, 59.8623557], [19.1332748, 59.8624332], [19.1333544, 59.862506], [19.1334875, 59.8625492]], "type": "LineString"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_5337cf0cd2554e28b40db2c117759dfc.bindTooltip(
+                `<div>
+                     SAT Möja
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_5337cf0cd2554e28b40db2c117759dfc.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var marker_818a183d7aa3326f33f7ca8ee975703f = L.marker(
+                [59.8619936, 19.1328005],
+                {
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var icon_4d3da26d463ea0cd946bdce0cf1ca427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_818a183d7aa3326f33f7ca8ee975703f.bindTooltip(
+                `<div>
+                     SAT Möja
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_818a183d7aa3326f33f7ca8ee975703f.setIcon(icon_4d3da26d463ea0cd946bdce0cf1ca427);
+            
+    
+        function geo_json_520a7afb09eb3dbe02bb131a17c35c4e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#0000ff", "fillColor": "#0000ff", "fillOpacity": 0.1, "weight": 1};
+            }
+        }
+
+        function geo_json_520a7afb09eb3dbe02bb131a17c35c4e_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_520a7afb09eb3dbe02bb131a17c35c4e = L.geoJson(null, {
+                onEachFeature: geo_json_520a7afb09eb3dbe02bb131a17c35c4e_onEachFeature,
+            
+                style: geo_json_520a7afb09eb3dbe02bb131a17c35c4e_styler,
+            ...{
+}
+        });
+
+        function geo_json_520a7afb09eb3dbe02bb131a17c35c4e_add (data) {
+            geo_json_520a7afb09eb3dbe02bb131a17c35c4e
+                .addData(data);
+        }
+            geo_json_520a7afb09eb3dbe02bb131a17c35c4e_add({"features": [{"geometry": {"coordinates": [[[19.10741787756476, 59.849471536614544], [19.107286970472398, 59.849476862094235], [19.106942491148896, 59.84950819509374], [19.106605773823386, 59.84955636438122], [19.106280060812168, 59.84962090613642], [19.105968488520297, 59.849701198883935], [19.1056740572513, 59.8497964694744], [19.105399602324386, 59.84990580052611], [19.105147766777065, 59.850028139254924], [19.10492097591562, 59.85016230760821], [19.104721413958345, 59.85030701360469], [19.104551002996587, 59.85046086377195], [19.104411384476247, 59.85062237656146], [19.10430390337841, 59.85078999661236], [19.104229595251887, 59.85096210972685], [19.104189176223183, 59.85113705841278], [19.104183036080602, 59.851313157844295], [19.1042112345, 59.85148871208669], [19.10427350044918, 59.85166203042922], [19.104369234777597, 59.85183144366848], [19.10449751596707, 59.85199532018601], [19.104657108989016, 59.852152081664386], [19.104846477183493, 59.85230021829119], [19.105063797046185, 59.852438303303536], [19.10530697578152, 59.85256500673355], [19.105573671453076, 59.85267910822177], [19.105861315537368, 59.85277950877513], [19.106167137663952, 59.85286524135594], [19.10635524471833, 59.852912043536904], [19.106689956003063, 59.85298486045516], [19.107037696035988, 59.85304010644413], [19.10739483088354, 59.85307720417315], [19.107757628389937, 59.85309576596501], [19.10812229719698, 59.85309559784887], [19.108485026383896, 59.853076701588044], [19.10884202531199, 59.85303927466128], [19.109189563256738, 59.85298370819785], [19.109361270568716, 59.85295130649034], [19.1096060021117, 59.852899825517795], [19.109747683678687, 59.85286358147984], [19.11001260954446, 59.85280885068743], [19.110321868226173, 59.85272629796845], [19.11061355189338, 59.852628892500846], [19.110884851272548, 59.85251757248012], [19.11113315350434, 59.85239341011336], [19.11135606731059, 59.852257601288095], [19.11155144602335, 59.85211145405009], [19.11171740825404, 59.85195637600098], [19.11185235600405, 59.85179386073761], [19.111954990042406, 59.85162547346352], [19.112024322403162, 59.851452835911786], [19.11205968588247, 59.851277610723955], [19.11206074044477, 59.851101485436125], [19.112027476476964, 59.85092615622618], [19.11196021486014, 59.85075331157898], [19.11185960385891, 59.85058461602632], [19.111726612859115, 59.85042169411895], [19.111562523014936, 59.850266114784276], [19.111368914896154, 59.85011937622041], [19.111147653255067, 59.84998289147245], [19.11090086906022, 59.84985797482867], [19.110630938970246, 59.84974582916865], [19.110340462445656, 59.849647534383806], [19.110032236718997, 59.84956403698292], [19.109709229864237, 59.84949614098114], [19.109374552224427, 59.849444500161326], [19.109031426472395, 59.84940961178132], [19.108683156592125, 59.84939181178767], [19.10833309607899, 59.849391271582284], [19.107984615664265, 59.849407996372534], [19.107641070874017, 59.84944182512085], [19.107499577749785, 59.84945942413028], [19.10741787756476, 59.849471536614544]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_520a7afb09eb3dbe02bb131a17c35c4e.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var feature_group_b28a24816ff75b1cb30e22eb55327489 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_03c3300fc6f398f4e81038c8d1c3d3fa = L.marker(
+                [59.8426991, 19.1192646],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_04e6684f36c9de5178af4d9f3402b543 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63508a3de831b33a3d2c8228fa9525b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85c0573151d4d4e55249377bd16917b2 = $(`<div id="html_85c0573151d4d4e55249377bd16917b2" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/1848869434' target='_blank'>https://www.openstreetmap.org/node/1848869434</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_63508a3de831b33a3d2c8228fa9525b8.setContent(html_85c0573151d4d4e55249377bd16917b2);
+            
+        
+
+        marker_03c3300fc6f398f4e81038c8d1c3d3fa.bindPopup(popup_63508a3de831b33a3d2c8228fa9525b8)
+        ;
+
+        
+    
+    
+                marker_03c3300fc6f398f4e81038c8d1c3d3fa.setIcon(icon_04e6684f36c9de5178af4d9f3402b543);
+            
+    
+            var marker_e32565512952596ecad27040008a9f6f = L.marker(
+                [59.0498483, 18.5199205],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_e646d8683d6fa6332f408e4d307c8284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c20be5e715798600f9708ed7affc181 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3af77a78bce527d8b8cbac0d1fd8bcf0 = $(`<div id="html_3af77a78bce527d8b8cbac0d1fd8bcf0" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2225378750' target='_blank'>https://www.openstreetmap.org/node/2225378750</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_9c20be5e715798600f9708ed7affc181.setContent(html_3af77a78bce527d8b8cbac0d1fd8bcf0);
+            
+        
+
+        marker_e32565512952596ecad27040008a9f6f.bindPopup(popup_9c20be5e715798600f9708ed7affc181)
+        ;
+
+        
+    
+    
+                marker_e32565512952596ecad27040008a9f6f.setIcon(icon_e646d8683d6fa6332f408e4d307c8284);
+            
+    
+            var marker_6ec093d48eccd42db470b4fe086860ff = L.marker(
+                [58.9702091, 18.3244678],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_b52f8aef98971071b29f7a3d89b6f2a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_969ba6d3ace75949f815dfe11a748ae1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f5e7a08a540310a2cc8733283288bf8 = $(`<div id="html_0f5e7a08a540310a2cc8733283288bf8" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5005120552' target='_blank'>https://www.openstreetmap.org/node/5005120552</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_969ba6d3ace75949f815dfe11a748ae1.setContent(html_0f5e7a08a540310a2cc8733283288bf8);
+            
+        
+
+        marker_6ec093d48eccd42db470b4fe086860ff.bindPopup(popup_969ba6d3ace75949f815dfe11a748ae1)
+        ;
+
+        
+    
+    
+                marker_6ec093d48eccd42db470b4fe086860ff.setIcon(icon_b52f8aef98971071b29f7a3d89b6f2a3);
+            
+    
+            var marker_51db3a95ed36b7ce417ebcb0bb77c59a = L.marker(
+                [59.4784857, 18.7939819],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_92271e60dfc304cc69f93e1962646077 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac3bb51796e13fbe63a4e29f64eb7e6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a3b904cb1e140218b6f10cad69c9b53 = $(`<div id="html_6a3b904cb1e140218b6f10cad69c9b53" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5856137513' target='_blank'>https://www.openstreetmap.org/node/5856137513</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_ac3bb51796e13fbe63a4e29f64eb7e6e.setContent(html_6a3b904cb1e140218b6f10cad69c9b53);
+            
+        
+
+        marker_51db3a95ed36b7ce417ebcb0bb77c59a.bindPopup(popup_ac3bb51796e13fbe63a4e29f64eb7e6e)
+        ;
+
+        
+    
+    
+                marker_51db3a95ed36b7ce417ebcb0bb77c59a.setIcon(icon_92271e60dfc304cc69f93e1962646077);
+            
+    
+            var marker_4c6f7bf223e35eaa78c630d314a446ea = L.marker(
+                [59.1972454, 18.7367793],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_847bcb9c982689bd08839e08242d2242 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d07b2f18d2e2ba34878c4c52243dfe9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35c23b5744daf18b18c1622c30f4a4b5 = $(`<div id="html_35c23b5744daf18b18c1622c30f4a4b5" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/9011995676' target='_blank'>https://www.openstreetmap.org/node/9011995676</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8d07b2f18d2e2ba34878c4c52243dfe9.setContent(html_35c23b5744daf18b18c1622c30f4a4b5);
+            
+        
+
+        marker_4c6f7bf223e35eaa78c630d314a446ea.bindPopup(popup_8d07b2f18d2e2ba34878c4c52243dfe9)
+        ;
+
+        
+    
+    
+                marker_4c6f7bf223e35eaa78c630d314a446ea.setIcon(icon_847bcb9c982689bd08839e08242d2242);
+            
+    
+            var marker_b52b1272cd8edf03582e5ed9c158ff90 = L.marker(
+                [58.7447991, 17.8646791],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_b25fe1e06b28d9be176e5589c498bd63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_689e62d9b519326a99ccb94bd7e1c850 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb0569804011a6838a24c36155e1fefe = $(`<div id="html_eb0569804011a6838a24c36155e1fefe" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/9907275660' target='_blank'>https://www.openstreetmap.org/node/9907275660</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_689e62d9b519326a99ccb94bd7e1c850.setContent(html_eb0569804011a6838a24c36155e1fefe);
+            
+        
+
+        marker_b52b1272cd8edf03582e5ed9c158ff90.bindPopup(popup_689e62d9b519326a99ccb94bd7e1c850)
+        ;
+
+        
+    
+    
+                marker_b52b1272cd8edf03582e5ed9c158ff90.setIcon(icon_b25fe1e06b28d9be176e5589c498bd63);
+            
+    
+            var marker_ec53d30766b7d1511eecb804939fcee2 = L.marker(
+                [59.0489482, 18.5226354],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_f5582f9aebbd11876a084f12fa56abf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a060c4e5753cb09a30b29917e59ac164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_744730563c57c7f05af5789a167546d5 = $(`<div id="html_744730563c57c7f05af5789a167546d5" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/11080859473' target='_blank'>https://www.openstreetmap.org/node/11080859473</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_a060c4e5753cb09a30b29917e59ac164.setContent(html_744730563c57c7f05af5789a167546d5);
+            
+        
+
+        marker_ec53d30766b7d1511eecb804939fcee2.bindPopup(popup_a060c4e5753cb09a30b29917e59ac164)
+        ;
+
+        
+    
+    
+                marker_ec53d30766b7d1511eecb804939fcee2.setIcon(icon_f5582f9aebbd11876a084f12fa56abf6);
+            
+    
+            var marker_da4d3a8392b1b2623399c372f589eb52 = L.marker(
+                [59.4795502, 18.8051661],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_3c306cf93c0eef3d5c054415e0a442f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_700bed0cf0b1a78f99fd8a2e7dd83f06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_133f8ab7f66f9ea9741f1a262cc87d9b = $(`<div id="html_133f8ab7f66f9ea9741f1a262cc87d9b" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12085564579' target='_blank'>https://www.openstreetmap.org/node/12085564579</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_700bed0cf0b1a78f99fd8a2e7dd83f06.setContent(html_133f8ab7f66f9ea9741f1a262cc87d9b);
+            
+        
+
+        marker_da4d3a8392b1b2623399c372f589eb52.bindPopup(popup_700bed0cf0b1a78f99fd8a2e7dd83f06)
+        ;
+
+        
+    
+    
+                marker_da4d3a8392b1b2623399c372f589eb52.setIcon(icon_3c306cf93c0eef3d5c054415e0a442f1);
+            
+    
+            var marker_c7ab8ac0e653034eac7013499f4166ec = L.marker(
+                [58.8803181, 18.1114068],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_4d95dcf28e41617b2e0e5dc969a9e333 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d61f24bbe4e3a83286b8e6f368e96809 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55e93eb12820adc952c186de06ae8acc = $(`<div id="html_55e93eb12820adc952c186de06ae8acc" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13037259125' target='_blank'>https://www.openstreetmap.org/node/13037259125</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ fee saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d61f24bbe4e3a83286b8e6f368e96809.setContent(html_55e93eb12820adc952c186de06ae8acc);
+            
+        
+
+        marker_c7ab8ac0e653034eac7013499f4166ec.bindPopup(popup_d61f24bbe4e3a83286b8e6f368e96809)
+        ;
+
+        
+    
+    
+                marker_c7ab8ac0e653034eac7013499f4166ec.setIcon(icon_4d95dcf28e41617b2e0e5dc969a9e333);
+            
+    
+            var marker_690365ff0bf80354581216fb460c9db7 = L.marker(
+                [58.7446083, 17.8652507],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_cc62addbf54899967fb032575d68d853 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10f123d44de5646069cee30351d34d96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fc4d4badeca974a2876b249cff2d87a = $(`<div id="html_7fc4d4badeca974a2876b249cff2d87a" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13041911527' target='_blank'>https://www.openstreetmap.org/node/13041911527</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_10f123d44de5646069cee30351d34d96.setContent(html_7fc4d4badeca974a2876b249cff2d87a);
+            
+        
+
+        marker_690365ff0bf80354581216fb460c9db7.bindPopup(popup_10f123d44de5646069cee30351d34d96)
+        ;
+
+        
+    
+    
+                marker_690365ff0bf80354581216fb460c9db7.setIcon(icon_cc62addbf54899967fb032575d68d853);
+            
+    
+            var marker_d9acee20a0dbe6c28b9f0a0a161b6319 = L.marker(
+                [58.919687, 18.1764135],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_8f3ffcf298a227d7073af24e9f845724 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ff8a33e780eeae7381c3488427eb959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fbeb9cbf1e89a242e0c01b9f477d40d = $(`<div id="html_5fbeb9cbf1e89a242e0c01b9f477d40d" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13045581191' target='_blank'>https://www.openstreetmap.org/node/13045581191</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6ff8a33e780eeae7381c3488427eb959.setContent(html_5fbeb9cbf1e89a242e0c01b9f477d40d);
+            
+        
+
+        marker_d9acee20a0dbe6c28b9f0a0a161b6319.bindPopup(popup_6ff8a33e780eeae7381c3488427eb959)
+        ;
+
+        
+    
+    
+                marker_d9acee20a0dbe6c28b9f0a0a161b6319.setIcon(icon_8f3ffcf298a227d7073af24e9f845724);
+            
+    
+            var marker_3903da3512fd24036627ec61cb03d38a = L.marker(
+                [58.9198493, 18.1751578],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_23ee75a98aac81796e6a74195a8eea9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6bc81bde4b52cc5f6fde7f5ccebe253f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbb47b6fcf498532b6d1c4be56508e39 = $(`<div id="html_bbb47b6fcf498532b6d1c4be56508e39" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13045581192' target='_blank'>https://www.openstreetmap.org/node/13045581192</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6bc81bde4b52cc5f6fde7f5ccebe253f.setContent(html_bbb47b6fcf498532b6d1c4be56508e39);
+            
+        
+
+        marker_3903da3512fd24036627ec61cb03d38a.bindPopup(popup_6bc81bde4b52cc5f6fde7f5ccebe253f)
+        ;
+
+        
+    
+    
+                marker_3903da3512fd24036627ec61cb03d38a.setIcon(icon_23ee75a98aac81796e6a74195a8eea9a);
+            
+    
+            var marker_ce65df22f45c7659e337545cee2c5736 = L.marker(
+                [59.4692582, 18.7607388],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_4b9d067143d6d6204dcc419e720bd55f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93845395e61e321968100f56502b52c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_627b2a231d62c0417a032efa8fb9a208 = $(`<div id="html_627b2a231d62c0417a032efa8fb9a208" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13063312449' target='_blank'>https://www.openstreetmap.org/node/13063312449</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:paper_supply saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_93845395e61e321968100f56502b52c6.setContent(html_627b2a231d62c0417a032efa8fb9a208);
+            
+        
+
+        marker_ce65df22f45c7659e337545cee2c5736.bindPopup(popup_93845395e61e321968100f56502b52c6)
+        ;
+
+        
+    
+    
+                marker_ce65df22f45c7659e337545cee2c5736.setIcon(icon_4b9d067143d6d6204dcc419e720bd55f);
+            
+    
+            var marker_83ed3782a2dce12d427a88b00c71f801 = L.marker(
+                [59.4754826, 18.8084516],
+                {
+}
+            ).addTo(feature_group_b28a24816ff75b1cb30e22eb55327489);
+        
+    
+            var icon_06dce10fe0156623800f690cb6eddc65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_138a6ee054db084dcc11ef44185f6d08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89e8115117480c8b6aeff073d51159ba = $(`<div id="html_89e8115117480c8b6aeff073d51159ba" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13065225866' target='_blank'>https://www.openstreetmap.org/node/13065225866</a><br><br>✅ Minimikrav uppfyllda<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_138a6ee054db084dcc11ef44185f6d08.setContent(html_89e8115117480c8b6aeff073d51159ba);
+            
+        
+
+        marker_83ed3782a2dce12d427a88b00c71f801.bindPopup(popup_138a6ee054db084dcc11ef44185f6d08)
+        ;
+
+        
+    
+    
+                marker_83ed3782a2dce12d427a88b00c71f801.setIcon(icon_06dce10fe0156623800f690cb6eddc65);
+            
+    
+            feature_group_b28a24816ff75b1cb30e22eb55327489.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_a2efbb05a47c7b0dfa35d4c67dddaee8 = L.marker(
+                [59.6602993, 18.9156089],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_5f2c15e2af477419c45af9d70b56c106 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60bf7539beffef78d2384cff7d74735a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_546b96a9c367982d2818320554f1f972 = $(`<div id="html_546b96a9c367982d2818320554f1f972" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/426925731' target='_blank'>https://www.openstreetmap.org/node/426925731</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_60bf7539beffef78d2384cff7d74735a.setContent(html_546b96a9c367982d2818320554f1f972);
+            
+        
+
+        marker_a2efbb05a47c7b0dfa35d4c67dddaee8.bindPopup(popup_60bf7539beffef78d2384cff7d74735a)
+        ;
+
+        
+    
+    
+                marker_a2efbb05a47c7b0dfa35d4c67dddaee8.setIcon(icon_5f2c15e2af477419c45af9d70b56c106);
+            
+    
+            var marker_4ba1c5b67f497e896773aa98f0041d7d = L.marker(
+                [59.4175905, 18.5593101],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_46f7758f5e1496a26ae978795133e21e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ba056f08f2df917bdbde810a0a403cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ddde6764cecdd433062a100eb7cc59d = $(`<div id="html_9ddde6764cecdd433062a100eb7cc59d" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863394740' target='_blank'>https://www.openstreetmap.org/node/863394740</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6ba056f08f2df917bdbde810a0a403cd.setContent(html_9ddde6764cecdd433062a100eb7cc59d);
+            
+        
+
+        marker_4ba1c5b67f497e896773aa98f0041d7d.bindPopup(popup_6ba056f08f2df917bdbde810a0a403cd)
+        ;
+
+        
+    
+    
+                marker_4ba1c5b67f497e896773aa98f0041d7d.setIcon(icon_46f7758f5e1496a26ae978795133e21e);
+            
+    
+            var marker_e849981441b56463053a453eeefdc26c = L.marker(
+                [59.4174664, 18.5587252],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_a8b7c25803c24f53a63300362b57e7a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aed796ef73bc807c664b6d8827ab2033 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f83bd59d57a00d349366822569b18f = $(`<div id="html_43f83bd59d57a00d349366822569b18f" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863394751' target='_blank'>https://www.openstreetmap.org/node/863394751</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_aed796ef73bc807c664b6d8827ab2033.setContent(html_43f83bd59d57a00d349366822569b18f);
+            
+        
+
+        marker_e849981441b56463053a453eeefdc26c.bindPopup(popup_aed796ef73bc807c664b6d8827ab2033)
+        ;
+
+        
+    
+    
+                marker_e849981441b56463053a453eeefdc26c.setIcon(icon_a8b7c25803c24f53a63300362b57e7a1);
+            
+    
+            var marker_14754ea1f505ee2d61e1238db68aeb7c = L.marker(
+                [59.4079202, 18.5549403],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_2c49d54445c389be94b636644b650ec4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0fa83a591642feae1382031b7b8cbd88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9c2e20977667fddf96314bebe024d5f = $(`<div id="html_f9c2e20977667fddf96314bebe024d5f" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863394827' target='_blank'>https://www.openstreetmap.org/node/863394827</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0fa83a591642feae1382031b7b8cbd88.setContent(html_f9c2e20977667fddf96314bebe024d5f);
+            
+        
+
+        marker_14754ea1f505ee2d61e1238db68aeb7c.bindPopup(popup_0fa83a591642feae1382031b7b8cbd88)
+        ;
+
+        
+    
+    
+                marker_14754ea1f505ee2d61e1238db68aeb7c.setIcon(icon_2c49d54445c389be94b636644b650ec4);
+            
+    
+            var marker_5ea6d7c3369eab79c80dce969f726ed6 = L.marker(
+                [59.4069877, 18.5645766],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_9f97cda92c30bbc992f5850e309b7e68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_027299d335fc3317d9bb04cf93bc9900 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6ab296d4d699f2e945d02c6f86e44cf = $(`<div id="html_a6ab296d4d699f2e945d02c6f86e44cf" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863423228' target='_blank'>https://www.openstreetmap.org/node/863423228</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_027299d335fc3317d9bb04cf93bc9900.setContent(html_a6ab296d4d699f2e945d02c6f86e44cf);
+            
+        
+
+        marker_5ea6d7c3369eab79c80dce969f726ed6.bindPopup(popup_027299d335fc3317d9bb04cf93bc9900)
+        ;
+
+        
+    
+    
+                marker_5ea6d7c3369eab79c80dce969f726ed6.setIcon(icon_9f97cda92c30bbc992f5850e309b7e68);
+            
+    
+            var marker_8f44f5fd7661c0cbf9aa0641a2e38436 = L.marker(
+                [59.4118287, 18.5579106],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_80608763ff9c3d703116cd2129a13859 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46a2ec523b0f18afb0b30a945eb3e68a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fca8b1f91571c7b3d6526b03c982bec = $(`<div id="html_9fca8b1f91571c7b3d6526b03c982bec" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863423239' target='_blank'>https://www.openstreetmap.org/node/863423239</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_46a2ec523b0f18afb0b30a945eb3e68a.setContent(html_9fca8b1f91571c7b3d6526b03c982bec);
+            
+        
+
+        marker_8f44f5fd7661c0cbf9aa0641a2e38436.bindPopup(popup_46a2ec523b0f18afb0b30a945eb3e68a)
+        ;
+
+        
+    
+    
+                marker_8f44f5fd7661c0cbf9aa0641a2e38436.setIcon(icon_80608763ff9c3d703116cd2129a13859);
+            
+    
+            var marker_354d155a7f0da0d239aafe752f3cfa67 = L.marker(
+                [59.4075457, 18.5598839],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_4a80dc34d22ab0c3032b7f67a8ee074a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca43e4a4319d4f7b8e8d44ac0b61194 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09da557b763fb7de82e7ecc7b8fac67f = $(`<div id="html_09da557b763fb7de82e7ecc7b8fac67f" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863423311' target='_blank'>https://www.openstreetmap.org/node/863423311</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_cca43e4a4319d4f7b8e8d44ac0b61194.setContent(html_09da557b763fb7de82e7ecc7b8fac67f);
+            
+        
+
+        marker_354d155a7f0da0d239aafe752f3cfa67.bindPopup(popup_cca43e4a4319d4f7b8e8d44ac0b61194)
+        ;
+
+        
+    
+    
+                marker_354d155a7f0da0d239aafe752f3cfa67.setIcon(icon_4a80dc34d22ab0c3032b7f67a8ee074a);
+            
+    
+            var marker_bcbaebf4c0000c7f275fb87096495aef = L.marker(
+                [59.4070426, 18.5644903],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_839127a98cd8f62f69b9a12cfce7a651 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7ff8cda1f558e594d5dfd0e46466d20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdf308d2bfcf128ddba0d6596abd68f4 = $(`<div id="html_bdf308d2bfcf128ddba0d6596abd68f4" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/863423335' target='_blank'>https://www.openstreetmap.org/node/863423335</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_f7ff8cda1f558e594d5dfd0e46466d20.setContent(html_bdf308d2bfcf128ddba0d6596abd68f4);
+            
+        
+
+        marker_bcbaebf4c0000c7f275fb87096495aef.bindPopup(popup_f7ff8cda1f558e594d5dfd0e46466d20)
+        ;
+
+        
+    
+    
+                marker_bcbaebf4c0000c7f275fb87096495aef.setIcon(icon_839127a98cd8f62f69b9a12cfce7a651);
+            
+    
+            var marker_dcd5294cdb34f7132c7720fda1f58e28 = L.marker(
+                [58.969962, 18.3580729],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_2e808d9141eea7aedb965a831dd4ec9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2836a5e9ee58aedebd0843cebab2af02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42172b00a0ebb6035b155ff338790def = $(`<div id="html_42172b00a0ebb6035b155ff338790def" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/1234107386' target='_blank'>https://www.openstreetmap.org/node/1234107386</a><br><br>⚠️ Saknar: unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2836a5e9ee58aedebd0843cebab2af02.setContent(html_42172b00a0ebb6035b155ff338790def);
+            
+        
+
+        marker_dcd5294cdb34f7132c7720fda1f58e28.bindPopup(popup_2836a5e9ee58aedebd0843cebab2af02)
+        ;
+
+        
+    
+    
+                marker_dcd5294cdb34f7132c7720fda1f58e28.setIcon(icon_2e808d9141eea7aedb965a831dd4ec9b);
+            
+    
+            var marker_d42d748aa957fac2c3a3ff4577d7ab15 = L.marker(
+                [59.4759501, 18.8176987],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_9edff28a822f87abd8eb56f6a2e451ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_112ff49b2f023cdeeca5509a66f753d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6feee207bc77ea5eb932a00d1d499ef = $(`<div id="html_c6feee207bc77ea5eb932a00d1d499ef" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/1401739421' target='_blank'>https://www.openstreetmap.org/node/1401739421</a><br><br>⚠️ Saknar: access<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_112ff49b2f023cdeeca5509a66f753d3.setContent(html_c6feee207bc77ea5eb932a00d1d499ef);
+            
+        
+
+        marker_d42d748aa957fac2c3a3ff4577d7ab15.bindPopup(popup_112ff49b2f023cdeeca5509a66f753d3)
+        ;
+
+        
+    
+    
+                marker_d42d748aa957fac2c3a3ff4577d7ab15.setIcon(icon_9edff28a822f87abd8eb56f6a2e451ff);
+            
+    
+            var marker_adf06ad5abd2cbc975416b2d649f7643 = L.marker(
+                [59.4767596, 18.8238701],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_0bcf2fdccb20b7f1eeab204fe2623220 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78e39e68c37f9083c0869c76e6698d6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de86fa13863b390637a0343246448fd3 = $(`<div id="html_de86fa13863b390637a0343246448fd3" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/1401993169' target='_blank'>https://www.openstreetmap.org/node/1401993169</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_78e39e68c37f9083c0869c76e6698d6c.setContent(html_de86fa13863b390637a0343246448fd3);
+            
+        
+
+        marker_adf06ad5abd2cbc975416b2d649f7643.bindPopup(popup_78e39e68c37f9083c0869c76e6698d6c)
+        ;
+
+        
+    
+    
+                marker_adf06ad5abd2cbc975416b2d649f7643.setIcon(icon_0bcf2fdccb20b7f1eeab204fe2623220);
+            
+    
+            var marker_5aeea8bf2fd1b8fa437c3dbb7e451ef2 = L.marker(
+                [58.9101949, 18.2180385],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_e70bd18d81e0cef153d486e5b6c1f0d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5ba8de73bc594e06404014917860c9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d79056f1c0b786eee0994cd52f6819aa = $(`<div id="html_d79056f1c0b786eee0994cd52f6819aa" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/1412263117' target='_blank'>https://www.openstreetmap.org/node/1412263117</a><br><br>⚠️ Saknar: unisex, wheelchair<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_a5ba8de73bc594e06404014917860c9d.setContent(html_d79056f1c0b786eee0994cd52f6819aa);
+            
+        
+
+        marker_5aeea8bf2fd1b8fa437c3dbb7e451ef2.bindPopup(popup_a5ba8de73bc594e06404014917860c9d)
+        ;
+
+        
+    
+    
+                marker_5aeea8bf2fd1b8fa437c3dbb7e451ef2.setIcon(icon_e70bd18d81e0cef153d486e5b6c1f0d6);
+            
+    
+            var marker_e380ff10f4939072c371f594a933a296 = L.marker(
+                [59.4062234, 18.575362],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_1cbfb8535a55c20ec6f13b02fbdac547 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18544b5ee20c93b770f0961082fe1055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94d6d479553b5e9f02aafa0734bb1b07 = $(`<div id="html_94d6d479553b5e9f02aafa0734bb1b07" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2285332792' target='_blank'>https://www.openstreetmap.org/node/2285332792</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_18544b5ee20c93b770f0961082fe1055.setContent(html_94d6d479553b5e9f02aafa0734bb1b07);
+            
+        
+
+        marker_e380ff10f4939072c371f594a933a296.bindPopup(popup_18544b5ee20c93b770f0961082fe1055)
+        ;
+
+        
+    
+    
+                marker_e380ff10f4939072c371f594a933a296.setIcon(icon_1cbfb8535a55c20ec6f13b02fbdac547);
+            
+    
+            var marker_919c4881fad83b8317caea334e5cc437 = L.marker(
+                [59.4172161, 18.5575928],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_0fc1169daaccb060e1d33265ef177a74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d4f61adcaf7da90e47cdc309b5408e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85bb1c204d45d8b92aec88188601b9a0 = $(`<div id="html_85bb1c204d45d8b92aec88188601b9a0" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2285332799' target='_blank'>https://www.openstreetmap.org/node/2285332799</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0d4f61adcaf7da90e47cdc309b5408e8.setContent(html_85bb1c204d45d8b92aec88188601b9a0);
+            
+        
+
+        marker_919c4881fad83b8317caea334e5cc437.bindPopup(popup_0d4f61adcaf7da90e47cdc309b5408e8)
+        ;
+
+        
+    
+    
+                marker_919c4881fad83b8317caea334e5cc437.setIcon(icon_0fc1169daaccb060e1d33265ef177a74);
+            
+    
+            var marker_080fdb0f99821b0e8dbaf7cc68dc83a7 = L.marker(
+                [58.9611425, 18.3395867],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_2867114b36767cab2353229968e7cb22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11759027fd110c9d505412924489f1c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c482b857ff2a942600f1e1141698dc92 = $(`<div id="html_c482b857ff2a942600f1e1141698dc92" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2451364941' target='_blank'>https://www.openstreetmap.org/node/2451364941</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_11759027fd110c9d505412924489f1c5.setContent(html_c482b857ff2a942600f1e1141698dc92);
+            
+        
+
+        marker_080fdb0f99821b0e8dbaf7cc68dc83a7.bindPopup(popup_11759027fd110c9d505412924489f1c5)
+        ;
+
+        
+    
+    
+                marker_080fdb0f99821b0e8dbaf7cc68dc83a7.setIcon(icon_2867114b36767cab2353229968e7cb22);
+            
+    
+            var marker_b7f4c324dee880f6c6ac7e168fc83a27 = L.marker(
+                [59.2879099, 18.9170226],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_15824f3e864900c631eb099162a4a2dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e07d7f6b43e46af2de15ae3ce8a2ddbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c34f544309c68bf6c1f869ae099b4769 = $(`<div id="html_c34f544309c68bf6c1f869ae099b4769" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2495934893' target='_blank'>https://www.openstreetmap.org/node/2495934893</a><br><br>⚠️ Saknar: access, toilets:disposal<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e07d7f6b43e46af2de15ae3ce8a2ddbe.setContent(html_c34f544309c68bf6c1f869ae099b4769);
+            
+        
+
+        marker_b7f4c324dee880f6c6ac7e168fc83a27.bindPopup(popup_e07d7f6b43e46af2de15ae3ce8a2ddbe)
+        ;
+
+        
+    
+    
+                marker_b7f4c324dee880f6c6ac7e168fc83a27.setIcon(icon_15824f3e864900c631eb099162a4a2dc);
+            
+    
+            var marker_7331cb0a823533badd58efb0b1e35d22 = L.marker(
+                [59.0306645, 18.5116261],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_34eb542ac4fef3005fb5167d9b14d404 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f345441bba0acd6f654f8b2a244f93c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ba403086a0ed6fbecb8cd8cdf9233b = $(`<div id="html_88ba403086a0ed6fbecb8cd8cdf9233b" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2550378583' target='_blank'>https://www.openstreetmap.org/node/2550378583</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8f345441bba0acd6f654f8b2a244f93c.setContent(html_88ba403086a0ed6fbecb8cd8cdf9233b);
+            
+        
+
+        marker_7331cb0a823533badd58efb0b1e35d22.bindPopup(popup_8f345441bba0acd6f654f8b2a244f93c)
+        ;
+
+        
+    
+    
+                marker_7331cb0a823533badd58efb0b1e35d22.setIcon(icon_34eb542ac4fef3005fb5167d9b14d404);
+            
+    
+            var marker_5931b3eae83e156116b53d95898b6ed4 = L.marker(
+                [59.0319915, 18.5199278],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_9d5a04df0204121092de184f25d22645 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_504e400935a853ec2a031af628c390d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ab83d4ae70cd2425ac161ef592d3688 = $(`<div id="html_7ab83d4ae70cd2425ac161ef592d3688" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2550378600' target='_blank'>https://www.openstreetmap.org/node/2550378600</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_504e400935a853ec2a031af628c390d2.setContent(html_7ab83d4ae70cd2425ac161ef592d3688);
+            
+        
+
+        marker_5931b3eae83e156116b53d95898b6ed4.bindPopup(popup_504e400935a853ec2a031af628c390d2)
+        ;
+
+        
+    
+    
+                marker_5931b3eae83e156116b53d95898b6ed4.setIcon(icon_9d5a04df0204121092de184f25d22645);
+            
+    
+            var marker_abbafda93f52f0ad6be9842ea1255b5b = L.marker(
+                [59.0470481, 18.522849],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_91a14c5b41172df4e561128bd36e357a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e77065292ba62ca20be325766baf4a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3841b318ff8b13b3d842886973d6f000 = $(`<div id="html_3841b318ff8b13b3d842886973d6f000" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2550380413' target='_blank'>https://www.openstreetmap.org/node/2550380413</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:paper_supply saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_9e77065292ba62ca20be325766baf4a0.setContent(html_3841b318ff8b13b3d842886973d6f000);
+            
+        
+
+        marker_abbafda93f52f0ad6be9842ea1255b5b.bindPopup(popup_9e77065292ba62ca20be325766baf4a0)
+        ;
+
+        
+    
+    
+                marker_abbafda93f52f0ad6be9842ea1255b5b.setIcon(icon_91a14c5b41172df4e561128bd36e357a);
+            
+    
+            var marker_911d5e05ac8cded9f15152a3a9471b69 = L.marker(
+                [59.4805799, 18.804356],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_d25840ce7963d0f6de4f41c404665e2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a51ea899771d5712568922a9f297ff8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88560619d784297a16075761564fb387 = $(`<div id="html_88560619d784297a16075761564fb387" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2908785465' target='_blank'>https://www.openstreetmap.org/node/2908785465</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6a51ea899771d5712568922a9f297ff8.setContent(html_88560619d784297a16075761564fb387);
+            
+        
+
+        marker_911d5e05ac8cded9f15152a3a9471b69.bindPopup(popup_6a51ea899771d5712568922a9f297ff8)
+        ;
+
+        
+    
+    
+                marker_911d5e05ac8cded9f15152a3a9471b69.setIcon(icon_d25840ce7963d0f6de4f41c404665e2c);
+            
+    
+            var marker_e31e3ffe811f08595053dd6dfd1ad7fe = L.marker(
+                [59.4837829, 18.8138852],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_a3898d2f56adbfb7b85e84df056cd483 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15850763a4f74523bf8c79119babffb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0af04d695040f0d36cc82ebe96003631 = $(`<div id="html_0af04d695040f0d36cc82ebe96003631" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2908787775' target='_blank'>https://www.openstreetmap.org/node/2908787775</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_15850763a4f74523bf8c79119babffb0.setContent(html_0af04d695040f0d36cc82ebe96003631);
+            
+        
+
+        marker_e31e3ffe811f08595053dd6dfd1ad7fe.bindPopup(popup_15850763a4f74523bf8c79119babffb0)
+        ;
+
+        
+    
+    
+                marker_e31e3ffe811f08595053dd6dfd1ad7fe.setIcon(icon_a3898d2f56adbfb7b85e84df056cd483);
+            
+    
+            var marker_fc16ae2dfc14f1e9b369d9f79c8d10d6 = L.marker(
+                [59.4809824, 18.8125524],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_53137095dce26031c646b003dce54a43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_823786c76be0024d7a19ba10c36d2469 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af03ad04b78ea3b4a630312f1fddbb9e = $(`<div id="html_af03ad04b78ea3b4a630312f1fddbb9e" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2908787815' target='_blank'>https://www.openstreetmap.org/node/2908787815</a><br><br>⚠️ Saknar: access<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_823786c76be0024d7a19ba10c36d2469.setContent(html_af03ad04b78ea3b4a630312f1fddbb9e);
+            
+        
+
+        marker_fc16ae2dfc14f1e9b369d9f79c8d10d6.bindPopup(popup_823786c76be0024d7a19ba10c36d2469)
+        ;
+
+        
+    
+    
+                marker_fc16ae2dfc14f1e9b369d9f79c8d10d6.setIcon(icon_53137095dce26031c646b003dce54a43);
+            
+    
+            var marker_babe4a63a25f06db8540e90f73dd569e = L.marker(
+                [59.4789819, 18.8133827],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_7f6bab2af13775d4d6371def3a95fbbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55983e57fc75000f2de50cccff6b9fca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2609285b3bc1d41cc5976e2542e92562 = $(`<div id="html_2609285b3bc1d41cc5976e2542e92562" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2908787816' target='_blank'>https://www.openstreetmap.org/node/2908787816</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_55983e57fc75000f2de50cccff6b9fca.setContent(html_2609285b3bc1d41cc5976e2542e92562);
+            
+        
+
+        marker_babe4a63a25f06db8540e90f73dd569e.bindPopup(popup_55983e57fc75000f2de50cccff6b9fca)
+        ;
+
+        
+    
+    
+                marker_babe4a63a25f06db8540e90f73dd569e.setIcon(icon_7f6bab2af13775d4d6371def3a95fbbf);
+            
+    
+            var marker_309702f867bd24485834baf4070251ce = L.marker(
+                [59.0363804, 18.519132],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_138fc53a4fee82f3d5920a807fef1ec8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a3d0b4341fccb3f760d667a95d97d2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cf18339e4e86df1a27806550ba40605 = $(`<div id="html_8cf18339e4e86df1a27806550ba40605" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2943477509' target='_blank'>https://www.openstreetmap.org/node/2943477509</a><br><br>⚠️ Saknar: access, unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8a3d0b4341fccb3f760d667a95d97d2e.setContent(html_8cf18339e4e86df1a27806550ba40605);
+            
+        
+
+        marker_309702f867bd24485834baf4070251ce.bindPopup(popup_8a3d0b4341fccb3f760d667a95d97d2e)
+        ;
+
+        
+    
+    
+                marker_309702f867bd24485834baf4070251ce.setIcon(icon_138fc53a4fee82f3d5920a807fef1ec8);
+            
+    
+            var marker_161bf3b8b0532bf02d10eca9d6a19ca6 = L.marker(
+                [59.8598411, 19.1225337],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_98e6a3095aba919440f56139fc185a27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e66d2413b17e36f8700badba6b71ce95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5ed7545f2b91c53618119d145d2dcd5 = $(`<div id="html_b5ed7545f2b91c53618119d145d2dcd5" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/2960940412' target='_blank'>https://www.openstreetmap.org/node/2960940412</a><br><br>⚠️ Saknar: unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e66d2413b17e36f8700badba6b71ce95.setContent(html_b5ed7545f2b91c53618119d145d2dcd5);
+            
+        
+
+        marker_161bf3b8b0532bf02d10eca9d6a19ca6.bindPopup(popup_e66d2413b17e36f8700badba6b71ce95)
+        ;
+
+        
+    
+    
+                marker_161bf3b8b0532bf02d10eca9d6a19ca6.setIcon(icon_98e6a3095aba919440f56139fc185a27);
+            
+    
+            var marker_f5df9af410a774e62a85e4a17c5555f7 = L.marker(
+                [59.4071649, 18.5563732],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_13c6e8e740e336132041d2f5170a1930 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c990b2a60a0e4ec68b4b41ed8c43bbb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bce9b69b8c74ccee1d238c0bec0dc334 = $(`<div id="html_bce9b69b8c74ccee1d238c0bec0dc334" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4239095028' target='_blank'>https://www.openstreetmap.org/node/4239095028</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c990b2a60a0e4ec68b4b41ed8c43bbb8.setContent(html_bce9b69b8c74ccee1d238c0bec0dc334);
+            
+        
+
+        marker_f5df9af410a774e62a85e4a17c5555f7.bindPopup(popup_c990b2a60a0e4ec68b4b41ed8c43bbb8)
+        ;
+
+        
+    
+    
+                marker_f5df9af410a774e62a85e4a17c5555f7.setIcon(icon_13c6e8e740e336132041d2f5170a1930);
+            
+    
+            var marker_f9b13bd1d950bde4585268715e31e588 = L.marker(
+                [59.4092087, 18.5756034],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_7e0474c7b23d7d55e8f1be1302fa6160 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd1feb77bba6c278d734e495ebe0d091 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f8b275c756b14580f5012a68a180539 = $(`<div id="html_2f8b275c756b14580f5012a68a180539" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4239166142' target='_blank'>https://www.openstreetmap.org/node/4239166142</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_dd1feb77bba6c278d734e495ebe0d091.setContent(html_2f8b275c756b14580f5012a68a180539);
+            
+        
+
+        marker_f9b13bd1d950bde4585268715e31e588.bindPopup(popup_dd1feb77bba6c278d734e495ebe0d091)
+        ;
+
+        
+    
+    
+                marker_f9b13bd1d950bde4585268715e31e588.setIcon(icon_7e0474c7b23d7d55e8f1be1302fa6160);
+            
+    
+            var marker_d58692d558ba6fc721aad5389439860a = L.marker(
+                [58.9252493, 18.1684185],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_34b423722e0c156d709f037d3ee41b0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f76522b57789afc66ba51e17e8bda1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6867c50779eb84bd56d4835098c3ee12 = $(`<div id="html_6867c50779eb84bd56d4835098c3ee12" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4314791694' target='_blank'>https://www.openstreetmap.org/node/4314791694</a><br><br>⚠️ Saknar: unisex<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2f76522b57789afc66ba51e17e8bda1e.setContent(html_6867c50779eb84bd56d4835098c3ee12);
+            
+        
+
+        marker_d58692d558ba6fc721aad5389439860a.bindPopup(popup_2f76522b57789afc66ba51e17e8bda1e)
+        ;
+
+        
+    
+    
+                marker_d58692d558ba6fc721aad5389439860a.setIcon(icon_34b423722e0c156d709f037d3ee41b0b);
+            
+    
+            var marker_f29b5ebdc4bda7a32fc1a17f8c4183a3 = L.marker(
+                [59.0366583, 18.5174209],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_ddc0d03a9ce1ff71eb4283762d19cc7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_147dc3bf6809db6d3dfe1605ffa16685 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_651aa08ccb9fd94326cd6a5dcee24df5 = $(`<div id="html_651aa08ccb9fd94326cd6a5dcee24df5" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4962580122' target='_blank'>https://www.openstreetmap.org/node/4962580122</a><br><br>⚠️ Saknar: access, unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_147dc3bf6809db6d3dfe1605ffa16685.setContent(html_651aa08ccb9fd94326cd6a5dcee24df5);
+            
+        
+
+        marker_f29b5ebdc4bda7a32fc1a17f8c4183a3.bindPopup(popup_147dc3bf6809db6d3dfe1605ffa16685)
+        ;
+
+        
+    
+    
+                marker_f29b5ebdc4bda7a32fc1a17f8c4183a3.setIcon(icon_ddc0d03a9ce1ff71eb4283762d19cc7f);
+            
+    
+            var marker_2067f286360d35e03ae55997a546792f = L.marker(
+                [59.4664176, 18.7539542],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_1ef492c0bca38062fc98d645281b7cf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2874636d32a5b8b7ce611a3230ef664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d6232ea9efe565019615cc2ee55e876 = $(`<div id="html_2d6232ea9efe565019615cc2ee55e876" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4964700616' target='_blank'>https://www.openstreetmap.org/node/4964700616</a><br><br>⚠️ Saknar: unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e2874636d32a5b8b7ce611a3230ef664.setContent(html_2d6232ea9efe565019615cc2ee55e876);
+            
+        
+
+        marker_2067f286360d35e03ae55997a546792f.bindPopup(popup_e2874636d32a5b8b7ce611a3230ef664)
+        ;
+
+        
+    
+    
+                marker_2067f286360d35e03ae55997a546792f.setIcon(icon_1ef492c0bca38062fc98d645281b7cf7);
+            
+    
+            var marker_d0bf8e3166f848d4c4d9aea495e921a2 = L.marker(
+                [59.7769076, 19.0907483],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_b2b1f0bcd96bf0a995d9a777e4a82f1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7352cf1474feaad73050e4e520288e73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75e9b353905d135c884f5c1841c8bd90 = $(`<div id="html_75e9b353905d135c884f5c1841c8bd90" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4986599082' target='_blank'>https://www.openstreetmap.org/node/4986599082</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_7352cf1474feaad73050e4e520288e73.setContent(html_75e9b353905d135c884f5c1841c8bd90);
+            
+        
+
+        marker_d0bf8e3166f848d4c4d9aea495e921a2.bindPopup(popup_7352cf1474feaad73050e4e520288e73)
+        ;
+
+        
+    
+    
+                marker_d0bf8e3166f848d4c4d9aea495e921a2.setIcon(icon_b2b1f0bcd96bf0a995d9a777e4a82f1c);
+            
+    
+            var marker_a6b0ce418a1429ee0fec579baec30d82 = L.marker(
+                [59.7732566, 19.0793207],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_dcb18bed970ea30af7ff9ae85de54407 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a4cda97fe0bd1526c00dcf9977e858d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_282652e54012e347768ae1a1162aa6f8 = $(`<div id="html_282652e54012e347768ae1a1162aa6f8" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/4986606253' target='_blank'>https://www.openstreetmap.org/node/4986606253</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_9a4cda97fe0bd1526c00dcf9977e858d.setContent(html_282652e54012e347768ae1a1162aa6f8);
+            
+        
+
+        marker_a6b0ce418a1429ee0fec579baec30d82.bindPopup(popup_9a4cda97fe0bd1526c00dcf9977e858d)
+        ;
+
+        
+    
+    
+                marker_a6b0ce418a1429ee0fec579baec30d82.setIcon(icon_dcb18bed970ea30af7ff9ae85de54407);
+            
+    
+            var marker_2ff64db2c8fbb772df5d8dcc9a1b2d8a = L.marker(
+                [58.9669921, 18.3185622],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_fa86d7372cf5777fe810e02fdc7e8b58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2028f954433c7e4bca7f2d61ff513e9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01957cb43bb1234251cd2884c72c44d8 = $(`<div id="html_01957cb43bb1234251cd2884c72c44d8" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5005791361' target='_blank'>https://www.openstreetmap.org/node/5005791361</a><br><br>⚠️ Saknar: toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2028f954433c7e4bca7f2d61ff513e9b.setContent(html_01957cb43bb1234251cd2884c72c44d8);
+            
+        
+
+        marker_2ff64db2c8fbb772df5d8dcc9a1b2d8a.bindPopup(popup_2028f954433c7e4bca7f2d61ff513e9b)
+        ;
+
+        
+    
+    
+                marker_2ff64db2c8fbb772df5d8dcc9a1b2d8a.setIcon(icon_fa86d7372cf5777fe810e02fdc7e8b58);
+            
+    
+            var marker_4a9c719b933122f59161c8d94fd590e9 = L.marker(
+                [58.9680089, 18.3194495],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_a393fafe997cef812eed14f8d51373bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c88baa608a33c44049564cb4c3578ebf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5c2115f6f58412de573c8466f61565 = $(`<div id="html_5c5c2115f6f58412de573c8466f61565" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5005793728' target='_blank'>https://www.openstreetmap.org/node/5005793728</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c88baa608a33c44049564cb4c3578ebf.setContent(html_5c5c2115f6f58412de573c8466f61565);
+            
+        
+
+        marker_4a9c719b933122f59161c8d94fd590e9.bindPopup(popup_c88baa608a33c44049564cb4c3578ebf)
+        ;
+
+        
+    
+    
+                marker_4a9c719b933122f59161c8d94fd590e9.setIcon(icon_a393fafe997cef812eed14f8d51373bb);
+            
+    
+            var marker_ecc8b687a4e9e3b23f18b721e8b62057 = L.marker(
+                [58.9702909, 18.3247412],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_6063f19be7f13a8e43e0d8355cfa9611 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebc926f74eddf6aba131cfd8e9a40bcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1499c3a83f32ee37684484c2cd9c07c = $(`<div id="html_e1499c3a83f32ee37684484c2cd9c07c" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5006428827' target='_blank'>https://www.openstreetmap.org/node/5006428827</a><br><br>⚠️ Saknar: toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_ebc926f74eddf6aba131cfd8e9a40bcb.setContent(html_e1499c3a83f32ee37684484c2cd9c07c);
+            
+        
+
+        marker_ecc8b687a4e9e3b23f18b721e8b62057.bindPopup(popup_ebc926f74eddf6aba131cfd8e9a40bcb)
+        ;
+
+        
+    
+    
+                marker_ecc8b687a4e9e3b23f18b721e8b62057.setIcon(icon_6063f19be7f13a8e43e0d8355cfa9611);
+            
+    
+            var marker_2c1074aaa58671e7958ab04fc3b9e744 = L.marker(
+                [59.4819501, 18.8096596],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_787f11565693d33e13fd98ba6f0ecfe9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e9ba0b8402f52bcb9e1b32f4a5a21e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2107770eedf7f5ac9027439e1cc37f6c = $(`<div id="html_2107770eedf7f5ac9027439e1cc37f6c" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5009607109' target='_blank'>https://www.openstreetmap.org/node/5009607109</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0e9ba0b8402f52bcb9e1b32f4a5a21e1.setContent(html_2107770eedf7f5ac9027439e1cc37f6c);
+            
+        
+
+        marker_2c1074aaa58671e7958ab04fc3b9e744.bindPopup(popup_0e9ba0b8402f52bcb9e1b32f4a5a21e1)
+        ;
+
+        
+    
+    
+                marker_2c1074aaa58671e7958ab04fc3b9e744.setIcon(icon_787f11565693d33e13fd98ba6f0ecfe9);
+            
+    
+            var marker_e1dbddde2bc99f73aa545b92bf5f4bca = L.marker(
+                [58.9194499, 18.1926267],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_6698d0b0bc6a462260281daadb24dffd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66b4934b246085cacdf5a0ac8d5abab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1791776ca4ca9e2d1d2c765dd975e5f = $(`<div id="html_e1791776ca4ca9e2d1d2c765dd975e5f" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5728810295' target='_blank'>https://www.openstreetmap.org/node/5728810295</a><br><br>⚠️ Saknar: toilets:disposal, wheelchair<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_66b4934b246085cacdf5a0ac8d5abab4.setContent(html_e1791776ca4ca9e2d1d2c765dd975e5f);
+            
+        
+
+        marker_e1dbddde2bc99f73aa545b92bf5f4bca.bindPopup(popup_66b4934b246085cacdf5a0ac8d5abab4)
+        ;
+
+        
+    
+    
+                marker_e1dbddde2bc99f73aa545b92bf5f4bca.setIcon(icon_6698d0b0bc6a462260281daadb24dffd);
+            
+    
+            var marker_f322f2c9f78823d3e6315720a5c6794f = L.marker(
+                [58.9202952, 18.1955009],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_5a12f1ef1fc5688f7db2a3f128d6efb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2b65b381f33fe1a13b22cf3d67ce8e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b3ed529e346d1218889ef75f68eef01 = $(`<div id="html_4b3ed529e346d1218889ef75f68eef01" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5728811148' target='_blank'>https://www.openstreetmap.org/node/5728811148</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d2b65b381f33fe1a13b22cf3d67ce8e8.setContent(html_4b3ed529e346d1218889ef75f68eef01);
+            
+        
+
+        marker_f322f2c9f78823d3e6315720a5c6794f.bindPopup(popup_d2b65b381f33fe1a13b22cf3d67ce8e8)
+        ;
+
+        
+    
+    
+                marker_f322f2c9f78823d3e6315720a5c6794f.setIcon(icon_5a12f1ef1fc5688f7db2a3f128d6efb4);
+            
+    
+            var marker_1c6ad97d1c9559cce2a065574d04be79 = L.marker(
+                [59.2891169, 18.9056252],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_e6dc9ec9e3e9c017d6d9d2489525cd1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fef04731ca125b052b27be86c826b758 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a49efcfaeec41f4d1d126796b3fc3d6 = $(`<div id="html_6a49efcfaeec41f4d1d126796b3fc3d6" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5734098673' target='_blank'>https://www.openstreetmap.org/node/5734098673</a><br><br>⚠️ Saknar: unisex, wheelchair<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_fef04731ca125b052b27be86c826b758.setContent(html_6a49efcfaeec41f4d1d126796b3fc3d6);
+            
+        
+
+        marker_1c6ad97d1c9559cce2a065574d04be79.bindPopup(popup_fef04731ca125b052b27be86c826b758)
+        ;
+
+        
+    
+    
+                marker_1c6ad97d1c9559cce2a065574d04be79.setIcon(icon_e6dc9ec9e3e9c017d6d9d2489525cd1e);
+            
+    
+            var marker_e215831e3e5416ae30a46e033553c208 = L.marker(
+                [59.8532707, 19.1131371],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_68bed99efc3ec648fe3834330d9cbbf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f9f22c0e7329e3ab1dfeaecef894357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03a1e2f4b83f0f8220c0aef166185007 = $(`<div id="html_03a1e2f4b83f0f8220c0aef166185007" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5744466280' target='_blank'>https://www.openstreetmap.org/node/5744466280</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0f9f22c0e7329e3ab1dfeaecef894357.setContent(html_03a1e2f4b83f0f8220c0aef166185007);
+            
+        
+
+        marker_e215831e3e5416ae30a46e033553c208.bindPopup(popup_0f9f22c0e7329e3ab1dfeaecef894357)
+        ;
+
+        
+    
+    
+                marker_e215831e3e5416ae30a46e033553c208.setIcon(icon_68bed99efc3ec648fe3834330d9cbbf7);
+            
+    
+            var marker_4f395803536e92a50475d55b3ec448ef = L.marker(
+                [59.8608766, 19.1235092],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_b6c1c12329f06a68fe87bf48985f4333 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d72ce15d4d5bb4bc84aae426fadc7f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeace097ef59a596300cb6bde861ce06 = $(`<div id="html_aeace097ef59a596300cb6bde861ce06" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5745003238' target='_blank'>https://www.openstreetmap.org/node/5745003238</a><br><br>⚠️ Saknar: access, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4d72ce15d4d5bb4bc84aae426fadc7f4.setContent(html_aeace097ef59a596300cb6bde861ce06);
+            
+        
+
+        marker_4f395803536e92a50475d55b3ec448ef.bindPopup(popup_4d72ce15d4d5bb4bc84aae426fadc7f4)
+        ;
+
+        
+    
+    
+                marker_4f395803536e92a50475d55b3ec448ef.setIcon(icon_b6c1c12329f06a68fe87bf48985f4333);
+            
+    
+            var marker_9538479bcf5ebf59f92c688c0fef27cd = L.marker(
+                [59.8543557, 19.1118376],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_9990fb9c9140fb2b2381883b8a1b2b44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16378a214b9d9db77a2516a561b5f7f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a10d5a511283f0c96a5de9d1ea9465ac = $(`<div id="html_a10d5a511283f0c96a5de9d1ea9465ac" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5745003241' target='_blank'>https://www.openstreetmap.org/node/5745003241</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_16378a214b9d9db77a2516a561b5f7f7.setContent(html_a10d5a511283f0c96a5de9d1ea9465ac);
+            
+        
+
+        marker_9538479bcf5ebf59f92c688c0fef27cd.bindPopup(popup_16378a214b9d9db77a2516a561b5f7f7)
+        ;
+
+        
+    
+    
+                marker_9538479bcf5ebf59f92c688c0fef27cd.setIcon(icon_9990fb9c9140fb2b2381883b8a1b2b44);
+            
+    
+            var marker_bf2310d8f83e48b4cac14c568db1887f = L.marker(
+                [58.9280737, 18.1906172],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_a9a4b7ff554bc427305fad752a4c0e99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d661a050a9d21a99a5cfa609c8962bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dca3c17acd47cf5629442db81e0a133 = $(`<div id="html_0dca3c17acd47cf5629442db81e0a133" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5798509131' target='_blank'>https://www.openstreetmap.org/node/5798509131</a><br><br>⚠️ Saknar: unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0d661a050a9d21a99a5cfa609c8962bf.setContent(html_0dca3c17acd47cf5629442db81e0a133);
+            
+        
+
+        marker_bf2310d8f83e48b4cac14c568db1887f.bindPopup(popup_0d661a050a9d21a99a5cfa609c8962bf)
+        ;
+
+        
+    
+    
+                marker_bf2310d8f83e48b4cac14c568db1887f.setIcon(icon_a9a4b7ff554bc427305fad752a4c0e99);
+            
+    
+            var marker_76640f71034f0ff193b5194d3521a0a5 = L.marker(
+                [59.4062988, 18.8832483],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_7589f8c5136b68ccdef6b146bd4246c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6dbc4e5798fef8920f52c190f67b2682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cd8dd300cd061711b304812c3d67d3d = $(`<div id="html_9cd8dd300cd061711b304812c3d67d3d" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/5860556339' target='_blank'>https://www.openstreetmap.org/node/5860556339</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6dbc4e5798fef8920f52c190f67b2682.setContent(html_9cd8dd300cd061711b304812c3d67d3d);
+            
+        
+
+        marker_76640f71034f0ff193b5194d3521a0a5.bindPopup(popup_6dbc4e5798fef8920f52c190f67b2682)
+        ;
+
+        
+    
+    
+                marker_76640f71034f0ff193b5194d3521a0a5.setIcon(icon_7589f8c5136b68ccdef6b146bd4246c3);
+            
+    
+            var marker_573499e05ffe1806136007fc1c2663ff = L.marker(
+                [58.959322, 18.3328074],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_4404e3f02107a567586fe7970d621bda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6ee13083ecafd2e75516d5455bd0c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_defc9bfc1cef9c223605bc0ae9e1b2a0 = $(`<div id="html_defc9bfc1cef9c223605bc0ae9e1b2a0" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/6724706158' target='_blank'>https://www.openstreetmap.org/node/6724706158</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d6ee13083ecafd2e75516d5455bd0c74.setContent(html_defc9bfc1cef9c223605bc0ae9e1b2a0);
+            
+        
+
+        marker_573499e05ffe1806136007fc1c2663ff.bindPopup(popup_d6ee13083ecafd2e75516d5455bd0c74)
+        ;
+
+        
+    
+    
+                marker_573499e05ffe1806136007fc1c2663ff.setIcon(icon_4404e3f02107a567586fe7970d621bda);
+            
+    
+            var marker_505085a907a84dae376a15c3fec90dcb = L.marker(
+                [59.0722851, 18.3865883],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_4b485bc360ee10c735f5a853189c42ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a6b87b6d03590665a8b2c3179c7b247 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bf875448baebdf9474ebcbecc571441 = $(`<div id="html_5bf875448baebdf9474ebcbecc571441" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/7997530880' target='_blank'>https://www.openstreetmap.org/node/7997530880</a><br><br>⚠️ Saknar: access, toilets:disposal<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8a6b87b6d03590665a8b2c3179c7b247.setContent(html_5bf875448baebdf9474ebcbecc571441);
+            
+        
+
+        marker_505085a907a84dae376a15c3fec90dcb.bindPopup(popup_8a6b87b6d03590665a8b2c3179c7b247)
+        ;
+
+        
+    
+    
+                marker_505085a907a84dae376a15c3fec90dcb.setIcon(icon_4b485bc360ee10c735f5a853189c42ad);
+            
+    
+            var marker_8fd8f6b71b515c6e3f38bd25b0839c25 = L.marker(
+                [59.4048042, 18.573793],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_82321de93dacf4e4bea22088b219e646 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d43f8082450f19f75ad9fcbe8377698 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce8a295604b35da56d04b6dbaef55b6d = $(`<div id="html_ce8a295604b35da56d04b6dbaef55b6d" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/8870415588' target='_blank'>https://www.openstreetmap.org/node/8870415588</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6d43f8082450f19f75ad9fcbe8377698.setContent(html_ce8a295604b35da56d04b6dbaef55b6d);
+            
+        
+
+        marker_8fd8f6b71b515c6e3f38bd25b0839c25.bindPopup(popup_6d43f8082450f19f75ad9fcbe8377698)
+        ;
+
+        
+    
+    
+                marker_8fd8f6b71b515c6e3f38bd25b0839c25.setIcon(icon_82321de93dacf4e4bea22088b219e646);
+            
+    
+            var marker_dfc943f589bd9a43d878c71950613f68 = L.marker(
+                [59.4759339, 18.7498729],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_2bc99aae7878ffb5c6592308c4bc8d4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dffbbd5cf584bc30779158af4c1b71d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_826bd716a0ee75c616bff0371b9792a1 = $(`<div id="html_826bd716a0ee75c616bff0371b9792a1" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/10049770242' target='_blank'>https://www.openstreetmap.org/node/10049770242</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_dffbbd5cf584bc30779158af4c1b71d7.setContent(html_826bd716a0ee75c616bff0371b9792a1);
+            
+        
+
+        marker_dfc943f589bd9a43d878c71950613f68.bindPopup(popup_dffbbd5cf584bc30779158af4c1b71d7)
+        ;
+
+        
+    
+    
+                marker_dfc943f589bd9a43d878c71950613f68.setIcon(icon_2bc99aae7878ffb5c6592308c4bc8d4e);
+            
+    
+            var marker_93f22d09517f4aceab125ba305114397 = L.marker(
+                [59.037049, 18.5153119],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_6a3538f30309b75c7fdf8d51b6ead22f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bef11e43864ceb3eba1d092fc3b1c77e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5981689474908241029ed968f3f1851 = $(`<div id="html_e5981689474908241029ed968f3f1851" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/11084999217' target='_blank'>https://www.openstreetmap.org/node/11084999217</a><br><br>⚠️ Saknar: access, unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_bef11e43864ceb3eba1d092fc3b1c77e.setContent(html_e5981689474908241029ed968f3f1851);
+            
+        
+
+        marker_93f22d09517f4aceab125ba305114397.bindPopup(popup_bef11e43864ceb3eba1d092fc3b1c77e)
+        ;
+
+        
+    
+    
+                marker_93f22d09517f4aceab125ba305114397.setIcon(icon_6a3538f30309b75c7fdf8d51b6ead22f);
+            
+    
+            var marker_9f0ed29cb9c0c57b6ca25bd27bbef710 = L.marker(
+                [58.9372489, 18.1826489],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_ed15800d36b0259d87aae42362feea6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b71f52dd36fc50e8070026eecd9a3b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1178d1f2b1f14b6953bf9b0330b7e159 = $(`<div id="html_1178d1f2b1f14b6953bf9b0330b7e159" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/11092271868' target='_blank'>https://www.openstreetmap.org/node/11092271868</a><br><br>⚠️ Saknar: access, unisex, toilets:disposal, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_1b71f52dd36fc50e8070026eecd9a3b1.setContent(html_1178d1f2b1f14b6953bf9b0330b7e159);
+            
+        
+
+        marker_9f0ed29cb9c0c57b6ca25bd27bbef710.bindPopup(popup_1b71f52dd36fc50e8070026eecd9a3b1)
+        ;
+
+        
+    
+    
+                marker_9f0ed29cb9c0c57b6ca25bd27bbef710.setIcon(icon_ed15800d36b0259d87aae42362feea6e);
+            
+    
+            var marker_7bf3f6e929aab41ab5db5b44f51d4e6d = L.marker(
+                [58.9270465, 18.1899815],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_562a8d2cb7eac4c3cfdaa84668ddbcd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b354398d85de213fee39b0cd51e3f65d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cea7366ce64365216e43f088234a56e = $(`<div id="html_8cea7366ce64365216e43f088234a56e" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12723432176' target='_blank'>https://www.openstreetmap.org/node/12723432176</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:paper_supply saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_b354398d85de213fee39b0cd51e3f65d.setContent(html_8cea7366ce64365216e43f088234a56e);
+            
+        
+
+        marker_7bf3f6e929aab41ab5db5b44f51d4e6d.bindPopup(popup_b354398d85de213fee39b0cd51e3f65d)
+        ;
+
+        
+    
+    
+                marker_7bf3f6e929aab41ab5db5b44f51d4e6d.setIcon(icon_562a8d2cb7eac4c3cfdaa84668ddbcd4);
+            
+    
+            var marker_03bbf5b97c14753338d027a90586354a = L.marker(
+                [58.871684, 18.1313502],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_d98ec6729137e7aa3e8ee64eb1f01be3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_691581a2fe6c845f7086f60b650482b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02eda022882c5428a7dfa77fa7a2cbe5 = $(`<div id="html_02eda022882c5428a7dfa77fa7a2cbe5" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12748135109' target='_blank'>https://www.openstreetmap.org/node/12748135109</a><br><br>⚠️ Saknar: access, unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_691581a2fe6c845f7086f60b650482b3.setContent(html_02eda022882c5428a7dfa77fa7a2cbe5);
+            
+        
+
+        marker_03bbf5b97c14753338d027a90586354a.bindPopup(popup_691581a2fe6c845f7086f60b650482b3)
+        ;
+
+        
+    
+    
+                marker_03bbf5b97c14753338d027a90586354a.setIcon(icon_d98ec6729137e7aa3e8ee64eb1f01be3);
+            
+    
+            var marker_cb1e04f8582e9b095b11032008add6e5 = L.marker(
+                [59.6100827, 18.8263119],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_00ff904335fdd16e4815fd65fcd12fdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4b30e2c5d4414561ae61b5bfd5c60b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f43423be097ebe11aac52e8f6fdca8d = $(`<div id="html_8f43423be097ebe11aac52e8f6fdca8d" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12815485678' target='_blank'>https://www.openstreetmap.org/node/12815485678</a><br><br>⚠️ Saknar: access<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_b4b30e2c5d4414561ae61b5bfd5c60b9.setContent(html_8f43423be097ebe11aac52e8f6fdca8d);
+            
+        
+
+        marker_cb1e04f8582e9b095b11032008add6e5.bindPopup(popup_b4b30e2c5d4414561ae61b5bfd5c60b9)
+        ;
+
+        
+    
+    
+                marker_cb1e04f8582e9b095b11032008add6e5.setIcon(icon_00ff904335fdd16e4815fd65fcd12fdb);
+            
+    
+            var marker_ddadf846095d54913620f9f92ba65582 = L.marker(
+                [59.4755541, 18.8218639],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_4470ca67f2d7cba5d4cc618919950224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a9886907e7a4bd7d9e504e53eddda59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7007c2d8884a5140dd07b686983fb8c = $(`<div id="html_a7007c2d8884a5140dd07b686983fb8c" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12836949181' target='_blank'>https://www.openstreetmap.org/node/12836949181</a><br><br>⚠️ Saknar: access, unisex<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4a9886907e7a4bd7d9e504e53eddda59.setContent(html_a7007c2d8884a5140dd07b686983fb8c);
+            
+        
+
+        marker_ddadf846095d54913620f9f92ba65582.bindPopup(popup_4a9886907e7a4bd7d9e504e53eddda59)
+        ;
+
+        
+    
+    
+                marker_ddadf846095d54913620f9f92ba65582.setIcon(icon_4470ca67f2d7cba5d4cc618919950224);
+            
+    
+            var marker_eaff2144ef381bb0c614b1f4d1d2c79f = L.marker(
+                [58.8775512, 18.1324348],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_f038267a71b586e103d93f16e0f1cac2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d8c312fcdcf69344f4aa54bb277d457 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_157d99825bc8fdb5003cda1b193bef61 = $(`<div id="html_157d99825bc8fdb5003cda1b193bef61" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/12849416944' target='_blank'>https://www.openstreetmap.org/node/12849416944</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:paper_supply saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4d8c312fcdcf69344f4aa54bb277d457.setContent(html_157d99825bc8fdb5003cda1b193bef61);
+            
+        
+
+        marker_eaff2144ef381bb0c614b1f4d1d2c79f.bindPopup(popup_4d8c312fcdcf69344f4aa54bb277d457)
+        ;
+
+        
+    
+    
+                marker_eaff2144ef381bb0c614b1f4d1d2c79f.setIcon(icon_f038267a71b586e103d93f16e0f1cac2);
+            
+    
+            var marker_de6c146c539d05465eecfa828f49f31b = L.marker(
+                [58.8804301, 18.1160734],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_002c296f37eefbbbfea3e139d3c4c676 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7690e8934c3967b184d090d6cc522248 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f289072a53bac6bc991a28279f9bdf6 = $(`<div id="html_7f289072a53bac6bc991a28279f9bdf6" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13041364818' target='_blank'>https://www.openstreetmap.org/node/13041364818</a><br><br>⚠️ Saknar: unisex, wheelchair<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_7690e8934c3967b184d090d6cc522248.setContent(html_7f289072a53bac6bc991a28279f9bdf6);
+            
+        
+
+        marker_de6c146c539d05465eecfa828f49f31b.bindPopup(popup_7690e8934c3967b184d090d6cc522248)
+        ;
+
+        
+    
+    
+                marker_de6c146c539d05465eecfa828f49f31b.setIcon(icon_002c296f37eefbbbfea3e139d3c4c676);
+            
+    
+            var marker_c584db5674f8bae02b67bbe8bfa0d996 = L.marker(
+                [58.9785128, 18.3634318],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_f3d7736ff4c3ee0289ee904a73a9f6c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b4e767207fd68f7fa81e4f6e55ed709 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e5004afaf553b37bf30a9a2ff70a4fc = $(`<div id="html_9e5004afaf553b37bf30a9a2ff70a4fc" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13050416339' target='_blank'>https://www.openstreetmap.org/node/13050416339</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2b4e767207fd68f7fa81e4f6e55ed709.setContent(html_9e5004afaf553b37bf30a9a2ff70a4fc);
+            
+        
+
+        marker_c584db5674f8bae02b67bbe8bfa0d996.bindPopup(popup_2b4e767207fd68f7fa81e4f6e55ed709)
+        ;
+
+        
+    
+    
+                marker_c584db5674f8bae02b67bbe8bfa0d996.setIcon(icon_f3d7736ff4c3ee0289ee904a73a9f6c0);
+            
+    
+            var marker_d4d35b9c6d896257f4af56f1fc96ef90 = L.marker(
+                [59.4824786, 18.8249709],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_5518bb2ae2543e314c4b735010d5e98d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7e5812c6624856730525a57d02b8fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64ae2fe48261e4453ef7fbba997f7019 = $(`<div id="html_64ae2fe48261e4453ef7fbba997f7019" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13061745475' target='_blank'>https://www.openstreetmap.org/node/13061745475</a><br><br>⚠️ Saknar: wheelchair<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c7e5812c6624856730525a57d02b8fb8.setContent(html_64ae2fe48261e4453ef7fbba997f7019);
+            
+        
+
+        marker_d4d35b9c6d896257f4af56f1fc96ef90.bindPopup(popup_c7e5812c6624856730525a57d02b8fb8)
+        ;
+
+        
+    
+    
+                marker_d4d35b9c6d896257f4af56f1fc96ef90.setIcon(icon_5518bb2ae2543e314c4b735010d5e98d);
+            
+    
+            var marker_3f681a81bf4f2d1e750196c2c453f955 = L.marker(
+                [59.4813277, 18.8234623],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_8fa8da8918d2ee98bc8beb249e7878c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08905641263125bb915fa46d02b1b8c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf2e0a6efe0cddf2b7e1609b703cc71c = $(`<div id="html_cf2e0a6efe0cddf2b7e1609b703cc71c" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13061781619' target='_blank'>https://www.openstreetmap.org/node/13061781619</a><br><br>⚠️ Saknar: unisex<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_08905641263125bb915fa46d02b1b8c0.setContent(html_cf2e0a6efe0cddf2b7e1609b703cc71c);
+            
+        
+
+        marker_3f681a81bf4f2d1e750196c2c453f955.bindPopup(popup_08905641263125bb915fa46d02b1b8c0)
+        ;
+
+        
+    
+    
+                marker_3f681a81bf4f2d1e750196c2c453f955.setIcon(icon_8fa8da8918d2ee98bc8beb249e7878c9);
+            
+    
+            var marker_6e29a8012363fffc2dbbb8e78784abf0 = L.marker(
+                [59.4672672, 18.757257],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_1858e7847711ac0e7659e063021540c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0158408aaa067014d1756ed53157a47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_babfa8d45c681a54235120eb547136da = $(`<div id="html_babfa8d45c681a54235120eb547136da" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13063317163' target='_blank'>https://www.openstreetmap.org/node/13063317163</a><br><br>⚠️ Saknar: unisex<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_b0158408aaa067014d1756ed53157a47.setContent(html_babfa8d45c681a54235120eb547136da);
+            
+        
+
+        marker_6e29a8012363fffc2dbbb8e78784abf0.bindPopup(popup_b0158408aaa067014d1756ed53157a47)
+        ;
+
+        
+    
+    
+                marker_6e29a8012363fffc2dbbb8e78784abf0.setIcon(icon_1858e7847711ac0e7659e063021540c0);
+            
+    
+            var marker_c962bb4fd4318f457bd6699cd6dfdb3f = L.marker(
+                [59.8445831, 19.1103746],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_ceceb9c61f428363215d6aa11ed721d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a173161e5a8ed2693c5bd40666948f86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5ec5f1b4072dc182074953edb45d9f4 = $(`<div id="html_e5ec5f1b4072dc182074953edb45d9f4" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13067993747' target='_blank'>https://www.openstreetmap.org/node/13067993747</a><br><br>⚠️ Saknar: access<br>➕ toilets:paper_supply saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_a173161e5a8ed2693c5bd40666948f86.setContent(html_e5ec5f1b4072dc182074953edb45d9f4);
+            
+        
+
+        marker_c962bb4fd4318f457bd6699cd6dfdb3f.bindPopup(popup_a173161e5a8ed2693c5bd40666948f86)
+        ;
+
+        
+    
+    
+                marker_c962bb4fd4318f457bd6699cd6dfdb3f.setIcon(icon_ceceb9c61f428363215d6aa11ed721d7);
+            
+    
+            var marker_ce239ebf6b728a58d1f9dd1fbb9757f2 = L.marker(
+                [59.8501324, 19.1092645],
+                {
+}
+            ).addTo(feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3);
+        
+    
+            var icon_da8177cbb9734a22b8fa6a439dc77dc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df8bf060f0d5805bb651f34d183c62ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8ebad34dcb0c4f1b8cb3d125da7cb20 = $(`<div id="html_d8ebad34dcb0c4f1b8cb3d125da7cb20" style="width: 100.0%; height: 100.0%;"><b>OSM objekt</b><br><a href='https://www.openstreetmap.org/node/13072501854' target='_blank'>https://www.openstreetmap.org/node/13072501854</a><br><br>⚠️ Saknar: unisex, wheelchair<br>➕ toilets:handwashing saknas<br>➕ toilets:paper_supply saknas<br>➕ opening_hours saknas<br>➕ fee saknas<br>➕ operator saknas<br>➕ description saknas<br><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_df8bf060f0d5805bb651f34d183c62ea.setContent(html_d8ebad34dcb0c4f1b8cb3d125da7cb20);
+            
+        
+
+        marker_ce239ebf6b728a58d1f9dd1fbb9757f2.bindPopup(popup_df8bf060f0d5805bb651f34d183c62ea)
+        ;
+
+        
+    
+    
+                marker_ce239ebf6b728a58d1f9dd1fbb9757f2.setIcon(icon_da8177cbb9734a22b8fa6a439dc77dc8);
+            
+    
+            feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3.addTo(map_879927a163fb17d6ffd830fe27e93de0);
+        
+    
+            var layer_control_29195fe2ad2cd74c10abbbeba0802f5a_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_2db2045b13ea595e23cb11c4de45c7db,
+                },
+                overlays :  {
+                    "SAT Arholma" : geo_json_928a02799f4ce3a9b3df0f435db7459c,
+                    "SAT Lid\u00f6" : geo_json_dec95e6b033be89d93d395deb7152d46,
+                    "SAT Landsort" : geo_json_4512aae52bd4d5307eed30962f478198,
+                    "SAT Grinda" : geo_json_feb6460f6e5d0b628917a0136672b98f,
+                    "SAT N\u00e4md\u00f6" : geo_json_483a7005acba16abea2254a68dea9b71,
+                    "SAT N\u00e5ttar\u00f6" : geo_json_2060b1610d5ea498e9fa399cd843fa1b,
+                    "SAT R\u00e5n\u00f6" : geo_json_54aa1c5adfc3756300e7304a8849f52b,
+                    "SAT Ut\u00f6" : geo_json_35aa6d382a4b1ccf8d1d6441a9b1d436,
+                    "SAT \u00c5l\u00f6" : geo_json_098265e24aa0fcaca29e5b067b339e1a,
+                    "SAT Svarts\u00f6" : geo_json_c77d7fd237e919377e873383851bffa4,
+                    "SAT Orn\u00f6" : geo_json_d5a7eed1c5b7650d2462b5e96372e752,
+                    "SAT Fj\u00e4rdl\u00e5ng" : geo_json_35ad5cb80d1f28c52fbacab02e43544d,
+                    "SAT Brott\u00f6" : geo_json_83fd9726ef2c615cf823eb3d84ffcca5,
+                    "SAT Runmar\u00f6" : geo_json_305bb6119f8ae85692dc2015521f19f4,
+                    "SAT Ingmars\u00f6" : geo_json_2cfb6dda5b21ead38ac4ebe6c3e8b5f4,
+                    "SAT Yxlan" : geo_json_55cca3ac5019e0d2d2aaca7d4bf77c52,
+                    "SAT Finnhamn" : geo_json_afeae3d35ab5872621793a04bf40e48b,
+                    "SAT Furusund" : geo_json_87a61b98e5aa7b0bc15be5b04b676771,
+                    "SAT Sandhamn" : geo_json_1b4122860a2f6189402368a416fce943,
+                    "SAT M\u00f6ja" : geo_json_5337cf0cd2554e28b40db2c117759dfc,
+                    "200m Buffert" : geo_json_520a7afb09eb3dbe02bb131a17c35c4e,
+                    "Godk\u00e4nda toaletter" : feature_group_b28a24816ff75b1cb30e22eb55327489,
+                    "Varningar" : feature_group_b27cf18ff3ace8e52a7cb318c8f8fef3,
+                },
+            };
+            let layer_control_29195fe2ad2cd74c10abbbeba0802f5a = L.control.layers(
+                layer_control_29195fe2ad2cd74c10abbbeba0802f5a_layers.base_layers,
+                layer_control_29195fe2ad2cd74c10abbbeba0802f5a_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_879927a163fb17d6ffd830fe27e93de0);
+
+        
+</script>
+</html>

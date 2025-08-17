@@ -1,0 +1,3028 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_420a2200a571d9d31995767ddabf858f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_420a2200a571d9d31995767ddabf858f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_420a2200a571d9d31995767ddabf858f = L.map(
+                "map_420a2200a571d9d31995767ddabf858f",
+                {
+                    center: [59.274955107647244, 18.608223273837833],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d72d392367144fd707fc5f624fe2ede9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d72d392367144fd707fc5f624fe2ede9.addTo(map_420a2200a571d9d31995767ddabf858f);
+        
+    
+            var feature_group_6a10964b828f68919b74cd31e1c72819 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_e9e52b0fbcdf73e783fe4a296817f309 = L.marker(
+                [59.84269910000001, 19.1192646],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_02fad6b4cc3545a8b465336a7f8f0719 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82cde71e2276df5f71fe8c5b7bf69325 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64bf76c3b0bc55d800e1b608bc12ac1e = $(`<div id="html_64bf76c3b0bc55d800e1b608bc12ac1e" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/1848869434' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_82cde71e2276df5f71fe8c5b7bf69325.setContent(html_64bf76c3b0bc55d800e1b608bc12ac1e);
+            
+        
+
+        marker_e9e52b0fbcdf73e783fe4a296817f309.bindPopup(popup_82cde71e2276df5f71fe8c5b7bf69325)
+        ;
+
+        
+    
+    
+                marker_e9e52b0fbcdf73e783fe4a296817f309.setIcon(icon_02fad6b4cc3545a8b465336a7f8f0719);
+            
+    
+            var marker_eb1ee5bd1998901e077c766b1166a46c = L.marker(
+                [59.04984830000001, 18.5199205],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_5d60f0bc797c00f643ed2cda87d28a57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87c5add7035391c26ea3e44c23ba0e1f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e9fd6bdf282bc70ea9845c913bb409b = $(`<div id="html_3e9fd6bdf282bc70ea9845c913bb409b" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2225378750' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/SAT_Fj%C3%A4rdl%C3%A5ng_2025_april_toalett_%282%29.jpg/1024px-SAT_Fj%C3%A4rdl%C3%A5ng_2025_april_toalett_%282%29.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_87c5add7035391c26ea3e44c23ba0e1f.setContent(html_3e9fd6bdf282bc70ea9845c913bb409b);
+            
+        
+
+        marker_eb1ee5bd1998901e077c766b1166a46c.bindPopup(popup_87c5add7035391c26ea3e44c23ba0e1f)
+        ;
+
+        
+    
+    
+                marker_eb1ee5bd1998901e077c766b1166a46c.setIcon(icon_5d60f0bc797c00f643ed2cda87d28a57);
+            
+    
+            var marker_92365e7d81543132174a2ff4aaac60be = L.marker(
+                [58.97020909999999, 18.324467800000004],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_125a280d88cc305ed72aebb50f809ac8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40f2ed54aac306f69feac51a4474c812 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7582979f784808fd69933f094ae79d3e = $(`<div id="html_7582979f784808fd69933f094ae79d3e" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5005120552' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_40f2ed54aac306f69feac51a4474c812.setContent(html_7582979f784808fd69933f094ae79d3e);
+            
+        
+
+        marker_92365e7d81543132174a2ff4aaac60be.bindPopup(popup_40f2ed54aac306f69feac51a4474c812)
+        ;
+
+        
+    
+    
+                marker_92365e7d81543132174a2ff4aaac60be.setIcon(icon_125a280d88cc305ed72aebb50f809ac8);
+            
+    
+            var marker_feb22273671121280d1f2b9a46defd35 = L.marker(
+                [59.478485699999986, 18.793981899999995],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_1da00c4292dedcaa5bb11a6d2e5ad923 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfc84f1cd60d73d9b469679eaecc4260 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f38f169c853e0488b849035f302b768d = $(`<div id="html_f38f169c853e0488b849035f302b768d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5856137513' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_bfc84f1cd60d73d9b469679eaecc4260.setContent(html_f38f169c853e0488b849035f302b768d);
+            
+        
+
+        marker_feb22273671121280d1f2b9a46defd35.bindPopup(popup_bfc84f1cd60d73d9b469679eaecc4260)
+        ;
+
+        
+    
+    
+                marker_feb22273671121280d1f2b9a46defd35.setIcon(icon_1da00c4292dedcaa5bb11a6d2e5ad923);
+            
+    
+            var marker_ae1f2363f6d9ca5bf83e1a348d0c2605 = L.marker(
+                [59.19724539999999, 18.7367793],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_6a6de4068cd5069b1098c5ec3b57cebe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d23a0121cb0bd8dae6b3e24f6c9911e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0299f951e4bae27bf965b1b56b300ac9 = $(`<div id="html_0299f951e4bae27bf965b1b56b300ac9" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/9011995676' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4d23a0121cb0bd8dae6b3e24f6c9911e.setContent(html_0299f951e4bae27bf965b1b56b300ac9);
+            
+        
+
+        marker_ae1f2363f6d9ca5bf83e1a348d0c2605.bindPopup(popup_4d23a0121cb0bd8dae6b3e24f6c9911e)
+        ;
+
+        
+    
+    
+                marker_ae1f2363f6d9ca5bf83e1a348d0c2605.setIcon(icon_6a6de4068cd5069b1098c5ec3b57cebe);
+            
+    
+            var marker_22be00d931c57fcbb915dea177d08b0f = L.marker(
+                [58.744799100000016, 17.8646791],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_fdb6bb6a81f674cb4d843cbbe136f877 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afee8307bddeadd663bcd35fa537a9e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4824f4b133b825937d3dde030ba682b5 = $(`<div id="html_4824f4b133b825937d3dde030ba682b5" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/9907275660' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_afee8307bddeadd663bcd35fa537a9e0.setContent(html_4824f4b133b825937d3dde030ba682b5);
+            
+        
+
+        marker_22be00d931c57fcbb915dea177d08b0f.bindPopup(popup_afee8307bddeadd663bcd35fa537a9e0)
+        ;
+
+        
+    
+    
+                marker_22be00d931c57fcbb915dea177d08b0f.setIcon(icon_fdb6bb6a81f674cb4d843cbbe136f877);
+            
+    
+            var marker_4cdc09a650cb2ba382cef065f7f6d045 = L.marker(
+                [59.048948199999984, 18.5226354],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_47a7c8f9690372475330e73e11cfcac6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caa7e8567c522a592834eb6b53e864ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_deffe71e974d6339aa9a0cea9c28bc6c = $(`<div id="html_deffe71e974d6339aa9a0cea9c28bc6c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/11080859473' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> limited<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_caa7e8567c522a592834eb6b53e864ff.setContent(html_deffe71e974d6339aa9a0cea9c28bc6c);
+            
+        
+
+        marker_4cdc09a650cb2ba382cef065f7f6d045.bindPopup(popup_caa7e8567c522a592834eb6b53e864ff)
+        ;
+
+        
+    
+    
+                marker_4cdc09a650cb2ba382cef065f7f6d045.setIcon(icon_47a7c8f9690372475330e73e11cfcac6);
+            
+    
+            var marker_5aeab884f2e399923be2f53d1bf07d94 = L.marker(
+                [59.4795502, 18.8051661],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_c5702c6b3d47f93de5be046afa3b6f00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8d5f6d48b7fa7e8e40bcf48767d61fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f9f129d8f1f73b66c923d8d2f5de7272 = $(`<div id="html_f9f129d8f1f73b66c923d8d2f5de7272" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12085564579' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/SAT_Finnhamn_2025_april_pojkarnas_udde.jpg/1024px-SAT_Finnhamn_2025_april_pojkarnas_udde.jpg' width='200'><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c8d5f6d48b7fa7e8e40bcf48767d61fa.setContent(html_f9f129d8f1f73b66c923d8d2f5de7272);
+            
+        
+
+        marker_5aeab884f2e399923be2f53d1bf07d94.bindPopup(popup_c8d5f6d48b7fa7e8e40bcf48767d61fa)
+        ;
+
+        
+    
+    
+                marker_5aeab884f2e399923be2f53d1bf07d94.setIcon(icon_c5702c6b3d47f93de5be046afa3b6f00);
+            
+    
+            var marker_dc5afe553ad33c3b976f82840f6884e4 = L.marker(
+                [58.8803181, 18.111406799999997],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_f77e782e97552acec90e48ffe5ec582f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6abcf46a6cbc40bf96c4af83b63e442 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_476811d708b334d86c97da34bbb69cd0 = $(`<div id="html_476811d708b334d86c97da34bbb69cd0" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13037259125' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> yes<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>fee saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_b6abcf46a6cbc40bf96c4af83b63e442.setContent(html_476811d708b334d86c97da34bbb69cd0);
+            
+        
+
+        marker_dc5afe553ad33c3b976f82840f6884e4.bindPopup(popup_b6abcf46a6cbc40bf96c4af83b63e442)
+        ;
+
+        
+    
+    
+                marker_dc5afe553ad33c3b976f82840f6884e4.setIcon(icon_f77e782e97552acec90e48ffe5ec582f);
+            
+    
+            var marker_a993358887f6ebcbcdfff21a5fbe8fad = L.marker(
+                [58.744608299999996, 17.8652507],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_8612d196f1a0e2eabaea4c85196f5230 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_644dad5908089c41da99dcf531eac712 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb33c874c1e6b1240ea3f9c7f4d79c94 = $(`<div id="html_fb33c874c1e6b1240ea3f9c7f4d79c94" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13041911527' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_644dad5908089c41da99dcf531eac712.setContent(html_fb33c874c1e6b1240ea3f9c7f4d79c94);
+            
+        
+
+        marker_a993358887f6ebcbcdfff21a5fbe8fad.bindPopup(popup_644dad5908089c41da99dcf531eac712)
+        ;
+
+        
+    
+    
+                marker_a993358887f6ebcbcdfff21a5fbe8fad.setIcon(icon_8612d196f1a0e2eabaea4c85196f5230);
+            
+    
+            var marker_9fbcada403517b50ceefeb9076368178 = L.marker(
+                [58.91968700000001, 18.1764135],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_51dee41ef1444e931458d68bfe5ccbfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4bd445c43227f91731358df401ba99c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bbab053722b603ca2ac97957b9bece86 = $(`<div id="html_bbab053722b603ca2ac97957b9bece86" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13045581191' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c4bd445c43227f91731358df401ba99c.setContent(html_bbab053722b603ca2ac97957b9bece86);
+            
+        
+
+        marker_9fbcada403517b50ceefeb9076368178.bindPopup(popup_c4bd445c43227f91731358df401ba99c)
+        ;
+
+        
+    
+    
+                marker_9fbcada403517b50ceefeb9076368178.setIcon(icon_51dee41ef1444e931458d68bfe5ccbfa);
+            
+    
+            var marker_b82bb958698d71ff6b99757349c29d7e = L.marker(
+                [58.9198493, 18.1751578],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_e5d5aa2842fd8d396b597b14aae96bb9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8068b29c7583c9a89193e53ff7a96e26 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ba07cf643505f5eb4f9fe5d190c7c7a = $(`<div id="html_1ba07cf643505f5eb4f9fe5d190c7c7a" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13045581192' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> yes<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8068b29c7583c9a89193e53ff7a96e26.setContent(html_1ba07cf643505f5eb4f9fe5d190c7c7a);
+            
+        
+
+        marker_b82bb958698d71ff6b99757349c29d7e.bindPopup(popup_8068b29c7583c9a89193e53ff7a96e26)
+        ;
+
+        
+    
+    
+                marker_b82bb958698d71ff6b99757349c29d7e.setIcon(icon_e5d5aa2842fd8d396b597b14aae96bb9);
+            
+    
+            var marker_e1b99bc8ca4e901034206c9b16f6aae8 = L.marker(
+                [59.469258200000006, 18.7607388],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_9ae47080d11f0b8c504385e8869fe020 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bad497b6ae3b863e53f0148423cad061 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a54d7754c92134029a1b64ae37218326 = $(`<div id="html_a54d7754c92134029a1b64ae37218326" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13063312449' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:paper_supply saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_bad497b6ae3b863e53f0148423cad061.setContent(html_a54d7754c92134029a1b64ae37218326);
+            
+        
+
+        marker_e1b99bc8ca4e901034206c9b16f6aae8.bindPopup(popup_bad497b6ae3b863e53f0148423cad061)
+        ;
+
+        
+    
+    
+                marker_e1b99bc8ca4e901034206c9b16f6aae8.setIcon(icon_9ae47080d11f0b8c504385e8869fe020);
+            
+    
+            var marker_5aa355557be65709ff385af6d5ccd972 = L.marker(
+                [59.4754826, 18.8084516],
+                {
+}
+            ).addTo(feature_group_6a10964b828f68919b74cd31e1c72819);
+        
+    
+            var icon_63147d6ebec6785389bbffaa16ada7ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c40a464c30d2f6f2ab6e280502ea97b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18d05131ac124ae3995e912889dba43f = $(`<div id="html_18d05131ac124ae3995e912889dba43f" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13065225866' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Finnhamn_20250811_SAT_01.jpg/1536px-Finnhamn_20250811_SAT_01.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_1c40a464c30d2f6f2ab6e280502ea97b.setContent(html_18d05131ac124ae3995e912889dba43f);
+            
+        
+
+        marker_5aa355557be65709ff385af6d5ccd972.bindPopup(popup_1c40a464c30d2f6f2ab6e280502ea97b)
+        ;
+
+        
+    
+    
+                marker_5aa355557be65709ff385af6d5ccd972.setIcon(icon_63147d6ebec6785389bbffaa16ada7ec);
+            
+    
+            feature_group_6a10964b828f68919b74cd31e1c72819.addTo(map_420a2200a571d9d31995767ddabf858f);
+        
+    
+            var feature_group_8a64563cd73b6edc642c587c4ec28d36 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_7cc5a37effafe9f815b797155d83eeb7 = L.marker(
+                [59.6602993, 18.9156089],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_960daf716826d549f5b0de69611fd7a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9871a394f095e2189da4ea645d5694e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0433f95211a7bbe9e88c3879fb80e36 = $(`<div id="html_e0433f95211a7bbe9e88c3879fb80e36" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/426925731' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_9871a394f095e2189da4ea645d5694e6.setContent(html_e0433f95211a7bbe9e88c3879fb80e36);
+            
+        
+
+        marker_7cc5a37effafe9f815b797155d83eeb7.bindPopup(popup_9871a394f095e2189da4ea645d5694e6)
+        ;
+
+        
+    
+    
+                marker_7cc5a37effafe9f815b797155d83eeb7.setIcon(icon_960daf716826d549f5b0de69611fd7a7);
+            
+    
+            var marker_e53f1bab8ad50c6c2117fd9da6e1a3c8 = L.marker(
+                [59.41759050000001, 18.5593101],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9838c6f9ddc46145ba30ff6a938538e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9d7e5fa820a9181741d622dadb2fe4c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_960744327b050151ea7ffd589adde15d = $(`<div id="html_960744327b050151ea7ffd589adde15d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863394740' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> limited<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d9d7e5fa820a9181741d622dadb2fe4c.setContent(html_960744327b050151ea7ffd589adde15d);
+            
+        
+
+        marker_e53f1bab8ad50c6c2117fd9da6e1a3c8.bindPopup(popup_d9d7e5fa820a9181741d622dadb2fe4c)
+        ;
+
+        
+    
+    
+                marker_e53f1bab8ad50c6c2117fd9da6e1a3c8.setIcon(icon_9838c6f9ddc46145ba30ff6a938538e3);
+            
+    
+            var marker_1b8a3f77c30b0af724d5e15dbee28f5c = L.marker(
+                [59.4174664, 18.5587252],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_bfce91d13d0a0d9b8b0c07427c880d2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f376879f9e5e3e5abb56f354a4840d7a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_037ff7492b67e3d3fc36c813722c4e1a = $(`<div id="html_037ff7492b67e3d3fc36c813722c4e1a" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863394751' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> limited<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_f376879f9e5e3e5abb56f354a4840d7a.setContent(html_037ff7492b67e3d3fc36c813722c4e1a);
+            
+        
+
+        marker_1b8a3f77c30b0af724d5e15dbee28f5c.bindPopup(popup_f376879f9e5e3e5abb56f354a4840d7a)
+        ;
+
+        
+    
+    
+                marker_1b8a3f77c30b0af724d5e15dbee28f5c.setIcon(icon_bfce91d13d0a0d9b8b0c07427c880d2f);
+            
+    
+            var marker_16be6217d0c643a83ca7d3f6a3b3b795 = L.marker(
+                [59.4079202, 18.5549403],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_803eb1ee50e1a9316fb9795201c4a57b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77a2a2a8d2ca8cc01009ee11bf2c011b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_06144a3f0182d15128bd635660c811eb = $(`<div id="html_06144a3f0182d15128bd635660c811eb" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863394827' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> yes<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_77a2a2a8d2ca8cc01009ee11bf2c011b.setContent(html_06144a3f0182d15128bd635660c811eb);
+            
+        
+
+        marker_16be6217d0c643a83ca7d3f6a3b3b795.bindPopup(popup_77a2a2a8d2ca8cc01009ee11bf2c011b)
+        ;
+
+        
+    
+    
+                marker_16be6217d0c643a83ca7d3f6a3b3b795.setIcon(icon_803eb1ee50e1a9316fb9795201c4a57b);
+            
+    
+            var marker_a244b5480ed3be6daf360649b43730bd = L.marker(
+                [59.40698770000001, 18.5645766],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_2af89f84d206f06ef76f2af6a3874972 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c677efb09edb3ac07d2230d7708f5a94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc6578e5bab7d2d7188fabdfd2910f5f = $(`<div id="html_dc6578e5bab7d2d7188fabdfd2910f5f" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863423228' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c677efb09edb3ac07d2230d7708f5a94.setContent(html_dc6578e5bab7d2d7188fabdfd2910f5f);
+            
+        
+
+        marker_a244b5480ed3be6daf360649b43730bd.bindPopup(popup_c677efb09edb3ac07d2230d7708f5a94)
+        ;
+
+        
+    
+    
+                marker_a244b5480ed3be6daf360649b43730bd.setIcon(icon_2af89f84d206f06ef76f2af6a3874972);
+            
+    
+            var marker_ea8c05a75505fa1724d99f9436ce80ae = L.marker(
+                [59.41182870000001, 18.5579106],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_5bd2d4485c49ee2351e2de6542ae34c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b10a20e5d98396e0111c81c9a718ba0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ec9f5504f7175c9714f9a7f1d38b50d = $(`<div id="html_7ec9f5504f7175c9714f9a7f1d38b50d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863423239' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_7b10a20e5d98396e0111c81c9a718ba0.setContent(html_7ec9f5504f7175c9714f9a7f1d38b50d);
+            
+        
+
+        marker_ea8c05a75505fa1724d99f9436ce80ae.bindPopup(popup_7b10a20e5d98396e0111c81c9a718ba0)
+        ;
+
+        
+    
+    
+                marker_ea8c05a75505fa1724d99f9436ce80ae.setIcon(icon_5bd2d4485c49ee2351e2de6542ae34c9);
+            
+    
+            var marker_9a3f614a8eb1338abbcf55f75128c984 = L.marker(
+                [59.40754569999999, 18.5598839],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_4d043ffd94566976084134aa3f3deaa5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf4227a4a9b7bfcef4632db087cb0218 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_169417b40efd3dda6361e30ae93f69ab = $(`<div id="html_169417b40efd3dda6361e30ae93f69ab" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863423311' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_cf4227a4a9b7bfcef4632db087cb0218.setContent(html_169417b40efd3dda6361e30ae93f69ab);
+            
+        
+
+        marker_9a3f614a8eb1338abbcf55f75128c984.bindPopup(popup_cf4227a4a9b7bfcef4632db087cb0218)
+        ;
+
+        
+    
+    
+                marker_9a3f614a8eb1338abbcf55f75128c984.setIcon(icon_4d043ffd94566976084134aa3f3deaa5);
+            
+    
+            var marker_056440eb2665538e9009e25684bb9516 = L.marker(
+                [59.407042600000004, 18.564490299999996],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_50e816ffbc463aca8a7654f89459d55b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0b95000e84cdc60b6bd6214ec6e7a38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a0c8322159202fa93880494b1040d2c = $(`<div id="html_8a0c8322159202fa93880494b1040d2c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/863423335' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d0b95000e84cdc60b6bd6214ec6e7a38.setContent(html_8a0c8322159202fa93880494b1040d2c);
+            
+        
+
+        marker_056440eb2665538e9009e25684bb9516.bindPopup(popup_d0b95000e84cdc60b6bd6214ec6e7a38)
+        ;
+
+        
+    
+    
+                marker_056440eb2665538e9009e25684bb9516.setIcon(icon_50e816ffbc463aca8a7654f89459d55b);
+            
+    
+            var marker_df923aef244014e7122e338aa98ff90c = L.marker(
+                [58.969961999999974, 18.3580729],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_95fb3a772f1eca585d8f945b44db4708 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bfc55efcd2572af5d3102334f1d78b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5d607d2740e3aab09ecaeffe6d6ff3c = $(`<div id="html_c5d607d2740e3aab09ecaeffe6d6ff3c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/1234107386' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2bfc55efcd2572af5d3102334f1d78b5.setContent(html_c5d607d2740e3aab09ecaeffe6d6ff3c);
+            
+        
+
+        marker_df923aef244014e7122e338aa98ff90c.bindPopup(popup_2bfc55efcd2572af5d3102334f1d78b5)
+        ;
+
+        
+    
+    
+                marker_df923aef244014e7122e338aa98ff90c.setIcon(icon_95fb3a772f1eca585d8f945b44db4708);
+            
+    
+            var marker_36a2a182ab745e0d8c7e526e44ca29b7 = L.marker(
+                [59.47595010000002, 18.8176987],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_f832f9e4a8f70ef4bd9e181974726aad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d40fc74203e52b598ec34bf6c31a369 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_28dd54d87839627f45567fa01bdc3d0c = $(`<div id="html_28dd54d87839627f45567fa01bdc3d0c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/1401739421' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/SAT_Finnhamn_camp_site_south_08.jpg/1280px-SAT_Finnhamn_camp_site_south_08.jpg' width='200'><br><b>Rullstol:</b> yes<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0d40fc74203e52b598ec34bf6c31a369.setContent(html_28dd54d87839627f45567fa01bdc3d0c);
+            
+        
+
+        marker_36a2a182ab745e0d8c7e526e44ca29b7.bindPopup(popup_0d40fc74203e52b598ec34bf6c31a369)
+        ;
+
+        
+    
+    
+                marker_36a2a182ab745e0d8c7e526e44ca29b7.setIcon(icon_f832f9e4a8f70ef4bd9e181974726aad);
+            
+    
+            var marker_d4738f1f172d27c1bcdac9ffb5784fa2 = L.marker(
+                [59.47675959999999, 18.8238701],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9fce744e04fc30da99690b2a05e9e4b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d199b4e05a08e565546f0aa9541fb644 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed794c220befa0369691880e1b35f93b = $(`<div id="html_ed794c220befa0369691880e1b35f93b" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/1401993169' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_d199b4e05a08e565546f0aa9541fb644.setContent(html_ed794c220befa0369691880e1b35f93b);
+            
+        
+
+        marker_d4738f1f172d27c1bcdac9ffb5784fa2.bindPopup(popup_d199b4e05a08e565546f0aa9541fb644)
+        ;
+
+        
+    
+    
+                marker_d4738f1f172d27c1bcdac9ffb5784fa2.setIcon(icon_9fce744e04fc30da99690b2a05e9e4b8);
+            
+    
+            var marker_6ff433b71603fd37f7283a6a67d297ab = L.marker(
+                [58.91019489999999, 18.218038500000002],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_52e586280ec64d904eab882be444d13a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf03f2039226078488b7d375bba56acf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5c4f10d3373d4660d189ace21f1d8dd = $(`<div id="html_f5c4f10d3373d4660d189ace21f1d8dd" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/1412263117' target='_blank'>OSM objekt</a></b><br><img src='https://commons.wikimedia.org/entity/M163246546' width='200'><br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_cf03f2039226078488b7d375bba56acf.setContent(html_f5c4f10d3373d4660d189ace21f1d8dd);
+            
+        
+
+        marker_6ff433b71603fd37f7283a6a67d297ab.bindPopup(popup_cf03f2039226078488b7d375bba56acf)
+        ;
+
+        
+    
+    
+                marker_6ff433b71603fd37f7283a6a67d297ab.setIcon(icon_52e586280ec64d904eab882be444d13a);
+            
+    
+            var marker_7bea71e4f4256bbe01354c3b4480eab2 = L.marker(
+                [59.40622339999999, 18.575361999999995],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_07e80a8e8385429d9ddd53b82f0d2c37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_360b73c7c6c25805b0ca74b38ff37154 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_929cf443b9c0b1187d2fad4845ed43da = $(`<div id="html_929cf443b9c0b1187d2fad4845ed43da" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2285332792' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/4/45/Grinda_2023_Klubbudden.jpg' width='200'><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_360b73c7c6c25805b0ca74b38ff37154.setContent(html_929cf443b9c0b1187d2fad4845ed43da);
+            
+        
+
+        marker_7bea71e4f4256bbe01354c3b4480eab2.bindPopup(popup_360b73c7c6c25805b0ca74b38ff37154)
+        ;
+
+        
+    
+    
+                marker_7bea71e4f4256bbe01354c3b4480eab2.setIcon(icon_07e80a8e8385429d9ddd53b82f0d2c37);
+            
+    
+            var marker_12fa88834f7f749677cfedcc18bd59b8 = L.marker(
+                [59.4172161, 18.557592800000002],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_354c7b49da34ec2abaf09947eb8b7429 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed6fa6f7cf88dfbfcad4905f9cd1476a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78f1341470fd8ce51c25ad3db467366e = $(`<div id="html_78f1341470fd8ce51c25ad3db467366e" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2285332799' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> limited<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_ed6fa6f7cf88dfbfcad4905f9cd1476a.setContent(html_78f1341470fd8ce51c25ad3db467366e);
+            
+        
+
+        marker_12fa88834f7f749677cfedcc18bd59b8.bindPopup(popup_ed6fa6f7cf88dfbfcad4905f9cd1476a)
+        ;
+
+        
+    
+    
+                marker_12fa88834f7f749677cfedcc18bd59b8.setIcon(icon_354c7b49da34ec2abaf09947eb8b7429);
+            
+    
+            var marker_7546522d719dd9a81aea0276314af07b = L.marker(
+                [58.9611425, 18.339586699999998],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_3b57c9324d887502e3dc748e86169ec1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f962a9767b53b705fca151158a7e428 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0b2a3c6c26a991b8d3af62dd863f3a8 = $(`<div id="html_e0b2a3c6c26a991b8d3af62dd863f3a8" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2451364941' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4f962a9767b53b705fca151158a7e428.setContent(html_e0b2a3c6c26a991b8d3af62dd863f3a8);
+            
+        
+
+        marker_7546522d719dd9a81aea0276314af07b.bindPopup(popup_4f962a9767b53b705fca151158a7e428)
+        ;
+
+        
+    
+    
+                marker_7546522d719dd9a81aea0276314af07b.setIcon(icon_3b57c9324d887502e3dc748e86169ec1);
+            
+    
+            var marker_dee9734cd1504a94fee88c9e84f6ff78 = L.marker(
+                [59.28790990000001, 18.9170226],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_18d045e03bec3c446ea072f784f8356d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5eb4aa06f37e5997e18cb2a82bf55b5e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2e14262b60c19b009cf12c1fa81af47 = $(`<div id="html_f2e14262b60c19b009cf12c1fa81af47" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2495934893' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> yes<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_5eb4aa06f37e5997e18cb2a82bf55b5e.setContent(html_f2e14262b60c19b009cf12c1fa81af47);
+            
+        
+
+        marker_dee9734cd1504a94fee88c9e84f6ff78.bindPopup(popup_5eb4aa06f37e5997e18cb2a82bf55b5e)
+        ;
+
+        
+    
+    
+                marker_dee9734cd1504a94fee88c9e84f6ff78.setIcon(icon_18d045e03bec3c446ea072f784f8356d);
+            
+    
+            var marker_47eaa911b3ef4c39744158d68a769a1a = L.marker(
+                [59.0306645, 18.5116261],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_239c374211039c5a514f2678ba170c4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_782b9924e461bd031b099f79e8a0c996 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c847252bce1f2c0a084588855a6386c8 = $(`<div id="html_c847252bce1f2c0a084588855a6386c8" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2550378583' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_782b9924e461bd031b099f79e8a0c996.setContent(html_c847252bce1f2c0a084588855a6386c8);
+            
+        
+
+        marker_47eaa911b3ef4c39744158d68a769a1a.bindPopup(popup_782b9924e461bd031b099f79e8a0c996)
+        ;
+
+        
+    
+    
+                marker_47eaa911b3ef4c39744158d68a769a1a.setIcon(icon_239c374211039c5a514f2678ba170c4c);
+            
+    
+            var marker_8ddeb8941272bf7092eeda4405babec9 = L.marker(
+                [59.031991500000004, 18.519927800000005],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_ce22e2215dac4d9fd2f7cbf0daf1807c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b6f9db39bb9118187a4540dacb6f212 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90cd5de376b745c1da2d101ba3332705 = $(`<div id="html_90cd5de376b745c1da2d101ba3332705" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2550378600' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_4b6f9db39bb9118187a4540dacb6f212.setContent(html_90cd5de376b745c1da2d101ba3332705);
+            
+        
+
+        marker_8ddeb8941272bf7092eeda4405babec9.bindPopup(popup_4b6f9db39bb9118187a4540dacb6f212)
+        ;
+
+        
+    
+    
+                marker_8ddeb8941272bf7092eeda4405babec9.setIcon(icon_ce22e2215dac4d9fd2f7cbf0daf1807c);
+            
+    
+            var marker_dfb8cf4cc0b64f47a09ccacc1bdb6156 = L.marker(
+                [59.047048100000005, 18.522849000000004],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_51443f046eb17f403eded7e1cf5c37c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b24784500f49e8b2f9b99cf99aded41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d6e58336452934abd64d230fb0012e96 = $(`<div id="html_d6e58336452934abd64d230fb0012e96" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2550380413' target='_blank'>OSM objekt</a></b><br><b>Öppettider:</b> 24/7<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2b24784500f49e8b2f9b99cf99aded41.setContent(html_d6e58336452934abd64d230fb0012e96);
+            
+        
+
+        marker_dfb8cf4cc0b64f47a09ccacc1bdb6156.bindPopup(popup_2b24784500f49e8b2f9b99cf99aded41)
+        ;
+
+        
+    
+    
+                marker_dfb8cf4cc0b64f47a09ccacc1bdb6156.setIcon(icon_51443f046eb17f403eded7e1cf5c37c6);
+            
+    
+            var marker_15b1b89f01e3b4bf5da4804cc5a62120 = L.marker(
+                [59.480579899999995, 18.804356],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_031e94b837a0ae935068a484307cb6cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0f773e5e0f914420de11f2866462ae6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69b28c78250f1cd60550bbf0c6b23e78 = $(`<div id="html_69b28c78250f1cd60550bbf0c6b23e78" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2908785465' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c0f773e5e0f914420de11f2866462ae6.setContent(html_69b28c78250f1cd60550bbf0c6b23e78);
+            
+        
+
+        marker_15b1b89f01e3b4bf5da4804cc5a62120.bindPopup(popup_c0f773e5e0f914420de11f2866462ae6)
+        ;
+
+        
+    
+    
+                marker_15b1b89f01e3b4bf5da4804cc5a62120.setIcon(icon_031e94b837a0ae935068a484307cb6cf);
+            
+    
+            var marker_b643121274deb49cfdcb70a12ef3c5ec = L.marker(
+                [59.48378289999997, 18.813885199999998],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_23d8573888d2c60c1c11d946277aac26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c406672e6e7ec78da05b35d75b4024a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82551443d72e227a3eeeccbfe738f4ab = $(`<div id="html_82551443d72e227a3eeeccbfe738f4ab" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2908787775' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_7c406672e6e7ec78da05b35d75b4024a.setContent(html_82551443d72e227a3eeeccbfe738f4ab);
+            
+        
+
+        marker_b643121274deb49cfdcb70a12ef3c5ec.bindPopup(popup_7c406672e6e7ec78da05b35d75b4024a)
+        ;
+
+        
+    
+    
+                marker_b643121274deb49cfdcb70a12ef3c5ec.setIcon(icon_23d8573888d2c60c1c11d946277aac26);
+            
+    
+            var marker_70b37705870bdf0b7a82e12936ab297d = L.marker(
+                [59.48098240000001, 18.8125524],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_29e4767fad2767c91e8894a7c4fcc819 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e824f8d7dc69aace498c30304cb502f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9273208286a3c2d2551fe09aa252b205 = $(`<div id="html_9273208286a3c2d2551fe09aa252b205" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2908787815' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SAT_Finnhamn_Idholmen_toalett_stugbyn.jpg/960px-SAT_Finnhamn_Idholmen_toalett_stugbyn.jpg' width='200'><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_0e824f8d7dc69aace498c30304cb502f.setContent(html_9273208286a3c2d2551fe09aa252b205);
+            
+        
+
+        marker_70b37705870bdf0b7a82e12936ab297d.bindPopup(popup_0e824f8d7dc69aace498c30304cb502f)
+        ;
+
+        
+    
+    
+                marker_70b37705870bdf0b7a82e12936ab297d.setIcon(icon_29e4767fad2767c91e8894a7c4fcc819);
+            
+    
+            var marker_ccd1eb7e28958205225eed16e6688137 = L.marker(
+                [59.4789819, 18.8133827],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_c3f27507eebccd82474c702761db3ab2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d07cd9da0c663cddbfa5f99f1cd3528 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0556047ab22a9c82923411a308174d18 = $(`<div id="html_0556047ab22a9c82923411a308174d18" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2908787816' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_5d07cd9da0c663cddbfa5f99f1cd3528.setContent(html_0556047ab22a9c82923411a308174d18);
+            
+        
+
+        marker_ccd1eb7e28958205225eed16e6688137.bindPopup(popup_5d07cd9da0c663cddbfa5f99f1cd3528)
+        ;
+
+        
+    
+    
+                marker_ccd1eb7e28958205225eed16e6688137.setIcon(icon_c3f27507eebccd82474c702761db3ab2);
+            
+    
+            var marker_1eb84945562a53914ee66cf2dc899d23 = L.marker(
+                [59.03638039999999, 18.519132],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_96aef4bdc8f22f5c8afab4eb55c92e0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd04e31e263d247708b62051710a996f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63c3ea4e912b5bbaeb08bd978a8eaae8 = $(`<div id="html_63c3ea4e912b5bbaeb08bd978a8eaae8" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2943477509' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_fd04e31e263d247708b62051710a996f.setContent(html_63c3ea4e912b5bbaeb08bd978a8eaae8);
+            
+        
+
+        marker_1eb84945562a53914ee66cf2dc899d23.bindPopup(popup_fd04e31e263d247708b62051710a996f)
+        ;
+
+        
+    
+    
+                marker_1eb84945562a53914ee66cf2dc899d23.setIcon(icon_96aef4bdc8f22f5c8afab4eb55c92e0a);
+            
+    
+            var marker_d3fab92e915cdba180ed69ae2d12e37f = L.marker(
+                [59.85984110000001, 19.1225337],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_e57dc64fd8b74064fb1c9aaa72d05a9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75074baaeaac60bbee4a9641cae2c1e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6acce709d86d1a14edf5d5a9eb62f361 = $(`<div id="html_6acce709d86d1a14edf5d5a9eb62f361" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/2960940412' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_75074baaeaac60bbee4a9641cae2c1e2.setContent(html_6acce709d86d1a14edf5d5a9eb62f361);
+            
+        
+
+        marker_d3fab92e915cdba180ed69ae2d12e37f.bindPopup(popup_75074baaeaac60bbee4a9641cae2c1e2)
+        ;
+
+        
+    
+    
+                marker_d3fab92e915cdba180ed69ae2d12e37f.setIcon(icon_e57dc64fd8b74064fb1c9aaa72d05a9b);
+            
+    
+            var marker_988223ea44bb8d6092b2f9453ac28f92 = L.marker(
+                [59.4071649, 18.5563732],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_057f00f9aed91e3c9490d1fb4bd5313e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4e3bb87e5b5470202c899c95626b685 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01171c8d9f56685fd9ee8929b1f068b2 = $(`<div id="html_01171c8d9f56685fd9ee8929b1f068b2" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4239095028' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_b4e3bb87e5b5470202c899c95626b685.setContent(html_01171c8d9f56685fd9ee8929b1f068b2);
+            
+        
+
+        marker_988223ea44bb8d6092b2f9453ac28f92.bindPopup(popup_b4e3bb87e5b5470202c899c95626b685)
+        ;
+
+        
+    
+    
+                marker_988223ea44bb8d6092b2f9453ac28f92.setIcon(icon_057f00f9aed91e3c9490d1fb4bd5313e);
+            
+    
+            var marker_8713bf4c841f2df2ee993b8b477152a7 = L.marker(
+                [59.4092087, 18.5756034],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_c3428cd0a28e4837c16d542b49e64e6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13b02f78fa577871936a71d6c256e8e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c431f6feb20e2a1a0514388d53f53d33 = $(`<div id="html_c431f6feb20e2a1a0514388d53f53d33" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4239166142' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_13b02f78fa577871936a71d6c256e8e5.setContent(html_c431f6feb20e2a1a0514388d53f53d33);
+            
+        
+
+        marker_8713bf4c841f2df2ee993b8b477152a7.bindPopup(popup_13b02f78fa577871936a71d6c256e8e5)
+        ;
+
+        
+    
+    
+                marker_8713bf4c841f2df2ee993b8b477152a7.setIcon(icon_c3428cd0a28e4837c16d542b49e64e6a);
+            
+    
+            var marker_411abdfaf17ca545e05360ec75a891d3 = L.marker(
+                [58.9252493, 18.1684185],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_d6f5d4beb72cd031778c8361077af7f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8eb55a9cc6a9bf318657bbb9b3c1e98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8eaf312af2db9d317dbd9c2bb9cf8a72 = $(`<div id="html_8eaf312af2db9d317dbd9c2bb9cf8a72" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4314791694' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_f8eb55a9cc6a9bf318657bbb9b3c1e98.setContent(html_8eaf312af2db9d317dbd9c2bb9cf8a72);
+            
+        
+
+        marker_411abdfaf17ca545e05360ec75a891d3.bindPopup(popup_f8eb55a9cc6a9bf318657bbb9b3c1e98)
+        ;
+
+        
+    
+    
+                marker_411abdfaf17ca545e05360ec75a891d3.setIcon(icon_d6f5d4beb72cd031778c8361077af7f4);
+            
+    
+            var marker_be9dce6ec989befa2eb73a3fe1ff413c = L.marker(
+                [59.0366583, 18.5174209],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9198f74ca7409915e4d0b8b9f96d6386 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55e0b055b2904d4f670eba6a09dad65f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a30ab01f6608f20fb23108011b685c8c = $(`<div id="html_a30ab01f6608f20fb23108011b685c8c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4962580122' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_55e0b055b2904d4f670eba6a09dad65f.setContent(html_a30ab01f6608f20fb23108011b685c8c);
+            
+        
+
+        marker_be9dce6ec989befa2eb73a3fe1ff413c.bindPopup(popup_55e0b055b2904d4f670eba6a09dad65f)
+        ;
+
+        
+    
+    
+                marker_be9dce6ec989befa2eb73a3fe1ff413c.setIcon(icon_9198f74ca7409915e4d0b8b9f96d6386);
+            
+    
+            var marker_7f5723794994a88a6b81908f4c7894f1 = L.marker(
+                [59.466417599999986, 18.753954199999995],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_987c635a1ecb7fd1c9bec110da5e5e0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a521aa31b88ba888dbd282cd7ed91c55 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e57f820feedce06e712c708dc2b0b936 = $(`<div id="html_e57f820feedce06e712c708dc2b0b936" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4964700616' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_a521aa31b88ba888dbd282cd7ed91c55.setContent(html_e57f820feedce06e712c708dc2b0b936);
+            
+        
+
+        marker_7f5723794994a88a6b81908f4c7894f1.bindPopup(popup_a521aa31b88ba888dbd282cd7ed91c55)
+        ;
+
+        
+    
+    
+                marker_7f5723794994a88a6b81908f4c7894f1.setIcon(icon_987c635a1ecb7fd1c9bec110da5e5e0b);
+            
+    
+            var marker_d8dfc2127d2b8ff1ee8f2b76cc9a1d28 = L.marker(
+                [59.776907599999994, 19.0907483],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_2b5143cd3aa02ce7700e24c767245011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3d08e127885edb765d44df81821eb69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc998fea2d67260e1d1c31703eabffca = $(`<div id="html_fc998fea2d67260e1d1c31703eabffca" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4986599082' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c3d08e127885edb765d44df81821eb69.setContent(html_fc998fea2d67260e1d1c31703eabffca);
+            
+        
+
+        marker_d8dfc2127d2b8ff1ee8f2b76cc9a1d28.bindPopup(popup_c3d08e127885edb765d44df81821eb69)
+        ;
+
+        
+    
+    
+                marker_d8dfc2127d2b8ff1ee8f2b76cc9a1d28.setIcon(icon_2b5143cd3aa02ce7700e24c767245011);
+            
+    
+            var marker_a99b02f23b2f83bd53a529d83b0a88f1 = L.marker(
+                [59.77325660000001, 19.079320699999997],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_4a3fdee5bdabbd92d63da326e79abc66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1595b7a12c1fd28b0fc53879140cece8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_48aa73fdd0244bd02e369f13cedfa79a = $(`<div id="html_48aa73fdd0244bd02e369f13cedfa79a" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/4986606253' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_1595b7a12c1fd28b0fc53879140cece8.setContent(html_48aa73fdd0244bd02e369f13cedfa79a);
+            
+        
+
+        marker_a99b02f23b2f83bd53a529d83b0a88f1.bindPopup(popup_1595b7a12c1fd28b0fc53879140cece8)
+        ;
+
+        
+    
+    
+                marker_a99b02f23b2f83bd53a529d83b0a88f1.setIcon(icon_4a3fdee5bdabbd92d63da326e79abc66);
+            
+    
+            var marker_4f0c5e4c1e4ceefaddec4549340ce33d = L.marker(
+                [58.966992099999985, 18.3185622],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_645e3e1af79a0a498b748a40a7813ce3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7f2559b2a949bfaccbfc3cc88fbca3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9cc05a41d2d69b2e607313115677c135 = $(`<div id="html_9cc05a41d2d69b2e607313115677c135" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5005791361' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> limited<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_f7f2559b2a949bfaccbfc3cc88fbca3b.setContent(html_9cc05a41d2d69b2e607313115677c135);
+            
+        
+
+        marker_4f0c5e4c1e4ceefaddec4549340ce33d.bindPopup(popup_f7f2559b2a949bfaccbfc3cc88fbca3b)
+        ;
+
+        
+    
+    
+                marker_4f0c5e4c1e4ceefaddec4549340ce33d.setIcon(icon_645e3e1af79a0a498b748a40a7813ce3);
+            
+    
+            var marker_57f0a60088cf5220cc85a7ec909f9370 = L.marker(
+                [58.9680089, 18.3194495],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_06de1351464eab4235456e826c0ae7d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60ac449162290306aa44ff3227cd3b4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e959756ac124f7fcd149b578f3edc43c = $(`<div id="html_e959756ac124f7fcd149b578f3edc43c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5005793728' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_60ac449162290306aa44ff3227cd3b4b.setContent(html_e959756ac124f7fcd149b578f3edc43c);
+            
+        
+
+        marker_57f0a60088cf5220cc85a7ec909f9370.bindPopup(popup_60ac449162290306aa44ff3227cd3b4b)
+        ;
+
+        
+    
+    
+                marker_57f0a60088cf5220cc85a7ec909f9370.setIcon(icon_06de1351464eab4235456e826c0ae7d1);
+            
+    
+            var marker_ca5330362bd6ae688f48d42fbbfd8df6 = L.marker(
+                [58.9702909, 18.3247412],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_5228b62d1d4c2cc522828af76fe05e9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e98052a919d6bd47d8d1898db03ea991 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d33402358de5a9187ab68d36e4d4528 = $(`<div id="html_2d33402358de5a9187ab68d36e4d4528" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5006428827' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e98052a919d6bd47d8d1898db03ea991.setContent(html_2d33402358de5a9187ab68d36e4d4528);
+            
+        
+
+        marker_ca5330362bd6ae688f48d42fbbfd8df6.bindPopup(popup_e98052a919d6bd47d8d1898db03ea991)
+        ;
+
+        
+    
+    
+                marker_ca5330362bd6ae688f48d42fbbfd8df6.setIcon(icon_5228b62d1d4c2cc522828af76fe05e9a);
+            
+    
+            var marker_cf6018be6db78cc0b461dd323bd7fa4b = L.marker(
+                [59.48195009999999, 18.8096596],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9616512004eaf2655296d5ae2671b7e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a2253e21eed33bfffd87fc96cd30dbf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f687dbd18163215e24d18f6537acf574 = $(`<div id="html_f687dbd18163215e24d18f6537acf574" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5009607109' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_9a2253e21eed33bfffd87fc96cd30dbf.setContent(html_f687dbd18163215e24d18f6537acf574);
+            
+        
+
+        marker_cf6018be6db78cc0b461dd323bd7fa4b.bindPopup(popup_9a2253e21eed33bfffd87fc96cd30dbf)
+        ;
+
+        
+    
+    
+                marker_cf6018be6db78cc0b461dd323bd7fa4b.setIcon(icon_9616512004eaf2655296d5ae2671b7e6);
+            
+    
+            var marker_1aad41bdc64021bdc0ac74839ed35752 = L.marker(
+                [58.919449900000004, 18.192626700000005],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_b89e30c35450901e36998d22d6381989 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bc5ffe4464d0c0e0b5516fec4947e7b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5e51082a68035c55cbe8fb5edde07aa = $(`<div id="html_f5e51082a68035c55cbe8fb5edde07aa" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5728810295' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8bc5ffe4464d0c0e0b5516fec4947e7b.setContent(html_f5e51082a68035c55cbe8fb5edde07aa);
+            
+        
+
+        marker_1aad41bdc64021bdc0ac74839ed35752.bindPopup(popup_8bc5ffe4464d0c0e0b5516fec4947e7b)
+        ;
+
+        
+    
+    
+                marker_1aad41bdc64021bdc0ac74839ed35752.setIcon(icon_b89e30c35450901e36998d22d6381989);
+            
+    
+            var marker_b9a3bba37675d9d4d4cecff79402211e = L.marker(
+                [58.92029519999999, 18.1955009],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9f46735c774f1bed8db51bb523dfd259 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a35b0223b990bd936e1c7be99d42e79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d067c89243b5bdc2e71e23535da93f9a = $(`<div id="html_d067c89243b5bdc2e71e23535da93f9a" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5728811148' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/8/83/SAT_%C3%85l%C3%B6_2025_maj_%28241%29_toalett.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_3a35b0223b990bd936e1c7be99d42e79.setContent(html_d067c89243b5bdc2e71e23535da93f9a);
+            
+        
+
+        marker_b9a3bba37675d9d4d4cecff79402211e.bindPopup(popup_3a35b0223b990bd936e1c7be99d42e79)
+        ;
+
+        
+    
+    
+                marker_b9a3bba37675d9d4d4cecff79402211e.setIcon(icon_9f46735c774f1bed8db51bb523dfd259);
+            
+    
+            var marker_c77f7e7239feefff371b3c5e0d740032 = L.marker(
+                [59.28911689999998, 18.9056252],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_484bd052f91a99488509f838d82301cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_335adbe5110cc7fa3c7efb513e37512a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_871cede6b5ee7e3023788b27ce216bb8 = $(`<div id="html_871cede6b5ee7e3023788b27ce216bb8" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5734098673' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Fl%C3%A4skberget_AED.jpg/2560px-Fl%C3%A4skberget_AED.jpg' width='200'><br><b>Öppettider:</b> 8:00-18:00<br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_335adbe5110cc7fa3c7efb513e37512a.setContent(html_871cede6b5ee7e3023788b27ce216bb8);
+            
+        
+
+        marker_c77f7e7239feefff371b3c5e0d740032.bindPopup(popup_335adbe5110cc7fa3c7efb513e37512a)
+        ;
+
+        
+    
+    
+                marker_c77f7e7239feefff371b3c5e0d740032.setIcon(icon_484bd052f91a99488509f838d82301cc);
+            
+    
+            var marker_05000222bd8d234959b7dfd5cf040ad2 = L.marker(
+                [59.8532707, 19.113137099999996],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_7cee9eb9befbd744d4f98fe3249e36ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_810dbb57fbc9720a9e71b17651c5cfa7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f582257c065be42ccace7203a17595fe = $(`<div id="html_f582257c065be42ccace7203a17595fe" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5744466280' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Arholma_SAT_20250813_23_toaletter_g%C3%A4sthamn.jpg/1536px-Arholma_SAT_20250813_23_toaletter_g%C3%A4sthamn.jpg' width='200'><br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_810dbb57fbc9720a9e71b17651c5cfa7.setContent(html_f582257c065be42ccace7203a17595fe);
+            
+        
+
+        marker_05000222bd8d234959b7dfd5cf040ad2.bindPopup(popup_810dbb57fbc9720a9e71b17651c5cfa7)
+        ;
+
+        
+    
+    
+                marker_05000222bd8d234959b7dfd5cf040ad2.setIcon(icon_7cee9eb9befbd744d4f98fe3249e36ba);
+            
+    
+            var marker_67fd6d5d1a0a056ea98d7823ae7fcc21 = L.marker(
+                [59.8608766, 19.1235092],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_72fffb0e5a56929f757a4b577a84634f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e52d60f5e7a2515f87b703b5f6e99e3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3933cf2b5f0acaffda64a2cce2d980bf = $(`<div id="html_3933cf2b5f0acaffda64a2cce2d980bf" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5745003238' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e52d60f5e7a2515f87b703b5f6e99e3e.setContent(html_3933cf2b5f0acaffda64a2cce2d980bf);
+            
+        
+
+        marker_67fd6d5d1a0a056ea98d7823ae7fcc21.bindPopup(popup_e52d60f5e7a2515f87b703b5f6e99e3e)
+        ;
+
+        
+    
+    
+                marker_67fd6d5d1a0a056ea98d7823ae7fcc21.setIcon(icon_72fffb0e5a56929f757a4b577a84634f);
+            
+    
+            var marker_9044cb8e9545e04e60b897df58e11ccd = L.marker(
+                [59.8543557, 19.1118376],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9b69a9f52bfd68833c1c5164c9cf71b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a84ab5ecf091dadedf18a883df709bd1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9306a535b83fafd783d2d4b0b941cae = $(`<div id="html_d9306a535b83fafd783d2d4b0b941cae" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5745003241' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arholma_SAT_20250813_14_toalett.jpg/2560px-Arholma_SAT_20250813_14_toalett.jpg' width='200'><br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_a84ab5ecf091dadedf18a883df709bd1.setContent(html_d9306a535b83fafd783d2d4b0b941cae);
+            
+        
+
+        marker_9044cb8e9545e04e60b897df58e11ccd.bindPopup(popup_a84ab5ecf091dadedf18a883df709bd1)
+        ;
+
+        
+    
+    
+                marker_9044cb8e9545e04e60b897df58e11ccd.setIcon(icon_9b69a9f52bfd68833c1c5164c9cf71b3);
+            
+    
+            var marker_a2feaabf79d3c8ee6fbe62bf47999bde = L.marker(
+                [58.9280737, 18.1906172],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_989b3e4abdd07ec6d44720faba32a027 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19a9359a01e1d9663e8f45dc3514077b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d26cc70ad22888eff586c5570e384502 = $(`<div id="html_d26cc70ad22888eff586c5570e384502" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5798509131' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_19a9359a01e1d9663e8f45dc3514077b.setContent(html_d26cc70ad22888eff586c5570e384502);
+            
+        
+
+        marker_a2feaabf79d3c8ee6fbe62bf47999bde.bindPopup(popup_19a9359a01e1d9663e8f45dc3514077b)
+        ;
+
+        
+    
+    
+                marker_a2feaabf79d3c8ee6fbe62bf47999bde.setIcon(icon_989b3e4abdd07ec6d44720faba32a027);
+            
+    
+            var marker_2086d6848a8d752a2a655fb2b943afc8 = L.marker(
+                [59.40629880000001, 18.8832483],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_eb9576da56840bd43484fdb41d00ef0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a7ca6149a62f825e96dcf0392c6d1e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_837a9b98f73c2823a204d8b08f97900d = $(`<div id="html_837a9b98f73c2823a204d8b08f97900d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/5860556339' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_5a7ca6149a62f825e96dcf0392c6d1e4.setContent(html_837a9b98f73c2823a204d8b08f97900d);
+            
+        
+
+        marker_2086d6848a8d752a2a655fb2b943afc8.bindPopup(popup_5a7ca6149a62f825e96dcf0392c6d1e4)
+        ;
+
+        
+    
+    
+                marker_2086d6848a8d752a2a655fb2b943afc8.setIcon(icon_eb9576da56840bd43484fdb41d00ef0e);
+            
+    
+            var marker_711536c14fbbd2b45c6f6774dc9bf4f7 = L.marker(
+                [58.959321999999986, 18.332807399999997],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_b09113f8c8d8dc3177951d281ac52886 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8369339470b2448e7f8036bfdbc319fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8da342d21f33d3d68b6c41d72e968ca = $(`<div id="html_f8da342d21f33d3d68b6c41d72e968ca" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/6724706158' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_8369339470b2448e7f8036bfdbc319fc.setContent(html_f8da342d21f33d3d68b6c41d72e968ca);
+            
+        
+
+        marker_711536c14fbbd2b45c6f6774dc9bf4f7.bindPopup(popup_8369339470b2448e7f8036bfdbc319fc)
+        ;
+
+        
+    
+    
+                marker_711536c14fbbd2b45c6f6774dc9bf4f7.setIcon(icon_b09113f8c8d8dc3177951d281ac52886);
+            
+    
+            var marker_4bfcb345d8f281d6b50e6e2d521e8aae = L.marker(
+                [59.0722851, 18.3865883],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_f92edf652debff6a252e13e67fc674e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8566a10ceb3fc1c7a7f3b5fd5770604 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0858812d684a37f029ce2210fd567aec = $(`<div id="html_0858812d684a37f029ce2210fd567aec" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/7997530880' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_c8566a10ceb3fc1c7a7f3b5fd5770604.setContent(html_0858812d684a37f029ce2210fd567aec);
+            
+        
+
+        marker_4bfcb345d8f281d6b50e6e2d521e8aae.bindPopup(popup_c8566a10ceb3fc1c7a7f3b5fd5770604)
+        ;
+
+        
+    
+    
+                marker_4bfcb345d8f281d6b50e6e2d521e8aae.setIcon(icon_f92edf652debff6a252e13e67fc674e0);
+            
+    
+            var marker_422412fd0fbf0f2c8888106d8797f4a9 = L.marker(
+                [59.4048042, 18.573793],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_33cb03b8de792449890950e7a5d44114 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e8653d917501fe380779c633aa946b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43647ea061838e887c89a8ecea6d1bae = $(`<div id="html_43647ea061838e887c89a8ecea6d1bae" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/8870415588' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_3e8653d917501fe380779c633aa946b9.setContent(html_43647ea061838e887c89a8ecea6d1bae);
+            
+        
+
+        marker_422412fd0fbf0f2c8888106d8797f4a9.bindPopup(popup_3e8653d917501fe380779c633aa946b9)
+        ;
+
+        
+    
+    
+                marker_422412fd0fbf0f2c8888106d8797f4a9.setIcon(icon_33cb03b8de792449890950e7a5d44114);
+            
+    
+            var marker_1bc4bd114380b7db5179451eacf052be = L.marker(
+                [59.47593390000001, 18.7498729],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_c251740b2e2c642729f6bfb178b86b87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1343590e00a8ee8a23581ce34f2c0a82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6fbb00f40c311ee6d3936051283be99 = $(`<div id="html_c6fbb00f40c311ee6d3936051283be99" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/10049770242' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_1343590e00a8ee8a23581ce34f2c0a82.setContent(html_c6fbb00f40c311ee6d3936051283be99);
+            
+        
+
+        marker_1bc4bd114380b7db5179451eacf052be.bindPopup(popup_1343590e00a8ee8a23581ce34f2c0a82)
+        ;
+
+        
+    
+    
+                marker_1bc4bd114380b7db5179451eacf052be.setIcon(icon_c251740b2e2c642729f6bfb178b86b87);
+            
+    
+            var marker_1a13c405a505e9e4849a39727981116c = L.marker(
+                [59.037049, 18.5153119],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_3c7f667339d48963fdcda6f79abb16b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ddb006b80b2f6a09df3f12f80d97afb3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_379d58cddcbf89a23a37d9aa25b97f34 = $(`<div id="html_379d58cddcbf89a23a37d9aa25b97f34" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/11084999217' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/SAT_Fj%C3%A4rdl%C3%A5ng_2025_april_toaletter_t%C3%A4ltplats.jpg' width='200'><br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_ddb006b80b2f6a09df3f12f80d97afb3.setContent(html_379d58cddcbf89a23a37d9aa25b97f34);
+            
+        
+
+        marker_1a13c405a505e9e4849a39727981116c.bindPopup(popup_ddb006b80b2f6a09df3f12f80d97afb3)
+        ;
+
+        
+    
+    
+                marker_1a13c405a505e9e4849a39727981116c.setIcon(icon_3c7f667339d48963fdcda6f79abb16b8);
+            
+    
+            var marker_02c64fe028658142f0ec96dd5bb57cc1 = L.marker(
+                [58.9372489, 18.182648899999997],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_1e77f8fb02f53268eee4220e0f7af9dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a6edb2f5f29f31f50f6f9043eacb564 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e1a70cd3047756c76907e073c4de08a = $(`<div id="html_7e1a70cd3047756c76907e073c4de08a" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/11092271868' target='_blank'>OSM objekt</a></b><br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>toilets:disposal</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2a6edb2f5f29f31f50f6f9043eacb564.setContent(html_7e1a70cd3047756c76907e073c4de08a);
+            
+        
+
+        marker_02c64fe028658142f0ec96dd5bb57cc1.bindPopup(popup_2a6edb2f5f29f31f50f6f9043eacb564)
+        ;
+
+        
+    
+    
+                marker_02c64fe028658142f0ec96dd5bb57cc1.setIcon(icon_1e77f8fb02f53268eee4220e0f7af9dc);
+            
+    
+            var marker_0f4c8887aa817f48296f89d5232db3fb = L.marker(
+                [58.92704649999999, 18.1899815],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_dfdf7a4e5845728c7193b5a0e9c7d0e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20816a6260cca011107ae96760ba4292 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b6547b5c2aaf621c98fa932acec53421 = $(`<div id="html_b6547b5c2aaf621c98fa932acec53421" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12723432176' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/SAT_R%C3%A5n%C3%B6_toaletter_vid_t%C3%A4ltplatsen.jpg/3024px-SAT_R%C3%A5n%C3%B6_toaletter_vid_t%C3%A4ltplatsen.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Avfallshantering:</b> bucket<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_20816a6260cca011107ae96760ba4292.setContent(html_b6547b5c2aaf621c98fa932acec53421);
+            
+        
+
+        marker_0f4c8887aa817f48296f89d5232db3fb.bindPopup(popup_20816a6260cca011107ae96760ba4292)
+        ;
+
+        
+    
+    
+                marker_0f4c8887aa817f48296f89d5232db3fb.setIcon(icon_dfdf7a4e5845728c7193b5a0e9c7d0e9);
+            
+    
+            var marker_f3ae6bc451f5aa20df0e7d079c992553 = L.marker(
+                [58.87168400000002, 18.1313502],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_f1ca1a36d6e2ded271bea183ac526ffe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32c74f90961e67c6490d5a947e60d6aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3527af988a3c8307578c7fbf4d728e73 = $(`<div id="html_3527af988a3c8307578c7fbf4d728e73" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12748135109' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_32c74f90961e67c6490d5a947e60d6aa.setContent(html_3527af988a3c8307578c7fbf4d728e73);
+            
+        
+
+        marker_f3ae6bc451f5aa20df0e7d079c992553.bindPopup(popup_32c74f90961e67c6490d5a947e60d6aa)
+        ;
+
+        
+    
+    
+                marker_f3ae6bc451f5aa20df0e7d079c992553.setIcon(icon_f1ca1a36d6e2ded271bea183ac526ffe);
+            
+    
+            var marker_b44344540eded2504e4e851036d3e1ca = L.marker(
+                [59.6100827, 18.8263119],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_c97b0dc7a8b577e3c48fccaff2ba70cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01f0375b480c94b004b98d14b4fe8618 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f3ffb4e6b664c833486e854a1555b6d = $(`<div id="html_9f3ffb4e6b664c833486e854a1555b6d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12815485678' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/8/84/SAT_Yxlan_2025_maj_5_-_Hamnholmen_toalett_%281%29.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li>toilets:paper_supply saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_01f0375b480c94b004b98d14b4fe8618.setContent(html_9f3ffb4e6b664c833486e854a1555b6d);
+            
+        
+
+        marker_b44344540eded2504e4e851036d3e1ca.bindPopup(popup_01f0375b480c94b004b98d14b4fe8618)
+        ;
+
+        
+    
+    
+                marker_b44344540eded2504e4e851036d3e1ca.setIcon(icon_c97b0dc7a8b577e3c48fccaff2ba70cb);
+            
+    
+            var marker_bd4374a2bc8d3d617134ed1d03bcd554 = L.marker(
+                [59.47555409999999, 18.821863899999997],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_7967ae3417b2295086ca609e2f08f919 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60190862007ad5ca600c12b46419c65b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8a07d41f796227475adfd65d3f03ec1 = $(`<div id="html_d8a07d41f796227475adfd65d3f03ec1" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12836949181' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/SAT_Finnhamn_2025_april_sopor_toalett.jpg/1024px-SAT_Finnhamn_2025_april_sopor_toalett.jpg' width='200'><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_60190862007ad5ca600c12b46419c65b.setContent(html_d8a07d41f796227475adfd65d3f03ec1);
+            
+        
+
+        marker_bd4374a2bc8d3d617134ed1d03bcd554.bindPopup(popup_60190862007ad5ca600c12b46419c65b)
+        ;
+
+        
+    
+    
+                marker_bd4374a2bc8d3d617134ed1d03bcd554.setIcon(icon_7967ae3417b2295086ca609e2f08f919);
+            
+    
+            var marker_55e87357b37ac8ac11eb872623f0e745 = L.marker(
+                [58.87755119999999, 18.1324348],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_c8d75f604d0cf384722ddbc2849fffdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e97133e5404a96f5b8b8fa1c61744e54 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a79c915ccab7fd1e5672f3ff9102e32b = $(`<div id="html_a79c915ccab7fd1e5672f3ff9102e32b" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/12849416944' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/3/31/SATN%C3%A5ttar%C3%B6_2025_april_toalett_Storsand.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_e97133e5404a96f5b8b8fa1c61744e54.setContent(html_a79c915ccab7fd1e5672f3ff9102e32b);
+            
+        
+
+        marker_55e87357b37ac8ac11eb872623f0e745.bindPopup(popup_e97133e5404a96f5b8b8fa1c61744e54)
+        ;
+
+        
+    
+    
+                marker_55e87357b37ac8ac11eb872623f0e745.setIcon(icon_c8d75f604d0cf384722ddbc2849fffdb);
+            
+    
+            var marker_23fe4841b3196b6eb04e8d547f007887 = L.marker(
+                [58.880430099999984, 18.116073400000005],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_9b8f6a0816c9c5cf3bdabaaf2a62adeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47b6a7eb6c744f9ba00f23d10ee349a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fdf17b9f15d0efb439615b63d02dbde = $(`<div id="html_2fdf17b9f15d0efb439615b63d02dbde" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13041364818' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_47b6a7eb6c744f9ba00f23d10ee349a5.setContent(html_2fdf17b9f15d0efb439615b63d02dbde);
+            
+        
+
+        marker_23fe4841b3196b6eb04e8d547f007887.bindPopup(popup_47b6a7eb6c744f9ba00f23d10ee349a5)
+        ;
+
+        
+    
+    
+                marker_23fe4841b3196b6eb04e8d547f007887.setIcon(icon_9b8f6a0816c9c5cf3bdabaaf2a62adeb);
+            
+    
+            var marker_4a7e3ff77e20e55a890a7a0fe694d2f0 = L.marker(
+                [58.97851279999998, 18.3634318],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_2a382ddc5a3f8ec468d957cd97b7f718 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f46c171d8822516717ccaa91e31112f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ecbbb87178890c8279b669b7984a3fe = $(`<div id="html_8ecbbb87178890c8279b669b7984a3fe" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13050416339' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> chemical<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_6f46c171d8822516717ccaa91e31112f.setContent(html_8ecbbb87178890c8279b669b7984a3fe);
+            
+        
+
+        marker_4a7e3ff77e20e55a890a7a0fe694d2f0.bindPopup(popup_6f46c171d8822516717ccaa91e31112f)
+        ;
+
+        
+    
+    
+                marker_4a7e3ff77e20e55a890a7a0fe694d2f0.setIcon(icon_2a382ddc5a3f8ec468d957cd97b7f718);
+            
+    
+            var marker_9c129a6cc4ea03eccebe1912f5fc6867 = L.marker(
+                [59.48247860000001, 18.824970899999997],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_58ff51c7750fed440b8c20485c256425 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b68ad74069bf7e3cbd2d709fe4f6e7d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd153aa18191eaf96f660ccfeb976540 = $(`<div id="html_bd153aa18191eaf96f660ccfeb976540" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13061745475' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>wheelchair</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2b68ad74069bf7e3cbd2d709fe4f6e7d.setContent(html_bd153aa18191eaf96f660ccfeb976540);
+            
+        
+
+        marker_9c129a6cc4ea03eccebe1912f5fc6867.bindPopup(popup_2b68ad74069bf7e3cbd2d709fe4f6e7d)
+        ;
+
+        
+    
+    
+                marker_9c129a6cc4ea03eccebe1912f5fc6867.setIcon(icon_58ff51c7750fed440b8c20485c256425);
+            
+    
+            var marker_c7390fd022c6e7bcfc17402d8b271a04 = L.marker(
+                [59.481327699999994, 18.8234623],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_a284863296fce493f11e58c1283bb40e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46b75bbdc343ab56e69a69a211b898d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f9ca3613d461d4d684bc4f8d86d9a1e = $(`<div id="html_3f9ca3613d461d4d684bc4f8d86d9a1e" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13061781619' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_46b75bbdc343ab56e69a69a211b898d9.setContent(html_3f9ca3613d461d4d684bc4f8d86d9a1e);
+            
+        
+
+        marker_c7390fd022c6e7bcfc17402d8b271a04.bindPopup(popup_46b75bbdc343ab56e69a69a211b898d9)
+        ;
+
+        
+    
+    
+                marker_c7390fd022c6e7bcfc17402d8b271a04.setIcon(icon_a284863296fce493f11e58c1283bb40e);
+            
+    
+            var marker_9bb858788e8866b0a798317d213bce39 = L.marker(
+                [59.46726720000001, 18.757257],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_abc2e09cd4e0c8c603f7ed979e8a4ed3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd3a4e91baafe4f166c487d5214f057d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cbda1864861a30844e714a919cf7851d = $(`<div id="html_cbda1864861a30844e714a919cf7851d" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13063317163' target='_blank'>OSM objekt</a></b><br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> pitlatrine<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_dd3a4e91baafe4f166c487d5214f057d.setContent(html_cbda1864861a30844e714a919cf7851d);
+            
+        
+
+        marker_9bb858788e8866b0a798317d213bce39.bindPopup(popup_dd3a4e91baafe4f166c487d5214f057d)
+        ;
+
+        
+    
+    
+                marker_9bb858788e8866b0a798317d213bce39.setIcon(icon_abc2e09cd4e0c8c603f7ed979e8a4ed3);
+            
+    
+            var marker_81a64412f8ab0a2f5c32d929837a4d55 = L.marker(
+                [59.84458310000001, 19.1103746],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_ee16fde44423793ef73d4060d18a6678 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fe788735b358c5bc70c94691908de60 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2b9d451e066af1ba32ce1f7c3f7ae76 = $(`<div id="html_b2b9d451e066af1ba32ce1f7c3f7ae76" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13067993747' target='_blank'>OSM objekt</a></b><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Vandrarhem_Bull_August_g%C3%A5rd_20250813_14.jpg/1536px-Vandrarhem_Bull_August_g%C3%A5rd_20250813_14.jpg' width='200'><br><b>Öppettider:</b> 24/7<br><b>Rullstol:</b> no<br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>access</b> saknas</li><li>toilets:paper_supply saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_2fe788735b358c5bc70c94691908de60.setContent(html_b2b9d451e066af1ba32ce1f7c3f7ae76);
+            
+        
+
+        marker_81a64412f8ab0a2f5c32d929837a4d55.bindPopup(popup_2fe788735b358c5bc70c94691908de60)
+        ;
+
+        
+    
+    
+                marker_81a64412f8ab0a2f5c32d929837a4d55.setIcon(icon_ee16fde44423793ef73d4060d18a6678);
+            
+    
+            var marker_168547174166e05215ce389872f1e22d = L.marker(
+                [59.8501324, 19.1092645],
+                {
+}
+            ).addTo(feature_group_8a64563cd73b6edc642c587c4ec28d36);
+        
+    
+            var icon_beae603860bcfb13cdfc5999596b1da2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_703baa3560bb3516e653035c7aa9a3b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b198bfaa64548e96165e602b2b2fe56c = $(`<div id="html_b198bfaa64548e96165e602b2b2fe56c" style="width: 100.0%; height: 100.0%;"><b><a href='https://www.openstreetmap.org/node/13072501854' target='_blank'>OSM objekt</a></b><br><b>Avfallshantering:</b> flush<br><hr style='margin:5px 0;'><ul style='padding-left:18px;'><li><b>unisex</b> saknas</li><li><b>wheelchair</b> saknas</li><li>toilets:handwashing saknas</li><li>toilets:paper_supply saknas</li><li>opening_hours saknas</li><li>fee saknas</li><li>operator saknas</li><li>description saknas</li></ul><i>Tips: kontrollera viktiga attribut</i></div>`)[0];
+                popup_703baa3560bb3516e653035c7aa9a3b8.setContent(html_b198bfaa64548e96165e602b2b2fe56c);
+            
+        
+
+        marker_168547174166e05215ce389872f1e22d.bindPopup(popup_703baa3560bb3516e653035c7aa9a3b8)
+        ;
+
+        
+    
+    
+                marker_168547174166e05215ce389872f1e22d.setIcon(icon_beae603860bcfb13cdfc5999596b1da2);
+            
+    
+            feature_group_8a64563cd73b6edc642c587c4ec28d36.addTo(map_420a2200a571d9d31995767ddabf858f);
+        
+    
+            var layer_control_c466539fffe7cec489021d68b07367bf_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d72d392367144fd707fc5f624fe2ede9,
+                },
+                overlays :  {
+                    "Godk\u00e4nda toaletter" : feature_group_6a10964b828f68919b74cd31e1c72819,
+                    "Varningar / Ofullst\u00e4ndiga" : feature_group_8a64563cd73b6edc642c587c4ec28d36,
+                },
+            };
+            let layer_control_c466539fffe7cec489021d68b07367bf = L.control.layers(
+                layer_control_c466539fffe7cec489021d68b07367bf_layers.base_layers,
+                layer_control_c466539fffe7cec489021d68b07367bf_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_420a2200a571d9d31995767ddabf858f);
+
+        
+</script>
+</html>
