@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>SAT Ingmarsö 2025</name>
+    <author>
+      <name>Michael Lemmel - Community</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/320822984"/>
+    <time>2025-07-14T13:31:07.969Z</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>SAT Ingmarsö 2025</name>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="59.481" lon="18.798263">
+        <ele>9.9</ele>
+        <name>Båtluffarleden, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.480963" lon="18.79818">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.480719" lon="18.797949">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.480595" lon="18.79765">
+        <ele>12.3</ele>
+      </trkpt>
+      <trkpt lat="59.480533" lon="18.797487">
+        <ele>12.1</ele>
+      </trkpt>
+      <trkpt lat="59.480424" lon="18.797148">
+        <ele>11.5</ele>
+      </trkpt>
+      <trkpt lat="59.480275" lon="18.796696">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.480123" lon="18.796444">
+        <ele>9.5</ele>
+      </trkpt>
+      <trkpt lat="59.479883" lon="18.796417">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.479644" lon="18.79639">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.479626" lon="18.796285">
+        <ele>9.8</ele>
+        <name>59.479626,18.796285</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.47955" lon="18.79602">
+        <ele>8.98588</ele>
+      </trkpt>
+      <trkpt lat="59.479364" lon="18.795612">
+        <ele>1.08942</ele>
+      </trkpt>
+      <trkpt lat="59.479157" lon="18.795333">
+        <ele>-0.00481</ele>
+      </trkpt>
+      <trkpt lat="59.478874" lon="18.794518">
+        <ele>0.36422</ele>
+      </trkpt>
+      <trkpt lat="59.478656" lon="18.793767">
+        <ele>10.87555</ele>
+      </trkpt>
+      <trkpt lat="59.478351" lon="18.793552">
+        <ele>13.68714</ele>
+      </trkpt>
+      <trkpt lat="59.477793" lon="18.794078">
+        <ele>15.1</ele>
+        <name>Kålgårdsöns naturreservat, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.47762" lon="18.794236">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.477287" lon="18.794277">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.476898" lon="18.794418">
+        <ele>16.1</ele>
+      </trkpt>
+      <trkpt lat="59.476689" lon="18.794341">
+        <ele>16.4</ele>
+        <name>Båtluffarleden, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.476622" lon="18.794317">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.476361" lon="18.794065">
+        <ele>15.6</ele>
+      </trkpt>
+      <trkpt lat="59.476321" lon="18.793761">
+        <ele>14.4</ele>
+      </trkpt>
+      <trkpt lat="59.476296" lon="18.793613">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.476096" lon="18.793761">
+        <ele>14.6</ele>
+      </trkpt>
+      <trkpt lat="59.475694" lon="18.793511">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.475473" lon="18.792981">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.475314" lon="18.792621">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.475009" lon="18.792039">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.474911" lon="18.791772">
+        <ele>14.3</ele>
+      </trkpt>
+      <trkpt lat="59.474763" lon="18.791369">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.474579" lon="18.791123">
+        <ele>15.7</ele>
+      </trkpt>
+      <trkpt lat="59.474275" lon="18.790886">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.474139" lon="18.790846">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.474016" lon="18.790809">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.473887" lon="18.790886">
+        <ele>13.2</ele>
+      </trkpt>
+      <trkpt lat="59.473732" lon="18.791191">
+        <ele>13.8</ele>
+      </trkpt>
+      <trkpt lat="59.473567" lon="18.791205">
+        <ele>13.2</ele>
+        <name>Båtluffarleden, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.473422" lon="18.791216">
+        <ele>12.7</ele>
+      </trkpt>
+      <trkpt lat="59.473163" lon="18.791445">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.472951" lon="18.791444">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.472711" lon="18.791064">
+        <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.472724" lon="18.790478">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.472841" lon="18.790065">
+        <ele>6.1</ele>
+      </trkpt>
+      <trkpt lat="59.47265" lon="18.789294">
+        <ele>6.3</ele>
+      </trkpt>
+      <trkpt lat="59.47253" lon="18.788952">
+        <ele>7.6</ele>
+      </trkpt>
+      <trkpt lat="59.472556" lon="18.788519">
+        <ele>5.6</ele>
+      </trkpt>
+      <trkpt lat="59.472358" lon="18.78784">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.472159" lon="18.787162">
+        <ele>12.7</ele>
+      </trkpt>
+      <trkpt lat="59.471961" lon="18.786483">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.471819" lon="18.786254">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.471496" lon="18.786025">
+        <ele>14.1</ele>
+      </trkpt>
+      <trkpt lat="59.471431" lon="18.785618">
+        <ele>13.0</ele>
+      </trkpt>
+      <trkpt lat="59.47147" lon="18.785338">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.471315" lon="18.784803">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.47116" lon="18.784269">
+        <ele>9.5</ele>
+      </trkpt>
+      <trkpt lat="59.470992" lon="18.784065">
+        <ele>11.1</ele>
+      </trkpt>
+      <trkpt lat="59.470832" lon="18.783472">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.470829" lon="18.78346">
+        <ele>11.0</ele>
+        <name>Fridhem, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.470673" lon="18.782878">
+        <ele>10.9</ele>
+      </trkpt>
+      <trkpt lat="59.470513" lon="18.782284">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.470451" lon="18.78142">
+        <ele>11.2</ele>
+      </trkpt>
+      <trkpt lat="59.470423" lon="18.781037">
+        <ele>10.8</ele>
+      </trkpt>
+      <trkpt lat="59.4705" lon="18.780554">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.470578" lon="18.78007">
+        <ele>10.7</ele>
+      </trkpt>
+      <trkpt lat="59.470837" lon="18.779765">
+        <ele>9.8</ele>
+      </trkpt>
+      <trkpt lat="59.470914" lon="18.779281">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.470992" lon="18.778798">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.471394" lon="18.778457">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.471587" lon="18.778144">
+        <ele>16.5</ele>
+      </trkpt>
+      <trkpt lat="59.47178" lon="18.777831">
+        <ele>16.4</ele>
+      </trkpt>
+      <trkpt lat="59.471767" lon="18.777144">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.471974" lon="18.776736">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.471987" lon="18.775998">
+        <ele>15.5</ele>
+      </trkpt>
+      <trkpt lat="59.471767" lon="18.775617">
+        <ele>13.0</ele>
+      </trkpt>
+      <trkpt lat="59.47156" lon="18.775082">
+        <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.471535" lon="18.774624">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.471509" lon="18.774166">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.471694" lon="18.773664">
+        <ele>9.2</ele>
+      </trkpt>
+      <trkpt lat="59.472065" lon="18.773377">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.472051" lon="18.773065">
+        <ele>10.7</ele>
+      </trkpt>
+      <trkpt lat="59.471819" lon="18.772741">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.471651" lon="18.772232">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.471442" lon="18.772027">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.471233" lon="18.771822">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.471037" lon="18.771345">
+        <ele>13.4</ele>
+      </trkpt>
+      <trkpt lat="59.470937" lon="18.771135">
+        <ele>13.0</ele>
+      </trkpt>
+      <trkpt lat="59.470824" lon="18.770476">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.470656" lon="18.77012">
+        <ele>14.6</ele>
+      </trkpt>
+      <trkpt lat="59.470544" lon="18.770094">
+        <ele>14.7</ele>
+        <name>Femsundsvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.47053" lon="18.770091">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.470436" lon="18.770069">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.47039" lon="18.769636">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.470345" lon="18.769204">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.470386" lon="18.768766">
+        <ele>19.3</ele>
+      </trkpt>
+      <trkpt lat="59.470427" lon="18.768328">
+        <ele>19.5</ele>
+      </trkpt>
+      <trkpt lat="59.470532" lon="18.767919">
+        <ele>19.4</ele>
+      </trkpt>
+      <trkpt lat="59.470637" lon="18.767509">
+        <ele>18.9</ele>
+      </trkpt>
+      <trkpt lat="59.470917" lon="18.76701">
+        <ele>20.7</ele>
+      </trkpt>
+      <trkpt lat="59.471198" lon="18.766511">
+        <ele>22.1</ele>
+      </trkpt>
+      <trkpt lat="59.471479" lon="18.766012">
+        <ele>21.9</ele>
+      </trkpt>
+      <trkpt lat="59.471626" lon="18.765478">
+        <ele>22.3</ele>
+      </trkpt>
+      <trkpt lat="59.471478" lon="18.764865">
+        <ele>23.1</ele>
+      </trkpt>
+      <trkpt lat="59.47133" lon="18.764251">
+        <ele>21.8</ele>
+      </trkpt>
+      <trkpt lat="59.471447" lon="18.763873">
+        <ele>22.2</ele>
+      </trkpt>
+      <trkpt lat="59.471698" lon="18.763472">
+        <ele>22.5</ele>
+      </trkpt>
+      <trkpt lat="59.471825" lon="18.763756">
+        <ele>22.8</ele>
+        <name>Djurgårdsvägen, Ingmarsö</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.471866" lon="18.763848">
+        <ele>22.9</ele>
+      </trkpt>
+      <trkpt lat="59.472034" lon="18.764225">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.47233" lon="18.764379">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.472625" lon="18.764534">
+        <ele>21.7</ele>
+      </trkpt>
+      <trkpt lat="59.472839" lon="18.764689">
+        <ele>21.1</ele>
+      </trkpt>
+      <trkpt lat="59.472891" lon="18.765199">
+        <ele>20.4</ele>
+      </trkpt>
+      <trkpt lat="59.472935" lon="18.765643">
+        <ele>18.7</ele>
+      </trkpt>
+      <trkpt lat="59.47298" lon="18.766088">
+        <ele>16.9</ele>
+      </trkpt>
+      <trkpt lat="59.473204" lon="18.766561">
+        <ele>15.0</ele>
+      </trkpt>
+      <trkpt lat="59.473442" lon="18.766618">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.473681" lon="18.766675">
+        <ele>14.9</ele>
+      </trkpt>
+      <trkpt lat="59.473799" lon="18.766703">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.473889" lon="18.767013">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.474088" lon="18.76689">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.474214" lon="18.766938">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.474364" lon="18.767093">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.474554" lon="18.767254">
+        <ele>12.4</ele>
+      </trkpt>
+      <trkpt lat="59.474739" lon="18.76734">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.474919" lon="18.767244">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.475012" lon="18.767271">
+        <ele>11.2</ele>
+      </trkpt>
+      <trkpt lat="59.475132" lon="18.766959">
+        <ele>9.5</ele>
+      </trkpt>
+      <trkpt lat="59.475287" lon="18.766772">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.475303" lon="18.766273">
+        <ele>8.1</ele>
+      </trkpt>
+      <trkpt lat="59.475372" lon="18.765945">
+        <ele>8.6</ele>
+      </trkpt>
+      <trkpt lat="59.475452" lon="18.765916">
+        <ele>9.2</ele>
+        <name>Strömsäng, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.475573" lon="18.765873">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.475711" lon="18.765774">
+        <ele>11.1</ele>
+      </trkpt>
+      <trkpt lat="59.475854" lon="18.765683">
+        <ele>12.2</ele>
+      </trkpt>
+      <trkpt lat="59.475946" lon="18.765548">
+        <ele>12.8</ele>
+      </trkpt>
+      <trkpt lat="59.475984" lon="18.765406">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.476069" lon="18.765264">
+        <ele>12.7</ele>
+      </trkpt>
+      <trkpt lat="59.476256" lon="18.76513">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.476329" lon="18.765098">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.476402" lon="18.765051">
+        <ele>14.3</ele>
+      </trkpt>
+      <trkpt lat="59.476479" lon="18.765008">
+        <ele>14.4</ele>
+      </trkpt>
+      <trkpt lat="59.476555" lon="18.764941">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.476578" lon="18.764884">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.476594" lon="18.764813">
+        <ele>13.7</ele>
+      </trkpt>
+      <trkpt lat="59.476593" lon="18.764735">
+        <ele>13.4</ele>
+      </trkpt>
+      <trkpt lat="59.476587" lon="18.76466">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.476555" lon="18.76447">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.476501" lon="18.764326">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.476434" lon="18.764175">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.476393" lon="18.764002">
+        <ele>10.0</ele>
+      </trkpt>
+      <trkpt lat="59.4764" lon="18.76387">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.476399" lon="18.76372">
+        <ele>10.2</ele>
+      </trkpt>
+      <trkpt lat="59.476374" lon="18.763574">
+        <ele>9.8</ele>
+      </trkpt>
+      <trkpt lat="59.476361" lon="18.763424">
+        <ele>9.2</ele>
+      </trkpt>
+      <trkpt lat="59.476401" lon="18.763225">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.476451" lon="18.763062">
+        <ele>8.2</ele>
+      </trkpt>
+      <trkpt lat="59.476497" lon="18.762978">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.476553" lon="18.762905">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.476654" lon="18.762795">
+        <ele>8.0</ele>
+      </trkpt>
+      <trkpt lat="59.476733" lon="18.762744">
+        <ele>8.3</ele>
+      </trkpt>
+      <trkpt lat="59.476801" lon="18.762631">
+        <ele>8.4</ele>
+      </trkpt>
+      <trkpt lat="59.476834" lon="18.762484">
+        <ele>8.0</ele>
+      </trkpt>
+      <trkpt lat="59.476852" lon="18.762338">
+        <ele>7.6</ele>
+      </trkpt>
+      <trkpt lat="59.476885" lon="18.762141">
+        <ele>7.6</ele>
+        <name>Brännängsvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.4769" lon="18.762055">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.476877" lon="18.761791">
+        <ele>6.9</ele>
+      </trkpt>
+      <trkpt lat="59.47688" lon="18.761669">
+        <ele>6.6</ele>
+      </trkpt>
+      <trkpt lat="59.476898" lon="18.761544">
+        <ele>6.7</ele>
+      </trkpt>
+      <trkpt lat="59.47692" lon="18.76145">
+        <ele>6.9</ele>
+        <name>Brännängsvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.476898" lon="18.761544">
+        <ele>6.7</ele>
+      </trkpt>
+      <trkpt lat="59.47672" lon="18.76119">
+        <ele>6.9</ele>
+      </trkpt>
+      <trkpt lat="59.476506" lon="18.760804">
+        <ele>8.6</ele>
+      </trkpt>
+      <trkpt lat="59.476276" lon="18.760426">
+        <ele>10.9</ele>
+      </trkpt>
+      <trkpt lat="59.476145" lon="18.760219">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.476013" lon="18.759701">
+        <ele>11.6</ele>
+      </trkpt>
+      <trkpt lat="59.475876" lon="18.759413">
+        <ele>12.7</ele>
+      </trkpt>
+      <trkpt lat="59.475601" lon="18.759258">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.475483" lon="18.759033">
+        <ele>16.9</ele>
+      </trkpt>
+      <trkpt lat="59.475437" lon="18.758768">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.475427" lon="18.758735">
+        <ele>18.2</ele>
+      </trkpt>
+      <trkpt lat="59.475343" lon="18.758469">
+        <ele>19.6</ele>
+      </trkpt>
+      <trkpt lat="59.475183" lon="18.757974">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.474975" lon="18.75779">
+        <ele>17.0</ele>
+      </trkpt>
+      <trkpt lat="59.474788" lon="18.757703">
+        <ele>15.7</ele>
+      </trkpt>
+      <trkpt lat="59.474656" lon="18.757576">
+        <ele>14.4</ele>
+      </trkpt>
+      <trkpt lat="59.474589" lon="18.757657">
+        <ele>14.8</ele>
+      </trkpt>
+      <trkpt lat="59.474454" lon="18.757772">
+        <ele>15.0</ele>
+      </trkpt>
+      <trkpt lat="59.474375" lon="18.757818">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.474375" lon="18.757819">
+        <ele>15.2</ele>
+        <name>Djurgårdsvägen, Ingmarsö</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.474346" lon="18.757835">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.474191" lon="18.757905">
+        <ele>15.5</ele>
+      </trkpt>
+      <trkpt lat="59.474086" lon="18.757879">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.474022" lon="18.757907">
+        <ele>14.8</ele>
+      </trkpt>
+      <trkpt lat="59.473947" lon="18.757951">
+        <ele>14.4</ele>
+      </trkpt>
+      <trkpt lat="59.473885" lon="18.758038">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.473757" lon="18.758184">
+        <ele>13.3</ele>
+      </trkpt>
+      <trkpt lat="59.473624" lon="18.758367">
+        <ele>12.2</ele>
+      </trkpt>
+      <trkpt lat="59.473599" lon="18.758414">
+        <ele>12.1</ele>
+      </trkpt>
+      <trkpt lat="59.473559" lon="18.758435">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.473529" lon="18.758418">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.473505" lon="18.758379">
+        <ele>10.9</ele>
+      </trkpt>
+      <trkpt lat="59.473373" lon="18.758157">
+        <ele>9.4</ele>
+      </trkpt>
+      <trkpt lat="59.473275" lon="18.757957">
+        <ele>8.5</ele>
+      </trkpt>
+      <trkpt lat="59.473204" lon="18.757414">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.473132" lon="18.756871">
+        <ele>7.3</ele>
+      </trkpt>
+      <trkpt lat="59.473117" lon="18.756794">
+        <ele>7.6</ele>
+      </trkpt>
+      <trkpt lat="59.473089" lon="18.756738">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.473058" lon="18.756706">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.473025" lon="18.756709">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.472918" lon="18.756764">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.472838" lon="18.756815">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.472802" lon="18.756836">
+        <ele>7.9</ele>
+      </trkpt>
+      <trkpt lat="59.472775" lon="18.756817">
+        <ele>8.0</ele>
+      </trkpt>
+      <trkpt lat="59.472719" lon="18.756561">
+        <ele>9.1</ele>
+      </trkpt>
+      <trkpt lat="59.472659" lon="18.75621">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.472645" lon="18.756233">
+        <ele>11.4</ele>
+      </trkpt>
+      <trkpt lat="59.472645" lon="18.756232">
+        <ele>11.4</ele>
+        <name>Djurgården, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.472659" lon="18.75621">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.472765" lon="18.756136">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.472856" lon="18.756069">
+        <ele>9.3</ele>
+      </trkpt>
+      <trkpt lat="59.472892" lon="18.756043">
+        <ele>9.0</ele>
+      </trkpt>
+      <trkpt lat="59.472929" lon="18.755994">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.472941" lon="18.75594">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.472944" lon="18.755856">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.472941" lon="18.755659">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.473079" lon="18.755509">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.473261" lon="18.755456">
+        <ele>7.1</ele>
+      </trkpt>
+      <trkpt lat="59.473457" lon="18.75545">
+        <ele>7.0</ele>
+      </trkpt>
+      <trkpt lat="59.473536" lon="18.75544">
+        <ele>7.1</ele>
+      </trkpt>
+      <trkpt lat="59.473632" lon="18.755349">
+        <ele>7.0</ele>
+      </trkpt>
+      <trkpt lat="59.473716" lon="18.754994">
+        <ele>7.1</ele>
+      </trkpt>
+      <trkpt lat="59.473817" lon="18.754442">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.473867" lon="18.753983">
+        <ele>8.9</ele>
+      </trkpt>
+      <trkpt lat="59.473918" lon="18.753525">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.473948" lon="18.753514">
+        <ele>10.6</ele>
+        <name>Norrgården B&amp;B, Ingmarsö</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.474157" lon="18.753437">
+        <ele>11.6</ele>
+      </trkpt>
+      <trkpt lat="59.474317" lon="18.753356">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.474425" lon="18.753074">
+        <ele>12.0</ele>
+      </trkpt>
+      <trkpt lat="59.474712" lon="18.752755">
+        <ele>11.0</ele>
+      </trkpt>
+      <trkpt lat="59.47487" lon="18.752478">
+        <ele>10.4</ele>
+      </trkpt>
+      <trkpt lat="59.474913" lon="18.75246">
+        <ele>10.1</ele>
+      </trkpt>
+      <trkpt lat="59.475073" lon="18.752361">
+        <ele>8.8</ele>
+      </trkpt>
+      <trkpt lat="59.475263" lon="18.752213">
+        <ele>8.0</ele>
+      </trkpt>
+      <trkpt lat="59.475378" lon="18.751795">
+        <ele>6.7</ele>
+      </trkpt>
+      <trkpt lat="59.475295" lon="18.751357">
+        <ele>5.0</ele>
+      </trkpt>
+      <trkpt lat="59.475362" lon="18.750771">
+        <ele>3.2</ele>
+      </trkpt>
+      <trkpt lat="59.47556" lon="18.750471">
+        <ele>3.7</ele>
+      </trkpt>
+      <trkpt lat="59.475758" lon="18.750172">
+        <ele>5.4</ele>
+      </trkpt>
+      <trkpt lat="59.476034" lon="18.749858">
+        <ele>6.8</ele>
+      </trkpt>
+      <trkpt lat="59.47631" lon="18.749543">
+        <ele>7.2</ele>
+      </trkpt>
+      <trkpt lat="59.476633" lon="18.749152">
+        <ele>6.0</ele>
+      </trkpt>
+      <trkpt lat="59.47677" lon="18.749046">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.476913" lon="18.749051">
+        <ele>3.8</ele>
+        <name>Norra Ingmarsö, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.47677" lon="18.749046">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.476633" lon="18.749152">
+        <ele>6.0</ele>
+      </trkpt>
+      <trkpt lat="59.47631" lon="18.749543">
+        <ele>7.2</ele>
+      </trkpt>
+      <trkpt lat="59.476034" lon="18.749858">
+        <ele>6.8</ele>
+      </trkpt>
+      <trkpt lat="59.475758" lon="18.750172">
+        <ele>5.4</ele>
+      </trkpt>
+      <trkpt lat="59.47556" lon="18.750471">
+        <ele>3.7</ele>
+      </trkpt>
+      <trkpt lat="59.475362" lon="18.750771">
+        <ele>3.2</ele>
+      </trkpt>
+      <trkpt lat="59.475295" lon="18.751357">
+        <ele>5.0</ele>
+      </trkpt>
+      <trkpt lat="59.47508" lon="18.751246">
+        <ele>4.0</ele>
+      </trkpt>
+      <trkpt lat="59.474981" lon="18.751167">
+        <ele>4.0</ele>
+      </trkpt>
+      <trkpt lat="59.47487" lon="18.751104">
+        <ele>3.9</ele>
+      </trkpt>
+      <trkpt lat="59.47476" lon="18.751096">
+        <ele>3.9</ele>
+      </trkpt>
+      <trkpt lat="59.474603" lon="18.751156">
+        <ele>4.8</ele>
+      </trkpt>
+      <trkpt lat="59.474548" lon="18.751184">
+        <ele>5.3</ele>
+      </trkpt>
+      <trkpt lat="59.474208" lon="18.751468">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.473864" lon="18.751544">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.473751" lon="18.751664">
+        <ele>12.7</ele>
+      </trkpt>
+      <trkpt lat="59.473324" lon="18.751805">
+        <ele>13.6</ele>
+      </trkpt>
+      <trkpt lat="59.473106" lon="18.751914">
+        <ele>13.8</ele>
+      </trkpt>
+      <trkpt lat="59.472888" lon="18.752024">
+        <ele>15.4</ele>
+      </trkpt>
+      <trkpt lat="59.472622" lon="18.752105">
+        <ele>17.5</ele>
+      </trkpt>
+      <trkpt lat="59.472356" lon="18.752186">
+        <ele>17.7</ele>
+      </trkpt>
+      <trkpt lat="59.472236" lon="18.75226">
+        <ele>16.9</ele>
+        <name>Ängvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.472099" lon="18.752344">
+        <ele>15.9</ele>
+      </trkpt>
+      <trkpt lat="59.471843" lon="18.752502">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.471519" lon="18.752642">
+        <ele>10.5</ele>
+      </trkpt>
+      <trkpt lat="59.471195" lon="18.752782">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.470893" lon="18.752932">
+        <ele>9.2</ele>
+      </trkpt>
+      <trkpt lat="59.470591" lon="18.753083">
+        <ele>13.1</ele>
+      </trkpt>
+      <trkpt lat="59.470288" lon="18.753303">
+        <ele>17.1</ele>
+      </trkpt>
+      <trkpt lat="59.469985" lon="18.753497">
+        <ele>19.9</ele>
+      </trkpt>
+      <trkpt lat="59.469903" lon="18.753496">
+        <ele>20.7</ele>
+      </trkpt>
+      <trkpt lat="59.469826" lon="18.75346">
+        <ele>21.5</ele>
+      </trkpt>
+      <trkpt lat="59.469737" lon="18.753382">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.469697" lon="18.753246">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.469674" lon="18.753161">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="59.469641" lon="18.753075">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.469402" lon="18.752747">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="59.469163" lon="18.75242">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="59.469075" lon="18.752286">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="59.468978" lon="18.752221">
+        <ele>25.4</ele>
+      </trkpt>
+      <trkpt lat="59.468894" lon="18.752217">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.4688" lon="18.752298">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="59.468717" lon="18.752388">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="59.468566" lon="18.752505">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.468417" lon="18.752571">
+        <ele>20.7</ele>
+      </trkpt>
+      <trkpt lat="59.468271" lon="18.752557">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.468134" lon="18.752445">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.467913" lon="18.752431">
+        <ele>15.4</ele>
+      </trkpt>
+      <trkpt lat="59.467689" lon="18.752425">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.467598" lon="18.752482">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.467523" lon="18.752551">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.467367" lon="18.752846">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.467276" lon="18.752951">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.466861" lon="18.75298">
+        <ele>9.6</ele>
+      </trkpt>
+      <trkpt lat="59.466459" lon="18.753045">
+        <ele>5.7</ele>
+      </trkpt>
+      <trkpt lat="59.466354" lon="18.753002">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.466269" lon="18.752925">
+        <ele>4.8</ele>
+      </trkpt>
+      <trkpt lat="59.466256" lon="18.752884">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.466176" lon="18.752645">
+        <ele>5.6</ele>
+      </trkpt>
+      <trkpt lat="59.466114" lon="18.752359">
+        <ele>6.5</ele>
+      </trkpt>
+      <trkpt lat="59.465996" lon="18.751637">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.465869" lon="18.751438">
+        <ele>6.3</ele>
+      </trkpt>
+      <trkpt lat="59.465752" lon="18.751311">
+        <ele>5.3</ele>
+      </trkpt>
+      <trkpt lat="59.465607" lon="18.751158">
+        <ele>4.3</ele>
+      </trkpt>
+      <trkpt lat="59.465476" lon="18.751002">
+        <ele>3.6</ele>
+        <name>Södra Ingmarsö, Möja</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.465607" lon="18.751158">
+        <ele>4.3</ele>
+      </trkpt>
+      <trkpt lat="59.465752" lon="18.751311">
+        <ele>5.3</ele>
+      </trkpt>
+      <trkpt lat="59.465869" lon="18.751438">
+        <ele>6.3</ele>
+      </trkpt>
+      <trkpt lat="59.465996" lon="18.751637">
+        <ele>7.7</ele>
+      </trkpt>
+      <trkpt lat="59.466114" lon="18.752359">
+        <ele>6.5</ele>
+      </trkpt>
+      <trkpt lat="59.466176" lon="18.752645">
+        <ele>5.6</ele>
+      </trkpt>
+      <trkpt lat="59.466256" lon="18.752884">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.466269" lon="18.752925">
+        <ele>4.8</ele>
+      </trkpt>
+      <trkpt lat="59.466354" lon="18.753002">
+        <ele>4.9</ele>
+      </trkpt>
+      <trkpt lat="59.466459" lon="18.753045">
+        <ele>5.7</ele>
+      </trkpt>
+      <trkpt lat="59.466861" lon="18.75298">
+        <ele>9.6</ele>
+      </trkpt>
+      <trkpt lat="59.467276" lon="18.752951">
+        <ele>12.5</ele>
+      </trkpt>
+      <trkpt lat="59.467367" lon="18.752846">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.467523" lon="18.752551">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.467598" lon="18.752482">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.467689" lon="18.752425">
+        <ele>14.0</ele>
+      </trkpt>
+      <trkpt lat="59.467913" lon="18.752431">
+        <ele>15.4</ele>
+      </trkpt>
+      <trkpt lat="59.468134" lon="18.752445">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.468271" lon="18.752557">
+        <ele>19.1</ele>
+      </trkpt>
+      <trkpt lat="59.468417" lon="18.752571">
+        <ele>20.7</ele>
+      </trkpt>
+      <trkpt lat="59.468566" lon="18.752505">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.468717" lon="18.752388">
+        <ele>23.6</ele>
+      </trkpt>
+      <trkpt lat="59.4688" lon="18.752298">
+        <ele>24.3</ele>
+      </trkpt>
+      <trkpt lat="59.468894" lon="18.752217">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.468978" lon="18.752221">
+        <ele>25.4</ele>
+      </trkpt>
+      <trkpt lat="59.469075" lon="18.752286">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="59.469163" lon="18.75242">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="59.469402" lon="18.752747">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="59.469641" lon="18.753075">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.469674" lon="18.753161">
+        <ele>24.4</ele>
+      </trkpt>
+      <trkpt lat="59.469697" lon="18.753246">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.469737" lon="18.753382">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.469501" lon="18.753664">
+        <ele>21.3</ele>
+        <name>Ingmarsö byväg, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.469492" lon="18.753674">
+        <ele>21.2</ele>
+      </trkpt>
+      <trkpt lat="59.469247" lon="18.753967">
+        <ele>19.9</ele>
+      </trkpt>
+      <trkpt lat="59.469055" lon="18.754306">
+        <ele>18.9</ele>
+      </trkpt>
+      <trkpt lat="59.46893" lon="18.754931">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.468856" lon="18.755498">
+        <ele>20.8</ele>
+      </trkpt>
+      <trkpt lat="59.468782" lon="18.756065">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="59.468535" lon="18.756643">
+        <ele>22.9</ele>
+      </trkpt>
+      <trkpt lat="59.468438" lon="18.757024">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="59.468354" lon="18.757372">
+        <ele>22.1</ele>
+      </trkpt>
+      <trkpt lat="59.468314" lon="18.757789">
+        <ele>20.9</ele>
+      </trkpt>
+      <trkpt lat="59.468223" lon="18.758074">
+        <ele>20.6</ele>
+      </trkpt>
+      <trkpt lat="59.467822" lon="18.758244">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.467702" lon="18.758088">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.467569" lon="18.757863">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.467487" lon="18.757595">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.467422" lon="18.757487">
+        <ele>17.4</ele>
+      </trkpt>
+      <trkpt lat="59.467384" lon="18.757482">
+        <ele>17.1</ele>
+        <name>Båtdragsvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.467422" lon="18.757487">
+        <ele>17.4</ele>
+      </trkpt>
+      <trkpt lat="59.467487" lon="18.757595">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.467569" lon="18.757863">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.467702" lon="18.758088">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.467822" lon="18.758244">
+        <ele>19.0</ele>
+      </trkpt>
+      <trkpt lat="59.468223" lon="18.758074">
+        <ele>20.6</ele>
+      </trkpt>
+      <trkpt lat="59.468538" lon="18.758517">
+        <ele>20.8</ele>
+      </trkpt>
+      <trkpt lat="59.468737" lon="18.758762">
+        <ele>20.8</ele>
+      </trkpt>
+      <trkpt lat="59.468937" lon="18.759006">
+        <ele>20.9</ele>
+      </trkpt>
+      <trkpt lat="59.469089" lon="18.759149">
+        <ele>20.8</ele>
+      </trkpt>
+      <trkpt lat="59.469126" lon="18.759183">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="59.469286" lon="18.759547">
+        <ele>22.7</ele>
+      </trkpt>
+      <trkpt lat="59.469353" lon="18.759835">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="59.469188" lon="18.760251">
+        <ele>24.9</ele>
+      </trkpt>
+      <trkpt lat="59.469023" lon="18.760668">
+        <ele>25.1</ele>
+      </trkpt>
+      <trkpt lat="59.469002" lon="18.760873">
+        <ele>25.1</ele>
+      </trkpt>
+      <trkpt lat="59.469115" lon="18.761368">
+        <ele>24.2</ele>
+      </trkpt>
+      <trkpt lat="59.469227" lon="18.761863">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="59.469181" lon="18.762358">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.46932" lon="18.762957">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="59.469287" lon="18.763674">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="59.469366" lon="18.763995">
+        <ele>24.7</ele>
+      </trkpt>
+      <trkpt lat="59.469519" lon="18.764612">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="59.469539" lon="18.765381">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.469386" lon="18.765785">
+        <ele>22.3</ele>
+      </trkpt>
+      <trkpt lat="59.469277" lon="18.766048">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.4693" lon="18.766402">
+        <ele>22.1</ele>
+      </trkpt>
+      <trkpt lat="59.469398" lon="18.766579">
+        <ele>20.6</ele>
+      </trkpt>
+      <trkpt lat="59.469581" lon="18.766912">
+        <ele>18.5</ele>
+      </trkpt>
+      <trkpt lat="59.469764" lon="18.767244">
+        <ele>16.8</ele>
+      </trkpt>
+      <trkpt lat="59.469922" lon="18.767713">
+        <ele>16.0</ele>
+      </trkpt>
+      <trkpt lat="59.469916" lon="18.768178">
+        <ele>17.5</ele>
+      </trkpt>
+      <trkpt lat="59.46991" lon="18.768644">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.470128" lon="18.768924">
+        <ele>18.4</ele>
+      </trkpt>
+      <trkpt lat="59.470345" lon="18.769204">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.47039" lon="18.769636">
+        <ele>16.3</ele>
+      </trkpt>
+      <trkpt lat="59.470436" lon="18.770069">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.47053" lon="18.770091">
+        <ele>14.7</ele>
+      </trkpt>
+      <trkpt lat="59.470536" lon="18.77022">
+        <ele>14.2</ele>
+      </trkpt>
+      <trkpt lat="59.470414" lon="18.77049">
+        <ele>12.2</ele>
+      </trkpt>
+      <trkpt lat="59.470404" lon="18.770865">
+        <ele>10.8</ele>
+      </trkpt>
+      <trkpt lat="59.470387" lon="18.770899">
+        <ele>10.7</ele>
+        <name>Femsundsvägen, Österåkers kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
