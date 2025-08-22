@@ -6,21 +6,21 @@
       <name>Michael Lemmel - Community</name>
     </author>
     <link href="https://www.outdooractive.com/r/291505832"/>
-    <time>2024-11-11T12:57:27.825Z</time>
+    <time>2025-08-08T11:26:37.070Z</time>
     <extensions>
       <oa:oaCategory>hikingTourTrail</oa:oaCategory>
     </extensions>
   </metadata>
   <trk>
     <name>SAT Yxlan unmarked</name>
-    <desc>The suggested hike on Yxlan follows the local printed map &quot;Turistkarta 1:25 000&quot; Follow the green dotted trail on the map or this interactive one.</desc>
+    <desc>The suggested hike on Yxlan follows the local printed map &quot;Turistkarta 1:25 000&quot; Follow the green dotted trail on the map or this interactive one. Updated on August 8, the hike around the lake has been removed as the beavers have made it almost impossible to pass.</desc>
     <type>hikingTourTrail</type>
     <trkseg>
       <trkpt lat="59.659867" lon="18.932104">
         <ele>1.65876</ele>
         <name>59.659867,18.932104</name>
         <extensions>
-          <oa:mapZoom>16</oa:mapZoom>
+          <oa:mapZoom>18</oa:mapZoom>
         </extensions>
       </trkpt>
       <trkpt lat="59.659704" lon="18.932501">
@@ -173,95 +173,74 @@
       <trkpt lat="59.659447" lon="18.930457">
         <ele>8.04444</ele>
       </trkpt>
-      <trkpt lat="59.659415" lon="18.930033">
-        <ele>8.32973</ele>
+      <trkpt lat="59.659423" lon="18.930275">
+        <ele>8.22879</ele>
       </trkpt>
-      <trkpt lat="59.65939" lon="18.929647">
-        <ele>9.71034</ele>
+      <trkpt lat="59.659349" lon="18.930318">
+        <ele>8.90645</ele>
       </trkpt>
-      <trkpt lat="59.65932" lon="18.929309">
-        <ele>10.64679</ele>
+      <trkpt lat="59.659249" lon="18.930371">
+        <ele>9.62388</ele>
       </trkpt>
-      <trkpt lat="59.659284" lon="18.929132">
-        <ele>10.96816</ele>
+      <trkpt lat="59.659152" lon="18.930425">
+        <ele>10.0355</ele>
       </trkpt>
-      <trkpt lat="59.659255" lon="18.928982">
-        <ele>11.23089</ele>
+      <trkpt lat="59.659073" lon="18.930489">
+        <ele>9.92942</ele>
       </trkpt>
-      <trkpt lat="59.65923" lon="18.928805">
-        <ele>11.73534</ele>
+      <trkpt lat="59.658978" lon="18.930548">
+        <ele>9.36606</ele>
       </trkpt>
-      <trkpt lat="59.65921" lon="18.928608">
-        <ele>12.57638</ele>
+      <trkpt lat="59.658878" lon="18.930607">
+        <ele>8.93385</ele>
       </trkpt>
-      <trkpt lat="59.659208" lon="18.9285">
-        <ele>12.61592</ele>
+      <trkpt lat="59.658789" lon="18.930672">
+        <ele>8.81117</ele>
       </trkpt>
-      <trkpt lat="59.659178" lon="18.928373">
-        <ele>12.88153</ele>
+      <trkpt lat="59.658734" lon="18.930656">
+        <ele>8.73849</ele>
       </trkpt>
-      <trkpt lat="59.659122" lon="18.927944">
-        <ele>13.42284</ele>
+      <trkpt lat="59.658667" lon="18.93043">
+        <ele>9.32714</ele>
       </trkpt>
-      <trkpt lat="59.659098" lon="18.927563">
-        <ele>13.69387</ele>
+      <trkpt lat="59.658474" lon="18.929824">
+        <ele>11.12212</ele>
       </trkpt>
-      <trkpt lat="59.659099" lon="18.927456">
-        <ele>13.72396</ele>
+      <trkpt lat="59.658379" lon="18.929594">
+        <ele>12.16628</ele>
       </trkpt>
-      <trkpt lat="59.65907" lon="18.9273">
-        <ele>14.21165</ele>
+      <trkpt lat="59.65835" lon="18.929492">
+        <ele>12.73034</ele>
       </trkpt>
-      <trkpt lat="59.659036" lon="18.927033">
-        <ele>14.72466</ele>
+      <trkpt lat="59.65829" lon="18.929358">
+        <ele>13.53919</ele>
       </trkpt>
-      <trkpt lat="59.659018" lon="18.926686">
-        <ele>14.41924</ele>
+      <trkpt lat="59.658285" lon="18.929041">
+        <ele>14.60751</ele>
       </trkpt>
-      <trkpt lat="59.659026" lon="18.92657">
-        <ele>14.15664</ele>
+      <trkpt lat="59.658154" lon="18.928537">
+        <ele>16.82089</ele>
       </trkpt>
-      <trkpt lat="59.658987" lon="18.926236">
-        <ele>13.96856</ele>
+      <trkpt lat="59.658046" lon="18.928258">
+        <ele>17.01119</ele>
       </trkpt>
-      <trkpt lat="59.658847" lon="18.925977">
-        <ele>14.64788</ele>
+      <trkpt lat="59.657973" lon="18.928033">
+        <ele>16.97862</ele>
       </trkpt>
-      <trkpt lat="59.658443" lon="18.925605">
-        <ele>15.96148</ele>
+      <trkpt lat="59.657864" lon="18.927748">
+        <ele>17.78038</ele>
       </trkpt>
-      <trkpt lat="59.658387" lon="18.925476">
-        <ele>15.43252</ele>
+      <trkpt lat="59.657775" lon="18.927475">
+        <ele>17.99961</ele>
       </trkpt>
-      <trkpt lat="59.658237" lon="18.92536">
-        <ele>16.05279</ele>
+      <trkpt lat="59.657705" lon="18.927249">
+        <ele>17.82434</ele>
       </trkpt>
-      <trkpt lat="59.658147" lon="18.925482">
-        <ele>17.118</ele>
+      <trkpt lat="59.657629" lon="18.92711">
+        <ele>17.43527</ele>
       </trkpt>
-      <trkpt lat="59.658102" lon="18.925633">
-        <ele>18.03436</ele>
-      </trkpt>
-      <trkpt lat="59.658005" lon="18.925784">
-        <ele>18.90739</ele>
-      </trkpt>
-      <trkpt lat="59.65789" lon="18.925887">
-        <ele>19.24675</ele>
-      </trkpt>
-      <trkpt lat="59.657831" lon="18.925906">
-        <ele>19.29044</ele>
-      </trkpt>
-      <trkpt lat="59.65778" lon="18.925968">
-        <ele>19.54638</ele>
-      </trkpt>
-      <trkpt lat="59.657683" lon="18.926184">
-        <ele>19.29518</ele>
-      </trkpt>
-      <trkpt lat="59.657674" lon="18.926251">
-        <ele>19.02446</ele>
-      </trkpt>
-      <trkpt lat="59.657565" lon="18.926594">
-        <ele>17.62217</ele>
+      <trkpt lat="59.657572" lon="18.926933">
+        <ele>17.26319</ele>
       </trkpt>
       <trkpt lat="59.657489" lon="18.926718">
         <ele>16.88172</ele>
@@ -2692,6 +2671,7 @@
         <ele>13.6</ele>
         <name>Hamnviksvägen 48, 760 18 Yxlan</name>
         <extensions>
+          <oa:locType>routingNode</oa:locType>
           <oa:mapZoom>16</oa:mapZoom>
         </extensions>
       </trkpt>
@@ -2756,6 +2736,7 @@
         <ele>33.8</ele>
         <name>59.608956,18.831105</name>
         <extensions>
+          <oa:locType>routingNode</oa:locType>
           <oa:mapZoom>15</oa:mapZoom>
         </extensions>
       </trkpt>
@@ -2809,6 +2790,7 @@
         <ele>33.9</ele>
         <name>Hamnviksslingan, Norrtälje kommun</name>
         <extensions>
+          <oa:locType>routingNode</oa:locType>
           <oa:mapZoom>15</oa:mapZoom>
         </extensions>
       </trkpt>
@@ -2882,6 +2864,7 @@
         <ele>22.4</ele>
         <name>Ladviksudd, Norrtälje kommun</name>
         <extensions>
+          <oa:locType>routingNode</oa:locType>
           <oa:mapZoom>15</oa:mapZoom>
         </extensions>
       </trkpt>
@@ -2901,6 +2884,7 @@
         <ele>27.7</ele>
         <name>Ladviksudd, Norrtälje kommun</name>
         <extensions>
+          <oa:locType>routingNode</oa:locType>
           <oa:mapZoom>15</oa:mapZoom>
         </extensions>
       </trkpt>
@@ -2926,7 +2910,8 @@
         <ele>20.0</ele>
         <name>59.600051,18.830672</name>
         <extensions>
-          <oa:mapZoom>16</oa:mapZoom>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
         </extensions>
       </trkpt>
       <trkpt lat="59.600148" lon="18.830007">
@@ -2935,167 +2920,111 @@
       <trkpt lat="59.600164" lon="18.829782">
         <ele>18.1</ele>
       </trkpt>
-      <trkpt lat="59.600216" lon="18.829321">
-        <ele>17.8</ele>
+      <trkpt lat="59.600123" lon="18.829605">
+        <ele>17.4</ele>
       </trkpt>
-      <trkpt lat="59.600314" lon="18.82857">
-        <ele>18.4</ele>
+      <trkpt lat="59.599982" lon="18.829203">
+        <ele>15.0</ele>
       </trkpt>
-      <trkpt lat="59.600346" lon="18.827905">
-        <ele>18.2</ele>
+      <trkpt lat="59.599889" lon="18.828964">
+        <ele>15.2</ele>
+        <name>Vagnsundavägen, Norrtälje kommun</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
       </trkpt>
-      <trkpt lat="59.600547" lon="18.827272">
+      <trkpt lat="59.599838" lon="18.828833">
         <ele>15.2</ele>
       </trkpt>
-      <trkpt lat="59.60071" lon="18.826661">
-        <ele>13.4</ele>
+      <trkpt lat="59.59948" lon="18.828307">
+        <ele>20.6</ele>
       </trkpt>
-      <trkpt lat="59.600765" lon="18.826339">
-        <ele>13.7</ele>
+      <trkpt lat="59.599138" lon="18.827819">
+        <ele>24.5</ele>
       </trkpt>
-      <trkpt lat="59.600737" lon="18.82591">
-        <ele>15.9</ele>
+      <trkpt lat="59.599035" lon="18.827634">
+        <ele>24.6</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
       </trkpt>
-      <trkpt lat="59.600645" lon="18.825577">
-        <ele>16.6</ele>
+      <trkpt lat="59.599024" lon="18.827615">
+        <ele>24.6</ele>
       </trkpt>
-      <trkpt lat="59.600537" lon="18.825116">
-        <ele>16.0</ele>
+      <trkpt lat="59.598942" lon="18.827475">
+        <ele>25.1</ele>
       </trkpt>
-      <trkpt lat="59.600511" lon="18.824775">
-        <ele>15.1</ele>
-        <name>59.600511,18.824775</name>
+      <trkpt lat="59.598872" lon="18.827229">
+        <ele>25.3</ele>
+      </trkpt>
+      <trkpt lat="59.598831" lon="18.826767">
+        <ele>24.8</ele>
+        <name>Bredviksbacken, Norrtälje kommun</name>
         <extensions>
           <oa:mapZoom>16</oa:mapZoom>
         </extensions>
       </trkpt>
-      <trkpt lat="59.600499" lon="18.824601">
-        <ele>14.7</ele>
+      <trkpt lat="59.598685" lon="18.825867">
+        <ele>26.66092</ele>
       </trkpt>
-      <trkpt lat="59.600455" lon="18.824097">
-        <ele>13.5</ele>
-      </trkpt>
-      <trkpt lat="59.600384" lon="18.823807">
-        <ele>13.2</ele>
-      </trkpt>
-      <trkpt lat="59.600314" lon="18.823507">
-        <ele>13.5</ele>
-      </trkpt>
-      <trkpt lat="59.600265" lon="18.82311">
-        <ele>13.9</ele>
-      </trkpt>
-      <trkpt lat="59.600222" lon="18.822895">
-        <ele>14.5</ele>
-      </trkpt>
-      <trkpt lat="59.600178" lon="18.822519">
-        <ele>15.6</ele>
-      </trkpt>
-      <trkpt lat="59.600167" lon="18.822273">
-        <ele>16.4</ele>
-      </trkpt>
-      <trkpt lat="59.600178" lon="18.822133">
-        <ele>16.6</ele>
-      </trkpt>
-      <trkpt lat="59.600227" lon="18.822026">
-        <ele>16.7</ele>
-      </trkpt>
-      <trkpt lat="59.600319" lon="18.821586">
-        <ele>17.5</ele>
-      </trkpt>
-      <trkpt lat="59.600374" lon="18.821414">
-        <ele>18.2</ele>
-      </trkpt>
-      <trkpt lat="59.600374" lon="18.821157">
-        <ele>17.3</ele>
-      </trkpt>
-      <trkpt lat="59.600384" lon="18.820932">
-        <ele>17.3</ele>
-      </trkpt>
-      <trkpt lat="59.600401" lon="18.820749">
-        <ele>17.6</ele>
-      </trkpt>
-      <trkpt lat="59.600433" lon="18.820438">
-        <ele>18.3</ele>
-      </trkpt>
-      <trkpt lat="59.600455" lon="18.820116">
-        <ele>18.8</ele>
-      </trkpt>
-      <trkpt lat="59.60045" lon="18.82002">
-        <ele>18.8</ele>
-      </trkpt>
-      <trkpt lat="59.600374" lon="18.81988">
-        <ele>18.2</ele>
-      </trkpt>
-      <trkpt lat="59.600232" lon="18.819708">
-        <ele>17.7</ele>
-      </trkpt>
-      <trkpt lat="59.60014" lon="18.819537">
-        <ele>17.4</ele>
-      </trkpt>
-      <trkpt lat="59.600097" lon="18.819387">
-        <ele>17.5</ele>
-      </trkpt>
-      <trkpt lat="59.600114" lon="18.819045">
-        <ele>17.7</ele>
-        <name>59.600114,18.819045</name>
+      <trkpt lat="59.598697" lon="18.824892">
+        <ele>28.3</ele>
+        <name>Bredviksbacken, Norrtälje kommun</name>
         <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
+          <oa:mapZoom>16</oa:mapZoom>
         </extensions>
       </trkpt>
-      <trkpt lat="59.599836" lon="18.818228">
-        <ele>18.05269</ele>
+      <trkpt lat="59.598404" lon="18.824918">
+        <ele>29.7</ele>
       </trkpt>
-      <trkpt lat="59.599391" lon="18.817799">
-        <ele>15.65251</ele>
+      <trkpt lat="59.598096" lon="18.824945">
+        <ele>31.6</ele>
       </trkpt>
-      <trkpt lat="59.598696" lon="18.817391">
-        <ele>17.62912</ele>
+      <trkpt lat="59.597691" lon="18.824795">
+        <ele>35.7</ele>
       </trkpt>
-      <trkpt lat="59.598229" lon="18.81752">
-        <ele>25.63534</ele>
+      <trkpt lat="59.597287" lon="18.824646">
+        <ele>37.0</ele>
       </trkpt>
-      <trkpt lat="59.597708" lon="18.818572">
-        <ele>22.8304</ele>
+      <trkpt lat="59.596882" lon="18.824497">
+        <ele>36.9</ele>
       </trkpt>
-      <trkpt lat="59.597523" lon="18.81973">
-        <ele>21.58256</ele>
+      <trkpt lat="59.596478" lon="18.824348">
+        <ele>35.7</ele>
       </trkpt>
-      <trkpt lat="59.597729" lon="18.820846">
-        <ele>23.851</ele>
+      <trkpt lat="59.596073" lon="18.824199">
+        <ele>36.1</ele>
       </trkpt>
-      <trkpt lat="59.598077" lon="18.821211">
-        <ele>22.80648</ele>
+      <trkpt lat="59.595718" lon="18.824134">
+        <ele>37.2</ele>
       </trkpt>
-      <trkpt lat="59.598468" lon="18.822305">
-        <ele>23.86381</ele>
+      <trkpt lat="59.595362" lon="18.82407">
+        <ele>37.1</ele>
       </trkpt>
-      <trkpt lat="59.59875" lon="18.823528">
-        <ele>23.76683</ele>
+      <trkpt lat="59.595006" lon="18.824006">
+        <ele>37.0</ele>
       </trkpt>
-      <trkpt lat="59.599032" lon="18.824859">
-        <ele>23.84559</ele>
-      </trkpt>
-      <trkpt lat="59.598099" lon="18.824944">
-        <ele>31.61964</ele>
-      </trkpt>
-      <trkpt lat="59.597273" lon="18.824601">
-        <ele>37.02042</ele>
-      </trkpt>
-      <trkpt lat="59.5961" lon="18.824215">
-        <ele>36.03446</ele>
-      </trkpt>
-      <trkpt lat="59.595014" lon="18.824">
-        <ele>37.04358</ele>
-      </trkpt>
-      <trkpt lat="59.594276" lon="18.824215">
-        <ele>33.77653</ele>
-      </trkpt>
-      <trkpt lat="59.59448" lon="18.8253">
-        <ele>32.8</ele>
-        <name>59.594515,18.825245</name>
+      <trkpt lat="59.594757" lon="18.824085">
+        <ele>37.0</ele>
+        <name>Vagnsundavägen, Norrtälje kommun</name>
         <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
+          <oa:mapZoom>16</oa:mapZoom>
         </extensions>
+      </trkpt>
+      <trkpt lat="59.594644" lon="18.824121">
+        <ele>36.9</ele>
+      </trkpt>
+      <trkpt lat="59.594281" lon="18.824236">
+        <ele>33.9</ele>
+      </trkpt>
+      <trkpt lat="59.594338" lon="18.824666">
+        <ele>33.8</ele>
+      </trkpt>
+      <trkpt lat="59.594396" lon="18.825095">
+        <ele>33.5</ele>
       </trkpt>
       <trkpt lat="59.594564" lon="18.825502">
         <ele>32.1</ele>
@@ -3115,6 +3044,13 @@
       <trkpt lat="59.593744" lon="18.826286">
         <ele>23.9</ele>
       </trkpt>
+      <trkpt lat="59.593652" lon="18.826318">
+        <ele>22.8</ele>
+        <name>Granhyddsbacken, Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
       <trkpt lat="59.59338" lon="18.826414">
         <ele>19.4</ele>
       </trkpt>
@@ -3123,13 +3059,6 @@
       </trkpt>
       <trkpt lat="59.593288" lon="18.827208">
         <ele>15.5</ele>
-      </trkpt>
-      <trkpt lat="59.593299" lon="18.827401">
-        <ele>15.2</ele>
-        <name>59.593299,18.827401</name>
-        <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
-        </extensions>
       </trkpt>
       <trkpt lat="59.593331" lon="18.827943">
         <ele>14.4</ele>
@@ -3197,6 +3126,13 @@
       <trkpt lat="59.591769" lon="18.818239">
         <ele>11.7</ele>
       </trkpt>
+      <trkpt lat="59.591546" lon="18.818343">
+        <ele>11.5</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
       <trkpt lat="59.591406" lon="18.818408">
         <ele>11.4</ele>
       </trkpt>
@@ -3208,13 +3144,6 @@
       </trkpt>
       <trkpt lat="59.590558" lon="18.818802">
         <ele>14.6</ele>
-      </trkpt>
-      <trkpt lat="59.590488" lon="18.818865">
-        <ele>14.9</ele>
-        <name>59.590488,18.818865</name>
-        <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
-        </extensions>
       </trkpt>
       <trkpt lat="59.590297" lon="18.819038">
         <ele>15.8</ele>
@@ -3275,6 +3204,13 @@
       </trkpt>
       <trkpt lat="59.586912" lon="18.815512">
         <ele>9.9</ele>
+      </trkpt>
+      <trkpt lat="59.586711" lon="18.815271">
+        <ele>10.1</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
       </trkpt>
       <trkpt lat="59.586694" lon="18.81525">
         <ele>10.1</ele>
@@ -3339,71 +3275,176 @@
       <trkpt lat="59.586066" lon="18.803635">
         <ele>26.9</ele>
       </trkpt>
-      <trkpt lat="59.586088" lon="18.803467">
-        <ele>27.3</ele>
-        <name>59.586088,18.803467</name>
-        <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
-        </extensions>
+      <trkpt lat="59.586127" lon="18.803172">
+        <ele>28.0</ele>
       </trkpt>
-      <trkpt lat="59.586478" lon="18.803015">
-        <ele>29.46148</ele>
+      <trkpt lat="59.586381" lon="18.802959">
+        <ele>29.3</ele>
       </trkpt>
-      <trkpt lat="59.587086" lon="18.802414">
+      <trkpt lat="59.586435" lon="18.802914">
         <ele>29.4</ele>
-      </trkpt>
-      <trkpt lat="59.587738" lon="18.801942">
-        <ele>27.8334</ele>
-      </trkpt>
-      <trkpt lat="59.58802" lon="18.800998">
-        <ele>28.8819</ele>
-      </trkpt>
-      <trkpt lat="59.588672" lon="18.801427">
-        <ele>29.93353</ele>
-      </trkpt>
-      <trkpt lat="59.589041" lon="18.80074">
-        <ele>30.90694</ele>
-      </trkpt>
-      <trkpt lat="59.589497" lon="18.798852">
-        <ele>23.87739</ele>
-      </trkpt>
-      <trkpt lat="59.589367" lon="18.797607">
-        <ele>20.37439</ele>
-      </trkpt>
-      <trkpt lat="59.589758" lon="18.796535">
-        <ele>17.69063</ele>
-      </trkpt>
-      <trkpt lat="59.590149" lon="18.795033">
-        <ele>11.27145</ele>
-      </trkpt>
-      <trkpt lat="59.590453" lon="18.794174">
-        <ele>11.33203</ele>
-      </trkpt>
-      <trkpt lat="59.590931" lon="18.793831">
-        <ele>0.05309</ele>
-      </trkpt>
-      <trkpt lat="59.590012" lon="18.795557">
-        <ele>13.05899</ele>
-      </trkpt>
-      <trkpt lat="59.589302" lon="18.798165">
-        <ele>22.19588</ele>
-      </trkpt>
-      <trkpt lat="59.589519" lon="18.799453">
-        <ele>23.92197</ele>
-      </trkpt>
-      <trkpt lat="59.588715" lon="18.800912">
-        <ele>31.89056</ele>
-      </trkpt>
-      <trkpt lat="59.588223" lon="18.801131">
-        <ele>29.53557</ele>
-      </trkpt>
-      <trkpt lat="59.586122" lon="18.80315">
-        <ele>28.1</ele>
-        <name>Vagnsunda tomtområde, Norrtälje kommun</name>
+        <name>Norrtälje kommun</name>
         <extensions>
-          <oa:locType>routingNode</oa:locType>
-          <oa:mapZoom>15</oa:mapZoom>
+          <oa:mapZoom>16</oa:mapZoom>
         </extensions>
+      </trkpt>
+      <trkpt lat="59.586635" lon="18.802747">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="59.586886" lon="18.802498">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="59.587137" lon="18.80225">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="59.587424" lon="18.801993">
+        <ele>27.2</ele>
+      </trkpt>
+      <trkpt lat="59.58771" lon="18.801735">
+        <ele>27.7</ele>
+      </trkpt>
+      <trkpt lat="59.587947" lon="18.801376">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.588164" lon="18.80114">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="59.588494" lon="18.801156">
+        <ele>30.5</ele>
+      </trkpt>
+      <trkpt lat="59.588643" lon="18.80114">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="59.588913" lon="18.800756">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="59.589131" lon="18.800255">
+        <ele>28.3</ele>
+      </trkpt>
+      <trkpt lat="59.58931" lon="18.799681">
+        <ele>25.7</ele>
+      </trkpt>
+      <trkpt lat="59.589447" lon="18.799166">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="59.589414" lon="18.798704">
+        <ele>23.3</ele>
+      </trkpt>
+      <trkpt lat="59.58938" lon="18.798243">
+        <ele>22.7</ele>
+      </trkpt>
+      <trkpt lat="59.589435" lon="18.79761">
+        <ele>20.3</ele>
+      </trkpt>
+      <trkpt lat="59.589581" lon="18.797117">
+        <ele>19.6</ele>
+      </trkpt>
+      <trkpt lat="59.589616" lon="18.797002">
+        <ele>19.2</ele>
+      </trkpt>
+      <trkpt lat="59.589616" lon="18.797001">
+        <ele>19.2</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>18</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.589728" lon="18.796623">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.589834" lon="18.796215">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.58994" lon="18.795808">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.590164" lon="18.795134">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.590419" lon="18.794699">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.590673" lon="18.794264">
+        <ele>7.0</ele>
+      </trkpt>
+      <trkpt lat="59.590924" lon="18.793835">
+        <ele>0.2</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.590673" lon="18.794264">
+        <ele>7.0</ele>
+      </trkpt>
+      <trkpt lat="59.590419" lon="18.794699">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.590164" lon="18.795134">
+        <ele>11.8</ele>
+      </trkpt>
+      <trkpt lat="59.58994" lon="18.795808">
+        <ele>14.5</ele>
+      </trkpt>
+      <trkpt lat="59.589834" lon="18.796215">
+        <ele>16.2</ele>
+      </trkpt>
+      <trkpt lat="59.589728" lon="18.796623">
+        <ele>17.9</ele>
+      </trkpt>
+      <trkpt lat="59.589581" lon="18.797117">
+        <ele>19.6</ele>
+      </trkpt>
+      <trkpt lat="59.589435" lon="18.79761">
+        <ele>20.3</ele>
+      </trkpt>
+      <trkpt lat="59.58938" lon="18.798243">
+        <ele>22.7</ele>
+      </trkpt>
+      <trkpt lat="59.589414" lon="18.798704">
+        <ele>23.3</ele>
+      </trkpt>
+      <trkpt lat="59.589447" lon="18.799166">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="59.58931" lon="18.799681">
+        <ele>25.7</ele>
+      </trkpt>
+      <trkpt lat="59.589131" lon="18.800255">
+        <ele>28.3</ele>
+      </trkpt>
+      <trkpt lat="59.588913" lon="18.800756">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="59.588643" lon="18.80114">
+        <ele>30.9</ele>
+      </trkpt>
+      <trkpt lat="59.588494" lon="18.801156">
+        <ele>30.5</ele>
+      </trkpt>
+      <trkpt lat="59.588164" lon="18.80114">
+        <ele>29.3</ele>
+      </trkpt>
+      <trkpt lat="59.587947" lon="18.801376">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="59.58771" lon="18.801735">
+        <ele>27.7</ele>
+      </trkpt>
+      <trkpt lat="59.587424" lon="18.801993">
+        <ele>27.2</ele>
+      </trkpt>
+      <trkpt lat="59.587137" lon="18.80225">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="59.586886" lon="18.802498">
+        <ele>30.1</ele>
+      </trkpt>
+      <trkpt lat="59.586635" lon="18.802747">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="59.586381" lon="18.802959">
+        <ele>29.3</ele>
       </trkpt>
       <trkpt lat="59.586127" lon="18.803172">
         <ele>28.0</ele>
@@ -3537,6 +3578,13 @@
       <trkpt lat="59.587427" lon="18.819344">
         <ele>11.3</ele>
       </trkpt>
+      <trkpt lat="59.587365" lon="18.819517">
+        <ele>10.6</ele>
+        <name>Norrtälje kommun</name>
+        <extensions>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
       <trkpt lat="59.587354" lon="18.819548">
         <ele>10.5</ele>
       </trkpt>
@@ -3551,14 +3599,6 @@
       </trkpt>
       <trkpt lat="59.587375" lon="18.820369">
         <ele>12.0</ele>
-      </trkpt>
-      <trkpt lat="59.587419" lon="18.8205">
-        <ele>11.9</ele>
-        <name>Grundviksvägen, Norrtälje kommun</name>
-        <extensions>
-          <oa:locType>routingNode</oa:locType>
-          <oa:mapZoom>15</oa:mapZoom>
-        </extensions>
       </trkpt>
       <trkpt lat="59.58744" lon="18.820562">
         <ele>11.9</ele>
@@ -3647,25 +3687,39 @@
       <trkpt lat="59.586376" lon="18.828346">
         <ele>15.8</ele>
       </trkpt>
-      <trkpt lat="59.586342" lon="18.82844">
-        <ele>15.3</ele>
-        <name>Brokholmen, Norrtälje kommun</name>
+      <trkpt lat="59.586332" lon="18.828472">
+        <ele>15.0</ele>
+      </trkpt>
+      <trkpt lat="59.586523" lon="18.82909">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.586714" lon="18.829708">
+        <ele>15.2</ele>
+      </trkpt>
+      <trkpt lat="59.587083" lon="18.830037">
+        <ele>13.5</ele>
+      </trkpt>
+      <trkpt lat="59.587452" lon="18.830365">
+        <ele>10.3</ele>
+      </trkpt>
+      <trkpt lat="59.587685" lon="18.830729">
+        <ele>8.4</ele>
+      </trkpt>
+      <trkpt lat="59.587917" lon="18.831092">
+        <ele>7.8</ele>
+      </trkpt>
+      <trkpt lat="59.588135" lon="18.8315">
+        <ele>11.3</ele>
+      </trkpt>
+      <trkpt lat="59.588353" lon="18.831908">
+        <ele>12.9</ele>
+      </trkpt>
+      <trkpt lat="59.588477" lon="18.832238">
+        <ele>-0.3</ele>
+        <name>Norrtälje kommun</name>
         <extensions>
-          <oa:mapZoom>15</oa:mapZoom>
+          <oa:mapZoom>16</oa:mapZoom>
         </extensions>
-      </trkpt>
-      <trkpt lat="59.586716" lon="18.829708">
-        <ele>15.15249</ele>
-      </trkpt>
-      <trkpt lat="59.587455" lon="18.830352">
-        <ele>10.289</ele>
-      </trkpt>
-      <trkpt lat="59.587911" lon="18.831081">
-        <ele>7.71255</ele>
-      </trkpt>
-      <trkpt lat="59.588346" lon="18.832154">
-        <ele>2.33244</ele>
-        <name>Brokholmen, Norrtälje kommun</name>
       </trkpt>
     </trkseg>
   </trk>
