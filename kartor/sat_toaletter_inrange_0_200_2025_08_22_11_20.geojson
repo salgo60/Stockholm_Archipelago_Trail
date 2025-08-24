@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "sat_toaletter_inrange_0_200_2025_08_22_11_20",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-
-]
-}
