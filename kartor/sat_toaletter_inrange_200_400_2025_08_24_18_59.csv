@@ -1,0 +1,10 @@
+tags,id,osm_type,toilets_num,distance_m
+"{'access': 'yes', 'amenity': 'toilets', 'fee': 'no', 'level': '0', 'operator': 'Skärgårdsstiftelsen'}",4958820945,node,1,291.353548521374
+{'amenity': 'toilets'},5860551264,node,1,211.25551200025498
+{'amenity': 'toilets'},7141411810,node,1,350.0178538053792
+"{'amenity': 'toilets', 'toilets:disposal': 'pitlatrine'}",11231068339,node,1,306.9968670386677
+{'amenity': 'toilets'},12076565048,node,1,227.18078893024804
+"{'access': 'yes', 'amenity': 'toilets', 'changing_table': 'yes', 'fee': 'no', 'image': 'https://upload.wikimedia.org/wikipedia/commons/2/2e/SATN%C3%A5ttar%C3%B6_2025_april_toaletter_%282%29.jpg', 'image:license': 'CC0 1.0', 'image:license:wikidata': 'Q6938433', 'toilets:handwashing': 'no', 'toilets:num_chambers': '1', 'toilets:paper_supplied': 'yes', 'toilets:wheelchair': 'no', 'unisex': 'yes', 'wheelchair': 'no', 'wikimedia_commons': 'Category:Nåttarö_public_toilet_12862899770'}",12862899770,node,1,267.7890061862178
+"{'access': 'yes', 'amenity': 'toilets', 'check_date': '2025-04-23', 'image': 'https://upload.wikimedia.org/wikipedia/commons/f/fd/SATN%C3%A5ttar%C3%B6_2025_april_toaletter.jpg', 'image:license': 'CC-0', 'image:license:wikidata': 'Q6938433', 'toilets:disposal': 'flush', 'toilets:num_chambers': '2', 'toilets:wheelchair': 'no', 'unisex': 'yes', 'wheelchair': 'no', 'wikimedia_commons': 'Category:Nåttarö_toilet_13081071658'}",13081071658,node,2,230.32575034934808
+"{'access': 'yes', 'amenity': 'toilets', 'building': 'yes', 'drinking_water': 'no', 'fee': 'no', 'operator': 'Skärgårdsstiftelsen', 'toilets:disposal': 'bucket', 'toilets:position': 'seated', 'unisex': 'yes'}",248207893,way,1,342.7139538325886
+"{'access': 'yes', 'amenity': 'toilets', 'building': 'yes', 'drinking_water': 'yes', 'fee': 'no', 'hot_water': 'yes', 'unisex': 'yes'}",833889554,way,1,379.8919205322497
