@@ -5,7 +5,12 @@
    "id": "cd36883a-c286-4f49-b602-57ff933d4316",
    "metadata": {},
    "source": [
-    "## Analyze the trail"
+    "## Analyze the trail \n",
+    "\n",
+    "* [142 SAT Enhancement Märk ut saknade taggar för framkomlighetsbedömning](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/142)\n",
+    "\n",
+    "* Försök höja nivån på leddata\n",
+    "  * [karta 2025_08_27_22_13](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/kartor/142_SAT_M%C3%A4rk_ut_saknade_taggar_f%C3%B6r_framkomlighetsbed%C3%B6mning_2025_08_27_22_13.html) "
    ]
   },
   {
@@ -1058,7 +1063,9 @@
    "cell_type": "code",
    "execution_count": 23,
    "id": "70c35c6f-e284-4737-a9ce-e3d4c44b8c44",
-   "metadata": {},
+   "metadata": {
+    "scrolled": true
+   },
    "outputs": [
     {
      "data": {
