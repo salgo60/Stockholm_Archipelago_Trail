@@ -1,0 +1,14 @@
+osmid,highway,surface,tracktype,foot,bicycle,sac_scale,trail_visibility,smoothness,missing_surface,missing_access,missing_hike,inconsistent,Etapp,OSM_relation,Ö
+36359810,unclassified,gravel,,,yes,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+36359857,unclassified,gravel,,yes,yes,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+36362683,path,unpaved,,yes,yes,,excellent,,False,False,True,False,SAT Ålö,19012684,Ålö
+336092845,road,gravel,,,,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+603480613,path,ground,,designated,permissive,hiking,good,,False,False,False,False,SAT Ålö,19012684,Ålö
+703502014,path,ground,,designated,no,demanding_mountain_hiking,intermediate,,False,False,False,False,SAT Ålö,19012684,Ålö
+703502020,unclassified,gravel,,yes,yes,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+703502022,path,unpaved,,yes,,hiking,good,,False,False,False,False,SAT Ålö,19012684,Ålö
+703502023,unclassified,gravel,,,yes,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+703502027,track,gravel,grade1,,,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+715314511,unclassified,gravel,,yes,yes,,,,False,False,False,False,SAT Ålö,19012684,Ålö
+771056531,track,unpaved,,yes,,hiking,good,,False,False,False,False,SAT Ålö,19012684,Ålö
+771056532,path,unpaved,,yes,,hiking,good,,False,False,False,False,SAT Ålö,19012684,Ålö
