@@ -4,6 +4,7 @@ A try to add value to Stockholm Archipelago Trail see [issues](https://github.co
 
 # System Architecture see [issue 149](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/149)
 
+```mermaid
 flowchart LR
   subgraph Sources[Data Sources]
     OSM[OSM\n(trails, POIs, toilets, water)]
@@ -113,7 +114,7 @@ flowchart LR
   Admin --> PG
   Auth --- API
   Lic --- Web
-
+```
 
 ## Binder with POC [video](https://youtu.be/bepljHYFqp4)
 
