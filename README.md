@@ -7,22 +7,22 @@ A try to add value to Stockholm Archipelago Trail see [issues](https://github.co
 ```mermaid
 flowchart LR
   subgraph Sources[Data Sources]
-    OSM[OSM\n(trails, POIs, toilets, water)]
-    WD[Wikidata\n(600 SAT items,\nlabels >30 languages,\nlinks: OSM/GMaps/Instagram)]
-    GM[Google Maps / Business Sites\n(opening hours, URLs)]
-    SK[Skärgårdsstiftelsen\n(2019 open-data sets?)]
-    HF[Ferry/Transport Feeds\n(GTFS/CSV/API)]
-    UGC[User Feedback\n(Facebook, blogs, GitHub Issues)]
+    OSM["OSM <br/>(trails, POIs, toilets, water)"]
+    WD["Wikidata <br/>(600 SAT items,<br/>labels >30 languages,<br/>links: OSM/GMaps/Instagram)"]
+    GM["Google Maps / Business Sites <br/>(opening hours, URLs)"]
+    SK["Skärgårdsstiftelsen <br/>(2019 open-data sets?)"]
+    HF["Ferry/Transport Feeds <br/>(GTFS/CSV/API)"]
+    UGC["User Feedback <br/>(Facebook, blogs, GitHub Issues)"]
   end
 
   subgraph Ingest[Ingestion & ETL]
-    IN_OSM[Overpass/OSM Sync\nscheduled ETL]
-    IN_WD[SPARQL Sync\nlabels & links]
-    IN_GM[Scraper/API for hours\n(legal/robots aware)]
-    IN_SK[Once-off import +\nquality scoring]
-    IN_HF[GTFS parser]
-    IN_UGC[NLP extraction\n(closed tap, hours, notes)]
-    QAC[Validation & QA\n(schema, tag checks)]
+    IN_OSM["Overpass/OSM Sync <br/>scheduled ETL"]
+    IN_WD["SPARQL Sync <br/>labels & links"]
+    IN_GM["Scraper/API for hours <br/>(legal/robots aware)"]
+    IN_SK["Once-off import + <br/>quality scoring"]
+    IN_HF["GTFS parser"]
+    IN_UGC["NLP extraction <br/>(closed tap, hours, notes)"]
+    QAC["Validation & QA <br/>(schema, tag checks)"]
   end
 
   Sources --> IN_OSM
@@ -39,10 +39,10 @@ flowchart LR
   IN_UGC --> QAC
 
   subgraph Storage[Storage & Catalog]
-    PG[(PostGIS)]
-    KB[(Doc Store / Vector DB\n(WD descriptions, pages))]
-    MQ[[Message Queue / Scheduler]]
-    MET[(Data Catalog & Provenance)]
+    PG[("PostGIS")]
+    KB[("Doc Store / Vector DB <br/>(WD descriptions, pages)")]
+    MQ[["Message Queue / Scheduler"]]
+    MET[("Data Catalog & Provenance")]
   end
 
   QAC --> PG
@@ -55,12 +55,12 @@ flowchart LR
   MQ --- IN_HF
 
   subgraph AI[AI Services]
-    NLP[NLP Router\n(user text → queries)]
-    QG[Query Generator\n(NL → SPARQL/Overpass/SQL)]
-    SUM[Summarizer & Translator\n(>30 languages via WD labels)]
-    AVP[Availability Predictor\n(hrs/seasonality model)]
-    DQ[Data Quality Heuristics\n(OSM↔WD↔Google consistency)]
-    PLAN[Itinerary & Routing\n(multi-island + ferries)]
+    NLP["NLP Router <br/>(user text -> queries)"]
+    QG["Query Generator <br/>(NL -> SPARQL/Overpass/SQL)"]
+    SUM["Summarizer & Translator <br/>(>30 languages via WD labels)"]
+    AVP["Availability Predictor <br/>(hrs/seasonality model)"]
+    DQ["Data Quality Heuristics <br/>(OSM<->WD<->Google consistency)"]
+    PLAN["Itinerary & Routing <br/>(multi-island + ferries)"]
   end
 
   PG --> AVP
@@ -76,10 +76,10 @@ flowchart LR
   PLAN --> SUM
 
   subgraph API[Public API Layer]
-    GEO[GeoJSON/REST\n/sections, /islands, /pois]
-    TRIP[/trip-plan\ninputs: start, nights,\nmode, tent/hotel, bike/foot/boat/]
-    STATUS[/status\n(open/closed, water/toilets)]
-    SEARCH[/search\ntext → facilities]
+    GEO["GeoJSON/REST <br/>/sections, /islands, /pois"]
+    TRIP[/"trip-plan <br/>inputs: start, nights,<br/>mode, tent/hotel, bike/foot/boat/"/]
+    STATUS[/"status <br/>(open/closed, water/toilets)"/]
+    SEARCH[/"search <br/>text -> facilities"/]
   end
 
   PG --> GEO
@@ -88,9 +88,9 @@ flowchart LR
   SUM --> SEARCH
 
   subgraph UI[User Interfaces]
-    Web[Web Map (mobile-first)\nfilters: water, toilets, food,\nopen now, bike-friendly]
-    Chat[Conversational Assistant\n(multilingual)]
-    Embed[Static exports\n(GeoJSON for uMap/Folium,\nprintable PDFs)]
+    Web["Web Map (mobile-first) <br/>filters: water, toilets, food,<br/>open now, bike-friendly"]
+    Chat["Conversational Assistant <br/>(multilingual)"]
+    Embed["Static exports <br/>(GeoJSON for uMap/Folium,<br/>printable PDFs)"]
   end
 
   API --> UI
@@ -102,10 +102,10 @@ flowchart LR
   GEO --> Embed
 
   subgraph Gov[Governance & Ops]
-    Admin[Admin Portal\n(verify reports,\nflag outdated POIs)]
-    Auth[Auth & Roles\n(operators, volunteers)]
-    Obs[Monitoring & Logs]
-    Lic[Licensing & Attributions\n(OSM/ODbL, WD/CC0)]
+    Admin["Admin Portal <br/>(verify reports,<br/>flag outdated POIs)"]
+    Auth["Auth & Roles <br/>(operators, volunteers)"]
+    Obs["Monitoring & Logs"]
+    Lic["Licensing & Attributions <br/>(OSM/ODbL, WD/CC0)"]
   end
 
   UI --> Admin
@@ -114,6 +114,7 @@ flowchart LR
   Admin --> PG
   Auth --- API
   Lic --- Web
+
 ```
 
 ## Binder with POC [video](https://youtu.be/bepljHYFqp4)
