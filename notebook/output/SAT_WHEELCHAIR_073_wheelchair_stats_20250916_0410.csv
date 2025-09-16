@@ -1,0 +1,10 @@
+status_bucket,dist_band,count
+missing,≤100m,43
+missing,≤200m,52
+missing,≤50m,238
+no,≤100m,23
+no,≤200m,19
+no,≤50m,105
+yes,≤100m,4
+yes,≤200m,6
+yes,≤50m,34
