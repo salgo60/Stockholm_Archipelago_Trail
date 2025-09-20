@@ -1,4 +1,6 @@
 # Stockholm Archipelago Trail
+* [SAT Dashboard](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html)
+  
 A try to add value to Stockholm Archipelago Trail see [issues](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues?q=is%3Aissue)
 * see futher [Stockholm Archipelago Trail issues](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues?q=is%3Aissue) and [Roslagsleden issues Roslagsleden](https://github.com/salgo60/Roslagsleden/issues?q=is%3Aissue)
 
