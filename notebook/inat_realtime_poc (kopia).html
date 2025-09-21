@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_15ea06d21037e72876feb70f7eee8449 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_15ea06d21037e72876feb70f7eee8449" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_15ea06d21037e72876feb70f7eee8449 = L.map(
+                "map_15ea06d21037e72876feb70f7eee8449",
+                {
+                    center: [59.408, 18.79],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d72c4043629958d975b3308e4df027a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5d72c4043629958d975b3308e4df027a.addTo(map_15ea06d21037e72876feb70f7eee8449);
+        
+    
+            L.Control.TimeDimensionCustom = L.Control.TimeDimension.extend({
+                _getDisplayDateFormat: function(date){
+                    var newdate = new moment(date);
+                    console.log(newdate)
+                    return newdate.format("YYYY-MM-DD");
+                }
+            });
+            map_15ea06d21037e72876feb70f7eee8449.timeDimension = L.timeDimension(
+                {
+                    period: "P1D",
+                }
+            );
+            var timeDimensionControl = new L.Control.TimeDimensionCustom(
+                {
+  "position": "bottomleft",
+  "minSpeed": 0.1,
+  "maxSpeed": 1,
+  "autoPlay": true,
+  "loopButton": true,
+  "timeSliderDragUpdate": true,
+  "speedSlider": true,
+  "playerOptions": {
+  "transitionTime": 200,
+  "loop": true,
+  "startOver": true,
+},
+}
+            );
+            map_15ea06d21037e72876feb70f7eee8449.addControl(this.timeDimensionControl);
+
+            var geoJsonLayer = L.geoJson({"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7713283333, 59.4810416667]}, "properties": {"time": "2025-09-20", "popup": "<b>Slimy Waxcap</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315341390' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.771305, 59.4806966667]}, "properties": {"time": "2025-09-20", "popup": "<b>Butter Waxcap</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315340903' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.772195, 59.4789783333]}, "properties": {"time": "2025-09-20", "popup": "<b>Witch's Hat</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315310728' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7703783333, 59.4783466667]}, "properties": {"time": "2025-09-20", "popup": "<b>Ramaria flavescens</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315307346' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7711666667, 59.478695]}, "properties": {"time": "2025-09-20", "popup": "<b>Gomphaceae</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315278476' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7705166667, 59.4784866667]}, "properties": {"time": "2025-09-20", "popup": "<b>Powderpuff Bracket</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315235940' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7718866667, 59.4781416667]}, "properties": {"time": "2025-09-20", "popup": "<b>Climacocystis borealis</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315233855' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7722116667, 59.4780366667]}, "properties": {"time": "2025-09-20", "popup": "<b>Saddle-shaped False Morel</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315232868' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7726416667, 59.4782883333]}, "properties": {"time": "2025-09-20", "popup": "<b>blotched woodwax</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315232346' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7726916667, 59.4785366667]}, "properties": {"time": "2025-09-20", "popup": "<b>White Coral Fungus</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315231163' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7724633333, 59.47887]}, "properties": {"time": "2025-09-20", "popup": "<b>Upright Coral Fungus</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315230320' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.771455, 59.4809033333]}, "properties": {"time": "2025-09-20", "popup": "<b>Witch's Hat</b><br>2025-09-20<br><a href='https://www.inaturalist.org/observations/315190693' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.75223, 59.4689466667]}, "properties": {"time": "2025-09-17", "popup": "<b>Coral Fungi</b><br>2025-09-17<br><a href='https://www.inaturalist.org/observations/314587347' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.778795, 59.476755]}, "properties": {"time": "2025-09-14", "popup": "<b>Zoned Tooth</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313899895' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7751, 59.479245]}, "properties": {"time": "2025-09-14", "popup": "<b>tawny milkcap</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313896904' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.779955, 59.4771616667]}, "properties": {"time": "2025-09-14", "popup": "<b>Russula roseipes</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313886444' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7703166667, 59.482525]}, "properties": {"time": "2025-09-14", "popup": "<b>Witch's Hat</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313866397' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7801533333, 59.477375]}, "properties": {"time": "2025-09-14", "popup": "<b>meadow coral fungus</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313857745' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7801133333, 59.477405]}, "properties": {"time": "2025-09-14", "popup": "<b>Witch's Hat</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313855393' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.7799283333, 59.4771533333]}, "properties": {"time": "2025-09-14", "popup": "<b>Persistent Waxcap</b><br>2025-09-14<br><a href='https://www.inaturalist.org/observations/313852715' target='_blank'>Visa</a>", "icon": "circle", "iconstyle": {"color": "green", "fillColor": "green", "fillOpacity": 0.6}}}]}, {
+                    pointToLayer: function (feature, latLng) {
+                        if (feature.properties.icon == 'marker') {
+                            if(feature.properties.iconstyle){
+                                return new L.Marker(latLng, {
+                                    icon: L.icon(feature.properties.iconstyle)});
+                            }
+                            //else
+                            return new L.Marker(latLng);
+                        }
+                        if (feature.properties.icon == 'circle') {
+                            if (feature.properties.iconstyle) {
+                                return new L.circleMarker(latLng, feature.properties.iconstyle)
+                                };
+                            //else
+                            return new L.circleMarker(latLng);
+                        }
+                        //else
+
+                        return new L.Marker(latLng);
+                    },
+                    style: function (feature) {
+                        return feature.properties.style;
+                    },
+                    onEachFeature: function(feature, layer) {
+                        if (feature.properties.popup) {
+                        layer.bindPopup(feature.properties.popup);
+                        }
+                        if (feature.properties.tooltip) {
+                        layer.bindTooltip(feature.properties.tooltip);
+                        }
+                    }
+                })
+
+            var timestamped_geo_json_718ec6b7bd828a5999ae70384210821b = L.timeDimension.layer.geoJson(
+                geoJsonLayer,
+                {
+                    updateTimeDimension: true,
+                    addlastPoint: true,
+                    duration: "P1D",
+                }
+            ).addTo(map_15ea06d21037e72876feb70f7eee8449);
+        
+</script>
+</html>
