@@ -1,4 +1,20 @@
 qid,label,osm_type,osm_id,osm_url,url,wikidata_tag,name
+Q121352030,"Grillplats, Storsand Ålö",node,1412263113.0,https://www.openstreetmap.org/node/1412263113,https://www.openstreetmap.org/node/1412263113,Q121352030,
+Q121361352,Grillplats Grinda södra bryggan,node,2285331215.0,https://www.openstreetmap.org/node/2285331215,https://www.openstreetmap.org/node/2285331215,Q121361352,
+Q121409629,Grillplats Ålö Storsand 2,node,3431736743.0,https://www.openstreetmap.org/node/3431736743,https://www.openstreetmap.org/node/3431736743,Q121409629,
+Q121409637,Grillplats Ålö storsand 3,node,3431736737.0,https://www.openstreetmap.org/node/3431736737,https://www.openstreetmap.org/node/3431736737,Q121409637,
+Q121412621,Grillplats Storsand,node,12778377048.0,https://www.openstreetmap.org/node/12778377048,https://www.openstreetmap.org/node/12778377048,Q121412621,
+Q121433209,"Grillplats vid badstrand, Grinda",node,12759232983.0,https://www.openstreetmap.org/node/12759232983,https://www.openstreetmap.org/node/12759232983,Q121433209,"Grillplats vid badstrand, Grinda"
+Q121433242,Grillplats Grinda tältplats syd västra 2,node,11145662490.0,https://www.openstreetmap.org/node/11145662490,https://www.openstreetmap.org/node/11145662490,Q121433242,
+Q121433258,Östra grillplatsen vid tältplatsen 2,node,11145662491.0,https://www.openstreetmap.org/node/11145662491,https://www.openstreetmap.org/node/11145662491,Q121433258,
+Q121433272,Östra grillplatsen vid tältplatsen 1,node,12735795790.0,https://www.openstreetmap.org/node/12735795790,https://www.openstreetmap.org/node/12735795790,Q121433272,
+Q121714588,Grinda Klubbudden grillplats,node,863394672.0,https://www.openstreetmap.org/node/863394672,https://www.openstreetmap.org/node/863394672,Q121714588,
+Q121715058,Rast- och grillplats Öja-Landsort,node,12662333661.0,https://www.openstreetmap.org/node/12662333661,https://www.openstreetmap.org/node/12662333661,Q121715058,
+Q121754355,"Kålgårdsöns naturreservat, grillplats",node,5856137370.0,https://www.openstreetmap.org/node/5856137370,https://www.openstreetmap.org/node/5856137370,Q121754355,
+Q130338597,"Norra sand, Utö, grillplats",node,12190259938.0,https://www.openstreetmap.org/node/12190259938,https://www.openstreetmap.org/node/12190259938,Q130338597,
+Q130338761,"Norra sand, Utö, grillplats 2",node,5866457027.0,https://www.openstreetmap.org/node/5866457027,https://www.openstreetmap.org/node/5866457027,Q130338761,
+Q133453469,Grillplats Arholma Nord,node,12686218003.0,https://www.openstreetmap.org/node/12686218003,https://www.openstreetmap.org/node/12686218003,Q133453469,Grillplats Arholma Nord
+Q133864622,Knicksand enkel grillplats,node,12722789033.0,https://www.openstreetmap.org/node/12722789033,https://www.openstreetmap.org/node/12722789033,Q133864622,Knicksand enkel grillplats
 Q133864761,Knicksand grillplats,node,12722761765.0,https://www.openstreetmap.org/node/12722761765,https://www.openstreetmap.org/node/12722761765,Q133864761,Knicksand grillplats
 Q133864801,Knicksand grillplats,node,12722789034.0,https://www.openstreetmap.org/node/12722789034,https://www.openstreetmap.org/node/12722789034,Q133864801,Knicksand grillplats
 Q133864847,"Sandön, grillplats",node,12752418489.0,https://www.openstreetmap.org/node/12752418489,https://www.openstreetmap.org/node/12752418489,Q133864847,
@@ -10,7 +26,6 @@ Q134005778,"Thielska villan, grillplats, Fjärdlång",node,12771043917.0,https:/
 Q134006267,"Fjärdlång tältplats, grillplats",node,12769968654.0,https://www.openstreetmap.org/node/12769968654,https://www.openstreetmap.org/node/12769968654,Q134006267,
 Q134006727,Pojkarnas udde grillplats,node,12772629157.0,https://www.openstreetmap.org/node/12772629157,https://www.openstreetmap.org/node/12772629157,Q134006727,
 Q134082069,"Vänsviken, Nåttarö BBQ",node,7791335090.0,https://www.openstreetmap.org/node/7791335090,https://www.openstreetmap.org/node/7791335090,Q134082069,"Vänsviken, Nåttarö BBQ"
-Q134082140,Östemar grillplats gamla,node,12778302897.0,https://www.openstreetmap.org/node/12778302897,https://www.openstreetmap.org/node/12778302897,Q134082140,
 Q133829728,grillplats Sydfladen,node,11148106242.0,https://www.openstreetmap.org/node/11148106242,https://www.openstreetmap.org/node/11148106242,Q133829728,grillplats på Sydfladen
 Q133829773,Finnhamn Lammuddens vindskydd,node,12736629494.0,https://www.openstreetmap.org/node/12736629494,https://www.openstreetmap.org/node/12736629494,Q133829773,
 Q133830137,Lammuddens grillplats,node,12736629495.0,https://www.openstreetmap.org/node/12736629495,https://www.openstreetmap.org/node/12736629495,Q133830137,Lammuddens grillplats
@@ -30,21 +45,7 @@ Q133848185,"grillplats, Ornö museum",node,12744311542.0,https://www.openstreetm
 Q133848857,"Västanviks grillplats, Ornö",node,12745161549.0,https://www.openstreetmap.org/node/12745161549,https://www.openstreetmap.org/node/12745161549,Q133848857,
 Q133863316,Furusund grillplats Fotbollsplan,node,12749568009.0,https://www.openstreetmap.org/node/12749568009,https://www.openstreetmap.org/node/12749568009,Q133863316,
 Q133864540,"Harviken, grillplats",node,12723107960.0,https://www.openstreetmap.org/node/12723107960,https://www.openstreetmap.org/node/12723107960,Q133864540,"Harviken, grillplats"
-Q133864622,Knicksand enkel grillplats,node,12722789033.0,https://www.openstreetmap.org/node/12722789033,https://www.openstreetmap.org/node/12722789033,Q133864622,Knicksand enkel grillplats
-Q121352030,"Grillplats, Storsand Ålö",node,1412263113.0,https://www.openstreetmap.org/node/1412263113,https://www.openstreetmap.org/node/1412263113,Q121352030,
-Q121361352,Grillplats Grinda södra bryggan,node,2285331215.0,https://www.openstreetmap.org/node/2285331215,https://www.openstreetmap.org/node/2285331215,Q121361352,
-Q121409629,Grillplats Ålö Storsand 2,node,3431736743.0,https://www.openstreetmap.org/node/3431736743,https://www.openstreetmap.org/node/3431736743,Q121409629,
-Q121409637,Grillplats Ålö storsand 3,node,3431736737.0,https://www.openstreetmap.org/node/3431736737,https://www.openstreetmap.org/node/3431736737,Q121409637,
-Q121412621,Grillplats Storsand,node,12778377048.0,https://www.openstreetmap.org/node/12778377048,https://www.openstreetmap.org/node/12778377048,Q121412621,
-Q121433209,"Grillplats vid badstrand, Grinda",node,12759232983.0,https://www.openstreetmap.org/node/12759232983,https://www.openstreetmap.org/node/12759232983,Q121433209,"Grillplats vid badstrand, Grinda"
-Q121433242,Grillplats Grinda tältplats syd västra 2,node,11145662490.0,https://www.openstreetmap.org/node/11145662490,https://www.openstreetmap.org/node/11145662490,Q121433242,
-Q121433258,Östra grillplatsen vid tältplatsen 2,node,11145662491.0,https://www.openstreetmap.org/node/11145662491,https://www.openstreetmap.org/node/11145662491,Q121433258,
-Q121433272,Östra grillplatsen vid tältplatsen 1,node,12735795790.0,https://www.openstreetmap.org/node/12735795790,https://www.openstreetmap.org/node/12735795790,Q121433272,
-Q121714588,Grinda Klubbudden grillplats,node,863394672.0,https://www.openstreetmap.org/node/863394672,https://www.openstreetmap.org/node/863394672,Q121714588,
-Q121754355,"Kålgårdsöns naturreservat, grillplats",node,5856137370.0,https://www.openstreetmap.org/node/5856137370,https://www.openstreetmap.org/node/5856137370,Q121754355,
-Q130338597,"Norra sand, Utö, grillplats",node,12190259938.0,https://www.openstreetmap.org/node/12190259938,https://www.openstreetmap.org/node/12190259938,Q130338597,
-Q130338761,"Norra sand, Utö, grillplats 2",node,5866457027.0,https://www.openstreetmap.org/node/5866457027,https://www.openstreetmap.org/node/5866457027,Q130338761,
-Q133453469,Grillplats Arholma Nord,node,12686218003.0,https://www.openstreetmap.org/node/12686218003,https://www.openstreetmap.org/node/12686218003,Q133453469,Grillplats Arholma Nord
+Q134082140,Östemar grillplats gamla,node,12778302897.0,https://www.openstreetmap.org/node/12778302897,https://www.openstreetmap.org/node/12778302897,Q134082140,
 Q134082502,"Grillplats vid Ångbatsbryggan, Nåttarö",node,12782610013.0,https://www.openstreetmap.org/node/12782610013,https://www.openstreetmap.org/node/12782610013,Q134082502,
 Q134082735,Östemar grillplats nya,node,12748135194.0,https://www.openstreetmap.org/node/12748135194,https://www.openstreetmap.org/node/12748135194,Q134082735,
 Q134290283,"Furusundsbadplats, grillplats",node,12749566542.0,https://www.openstreetmap.org/node/12749566542,https://www.openstreetmap.org/node/12749566542,Q134290283,"Furusundsbadplats, grillplats"
@@ -70,9 +71,12 @@ Q134611499,Grillplats Arholma Nord östra,node,13078034117.0,https://www.openstr
 Q134704760,Lidö vindskydd,node,12886705448.0,https://www.openstreetmap.org/node/12886705448,https://www.openstreetmap.org/node/12886705448,Q134704760,
 Q135267120,Östra Ålö grillplats,node,12992249253.0,https://www.openstreetmap.org/node/12992249253,https://www.openstreetmap.org/node/12992249253,Q135267120,
 Q135336466,Finnhamn gästhamn grillplats,node,13061778916.0,https://www.openstreetmap.org/node/13061778916,https://www.openstreetmap.org/node/13061778916,Q135336466,
+Q135883737,Grillplats Nordvästra Nåttarö vid Naturhamnen,node,13076091033.0,https://www.openstreetmap.org/node/13076091033,https://www.openstreetmap.org/node/13076091033,Q135883737,Grillplats Nordvästra Nåttarö vid Naturhamnen
 Q135905118,Södra Sandvik Utö grillplats,node,13081270868.0,https://www.openstreetmap.org/node/13081270868,https://www.openstreetmap.org/node/13081270868,Q135905118,
 Q135969918,"Grillplats 2 vid badstrand, Grinda",node,13097085019.0,https://www.openstreetmap.org/node/13097085019,https://www.openstreetmap.org/node/13097085019,Q135969918,"Grillplats vid badstrand, Grinda"
 Q135971987,Grillplats Grinda stugbyn 3,node,13097212671.0,https://www.openstreetmap.org/node/13097212671,https://www.openstreetmap.org/node/13097212671,Q135971987,
 Q135972088,Grillplats Grinda stugbyn 2,node,13096084423.0,https://www.openstreetmap.org/node/13096084423,https://www.openstreetmap.org/node/13096084423,Q135972088,
 Q136087206,"Bistro bryggan, grillplats",node,13063609062.0,https://www.openstreetmap.org/node/13063609062,https://www.openstreetmap.org/node/13063609062,Q136087206,SAT Grillplats sågens Brygga
 Q136337568,"Saltvik grillplats, Möja",node,13157567395.0,https://www.openstreetmap.org/node/13157567395,https://www.openstreetmap.org/node/13157567395,Q136337568,
+Q136374419,Skarsand enkel grillplats,node,13037391403.0,https://www.openstreetmap.org/node/13037391403,https://www.openstreetmap.org/node/13037391403,Q136374419,Skarsand
+Q136374558,Skarsand norra 2,node,9981328487.0,https://www.openstreetmap.org/node/9981328487,https://www.openstreetmap.org/node/9981328487,Q136374558,
