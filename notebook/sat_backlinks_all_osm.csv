@@ -1,85 +1,26 @@
 osm_type,osm_id,url,wikidata_tag,name
-node,863394672,https://www.openstreetmap.org/node/863394672,Q121714588,
-node,1412263113,https://www.openstreetmap.org/node/1412263113,Q121352030,
-node,2285331215,https://www.openstreetmap.org/node/2285331215,Q121361352,
-node,3431736737,https://www.openstreetmap.org/node/3431736737,Q121409637,
-node,3431736743,https://www.openstreetmap.org/node/3431736743,Q121409629,
-node,5856137370,https://www.openstreetmap.org/node/5856137370,Q121754355,
-node,5866457027,https://www.openstreetmap.org/node/5866457027,Q130338761,
-node,7791335090,https://www.openstreetmap.org/node/7791335090,Q134082069,"Vänsviken, Nåttarö BBQ"
-node,7791350755,https://www.openstreetmap.org/node/7791350755,Q134579695,
-node,7791350756,https://www.openstreetmap.org/node/7791350756,Q134570327,
-node,9981328487,https://www.openstreetmap.org/node/9981328487,Q136374558,
-node,11145662490,https://www.openstreetmap.org/node/11145662490,Q121433242,
-node,11145662491,https://www.openstreetmap.org/node/11145662491,Q121433258,
-node,11148075050,https://www.openstreetmap.org/node/11148075050,Q133830659,Grillplats Talludden
-node,11148106242,https://www.openstreetmap.org/node/11148106242,Q133829728,grillplats på Sydfladen
-node,11148146209,https://www.openstreetmap.org/node/11148146209,Q133830844,"Vandrarhemmet, grillplats"
-node,11148319151,https://www.openstreetmap.org/node/11148319151,Q133830825,"Ragnars kiosk, grillplats"
-node,11148400849,https://www.openstreetmap.org/node/11148400849,Q134461524,Idholmens grillplats
-node,12190259938,https://www.openstreetmap.org/node/12190259938,Q130338597,
-node,12662333661,https://www.openstreetmap.org/node/12662333661,Q121715058,
-node,12686218003,https://www.openstreetmap.org/node/12686218003,Q133453469,Grillplats Arholma Nord
-node,12722761765,https://www.openstreetmap.org/node/12722761765,Q133864761,Knicksand grillplats
-node,12722789033,https://www.openstreetmap.org/node/12722789033,Q133864622,Knicksand enkel grillplats
-node,12722789034,https://www.openstreetmap.org/node/12722789034,Q133864801,Knicksand grillplats
-node,12723107960,https://www.openstreetmap.org/node/12723107960,Q133864540,"Harviken, grillplats"
-node,12735795790,https://www.openstreetmap.org/node/12735795790,Q121433272,
-node,12736629494,https://www.openstreetmap.org/node/12736629494,Q133829773,
-node,12736629495,https://www.openstreetmap.org/node/12736629495,Q133830137,Lammuddens grillplats
-node,12736722603,https://www.openstreetmap.org/node/12736722603,Q133830267,Talludden
-node,12738304627,https://www.openstreetmap.org/node/12738304627,Q133834915,
-node,12738887791,https://www.openstreetmap.org/node/12738887791,,
-node,12739706860,https://www.openstreetmap.org/node/12739706860,Q133838591,
-node,12740326707,https://www.openstreetmap.org/node/12740326707,Q133839813,
-node,12740326708,https://www.openstreetmap.org/node/12740326708,Q133839829,
-node,12740326709,https://www.openstreetmap.org/node/12740326709,Q134606948,
-node,12740326710,https://www.openstreetmap.org/node/12740326710,Q134606902,
-node,12740398797,https://www.openstreetmap.org/node/12740398797,Q133840790,
-node,12740404960,https://www.openstreetmap.org/node/12740404960,Q133840685,
-node,12740540028,https://www.openstreetmap.org/node/12740540028,Q133841778,
-node,12744311542,https://www.openstreetmap.org/node/12744311542,Q133848185,
-node,12745161549,https://www.openstreetmap.org/node/12745161549,Q133848857,
-node,12748117653,https://www.openstreetmap.org/node/12748117653,Q134570185,
-node,12748117658,https://www.openstreetmap.org/node/12748117658,Q134578337,
-node,12748117663,https://www.openstreetmap.org/node/12748117663,Q134579808,
-node,12748117664,https://www.openstreetmap.org/node/12748117664,Q134580000,
-node,12748135194,https://www.openstreetmap.org/node/12748135194,Q134082735,
-node,12749566542,https://www.openstreetmap.org/node/12749566542,Q134290283,"Furusundsbadplats, grillplats"
-node,12749568009,https://www.openstreetmap.org/node/12749568009,Q133863316,
-node,12752418489,https://www.openstreetmap.org/node/12752418489,Q133864847,
-node,12755413219,https://www.openstreetmap.org/node/12755413219,Q133872120,
-node,12759232983,https://www.openstreetmap.org/node/12759232983,Q121433209,"Grillplats vid badstrand, Grinda"
-node,12765919450,https://www.openstreetmap.org/node/12765919450,Q133895106,"Lilla Jolpan, vindskydd"
-node,12769968654,https://www.openstreetmap.org/node/12769968654,Q134006267,
-node,12770338575,https://www.openstreetmap.org/node/12770338575,Q134582361,Noret Fjärdlångs grillplats
-node,12770512759,https://www.openstreetmap.org/node/12770512759,Q133993440,"Fjärdlång bryggan, grillplats"
-node,12771043917,https://www.openstreetmap.org/node/12771043917,Q134005778,"Thielska villan, grillplats"
-node,12772629157,https://www.openstreetmap.org/node/12772629157,Q134006727,
-node,12778243911,https://www.openstreetmap.org/node/12778243911,Q134519257,Nåttarö vandrarhem grillplats
-node,12778302897,https://www.openstreetmap.org/node/12778302897,Q134082140,
-node,12778377048,https://www.openstreetmap.org/node/12778377048,Q121412621,
-node,12778631114,https://www.openstreetmap.org/node/12778631114,Q134578274,
-node,12782610013,https://www.openstreetmap.org/node/12782610013,Q134082502,
-node,12814390356,https://www.openstreetmap.org/node/12814390356,Q134373707,
-node,12849416949,https://www.openstreetmap.org/node/12849416949,Q134537879,"Vänsvik udd, Nåttarö grillplats"
-node,12861905256,https://www.openstreetmap.org/node/12861905256,Q134570492,
-node,12865388855,https://www.openstreetmap.org/node/12865388855,Q134582792,
-node,12865415666,https://www.openstreetmap.org/node/12865415666,Q134582833,
-node,12865440356,https://www.openstreetmap.org/node/12865440356,Q134583309,
-node,12873021137,https://www.openstreetmap.org/node/12873021137,Q133864944,
-node,12886705448,https://www.openstreetmap.org/node/12886705448,Q134704760,
-node,12992249253,https://www.openstreetmap.org/node/12992249253,Q135267120,
-node,13037363260,https://www.openstreetmap.org/node/13037363260,,Skarsand Norra
-node,13037391403,https://www.openstreetmap.org/node/13037391403,Q136374419,Skarsand
-node,13061778916,https://www.openstreetmap.org/node/13061778916,Q135336466,
-node,13063609062,https://www.openstreetmap.org/node/13063609062,Q136087206,SAT Grillplats sågens Brygga
-node,13076091033,https://www.openstreetmap.org/node/13076091033,Q135883737,Grillplats Nordvästra Nåttarö vid Naturhamnen
-node,13078034117,https://www.openstreetmap.org/node/13078034117,Q134611499,
-node,13081270868,https://www.openstreetmap.org/node/13081270868,Q135905118,
-node,13096084423,https://www.openstreetmap.org/node/13096084423,Q135972088,
-node,13097085019,https://www.openstreetmap.org/node/13097085019,Q135969918,"Grillplats vid badstrand, Grinda"
-node,13097212671,https://www.openstreetmap.org/node/13097212671,Q135971987,
-node,13144859129,https://www.openstreetmap.org/node/13144859129,Q121714588,
-node,13157567395,https://www.openstreetmap.org/node/13157567395,Q136337568,
-way,1376426246,https://www.openstreetmap.org/way/1376426246,Q133848174,
+node,4990875347,https://www.openstreetmap.org/node/4990875347,Q135901032,
+node,5856137425,https://www.openstreetmap.org/node/5856137425,Q135041658,
+node,6535493385,https://www.openstreetmap.org/node/6535493385,,
+node,12081116861,https://www.openstreetmap.org/node/12081116861,,
+node,12081567274,https://www.openstreetmap.org/node/12081567274,Q135034710,
+node,12089216143,https://www.openstreetmap.org/node/12089216143,Q135013617,
+node,12089318349,https://www.openstreetmap.org/node/12089318349,Q135013701,
+node,12804717601,https://www.openstreetmap.org/node/12804717601,Q134568948,
+node,12804831701,https://www.openstreetmap.org/node/12804831701,Q135010859,
+node,12805053401,https://www.openstreetmap.org/node/12805053401,Q135013563,
+node,12805742901,https://www.openstreetmap.org/node/12805742901,Q135013597,
+node,12805751201,https://www.openstreetmap.org/node/12805751201,Q135013540,
+node,12805766201,https://www.openstreetmap.org/node/12805766201,Q135013611,
+node,12809240302,https://www.openstreetmap.org/node/12809240302,Q135013590,
+node,12809454601,https://www.openstreetmap.org/node/12809454601,Q135013584,
+node,12811090801,https://www.openstreetmap.org/node/12811090801,Q135041681,
+node,12811267201,https://www.openstreetmap.org/node/12811267201,Q135041758,
+node,12811532701,https://www.openstreetmap.org/node/12811532701,Q135041722,
+node,12836972901,https://www.openstreetmap.org/node/12836972901,Q135025121,
+node,12942128203,https://www.openstreetmap.org/node/12942128203,Q135012478,
+node,13037718201,https://www.openstreetmap.org/node/13037718201,,
+node,13063733001,https://www.openstreetmap.org/node/13063733001,Q136202829,
+node,13068560201,https://www.openstreetmap.org/node/13068560201,Q135900531,
+node,13068655901,https://www.openstreetmap.org/node/13068655901,Q135900574,
+node,13069095802,https://www.openstreetmap.org/node/13069095802,Q135900661,

@@ -1,82 +1,23 @@
 qid,label,osm_type,osm_id,osm_url,url,wikidata_tag,name
-Q133829728,grillplats Sydfladen,node,11148106242.0,https://www.openstreetmap.org/node/11148106242,https://www.openstreetmap.org/node/11148106242,Q133829728,grillplats på Sydfladen
-Q133829773,Finnhamn Lammuddens vindskydd,node,12736629494.0,https://www.openstreetmap.org/node/12736629494,https://www.openstreetmap.org/node/12736629494,Q133829773,
-Q133830137,Lammuddens grillplats,node,12736629495.0,https://www.openstreetmap.org/node/12736629495,https://www.openstreetmap.org/node/12736629495,Q133830137,Lammuddens grillplats
-Q133830267,Vindskydd Talludden,node,12736722603.0,https://www.openstreetmap.org/node/12736722603,https://www.openstreetmap.org/node/12736722603,Q133830267,Talludden
-Q133830659,Grillplats Talludden,node,11148075050.0,https://www.openstreetmap.org/node/11148075050,https://www.openstreetmap.org/node/11148075050,Q133830659,Grillplats Talludden
-Q133830825,"Ragnars kiosk, grillplats",node,11148319151.0,https://www.openstreetmap.org/node/11148319151,https://www.openstreetmap.org/node/11148319151,Q133830825,"Ragnars kiosk, grillplats"
-Q133830844,"Vandrarhemmet, grillplats",node,11148146209.0,https://www.openstreetmap.org/node/11148146209,https://www.openstreetmap.org/node/11148146209,Q133830844,"Vandrarhemmet, grillplats"
-Q133834915,"Grillplats, Storsand Ålö",node,12738304627.0,https://www.openstreetmap.org/node/12738304627,https://www.openstreetmap.org/node/12738304627,Q133834915,
-Q133838591,"Utö gästhamn, grillplats",node,12739706860.0,https://www.openstreetmap.org/node/12739706860,https://www.openstreetmap.org/node/12739706860,Q133838591,
-Q133839813,"Södra fladen Utö, grillplats",node,12740326707.0,https://www.openstreetmap.org/node/12740326707,https://www.openstreetmap.org/node/12740326707,Q133839813,
-Q133839829,"Södra fladen Utö, vindskydd",node,12740326708.0,https://www.openstreetmap.org/node/12740326708,https://www.openstreetmap.org/node/12740326708,Q133839829,
-Q133840685,Utö camping grillplats 2,node,12740404960.0,https://www.openstreetmap.org/node/12740404960,https://www.openstreetmap.org/node/12740404960,Q133840685,
-Q133840790,Utö camping grillplats 1,node,12740398797.0,https://www.openstreetmap.org/node/12740398797,https://www.openstreetmap.org/node/12740398797,Q133840790,
-Q133841778,Utö camping grillplats,node,12740540028.0,https://www.openstreetmap.org/node/12740540028,https://www.openstreetmap.org/node/12740540028,Q133841778,
-Q133848174,Vindskydd Ornö museum,way,1376426246.0,https://www.openstreetmap.org/way/1376426246,https://www.openstreetmap.org/way/1376426246,Q133848174,
-Q133848185,"grillplats, Ornö museum",node,12744311542.0,https://www.openstreetmap.org/node/12744311542,https://www.openstreetmap.org/node/12744311542,Q133848185,
-Q133848857,"Västanviks grillplats, Ornö",node,12745161549.0,https://www.openstreetmap.org/node/12745161549,https://www.openstreetmap.org/node/12745161549,Q133848857,
-Q133863316,Furusund grillplats Fotbollsplan,node,12749568009.0,https://www.openstreetmap.org/node/12749568009,https://www.openstreetmap.org/node/12749568009,Q133863316,
-Q133864540,"Harviken, grillplats",node,12723107960.0,https://www.openstreetmap.org/node/12723107960,https://www.openstreetmap.org/node/12723107960,Q133864540,"Harviken, grillplats"
-Q133864622,Knicksand enkel grillplats,node,12722789033.0,https://www.openstreetmap.org/node/12722789033,https://www.openstreetmap.org/node/12722789033,Q133864622,Knicksand enkel grillplats
-Q133864761,Knicksand grillplats,node,12722761765.0,https://www.openstreetmap.org/node/12722761765,https://www.openstreetmap.org/node/12722761765,Q133864761,Knicksand grillplats
-Q133864801,Knicksand grillplats,node,12722789034.0,https://www.openstreetmap.org/node/12722789034,https://www.openstreetmap.org/node/12722789034,Q133864801,Knicksand grillplats
-Q133864847,"Sandön, grillplats",node,12752418489.0,https://www.openstreetmap.org/node/12752418489,https://www.openstreetmap.org/node/12752418489,Q133864847,
-Q133864944,"Myrudden, grillplats",node,12873021137.0,https://www.openstreetmap.org/node/12873021137,https://www.openstreetmap.org/node/12873021137,Q133864944,
-Q133872120,Lidö Österhamn grillplats,node,12755413219.0,https://www.openstreetmap.org/node/12755413219,https://www.openstreetmap.org/node/12755413219,Q133872120,
-Q133895106,Vindskydd lilla Jolpan,node,12765919450.0,https://www.openstreetmap.org/node/12765919450,https://www.openstreetmap.org/node/12765919450,Q133895106,"Lilla Jolpan, vindskydd"
-Q133993440,"Fjärdlång bryggan, grillplats",node,12770512759.0,https://www.openstreetmap.org/node/12770512759,https://www.openstreetmap.org/node/12770512759,Q133993440,"Fjärdlång bryggan, grillplats"
-Q134005778,"Thielska villan, grillplats, Fjärdlång",node,12771043917.0,https://www.openstreetmap.org/node/12771043917,https://www.openstreetmap.org/node/12771043917,Q134005778,"Thielska villan, grillplats"
-Q134006267,"Fjärdlång tältplats, grillplats",node,12769968654.0,https://www.openstreetmap.org/node/12769968654,https://www.openstreetmap.org/node/12769968654,Q134006267,
-Q134006727,Pojkarnas udde grillplats,node,12772629157.0,https://www.openstreetmap.org/node/12772629157,https://www.openstreetmap.org/node/12772629157,Q134006727,
-Q134082069,"Vänsviken, Nåttarö BBQ",node,7791335090.0,https://www.openstreetmap.org/node/7791335090,https://www.openstreetmap.org/node/7791335090,Q134082069,"Vänsviken, Nåttarö BBQ"
-Q121352030,"Grillplats, Storsand Ålö",node,1412263113.0,https://www.openstreetmap.org/node/1412263113,https://www.openstreetmap.org/node/1412263113,Q121352030,
-Q121361352,Grillplats Grinda södra bryggan,node,2285331215.0,https://www.openstreetmap.org/node/2285331215,https://www.openstreetmap.org/node/2285331215,Q121361352,
-Q121409629,Grillplats Ålö Storsand 2,node,3431736743.0,https://www.openstreetmap.org/node/3431736743,https://www.openstreetmap.org/node/3431736743,Q121409629,
-Q121409637,Grillplats Ålö storsand 3,node,3431736737.0,https://www.openstreetmap.org/node/3431736737,https://www.openstreetmap.org/node/3431736737,Q121409637,
-Q121412621,Grillplats Storsand,node,12778377048.0,https://www.openstreetmap.org/node/12778377048,https://www.openstreetmap.org/node/12778377048,Q121412621,
-Q121433209,"Grillplats vid badstrand, Grinda",node,12759232983.0,https://www.openstreetmap.org/node/12759232983,https://www.openstreetmap.org/node/12759232983,Q121433209,"Grillplats vid badstrand, Grinda"
-Q121433242,Grillplats Grinda tältplats syd västra 2,node,11145662490.0,https://www.openstreetmap.org/node/11145662490,https://www.openstreetmap.org/node/11145662490,Q121433242,
-Q121433258,Östra grillplatsen vid tältplatsen 2,node,11145662491.0,https://www.openstreetmap.org/node/11145662491,https://www.openstreetmap.org/node/11145662491,Q121433258,
-Q121433272,Östra grillplatsen vid tältplatsen 1,node,12735795790.0,https://www.openstreetmap.org/node/12735795790,https://www.openstreetmap.org/node/12735795790,Q121433272,
-Q121714588,Grinda Klubbudden grillplats,node,863394672.0,https://www.openstreetmap.org/node/863394672,https://www.openstreetmap.org/node/863394672,Q121714588,
-Q121715058,Rast- och grillplats Öja-Landsort,node,12662333661.0,https://www.openstreetmap.org/node/12662333661,https://www.openstreetmap.org/node/12662333661,Q121715058,
-Q121754355,"Kålgårdsöns naturreservat, grillplats",node,5856137370.0,https://www.openstreetmap.org/node/5856137370,https://www.openstreetmap.org/node/5856137370,Q121754355,
-Q130338597,"Norra sand, Utö, grillplats",node,12190259938.0,https://www.openstreetmap.org/node/12190259938,https://www.openstreetmap.org/node/12190259938,Q130338597,
-Q130338761,"Norra sand, Utö, grillplats 2",node,5866457027.0,https://www.openstreetmap.org/node/5866457027,https://www.openstreetmap.org/node/5866457027,Q130338761,
-Q133453469,Grillplats Arholma Nord,node,12686218003.0,https://www.openstreetmap.org/node/12686218003,https://www.openstreetmap.org/node/12686218003,Q133453469,Grillplats Arholma Nord
-Q134082140,Östemar grillplats gamla,node,12778302897.0,https://www.openstreetmap.org/node/12778302897,https://www.openstreetmap.org/node/12778302897,Q134082140,
-Q134082502,"Grillplats vid Ångbatsbryggan, Nåttarö",node,12782610013.0,https://www.openstreetmap.org/node/12782610013,https://www.openstreetmap.org/node/12782610013,Q134082502,
-Q134082735,Östemar grillplats nya,node,12748135194.0,https://www.openstreetmap.org/node/12748135194,https://www.openstreetmap.org/node/12748135194,Q134082735,
-Q134290283,"Furusundsbadplats, grillplats",node,12749566542.0,https://www.openstreetmap.org/node/12749566542,https://www.openstreetmap.org/node/12749566542,Q134290283,"Furusundsbadplats, grillplats"
-Q134373707,Yxlö brygga grillplats,node,12814390356.0,https://www.openstreetmap.org/node/12814390356,https://www.openstreetmap.org/node/12814390356,Q134373707,
-Q134461524,Idholmens grillplats,node,11148400849.0,https://www.openstreetmap.org/node/11148400849,https://www.openstreetmap.org/node/11148400849,Q134461524,Idholmens grillplats
-Q134519257,Nåttarö vandrarhem grillplats,node,12778243911.0,https://www.openstreetmap.org/node/12778243911,https://www.openstreetmap.org/node/12778243911,Q134519257,Nåttarö vandrarhem grillplats
-Q134537879,"Vänsvik udd, Nåttarö grillplats",node,12849416949.0,https://www.openstreetmap.org/node/12849416949,https://www.openstreetmap.org/node/12849416949,Q134537879,"Vänsvik udd, Nåttarö grillplats"
-Q134570185,Norr Storsand grillplats,node,12748117653.0,https://www.openstreetmap.org/node/12748117653,https://www.openstreetmap.org/node/12748117653,Q134570185,
-Q134570327,Nåttarö Camping grillplats,node,7791350756.0,https://www.openstreetmap.org/node/7791350756,https://www.openstreetmap.org/node/7791350756,Q134570327,
-Q134570492,Nåttarö västra campingen grillplats,node,12861905256.0,https://www.openstreetmap.org/node/12861905256,https://www.openstreetmap.org/node/12861905256,Q134570492,
-Q134578274,Storsand grillplats 1,node,12778631114.0,https://www.openstreetmap.org/node/12778631114,https://www.openstreetmap.org/node/12778631114,Q134578274,
-Q134578337,Grillplats Storsand,node,12748117658.0,https://www.openstreetmap.org/node/12748117658,https://www.openstreetmap.org/node/12748117658,Q134578337,
-Q134579695,Storsand Nåttarö grillplats,node,7791350755.0,https://www.openstreetmap.org/node/7791350755,https://www.openstreetmap.org/node/7791350755,Q134579695,
-Q134579808,Storsand grillplats 2 Nåttarö,node,12748117663.0,https://www.openstreetmap.org/node/12748117663,https://www.openstreetmap.org/node/12748117663,Q134579808,
-Q134580000,SAT grill södra Storsand Nåttarö,node,12748117664.0,https://www.openstreetmap.org/node/12748117664,https://www.openstreetmap.org/node/12748117664,Q134580000,
-Q134582361,Noret Fjärdlång grillplats,node,12770338575.0,https://www.openstreetmap.org/node/12770338575,https://www.openstreetmap.org/node/12770338575,Q134582361,Noret Fjärdlångs grillplats
-Q134582792,Skarsand SAT grillplats,node,12865388855.0,https://www.openstreetmap.org/node/12865388855,https://www.openstreetmap.org/node/12865388855,Q134582792,
-Q134582833,Skarsand SAT grillplats 2,node,12865415666.0,https://www.openstreetmap.org/node/12865415666,https://www.openstreetmap.org/node/12865415666,Q134582833,
-Q134583309,Skarsand 1 grillplats,node,12865440356.0,https://www.openstreetmap.org/node/12865440356,https://www.openstreetmap.org/node/12865440356,Q134583309,
-Q134606902,"Södra fladen Utö, grillplats 2",node,12740326710.0,https://www.openstreetmap.org/node/12740326710,https://www.openstreetmap.org/node/12740326710,Q134606902,
-Q134606948,"Södra fladens vindskydd 2, Utö",node,12740326709.0,https://www.openstreetmap.org/node/12740326709,https://www.openstreetmap.org/node/12740326709,Q134606948,
-Q134611499,Grillplats Arholma Nord östra,node,13078034117.0,https://www.openstreetmap.org/node/13078034117,https://www.openstreetmap.org/node/13078034117,Q134611499,
-Q134704760,Lidö vindskydd,node,12886705448.0,https://www.openstreetmap.org/node/12886705448,https://www.openstreetmap.org/node/12886705448,Q134704760,
-Q135267120,Östra Ålö grillplats,node,12992249253.0,https://www.openstreetmap.org/node/12992249253,https://www.openstreetmap.org/node/12992249253,Q135267120,
-Q135336466,Finnhamn gästhamn grillplats,node,13061778916.0,https://www.openstreetmap.org/node/13061778916,https://www.openstreetmap.org/node/13061778916,Q135336466,
-Q135883737,Grillplats Nordvästra Nåttarö vid Naturhamnen,node,13076091033.0,https://www.openstreetmap.org/node/13076091033,https://www.openstreetmap.org/node/13076091033,Q135883737,Grillplats Nordvästra Nåttarö vid Naturhamnen
-Q135905118,Södra Sandvik Utö grillplats,node,13081270868.0,https://www.openstreetmap.org/node/13081270868,https://www.openstreetmap.org/node/13081270868,Q135905118,
-Q135969918,"Grillplats 2 vid badstrand, Grinda",node,13097085019.0,https://www.openstreetmap.org/node/13097085019,https://www.openstreetmap.org/node/13097085019,Q135969918,"Grillplats vid badstrand, Grinda"
-Q135971987,Grillplats Grinda stugbyn 3,node,13097212671.0,https://www.openstreetmap.org/node/13097212671,https://www.openstreetmap.org/node/13097212671,Q135971987,
-Q135972088,Grillplats Grinda stugbyn 2,node,13096084423.0,https://www.openstreetmap.org/node/13096084423,https://www.openstreetmap.org/node/13096084423,Q135972088,
-Q136087206,"Bistro bryggan, grillplats",node,13063609062.0,https://www.openstreetmap.org/node/13063609062,https://www.openstreetmap.org/node/13063609062,Q136087206,SAT Grillplats sågens Brygga
-Q136337568,"Saltvik grillplats, Möja",node,13157567395.0,https://www.openstreetmap.org/node/13157567395,https://www.openstreetmap.org/node/13157567395,Q136337568,
-Q136374419,Skarsand enkel grillplats,node,13037391403.0,https://www.openstreetmap.org/node/13037391403,https://www.openstreetmap.org/node/13037391403,Q136374419,Skarsand
-Q136374558,Skarsand norra 2,node,9981328487.0,https://www.openstreetmap.org/node/9981328487,https://www.openstreetmap.org/node/9981328487,Q136374558,
+Q134568948,"Landsorts gästhamn, hjärtstartare",node,12804717601,https://www.openstreetmap.org/node/12804717601,https://www.openstreetmap.org/node/12804717601,Q134568948,
+Q135010859,Hjärtstarare västra hamnen Landsort,node,12804831701,https://www.openstreetmap.org/node/12804831701,https://www.openstreetmap.org/node/12804831701,Q135010859,
+Q135012478,"Landsorts västra hamnen stugorna, hjärtstartare",node,12942128203,https://www.openstreetmap.org/node/12942128203,https://www.openstreetmap.org/node/12942128203,Q135012478,
+Q135013540,Sandhamn hjärtstartare tennisbana,node,12805751201,https://www.openstreetmap.org/node/12805751201,https://www.openstreetmap.org/node/12805751201,Q135013540,
+Q135013563,Utö värdshus hjärtstartare,node,12805053401,https://www.openstreetmap.org/node/12805053401,https://www.openstreetmap.org/node/12805053401,Q135013563,
+Q135013584,Ornö bygdegård hjärtstartare,node,12809454601,https://www.openstreetmap.org/node/12809454601,https://www.openstreetmap.org/node/12809454601,Q135013584,
+Q135013590,Ornöboda hjärtstartare,node,12809240302,https://www.openstreetmap.org/node/12809240302,https://www.openstreetmap.org/node/12809240302,Q135013590,
+Q135013597,Sandhamn värdshus hjärtstartare,node,12805742901,https://www.openstreetmap.org/node/12805742901,https://www.openstreetmap.org/node/12805742901,Q135013597,
+Q135013611,Sandhamn Fläskberget hjärtstartare,node,12805766201,https://www.openstreetmap.org/node/12805766201,https://www.openstreetmap.org/node/12805766201,Q135013611,
+Q135013617,Möja brandstation hjärtstartare,node,12089216143,https://www.openstreetmap.org/node/12089216143,https://www.openstreetmap.org/node/12089216143,Q135013617,
+Q135013701,Ramsmora Möja hjärtstartare,node,12089318349,https://www.openstreetmap.org/node/12089318349,https://www.openstreetmap.org/node/12089318349,Q135013701,
+Q135025121,Finnhamn Ragnars kiosk hjärtstartare,node,12836972901,https://www.openstreetmap.org/node/12836972901,https://www.openstreetmap.org/node/12836972901,Q135025121,
+Q135034710,Idholmens gårdsbutik hjärtstartare,node,12081567274,https://www.openstreetmap.org/node/12081567274,https://www.openstreetmap.org/node/12081567274,Q135034710,
+Q135041658,Kålgårdsön Trälhavets hjärtstartare,node,5856137425,https://www.openstreetmap.org/node/5856137425,https://www.openstreetmap.org/node/5856137425,Q135041658,
+Q135041681,Gymnastiksalen Köpmanholms skola AED,node,12811090801,https://www.openstreetmap.org/node/12811090801,https://www.openstreetmap.org/node/12811090801,Q135041681,
+Q135041722,Hysängen hjärtstartare,node,12811532701,https://www.openstreetmap.org/node/12811532701,https://www.openstreetmap.org/node/12811532701,Q135041722,
+Q135041758,Kungshamns Samfällighet Hästskovägen hjärtstartare,node,12811267201,https://www.openstreetmap.org/node/12811267201,https://www.openstreetmap.org/node/12811267201,Q135041758,
+Q135900531,Arholma handel hjärtstartare,node,13068560201,https://www.openstreetmap.org/node/13068560201,https://www.openstreetmap.org/node/13068560201,Q135900531,
+Q135900574,Roslagens östra pastorat hjärtstartare,node,13068655901,https://www.openstreetmap.org/node/13068655901,https://www.openstreetmap.org/node/13068655901,Q135900574,
+Q135900661,Arholma Intresseförening Ensfyrens väg hjärtstartare,node,13069095802,https://www.openstreetmap.org/node/13069095802,https://www.openstreetmap.org/node/13069095802,Q135900661,
+Q135901032,Österhamn 4990875347 Hjärtstartare,node,4990875347,https://www.openstreetmap.org/node/4990875347,https://www.openstreetmap.org/node/4990875347,Q135901032,
+Q136202829,Svartsö skärgårdshotell och vandrarhem Hjärtstartare,node,13063733001,https://www.openstreetmap.org/node/13063733001,https://www.openstreetmap.org/node/13063733001,Q136202829,
