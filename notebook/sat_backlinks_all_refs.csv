@@ -1,27 +1,70 @@
 qid,label,osm_type,osm_id,osm_url
-Q134568948,"Landsorts gästhamn, hjärtstartare",node,12804717601,https://www.openstreetmap.org/node/12804717601
-Q135010859,Hjärtstarare västra hamnen Landsort,node,12804831701,https://www.openstreetmap.org/node/12804831701
-Q135012478,"Landsorts västra hamnen stugorna, hjärtstartare",node,12942128203,https://www.openstreetmap.org/node/12942128203
-Q135013540,Sandhamn hjärtstartare tennisbana,node,12805751201,https://www.openstreetmap.org/node/12805751201
-Q135013563,Utö värdshus hjärtstartare,node,12805053401,https://www.openstreetmap.org/node/12805053401
-Q135013584,Ornö bygdegård hjärtstartare,node,12809454601,https://www.openstreetmap.org/node/12809454601
-Q135013590,Ornöboda hjärtstartare,node,12809240302,https://www.openstreetmap.org/node/12809240302
-Q135013597,Sandhamn värdshus hjärtstartare,node,12805742901,https://www.openstreetmap.org/node/12805742901
-Q135013611,Sandhamn Fläskberget hjärtstartare,node,12805766201,https://www.openstreetmap.org/node/12805766201
-Q135013617,Möja brandstation hjärtstartare,node,12089216143,https://www.openstreetmap.org/node/12089216143
-Q135013701,Ramsmora Möja hjärtstartare,node,12089318349,https://www.openstreetmap.org/node/12089318349
-Q135025121,Finnhamn Ragnars kiosk hjärtstartare,node,12836972901,https://www.openstreetmap.org/node/12836972901
-Q135034569,Finnhamns lanthandel hjärtstartare,node,6535493385,https://www.openstreetmap.org/node/6535493385
-Q135034605,STF Finnhamn vandrarhem hjärtstartare,node,12081116861,https://www.openstreetmap.org/node/12081116861
-Q135034710,Idholmens gårdsbutik hjärtstartare,node,12081567274,https://www.openstreetmap.org/node/12081567274
-Q135041658,Kålgårdsön Trälhavets hjärtstartare,node,5856137425,https://www.openstreetmap.org/node/5856137425
-Q135041681,Gymnastiksalen Köpmanholms skola AED,node,12811090801,https://www.openstreetmap.org/node/12811090801
-Q135041722,Hysängen hjärtstartare,node,12811532701,https://www.openstreetmap.org/node/12811532701
-Q135041758,Kungshamns Samfällighet Hästskovägen hjärtstartare,node,12811267201,https://www.openstreetmap.org/node/12811267201
-Q135900175,Nåttarö hjärtstartare,node,13037718201,https://www.openstreetmap.org/node/13037718201
-Q135900531,Arholma handel hjärtstartare,node,13068560201,https://www.openstreetmap.org/node/13068560201
-Q135900574,Roslagens östra pastorat hjärtstartare,node,13068655901,https://www.openstreetmap.org/node/13068655901
-Q135900661,Arholma Intresseförening Ensfyrens väg hjärtstartare,node,13069095802,https://www.openstreetmap.org/node/13069095802
-Q135901032,Österhamn 4990875347 Hjärtstartare,node,4990875347,https://www.openstreetmap.org/node/4990875347
-Q135969641,Grinda värdshus hjärtstartare,node,13096789602,https://www.openstreetmap.org/node/13096789602
-Q136202829,Svartsö skärgårdshotell och vandrarhem Hjärtstartare,node,13063733001,https://www.openstreetmap.org/node/13063733001
+Q135010805,Vandringsskylt SAT Landsort,node,12944560760,https://www.openstreetmap.org/node/12944560760
+Q135045291,Vandringsskylt SAT Landsort,node,12944833081,https://www.openstreetmap.org/node/12944833081
+Q135045302,Vandringsskylt SAT Landsort,node,12944798435,https://www.openstreetmap.org/node/12944798435
+Q135045359,Vandringsskylt SAT Nåttarö,node,12837567381,https://www.openstreetmap.org/node/12837567381
+Q135045432,Vandringsskylt SAT Nåttarö,node,12837571751,https://www.openstreetmap.org/node/12837571751
+Q135045488,Vandringsskylt SAT Nåttarö,node,12837532532,https://www.openstreetmap.org/node/12837532532
+Q135045682,Vandringsskylt SAT Nåttarö,node,12837227282,https://www.openstreetmap.org/node/12837227282
+Q135045892,Vandringsskylt SAT Nåttarö,node,12837581021,https://www.openstreetmap.org/node/12837581021
+Q135046168,Vandringsskylt SAT Nåttarö,node,12838471017,https://www.openstreetmap.org/node/12838471017
+Q135046665,Vandringsskylt SAT Rånö,node,12759101764,https://www.openstreetmap.org/node/12759101764
+Q135048381,Vandringsskylt SAT Ålö,node,12759177968,https://www.openstreetmap.org/node/12759177968
+Q135048658,Vandringsskylt SAT Ålö,node,12838455374,https://www.openstreetmap.org/node/12838455374
+Q135048975,Vandringsskylt SAT Ålö,node,12759188938,https://www.openstreetmap.org/node/12759188938
+Q135048990,Vandringsskylt SAT Ålö,node,12759186158,https://www.openstreetmap.org/node/12759186158
+Q135048998,Vandringsskylt SAT Ålö Utö,node,12759181942,https://www.openstreetmap.org/node/12759181942
+Q135049010,Vandringsskylt SAT Utö Ålö,node,12829605557,https://www.openstreetmap.org/node/12829605557
+Q135050059,Vandringsskylt SAT Utö,node,12759136097,https://www.openstreetmap.org/node/12759136097
+Q135050889,Vandringsskylt SAT Utö,node,12759131167,https://www.openstreetmap.org/node/12759131167
+Q135051272,Vandringsskylt SAT Utö,node,12759116768,https://www.openstreetmap.org/node/12759116768
+Q135052427,Vandringsskylt SAT Utö,node,12880343679,https://www.openstreetmap.org/node/12880343679
+Q135052516,Vandringsskylt SAT Utö,node,12830388834,https://www.openstreetmap.org/node/12830388834
+Q135052708,Vandringsskylt SAT Utö,node,12838244063,https://www.openstreetmap.org/node/12838244063
+Q135053596,Vandringsskylt SAT Ornö,node,12759074801,https://www.openstreetmap.org/node/12759074801
+Q135054141,Vandringsskylt SAT Ornö,node,12759068968,https://www.openstreetmap.org/node/12759068968
+Q135054293,Vandringsskylt SAT Ornö,node,12759068092,https://www.openstreetmap.org/node/12759068092
+Q135054522,Vandringsskylt SAT Ornö,node,12759068970,https://www.openstreetmap.org/node/12759068970
+Q135055618,Vandringsskylt SAT Ornö,node,12759062051,https://www.openstreetmap.org/node/12759062051
+Q135056610,Vandringsskylt SAT Runmarö,node,12759045298,https://www.openstreetmap.org/node/12759045298
+Q135057039,Vandringsskylt SAT Runmarö,node,12759112391,https://www.openstreetmap.org/node/12759112391
+Q135057413,Vandringsskylt SAT Sandhamn,node,12838440697,https://www.openstreetmap.org/node/12838440697
+Q135057751,Vandringsskylt SAT Grinda,node,12758924280,https://www.openstreetmap.org/node/12758924280
+Q135057972,Vandringsskylt SAT Grinda,node,863394962,https://www.openstreetmap.org/node/863394962
+Q135060190,Vandringsskylt SAT Svartsö,node,12837723036,https://www.openstreetmap.org/node/12837723036
+Q135060467,Vandringsskylt SAT Svartsö,node,12837652979,https://www.openstreetmap.org/node/12837652979
+Q135060651,Vandringsskylt SAT Svartsö,node,12837790865,https://www.openstreetmap.org/node/12837790865
+Q135060878,Vandringsskylt SAT Svartsö,node,12838059988,https://www.openstreetmap.org/node/12838059988
+Q135061041,Vandringsskylt SAT Svartsö,node,12838059989,https://www.openstreetmap.org/node/12838059989
+Q135061205,Vandringsskylt SAT Svartsö,node,12838486713,https://www.openstreetmap.org/node/12838486713
+Q135062583,Vandringsskylt SAT Ingmarsö,node,6730659174,https://www.openstreetmap.org/node/6730659174
+Q135062808,Vandringsskylt SAT Ingmarsö,node,12758872849,https://www.openstreetmap.org/node/12758872849
+Q135063085,Vandringsskylt SAT Ingmarsö,node,12758854059,https://www.openstreetmap.org/node/12758854059
+Q135063320,Vandringsskylt SAT Ingmarsö,node,12758913300,https://www.openstreetmap.org/node/12758913300
+Q135063491,Vandringsskylt SAT Ingmarsö,node,12758929382,https://www.openstreetmap.org/node/12758929382
+Q135063516,Vandringsskylt SAT Finnhamn,node,12771834467,https://www.openstreetmap.org/node/12771834467
+Q135064407,Vandringsskylt SAT Finnhamn,node,12837199685,https://www.openstreetmap.org/node/12837199685
+Q135064468,Vandringsskylt SAT Finnhamn,node,12838600542,https://www.openstreetmap.org/node/12838600542
+Q135064544,Vandringsskylt SAT Lidö,node,12758859016,https://www.openstreetmap.org/node/12758859016
+Q135065022,Vandringsskylt SAT Lidö,node,12759055196,https://www.openstreetmap.org/node/12759055196
+Q135065340,Vandringsskylt SAT Arholma,node,12758914941,https://www.openstreetmap.org/node/12758914941
+Q135086439,Vandringsskylt SAT Nämdö,node,12951930010,https://www.openstreetmap.org/node/12951930010
+Q135086883,Vandringsskylt SAT Nämdö,node,12951960993,https://www.openstreetmap.org/node/12951960993
+Q135087121,Vandringsskylt SAT Ornö,node,12951972175,https://www.openstreetmap.org/node/12951972175
+Q135087297,Vandringsskylt SAT Ornö,node,12952012604,https://www.openstreetmap.org/node/12952012604
+Q135900081,Vandringsskylt SAT Arholma,node,13077798237,https://www.openstreetmap.org/node/13077798237
+Q135900640,Vandringsskylt SAT Arholma,node,13077967040,https://www.openstreetmap.org/node/13077967040
+Q135901115,Vandringsskylt SAT Arholma,node,13078172838,https://www.openstreetmap.org/node/13078172838
+Q135916989,Vandringsskylt SAT Möja,node,12771834467,https://www.openstreetmap.org/node/12771834467
+Q135917088,Vandringsskylt SAT Finnhamn,node,13085756547,https://www.openstreetmap.org/node/13085756547
+Q135973655,Vandringsskylt SAT Grinda,node,13097861489,https://www.openstreetmap.org/node/13097861489
+Q135973728,Vandringsskylt SAT Grinda,node,12758924280,https://www.openstreetmap.org/node/12758924280
+Q136214806,Vandringsskylt SAT Arholma,node,13135709296,https://www.openstreetmap.org/node/13135709296
+Q136214817,Vandringsskylt SAT Arholma,node,13135735705,https://www.openstreetmap.org/node/13135735705
+Q136214840,Vandringsskylt SAT Arholma,node,13135751919,https://www.openstreetmap.org/node/13135751919
+Q136341620,Vandringsskylt SAT Finnhamn,node,13158767841,https://www.openstreetmap.org/node/13158767841
+Q136349659,Vandringsskylt SAT Rånö,node,13162002018,https://www.openstreetmap.org/node/13162002018
+Q136356030,Vandringsskylt SAT Möja,node,13164722417,https://www.openstreetmap.org/node/13164722417
+Q136390034,Vandringsskylt SAT Rånö,node,13176571935,https://www.openstreetmap.org/node/13176571935
+Q136390863,Vandringsskylt SAT Rånö,node,13176615482,https://www.openstreetmap.org/node/13176615482
+Q136391100,Vandringsskylt SAT Ingmarsö,node,13176634777,https://www.openstreetmap.org/node/13176634777

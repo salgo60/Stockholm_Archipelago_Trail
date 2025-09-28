@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>SAT – PoC: Skyddad natur + översatta föreskrifter (språkgrupper)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    html, body, #map { height: 100%; margin:0; }
+    .panel {
+      position: absolute; z-index: 1000; top: 10px; left: 10px;
+      background: rgba(255,255,255,0.96); border: 1px solid #ddd; border-radius: 12px;
+      padding: 12px 14px; max-width: 460px; box-shadow: 0 8px 30px rgba(0,0,0,.08);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .panel h1 { font-size: 18px; margin: 0 0 6px; }
+    .panel p { margin: 6px 0; font-size: 14px; }
+    .panel code { background:#f6f8fa; padding:2px 6px; border-radius:6px; }
+    .group { margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e5e7eb; }
+    .langs { display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+    .chip {
+      border:1px solid #ddd; background:#fafafa; border-radius:999px;
+      padding: .22rem .6rem; font-size: 12px;
+    }
+    .popup h4 { margin: 0 0 6px; }
+    .popup div { margin: 4px 0; }
+    .sub { font-size: 12px; color:#555; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="panel">
+    <h1>PoC: Skyddad natur + föreskrifter med översättning</h1>
+    <p>Denna demo visar hur popup kan ge <b>föreskrifter</b> (SV) + <b>maskinöversättningar</b> grupperade för olika målgrupper.</p>
+    <div class="group">
+      <div><b>Sverige – vanligast talade</b></div>
+      <div class="langs" id="langs-resident"></div>
+    </div>
+    <div class="group">
+      <div><b>Turister – vanligaste</b></div>
+      <div class="langs" id="langs-tourist"></div>
+    </div>
+    <p class="sub">Obs: Maskinöversatt – original på svenska gäller juridiskt.</p>
+    <p class="sub">SAT-linjen läses från <code>SAT_full.geojson</code> om filen finns.</p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const reserves = [{"qid": "QXXXXX1", "label": "Exempelreservat (demo)", "coords": [59.33, 18.06], "foreskrift": "https://www.naturvardsverket.se/sv/skyddad-natur/sok-naturreservat/exempel-forekrift-sida", "shapefile": null}];
+    const residentLangs = [{"code": "sv", "name": "Svenska"}, {"code": "en", "name": "Engelska"}, {"code": "ar", "name": "Arabiska"}, {"code": "fi", "name": "Finska"}, {"code": "so", "name": "Somaliska"}, {"code": "fa", "name": "Persiska"}, {"code": "ckb", "name": "Kurd. (Sorani)"}, {"code": "ti", "name": "Tigrinja"}, {"code": "pl", "name": "Polska"}, {"code": "tr", "name": "Turkiska"}, {"code": "es", "name": "Spanska"}];
+    const touristLangs  = [{"code": "nb", "name": "Norska (Bokmål)"}, {"code": "nn", "name": "Norska (Nynorsk)"}, {"code": "da", "name": "Danska"}, {"code": "fi", "name": "Finska"}, {"code": "de", "name": "Tyska"}, {"code": "nl", "name": "Nederländska"}, {"code": "en", "name": "Engelska"}, {"code": "fr", "name": "Franska"}, {"code": "es", "name": "Spanska"}, {"code": "it", "name": "Italienska"}, {"code": "zh", "name": "Kinesiska"}, {"code": "ja", "name": "Japanska"}, {"code": "pl", "name": "Polska"}, {"code": "ru", "name": "Ryska"}];
+
+    // Render language "chips" in panel
+    function renderLangs(el, arr){
+      el.innerHTML = arr.map(o => `<span class="chip">${o.name} <code>${o.code}</code></span>`).join("");
+    }
+
+    function translateLinks(url_sv, langs) {
+      const base = "https://translate.google.com/translate";
+      return langs.map(o => ({
+        code: o.code,
+        name: o.name,
+        url: base + "?hl=sv&sl=sv&tl=" + encodeURIComponent(o.code) + "&u=" + encodeURIComponent(url_sv)
+      }));
+    }
+
+    const map = L.map('map').setView([59.30, 18.70], 9);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Try to load SAT_full.geojson (if hosted next to this HTML)
+    fetch('SAT_full.geojson')
+      .then(r => r.ok ? r.json() : null)
+      .then(gj => {
+        if(!gj) return;
+        const layer = L.geoJSON(gj, {
+          style: { color: "#0077ff", weight: 3, opacity: 0.85 }
+        }).addTo(map);
+        try { map.fitBounds(layer.getBounds(), { padding: [20,20] }); } catch(e){}
+      })
+      .catch(()=>{});
+
+    // Add example reserves
+    reserves.forEach(r => {
+      const name = r.label || r.qid;
+      let html = `<div class="popup">
+        <h4>${name}</h4>
+        <div>Wikidata: <a href="https://www.wikidata.org/wiki/${r.qid}" target="_blank">${r.qid}</a></div>`;
+
+      if (r.foreskrift) {
+        html += `<div>📜 Föreskrifter: <a href="${r.foreskrift}" target="_blank">SV (original)</a></div>`;
+
+        const tlResident = translateLinks(r.foreskrift, residentLangs);
+        const tlTourist  = translateLinks(r.foreskrift, touristLangs);
+
+        const a1 = tlResident.map(x => `<a href="${x.url}" target="_blank">${x.name}</a>`).join(" · ");
+        const a2 = tlTourist.map(x => `<a href="${x.url}" target="_blank">${x.name}</a>`).join(" · ");
+
+        html += `<div><b>Sverige – vanligast talade:</b><br/>${a1}</div>`;
+        html += `<div style="margin-top:6px"><b>Turister – vanligaste:</b><br/>${a2}</div>`;
+      }
+      html += `</div>`;
+
+      const marker = L.marker(r.coords || [59.33, 18.06]).addTo(map);
+      marker.bindPopup(html);
+    });
+
+    // Fill the language panels
+    renderLangs(document.getElementById('langs-resident'), residentLangs);
+    renderLangs(document.getElementById('langs-tourist'), touristLangs);
+  </script>
+</body>
+</html>
