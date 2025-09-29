@@ -1,27 +1,41 @@
 osm_type,osm_id,url,wikidata_tag,name
-node,4990875347,https://www.openstreetmap.org/node/4990875347,Q135901032,
-node,5856137425,https://www.openstreetmap.org/node/5856137425,Q135041658,
-node,6535493385,https://www.openstreetmap.org/node/6535493385,Q135034569,
-node,12081116861,https://www.openstreetmap.org/node/12081116861,Q135034605,
-node,12081567274,https://www.openstreetmap.org/node/12081567274,Q135034710,
-node,12089216143,https://www.openstreetmap.org/node/12089216143,Q135013617,
-node,12089318349,https://www.openstreetmap.org/node/12089318349,Q135013701,
-node,12804717601,https://www.openstreetmap.org/node/12804717601,Q134568948,
-node,12804831701,https://www.openstreetmap.org/node/12804831701,Q135010859,
-node,12805053401,https://www.openstreetmap.org/node/12805053401,Q135013563,
-node,12805742901,https://www.openstreetmap.org/node/12805742901,Q135013597,
-node,12805751201,https://www.openstreetmap.org/node/12805751201,Q135013540,
-node,12805766201,https://www.openstreetmap.org/node/12805766201,Q135013611,
-node,12809240302,https://www.openstreetmap.org/node/12809240302,Q135013590,
-node,12809454601,https://www.openstreetmap.org/node/12809454601,Q135013584,
-node,12811090801,https://www.openstreetmap.org/node/12811090801,Q135041681,
-node,12811267201,https://www.openstreetmap.org/node/12811267201,Q135041758,
-node,12811532701,https://www.openstreetmap.org/node/12811532701,Q135041722,
-node,12836972901,https://www.openstreetmap.org/node/12836972901,Q135025121,
-node,12942128203,https://www.openstreetmap.org/node/12942128203,Q135012478,
-node,13037718201,https://www.openstreetmap.org/node/13037718201,Q135900175,
-node,13063733001,https://www.openstreetmap.org/node/13063733001,Q136202829,
-node,13068560201,https://www.openstreetmap.org/node/13068560201,Q135900531,
-node,13068655901,https://www.openstreetmap.org/node/13068655901,Q135900574,
-node,13069095802,https://www.openstreetmap.org/node/13069095802,Q135900661,
-node,13096789602,https://www.openstreetmap.org/node/13096789602,Q135969641,
+node,5530966,https://www.openstreetmap.org/node/5530966,Q134622550,Köpmanholm
+node,269395949,https://www.openstreetmap.org/node/269395949,Q133884836,Gruvbryggan
+node,424056139,https://www.openstreetmap.org/node/424056139,Q133884785,Spränga
+node,424093156,https://www.openstreetmap.org/node/424093156,Q134008562,Rånö
+node,435187426,https://www.openstreetmap.org/node/435187426,Q133886292,Nåttarö
+node,435221450,https://www.openstreetmap.org/node/435221450,Q133993978,Fjärdlång
+node,435221526,https://www.openstreetmap.org/node/435221526,Q134621751,Ornöboda
+node,441941298,https://www.openstreetmap.org/node/441941298,Q134522797,Berg brygga
+node,467047074,https://www.openstreetmap.org/node/467047074,Q134297092,Gatan
+node,476790748,https://www.openstreetmap.org/node/476790748,Q134370050,Sandhamn
+node,491552371,https://www.openstreetmap.org/node/491552371,Q134621708,Hässelmara
+node,758463397,https://www.openstreetmap.org/node/758463397,Q134310449,Södra Grinda
+node,822562778,https://www.openstreetmap.org/node/822562778,Q134367350,Norra Svartsö
+node,859356638,https://www.openstreetmap.org/node/859356638,Q134442879,Norra Grinda
+node,946510410,https://www.openstreetmap.org/node/946510410,Q134007589,Nämdöböte
+node,946510502,https://www.openstreetmap.org/node/946510502,Q134007558,Sand
+node,946514711,https://www.openstreetmap.org/node/946514711,Q134007653,Solvik
+node,946514729,https://www.openstreetmap.org/node/946514729,Q134007692,Östanvik
+node,1611299356,https://www.openstreetmap.org/node/1611299356,Q133885585,Arholma
+node,1823005981,https://www.openstreetmap.org/node/1823005981,Q133867299,Lidö
+node,1917030192,https://www.openstreetmap.org/node/1917030192,Q134539845,Ornö Kyrka
+node,2321869273,https://www.openstreetmap.org/node/2321869273,Q134621885,Ålö
+node,2334340773,https://www.openstreetmap.org/node/2334340773,Q134522835,Ramsmora
+node,2349139503,https://www.openstreetmap.org/node/2349139503,Q134523091,Långvik
+node,2349235266,https://www.openstreetmap.org/node/2349235266,Q134521444,Möjaström
+node,2550392590,https://www.openstreetmap.org/node/2550392590,Q134626197,Lättinge
+node,2908793762,https://www.openstreetmap.org/node/2908793762,Q134007206,Södra Ingmarsö
+node,2908793764,https://www.openstreetmap.org/node/2908793764,Q134621955,Ahlsvik
+node,2908793792,https://www.openstreetmap.org/node/2908793792,Q134000657,Söderboudd
+node,2908794120,https://www.openstreetmap.org/node/2908794120,Q133994206,Skälvik
+node,2927541101,https://www.openstreetmap.org/node/2927541101,Q134444768,Finnhamn
+node,2942213200,https://www.openstreetmap.org/node/2942213200,Q134007303,Landsort (Västerhamn)
+node,5729827888,https://www.openstreetmap.org/node/5729827888,Q134527143,Yxlö
+node,5861205706,https://www.openstreetmap.org/node/5861205706,Q134008052,Brottö
+node,7683934978,https://www.openstreetmap.org/node/7683934978,Q133884690,Norra Ingmarsö
+node,7784981225,https://www.openstreetmap.org/node/7784981225,Q133994161,Styrsvik
+node,7786882522,https://www.openstreetmap.org/node/7786882522,Q134369594,Långvik
+node,8685215061,https://www.openstreetmap.org/node/8685215061,Q134007357,Landsort (Österhamn)
+node,9724390439,https://www.openstreetmap.org/node/9724390439,Q134307047,Landsort (Norrhamn)
+way,39504808,https://www.openstreetmap.org/way/39504808,Q133884655,Båtluffarleden
