@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordByIdResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+  <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lst="http://www.lansstyrelsen.se" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:mgdps="http://www.metagis.se/mgdps" xmlns:gde="http://www.metagis.se/gde" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:gml="http://www.opengis.net/gml/3.2" xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas-temp/apiso-inspire/apiso-inspire.xsd">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>945e918f-8426-4155-8fd6-3f780a85dd8f</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="swe" />
+    </gmd:language>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" />
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice gco:nilReason="missing">
+                  <gco:CharacterString />
+                </gmd:voice>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>data@naturvardsverket.se</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime>2025-06-27T04:29:29.08Z</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString>SS-EN-ISO-19115:2005-NMDP 4.0</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString>4.0</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+        <gmd:geometricObjects>
+          <gmd:MD_GeometricObjects>
+            <gmd:geometricObjectType>
+              <gmd:MD_GeometricObjectTypeCode codeListValue="Surface" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_GeometricObjectTypeCode" />
+            </gmd:geometricObjectType>
+          </gmd:MD_GeometricObjects>
+        </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/3006</gco:CharacterString>
+            </gmd:code>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>Skyddade områden: Art- och habitatdirektivet (Natura2000, SCI, SAC)</gco:CharacterString>
+            </gmd:title>
+            <gmd:alternateTitle>
+              <gco:CharacterString>Natura 2000-områden enligt Art- och habitatdirektivet</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:alternateTitle>
+              <gco:CharacterString>SAC</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:alternateTitle>
+              <gco:CharacterString>SCI</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2020-09-23</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeListValue="creation" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" />
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2022-05-03</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeListValue="revision" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" />
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>287aec17-0164-4b56-ac51-9124c6500fcd</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>Habitatdirektivet (direktiv 92/43/EEG) tillkom 1992. Det behandlar naturtyper samt andra artgrupper än fåglar. Begreppet habitat används mycket brett och innefattar såväl geologiska formationer som biotoper och växtsamhällen. Artgrupperna i direktivet är däggdjur, däribland varg, vissa säl- och fladdermusarter, groddjur som klockgroda, fiskar som lax och stensimpa, mollusker som flodpärlmussla, kärlväxter som till exempel guckusko och mossor som hårklomossa. Lavar, svampar och alger ingår inte i direktivet. Totalt listas över 170 naturtyper i bilaga 1 till habitatdirektivet, varav 88 finns i Sverige. Varje medlemsland ska dels föreslå områden av gemenskapsintresse med dels berörda naturtyper (bilaga 1), dels arter som nämns (bilaga 2) och dels se till att nödvändiga åtgärder vidtas i områdena för att bevara arternas livsmiljöer så att de kan fortleva i livskraftiga bestånd och att naturtyperna bevaras långsiktigt. För både habitat- och fågeldirektivets områden gäller att medlemslandet ska se till att Natura 2000-områdena får den skötsel de behöver samt övervaka att deras naturvärden bevaras så att tillståndet för berörda naturtyper och arter förblir gynnsamt. De olika naturtyperna i direktivet definieras i EU-kommissionens tolkningsmanual (Interpretation Manual). Utifrån den har Naturvårdsverket tagit fram boken Svenska naturtyper.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:status>
+          <gmd:MD_ProgressCode codeListValue="onGoing" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" />
+        </gmd:status>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice gco:nilReason="missing">
+                      <gco:CharacterString />
+                    </gmd:voice>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>data@naturvardsverket.se</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice gco:nilReason="missing">
+                      <gco:CharacterString />
+                    </gmd:voice>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>data@naturvardsverket.se</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeListValue="owner" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice gco:nilReason="missing">
+                      <gco:CharacterString />
+                    </gmd:voice>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>data@naturvardsverket.se</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeListValue="informationManager" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:resourceMaintenance>
+          <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency>
+              <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+            </gmd:maintenanceAndUpdateFrequency>
+            <gmd:maintenanceNote>
+              <gco:CharacterString>Uppdatering sker när nya områden pekats ut.</gco:CharacterString>
+            </gmd:maintenanceNote>
+          </gmd:MD_MaintenanceInformation>
+        </gmd:resourceMaintenance>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/theme/ps">Skyddade områden</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/inspire_themes">GEMET - INSPIRE themes, version 1.0</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2008-06-01</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="publication" codeList="https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Protected areas (Water Framework Directive)</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Directive 92/43/EEC</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Directive 2000/60/EC</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Natura 2000 sites (Habitats Directive)</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gco:CharacterString>Water dependent Natura 2000 sites (Water Framework Directive)</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>INSPIRE priority data set</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2018-04-04</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" />
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Jordobservation och miljö</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">Kategori för värdefulla datamängder</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2023-09-27</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" />
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/initiativ.xml#inspire">Inspire</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/initiativ.xml#oppnadata">Öppna data</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/initiativ.xml#vardefulladatamangder">Värdefulla datamängder</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/initiativ.xml">Initiativ</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2017-01-01120000</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" />
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national">Nationell</gmx:Anchor>
+            </gmd:keyword>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope">Spatial scope</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2019-05-22</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints />
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" />
+            </gmd:accessConstraints>
+            <gmd:otherConstraints>
+              <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">There are no limitations on public access to spatial data sets and services.</gmx:Anchor>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+            </gmd:accessConstraints>
+            <gmd:otherConstraints>
+              <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/atkomstrestriktioner.xml#IngaBegransningar">Inga begränsningar</gmx:Anchor>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" />
+            </gmd:useConstraints>
+            <gmd:otherConstraints>
+              <gmx:Anchor xlink:href="https://resources.geodata.se/codelist/metadata/anvandningsrestriktioner.xml#CC01.0">Creative commons  CC0 1.0 Universiell
+
+DU HAR TILLSTÅND ATT:
+Personen som associerat ett verk med detta dokument har dedikerat verket till public domain 
+genom att avsäga sig sina rättigheter till verket i hela världen enligt upphovsrättslagstiftningen, 
+inklusive alla relaterade och närstående rättigheter, så lågt lagen tillåter. 
+
+Du får kopiera, modifiera, distribuera och framföra verket, 
+även i kommersiellt syfte, 
+utan att fråga om lov. Se Annan information nedan. 
+
+Kortfattad beskrivning: https://creativecommons.org/publicdomain/zero/1.0/deed.sv
+Full licenstext: https://creativecommons.org/publicdomain/zero/1.0/legalcode.sv</gmx:Anchor>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialRepresentationType>
+          <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+        </gmd:spatialRepresentationType>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="swe" />
+        </gmd:language>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal>10.61</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal>24.18</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal>55.14</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal>69.06</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>html</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>4.0</gco:CharacterString>
+            </gmd:version>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>WMS</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>1.3.0</gco:CharacterString>
+            </gmd:version>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>ESRI Shape</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>1.0.0</gco:CharacterString>
+            </gmd:version>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>GML</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>2.0</gco:CharacterString>
+            </gmd:version>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString>Naturvårdsverket</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice gco:nilReason="missing">
+                          <gco:CharacterString />
+                        </gmd:voice>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>data@naturvardsverket.se</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+            <gmd:distributorFormat>
+              <gmd:MD_Format>
+                <gmd:name>
+                  <gco:CharacterString>html</gco:CharacterString>
+                </gmd:name>
+                <gmd:version>
+                  <gco:CharacterString>4.0</gco:CharacterString>
+                </gmd:version>
+              </gmd:MD_Format>
+            </gmd:distributorFormat>
+            <gmd:distributorTransferOptions>
+              <gmd:MD_DigitalTransferOptions>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://www.naturvardsverket.se/amnesomraden/skyddad-natur/olika-former-av-naturskydd/natura-2000-omraden/</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP:Information</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>Naturvårdsverkets hemsida</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                      <gco:CharacterString>Länk till Naturvårdsverkets hemsida med information om Natura 2000[FORMAT]=html</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+              </gmd:MD_DigitalTransferOptions>
+            </gmd:distributorTransferOptions>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:distributor>
+          <gmd:MD_Distributor>
+            <gmd:distributorContact>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <gco:CharacterString>Metria AB</gco:CharacterString>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice gco:nilReason="missing">
+                          <gco:CharacterString />
+                        </gmd:voice>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>gis-support@metria.se</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="distributor" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" />
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:distributorContact>
+            <gmd:distributorFormat>
+              <gmd:MD_Format>
+                <gmd:name>
+                  <gco:CharacterString>WMS</gco:CharacterString>
+                </gmd:name>
+                <gmd:version>
+                  <gco:CharacterString>1.3.0</gco:CharacterString>
+                </gmd:version>
+              </gmd:MD_Format>
+            </gmd:distributorFormat>
+            <gmd:distributorFormat>
+              <gmd:MD_Format>
+                <gmd:name>
+                  <gco:CharacterString>ESRI Shape</gco:CharacterString>
+                </gmd:name>
+                <gmd:version>
+                  <gco:CharacterString>1.0.0</gco:CharacterString>
+                </gmd:version>
+              </gmd:MD_Format>
+            </gmd:distributorFormat>
+            <gmd:distributorFormat>
+              <gmd:MD_Format>
+                <gmd:name>
+                  <gco:CharacterString>GML</gco:CharacterString>
+                </gmd:name>
+                <gmd:version>
+                  <gco:CharacterString>2.0</gco:CharacterString>
+                </gmd:version>
+              </gmd:MD_Format>
+            </gmd:distributorFormat>
+            <gmd:distributorTransferOptions>
+              <gmd:MD_DigitalTransferOptions>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://geodata.naturvardsverket.se/inspire/ps-n2k/ows?</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP:OGC:WMS</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>Visningstjänst WMS</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                      <gco:CharacterString>Länk till visningstjänst (WMS)[FORMAT]=WMS[RESTRIKTIONER]=Creative commons  CC0 1.0 Universiell</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://geodata.naturvardsverket.se/nedladdning/naturvardsregistret/SCI_Rikstackande.zip</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP:Nedladdning</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>Nedladdningsbara data</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                      <gco:CharacterString>Länk till zip-fil för aktuellt dataset
+[FORMAT]=ESRI Shape
+[RESTRIKTIONER]=Creative commons  CC0 1.0 Universiell</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://geodata.naturvardsverket.se/atom/inspire/ps/SE_ProtectedSitesN2K_serviceFeed.xml</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP:Nedladdning:Atom</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>ATOM-flöde för nedladdning av data</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:description>
+                      <gco:CharacterString>Nedladdningstjänst för data som ingår i INSPIRE bilaga 1, atura 2000, Art- och habitatdirektivet (SCI)</gco:CharacterString>
+                    </gmd:description>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+              </gmd:MD_DigitalTransferOptions>
+            </gmd:distributorTransferOptions>
+            <gmd:distributorTransferOptions>
+              <gmd:MD_DigitalTransferOptions>
+                <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://geodata.naturvardsverket.se/inspire/ps-n2k/wfs?</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString>HTTP:OGC:WFS</gco:CharacterString>
+                    </gmd:protocol>
+                    <gmd:name>
+                      <gco:CharacterString>HVD API</gco:CharacterString>
+                    </gmd:name>
+                  </gmd:CI_OnlineResource>
+                </gmd:onLine>
+              </gmd:MD_DigitalTransferOptions>
+            </gmd:distributorTransferOptions>
+          </gmd:MD_Distributor>
+        </gmd:distributor>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://www.naturvardsverket.se/amnesomraden/skyddad-natur/olika-former-av-naturskydd/natura-2000-omraden/</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP:Information</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Naturvårdsverkets hemsida</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Länk till Naturvårdsverkets hemsida med information om Natura 2000[FORMAT]=html</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geodata.naturvardsverket.se/inspire/ps-n2k/ows?</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP:OGC:WMS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Visningstjänst WMS</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Länk till visningstjänst (WMS)[FORMAT]=WMS[RESTRIKTIONER]=Creative commons  CC0 1.0 Universiell</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geodata.naturvardsverket.se/nedladdning/naturvardsregistret/SCI_Rikstackande.zip</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP:Nedladdning</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>Nedladdningsbara data</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Länk till zip-fil för aktuellt dataset
+[FORMAT]=ESRI Shape
+[RESTRIKTIONER]=Creative commons  CC0 1.0 Universiell</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geodata.naturvardsverket.se/atom/inspire/ps/SE_ProtectedSitesN2K_serviceFeed.xml</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP:Nedladdning:Atom</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>ATOM-flöde för nedladdning av data</gco:CharacterString>
+                </gmd:name>
+                <gmd:description>
+                  <gco:CharacterString>Nedladdningstjänst för data som ingår i INSPIRE bilaga 1, atura 2000, Art- och habitatdirektivet (SCI)</gco:CharacterString>
+                </gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://geodata.naturvardsverket.se/inspire/ps-n2k/wfs?</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>HTTP:OGC:WFS</gco:CharacterString>
+                </gmd:protocol>
+                <gmd:name>
+                  <gco:CharacterString>HVD API</gco:CharacterString>
+                </gmd:name>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_DomainConsistency>
+            <gmd:result>
+              <gmd:DQ_ConformanceResult>
+                <gmd:specification>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gco:CharacterString>KOMMISSIONENS FÖRORDNING (EU) nr 1089/2010 av den 23 november 2010 om genomförande av Europaparlamentets och rådets direktiv 2007/2/EG vad gäller interoperabilitet för rumsliga datamängder och datatjänster</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2010-12-06</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                  </gmd:CI_Citation>
+                </gmd:specification>
+                <gmd:explanation>
+                  <gco:CharacterString>Test har ännu inte genomförts.</gco:CharacterString>
+                </gmd:explanation>
+                <gmd:pass>
+                  <gco:Boolean>true</gco:Boolean>
+                </gmd:pass>
+              </gmd:DQ_ConformanceResult>
+            </gmd:result>
+          </gmd:DQ_DomainConsistency>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:statement>
+              <gco:CharacterString>Natura 2000-områdena genomgick 2008 2009 en översyn inom det s k kvalitetsförbättringsprojektet. Projektet omfattade samtliga SCI- (Habitatdirektivet) och SPA- (Fågeldirektivet) områden, med undantag för de stora älvsystemen. I kvalitetsförbättringsprojektet redigerade länsstyrelserna områdesgränserna och anpassade dem mot fastighetsgränser, objekt i Naturvårdsregistret och topografiska objekt som vägar och vatten i enlighet med hur beslutet för respektive objekt såg ut. Kontroller utfördes också för att säkerställa att det inte fanns överlapp mellan SCI-objekt respektive mellan SPA-objekt. Det kontrollerades även att det inte fanns felaktiga geometrier som spikar, dubbla brytpunkter och begränsningslinjer som korsade sig själva (self-intersections).</gco:CharacterString>
+            </gmd:statement>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+  </gmd:MD_Metadata>
+</csw:GetRecordByIdResponse>
+
