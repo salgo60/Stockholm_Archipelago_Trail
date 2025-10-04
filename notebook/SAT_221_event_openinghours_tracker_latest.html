@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6ebd80803d4c49b345c542e0935c7480 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <style>
+  .sat-about {
+    position: fixed; z-index: 10000;
+    top: 10px; left: 54px;
+    background: rgba(255,255,255,0.97);
+    border: 2px solid #666; border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    font: 12px/1.35 -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    min-width: 240px; max-width: 320px; pointer-events: auto;
+  }
+  .sat-about-header { cursor: pointer; padding: 8px 10px; font-weight: 700;
+    display: flex; align-items: center; gap: 6px; user-select: none;
+    background: rgba(248,248,248,.9); border-bottom: 1px solid #e5e7eb; }
+  .sat-about-body { padding: 8px 10px 10px 10px; }
+  .sat-about-collapsed .sat-about-body { display: none; }
+  .sat-chevron { margin-left: auto; transition: transform .15s ease-in-out; }
+  .sat-about-collapsed .sat-chevron { transform: rotate(-90deg); }
+  .sat-links { margin-top: 6px; padding-top: 6px; border-top: 1px solid #e5e7eb; }
+</style>
+
+<div id="sat-about-map_6ebd80803d4c49b345c542e0935c7480" class="sat-about ">
+  <div id="sat-about-map_6ebd80803d4c49b345c542e0935c7480-hdr" class="sat-about-header" title="Click to collapse/expand">
+    <span>ℹ️ About</span><span class="sat-chevron">▸</span>
+  </div>
+  <div class="sat-about-body">
+    <div style="font-weight:700;margin-bottom:4px;">Stockholm Archipelago Trail Map</div>
+    <div>Issue: <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/221" target="_blank">#221</a>&nbsp;&nbsp; Map: SAT_event_openinghours_tracker</div>
+    <div>Created: 2025-10-04 14:26</div>
+    <div>Latest updates: saved as <i>_latest.html</i></div>
+    <div class="sat-links"><div><a href="https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html" target="_blank" style="text-decoration:none;">🔗 SAT Dashboard</a></div><div><a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues?q=is%3Aissue" target="_blank" style="text-decoration:none;">🔗 Project repo issues</a></div><div><a href="https://www.openstreetmap.org/relation/19012437" target="_blank" style="text-decoration:none;">🔗 Trail on OSM (rel 19012437)</a></div><div><a href="https://commons.wikimedia.org/wiki/Category:Stockholm_Archipelago_Trail" target="_blank" style="text-decoration:none;">🔗 Trail on Wikicommons</a></div><div><a href="https://stockholmarchipelagotrail.com/" target="_blank" style="text-decoration:none;">🔗 Official page</a></div><div><a href="https://www.facebook.com/groups/2875020699552247" target="_blank" style="text-decoration:none;">🔗 Unofficial FB group</a></div><div><a href="https://traveltrade.visitsweden.com/plan/news-sweden/Stockholm-Archipelago-Trail/" target="_blank" style="text-decoration:none;">🔗 Visit Sweden</a></div></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var boxId = "sat-about-map_6ebd80803d4c49b345c542e0935c7480";
+  var hdrId = "sat-about-map_6ebd80803d4c49b345c542e0935c7480-hdr";
+  var storageKey = "satAboutCollapsed_map_6ebd80803d4c49b345c542e0935c7480_#221";
+
+  function setCollapsed(box, collapsed) {
+    if (!box) return;
+    if (collapsed) box.classList.add("sat-about-collapsed");
+    else box.classList.remove("sat-about-collapsed");
+    try { localStorage.setItem(storageKey, collapsed ? "1" : "0"); } catch(e) {}
+  }
+
+  function init(){
+    var box = document.getElementById(boxId);
+    var hdr = document.getElementById(hdrId);
+    if (!box || !hdr) return;
+
+    try {
+      var stored = localStorage.getItem(storageKey);
+      if (stored === "1") setCollapsed(box, true);
+      if (stored === "0") setCollapsed(box, false);
+    } catch(e) {}
+
+    hdr.addEventListener("click", function(e){
+      e.stopPropagation();
+      setCollapsed(box, !box.classList.contains("sat-about-collapsed"));
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+    
+            <div class="folium-map" id="map_6ebd80803d4c49b345c542e0935c7480" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6ebd80803d4c49b345c542e0935c7480 = L.map(
+                "map_6ebd80803d4c49b345c542e0935c7480",
+                {
+                    center: [59.5, 18.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a59a28c7e0d8952fef70a32c2c7a8b61 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a59a28c7e0d8952fef70a32c2c7a8b61.addTo(map_6ebd80803d4c49b345c542e0935c7480);
+        
+    
+            var feature_group_b6f5a959b63399f10ac3e047267ce9f2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_92ff4c060859415a6501c63af09c5d7f = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_f53a537e197231cbf79d8aec0d043f5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6454b9b628f5266e38bf77bcab35a484 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cd52a6c1f0887853b47694e5729ba912 = $(`<div id="html_cd52a6c1f0887853b47694e5729ba912" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:D810 1056 (14840323013).jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/D810_1056_%2814840323013%29.jpg" width="200"><br>           📤 Bengt Nyman<br>           🕒 2016-07-12T11:30:47Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/6/6f/D810_1056_%2814840323013%29.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_6454b9b628f5266e38bf77bcab35a484.setContent(html_cd52a6c1f0887853b47694e5729ba912);
+            
+        
+
+        marker_92ff4c060859415a6501c63af09c5d7f.bindPopup(popup_6454b9b628f5266e38bf77bcab35a484)
+        ;
+
+        
+    
+    
+                marker_92ff4c060859415a6501c63af09c5d7f.setIcon(icon_f53a537e197231cbf79d8aec0d043f5f);
+            
+    
+            var marker_80edb85e1af6d23d9140d9494e55d6ce = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_442711fc0fc61858df5ec55c3361bccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f4a99670d4daae74e979dbaebee10e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c4c3b70494ff6b6f6c9833ec15aeaab7 = $(`<div id="html_c4c3b70494ff6b6f6c9833ec15aeaab7" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 01.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/SAT_etapp_Arholma_01.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:37Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/3/32/SAT_etapp_Arholma_01.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_8f4a99670d4daae74e979dbaebee10e5.setContent(html_c4c3b70494ff6b6f6c9833ec15aeaab7);
+            
+        
+
+        marker_80edb85e1af6d23d9140d9494e55d6ce.bindPopup(popup_8f4a99670d4daae74e979dbaebee10e5)
+        ;
+
+        
+    
+    
+                marker_80edb85e1af6d23d9140d9494e55d6ce.setIcon(icon_442711fc0fc61858df5ec55c3361bccf);
+            
+    
+            var marker_e29c7e36adcd09507a1ff201e38430e2 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_761811807d62a51a7a104d7a975a0a25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e8007660d842a1bfdec73db10b2b16e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2c2437158018d10ad7ff80f3ba535204 = $(`<div id="html_2c2437158018d10ad7ff80f3ba535204" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma norra delen.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/SAT_etapp_Arholma_norra_delen.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:41Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/6/6b/SAT_etapp_Arholma_norra_delen.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_4e8007660d842a1bfdec73db10b2b16e.setContent(html_2c2437158018d10ad7ff80f3ba535204);
+            
+        
+
+        marker_e29c7e36adcd09507a1ff201e38430e2.bindPopup(popup_4e8007660d842a1bfdec73db10b2b16e)
+        ;
+
+        
+    
+    
+                marker_e29c7e36adcd09507a1ff201e38430e2.setIcon(icon_761811807d62a51a7a104d7a975a0a25);
+            
+    
+            var marker_229253567057d2e2c6b741aa3674f125 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_a46e7fa1e62d1535e2d9ae3051ff5e9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33f665a50a67f62e2eb656cb041fb8c6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_99c14e30890a7a7e9407d76ca4eaf802 = $(`<div id="html_99c14e30890a7a7e9407d76ca4eaf802" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma skylt.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/SAT_etapp_Arholma_skylt.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:44Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/9f/SAT_etapp_Arholma_skylt.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_33f665a50a67f62e2eb656cb041fb8c6.setContent(html_99c14e30890a7a7e9407d76ca4eaf802);
+            
+        
+
+        marker_229253567057d2e2c6b741aa3674f125.bindPopup(popup_33f665a50a67f62e2eb656cb041fb8c6)
+        ;
+
+        
+    
+    
+                marker_229253567057d2e2c6b741aa3674f125.setIcon(icon_a46e7fa1e62d1535e2d9ae3051ff5e9d);
+            
+    
+            var marker_6f893c9168f4efa6b60816765fdc5877 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_ec7ca435152ec0867a4a2b71dae7d650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bd388702344b87d11da134958ceb822 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a0f6fc726031336cdfceadad55306a52 = $(`<div id="html_a0f6fc726031336cdfceadad55306a52" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 09 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/SAT_etapp_Arholma_09_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:52Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/92/SAT_etapp_Arholma_09_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_1bd388702344b87d11da134958ceb822.setContent(html_a0f6fc726031336cdfceadad55306a52);
+            
+        
+
+        marker_6f893c9168f4efa6b60816765fdc5877.bindPopup(popup_1bd388702344b87d11da134958ceb822)
+        ;
+
+        
+    
+    
+                marker_6f893c9168f4efa6b60816765fdc5877.setIcon(icon_ec7ca435152ec0867a4a2b71dae7d650);
+            
+    
+            var marker_ba7495bdf9346c36541f9f4c82434bc0 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_af0ab10c5128d493a989cde25e1718a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_611f2308a79de98b7c8fe3ecfd411b59 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_790d2e29d44924516eec3bfa0ac51e02 = $(`<div id="html_790d2e29d44924516eec3bfa0ac51e02" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 10 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/SAT_etapp_Arholma_10_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:52Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/9f/SAT_etapp_Arholma_10_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_611f2308a79de98b7c8fe3ecfd411b59.setContent(html_790d2e29d44924516eec3bfa0ac51e02);
+            
+        
+
+        marker_ba7495bdf9346c36541f9f4c82434bc0.bindPopup(popup_611f2308a79de98b7c8fe3ecfd411b59)
+        ;
+
+        
+    
+    
+                marker_ba7495bdf9346c36541f9f4c82434bc0.setIcon(icon_af0ab10c5128d493a989cde25e1718a3);
+            
+    
+            var marker_41c0498b627025eaa4242f936ec1d278 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_4d41dddc347d27526f25c029cbf6decb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d42c4f06dee29fdf1daaf54f900c32c4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b2f8ef76fa0cc926abc8523854c9f9ea = $(`<div id="html_b2f8ef76fa0cc926abc8523854c9f9ea" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 12 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/SAT_etapp_Arholma_12_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:56Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/2/24/SAT_etapp_Arholma_12_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_d42c4f06dee29fdf1daaf54f900c32c4.setContent(html_b2f8ef76fa0cc926abc8523854c9f9ea);
+            
+        
+
+        marker_41c0498b627025eaa4242f936ec1d278.bindPopup(popup_d42c4f06dee29fdf1daaf54f900c32c4)
+        ;
+
+        
+    
+    
+                marker_41c0498b627025eaa4242f936ec1d278.setIcon(icon_4d41dddc347d27526f25c029cbf6decb);
+            
+    
+            var marker_9afa6953a39f97f8bc357f8b5b66fb2e = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_580cbb2c1c214feb5dd141d8da103e92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cc0e12936840751a2a6d8aecbe5ff8b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fab5fd8de7e8b05ce8be82733c99e337 = $(`<div id="html_fab5fd8de7e8b05ce8be82733c99e337" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 11 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/SAT_etapp_Arholma_11_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:31:56Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/a/ac/SAT_etapp_Arholma_11_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_2cc0e12936840751a2a6d8aecbe5ff8b.setContent(html_fab5fd8de7e8b05ce8be82733c99e337);
+            
+        
+
+        marker_9afa6953a39f97f8bc357f8b5b66fb2e.bindPopup(popup_2cc0e12936840751a2a6d8aecbe5ff8b)
+        ;
+
+        
+    
+    
+                marker_9afa6953a39f97f8bc357f8b5b66fb2e.setIcon(icon_580cbb2c1c214feb5dd141d8da103e92);
+            
+    
+            var marker_c31cc274899281de3ae25711a37428d8 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_1978f82888dd4680392ebec3cd3042ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_532cc4e26abc65f49141471c5a609835 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_56dcd94bcdaf98bd7e05116567ae3503 = $(`<div id="html_56dcd94bcdaf98bd7e05116567ae3503" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 15 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/SAT_etapp_Arholma_15_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:00Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/1/1c/SAT_etapp_Arholma_15_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_532cc4e26abc65f49141471c5a609835.setContent(html_56dcd94bcdaf98bd7e05116567ae3503);
+            
+        
+
+        marker_c31cc274899281de3ae25711a37428d8.bindPopup(popup_532cc4e26abc65f49141471c5a609835)
+        ;
+
+        
+    
+    
+                marker_c31cc274899281de3ae25711a37428d8.setIcon(icon_1978f82888dd4680392ebec3cd3042ae);
+            
+    
+            var marker_8d798db7c8ad3ea070849680ac77f9d1 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_c29096c198e313fd696d85927f06526f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2152bed9848d3d1eb7c82d0b682ad5e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4ed26a7d856824c9397365fc41130a3d = $(`<div id="html_4ed26a7d856824c9397365fc41130a3d" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 18 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SAT_etapp_Arholma_18_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:05Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/SAT_etapp_Arholma_18_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_f2152bed9848d3d1eb7c82d0b682ad5e.setContent(html_4ed26a7d856824c9397365fc41130a3d);
+            
+        
+
+        marker_8d798db7c8ad3ea070849680ac77f9d1.bindPopup(popup_f2152bed9848d3d1eb7c82d0b682ad5e)
+        ;
+
+        
+    
+    
+                marker_8d798db7c8ad3ea070849680ac77f9d1.setIcon(icon_c29096c198e313fd696d85927f06526f);
+            
+    
+            var marker_7bc365f34f430708470243c04e9126b6 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_eb6b94367d69c16ba8b6c42229a50099 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7e689bf2a56b90e7f453e05ff266d06 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a6acc6f343e06af4fbb17097e95b7c99 = $(`<div id="html_a6acc6f343e06af4fbb17097e95b7c99" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 14 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/SAT_etapp_Arholma_14_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:07Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/e/e0/SAT_etapp_Arholma_14_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_a7e689bf2a56b90e7f453e05ff266d06.setContent(html_a6acc6f343e06af4fbb17097e95b7c99);
+            
+        
+
+        marker_7bc365f34f430708470243c04e9126b6.bindPopup(popup_a7e689bf2a56b90e7f453e05ff266d06)
+        ;
+
+        
+    
+    
+                marker_7bc365f34f430708470243c04e9126b6.setIcon(icon_eb6b94367d69c16ba8b6c42229a50099);
+            
+    
+            var marker_fd70df0f6895b8e299198c788c2fb589 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_eaaf25dc1a0317ac781ea79cda0b0358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a4fc69589bab8ad3a0bdf2bf29637ee = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1f82734e9ffee6c6b85bcea40c0b3321 = $(`<div id="html_1f82734e9ffee6c6b85bcea40c0b3321" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 20 leden.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/SAT_etapp_Arholma_20_leden.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:09Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/a/ab/SAT_etapp_Arholma_20_leden.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_1a4fc69589bab8ad3a0bdf2bf29637ee.setContent(html_1f82734e9ffee6c6b85bcea40c0b3321);
+            
+        
+
+        marker_fd70df0f6895b8e299198c788c2fb589.bindPopup(popup_1a4fc69589bab8ad3a0bdf2bf29637ee)
+        ;
+
+        
+    
+    
+                marker_fd70df0f6895b8e299198c788c2fb589.setIcon(icon_eaaf25dc1a0317ac781ea79cda0b0358);
+            
+    
+            var marker_3f60f5914b4784d9682309f36cbca93c = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_98c09d5624f9b0f4c7cb7a546737902d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32c1c683a138cd276594f4d7d0c94e1c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e4d8a238f5e86c7b76a4f769505a723d = $(`<div id="html_e4d8a238f5e86c7b76a4f769505a723d" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 21 Vaxholms båten.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAT_etapp_Arholma_21_Vaxholms_b%C3%A5ten.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:11Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAT_etapp_Arholma_21_Vaxholms_b%C3%A5ten.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_32c1c683a138cd276594f4d7d0c94e1c.setContent(html_e4d8a238f5e86c7b76a4f769505a723d);
+            
+        
+
+        marker_3f60f5914b4784d9682309f36cbca93c.bindPopup(popup_32c1c683a138cd276594f4d7d0c94e1c)
+        ;
+
+        
+    
+    
+                marker_3f60f5914b4784d9682309f36cbca93c.setIcon(icon_98c09d5624f9b0f4c7cb7a546737902d);
+            
+    
+            var marker_a69c23c47945e0c9baa5751a03448ed0 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_01b108f36e70512d4bb2a9709f6d2527 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2458b3e8a2ee68d1efbf5822fbb38e6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4d8006d9f4a57c7c6891524d5afe78ab = $(`<div id="html_4d8006d9f4a57c7c6891524d5afe78ab" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT etapp Arholma 19 leden kyrkan.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/SAT_etapp_Arholma_19_leden_kyrkan.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-19T09:32:13Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/6/69/SAT_etapp_Arholma_19_leden_kyrkan.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_e2458b3e8a2ee68d1efbf5822fbb38e6.setContent(html_4d8006d9f4a57c7c6891524d5afe78ab);
+            
+        
+
+        marker_a69c23c47945e0c9baa5751a03448ed0.bindPopup(popup_e2458b3e8a2ee68d1efbf5822fbb38e6)
+        ;
+
+        
+    
+    
+                marker_a69c23c47945e0c9baa5751a03448ed0.setIcon(icon_01b108f36e70512d4bb2a9709f6d2527);
+            
+    
+            var marker_cb6fa4c296fc128f76ce6d35e41761c3 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_3b566c0787b2fa0ffa12732075c4a805 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f166795212816e4d0604e263f10fbfc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_73b9c2964b6bb9a646c75c856f7b3c1c = $(`<div id="html_73b9c2964b6bb9a646c75c856f7b3c1c" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Landsort 37.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/SAT_Landsort_37.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-22T05:53:50Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/8/8e/SAT_Landsort_37.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_0f166795212816e4d0604e263f10fbfc.setContent(html_73b9c2964b6bb9a646c75c856f7b3c1c);
+            
+        
+
+        marker_cb6fa4c296fc128f76ce6d35e41761c3.bindPopup(popup_0f166795212816e4d0604e263f10fbfc)
+        ;
+
+        
+    
+    
+                marker_cb6fa4c296fc128f76ce6d35e41761c3.setIcon(icon_3b566c0787b2fa0ffa12732075c4a805);
+            
+    
+            var marker_6185dc19806c31416883b1f6125567c7 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_75c8f7367b1f06dfae6b0d87149a5474 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7506fd19a0428088600caf33d83677a8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_755e49028ab0b6c2729eb522ec730d81 = $(`<div id="html_755e49028ab0b6c2729eb522ec730d81" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Grinda 23 Grinda Wärdshus.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/SAT_Grinda_23_Grinda_W%C3%A4rdshus.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-24T12:15:44Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/7/7b/SAT_Grinda_23_Grinda_W%C3%A4rdshus.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_7506fd19a0428088600caf33d83677a8.setContent(html_755e49028ab0b6c2729eb522ec730d81);
+            
+        
+
+        marker_6185dc19806c31416883b1f6125567c7.bindPopup(popup_7506fd19a0428088600caf33d83677a8)
+        ;
+
+        
+    
+    
+                marker_6185dc19806c31416883b1f6125567c7.setIcon(icon_75c8f7367b1f06dfae6b0d87149a5474);
+            
+    
+            var marker_585db2c7544573bcfc3da62ff610ae71 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_0d3013f61b2c5433697ba2fa496d6153 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6420dc39e3e020679e2de3fb3bf8ea3c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_87bb1a05aa7d3a1740c9f5615c840d3d = $(`<div id="html_87bb1a05aa7d3a1740c9f5615c840d3d" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Nämdö 01.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/SAT_N%C3%A4md%C3%B6_01.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-27T03:28:30Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/9a/SAT_N%C3%A4md%C3%B6_01.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_6420dc39e3e020679e2de3fb3bf8ea3c.setContent(html_87bb1a05aa7d3a1740c9f5615c840d3d);
+            
+        
+
+        marker_585db2c7544573bcfc3da62ff610ae71.bindPopup(popup_6420dc39e3e020679e2de3fb3bf8ea3c)
+        ;
+
+        
+    
+    
+                marker_585db2c7544573bcfc3da62ff610ae71.setIcon(icon_0d3013f61b2c5433697ba2fa496d6153);
+            
+    
+            var marker_b4273d0fac4b95a9c8bc75bb63684b2c = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_0f8bbb8a4dbae278cc5df4689be4f2dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c060b1ad8557f8752085ec3fe36b515f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3777fb3e59669e161e535c3d33da6c29 = $(`<div id="html_3777fb3e59669e161e535c3d33da6c29" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Nämdö b 03.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/SAT_N%C3%A4md%C3%B6_b_03.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-03-27T05:34:34Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/SAT_N%C3%A4md%C3%B6_b_03.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_c060b1ad8557f8752085ec3fe36b515f.setContent(html_3777fb3e59669e161e535c3d33da6c29);
+            
+        
+
+        marker_b4273d0fac4b95a9c8bc75bb63684b2c.bindPopup(popup_c060b1ad8557f8752085ec3fe36b515f)
+        ;
+
+        
+    
+    
+                marker_b4273d0fac4b95a9c8bc75bb63684b2c.setIcon(icon_0f8bbb8a4dbae278cc5df4689be4f2dc);
+            
+    
+            var marker_343ab76ae7e997afd823a3a1f0d0eb22 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_a8b9128216729f94f60adb34583a58a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deab0816311c25af0f3f54694ee115d3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0bfea2540a67d95b3e348ba072083d8e = $(`<div id="html_0bfea2540a67d95b3e348ba072083d8e" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Runmarö 28.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/SAT_Runmar%C3%B6_28.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-04-01T21:53:09Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/b/bd/SAT_Runmar%C3%B6_28.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_deab0816311c25af0f3f54694ee115d3.setContent(html_0bfea2540a67d95b3e348ba072083d8e);
+            
+        
+
+        marker_343ab76ae7e997afd823a3a1f0d0eb22.bindPopup(popup_deab0816311c25af0f3f54694ee115d3)
+        ;
+
+        
+    
+    
+                marker_343ab76ae7e997afd823a3a1f0d0eb22.setIcon(icon_a8b9128216729f94f60adb34583a58a7);
+            
+    
+            var marker_a15c18d3422266c6a446c531f7efb757 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_36e8e6b91e576bbaf9735d26c050a7dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14c533f54de84ab17803b7c5b5631879 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_12a1e435848a31ba788990e5236fd040 = $(`<div id="html_12a1e435848a31ba788990e5236fd040" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT Utö april vandring 03.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/SAT_Ut%C3%B6_april_vandring_03.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-04-05T15:01:06Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/c/cc/SAT_Ut%C3%B6_april_vandring_03.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_14c533f54de84ab17803b7c5b5631879.setContent(html_12a1e435848a31ba788990e5236fd040);
+            
+        
+
+        marker_a15c18d3422266c6a446c531f7efb757.bindPopup(popup_14c533f54de84ab17803b7c5b5631879)
+        ;
+
+        
+    
+    
+                marker_a15c18d3422266c6a446c531f7efb757.setIcon(icon_36e8e6b91e576bbaf9735d26c050a7dd);
+            
+    
+            var marker_e926a890e3d59e146f482810325e746a = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_ca1706cbb2be0e41461217716eef5336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c0fbb62fd5b3e406e2575aa0a350948 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4e61541716db75288b6ac91f974a55b2 = $(`<div id="html_4e61541716db75288b6ac91f974a55b2" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:SAT symbol band.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/SAT_symbol_band.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-05-19T09:55:44Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/SAT_symbol_band.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_6c0fbb62fd5b3e406e2575aa0a350948.setContent(html_4e61541716db75288b6ac91f974a55b2);
+            
+        
+
+        marker_e926a890e3d59e146f482810325e746a.bindPopup(popup_6c0fbb62fd5b3e406e2575aa0a350948)
+        ;
+
+        
+    
+    
+                marker_e926a890e3d59e146f482810325e746a.setIcon(icon_ca1706cbb2be0e41461217716eef5336);
+            
+    
+            var marker_02bd9b7f571a4fef77a2e424c29abcfc = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_3c7fdd7e80b521bfe59389ade6a0edea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_adf5ea148467a9261322410ad4e2f675 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c9b6ab9e19614ec799166c916b532fb4 = $(`<div id="html_c9b6ab9e19614ec799166c916b532fb4" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:Arholma 202508 SAT 03.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Arholma_202508_SAT_03.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-08-18T08:58:19Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/9/9b/Arholma_202508_SAT_03.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_adf5ea148467a9261322410ad4e2f675.setContent(html_c9b6ab9e19614ec799166c916b532fb4);
+            
+        
+
+        marker_02bd9b7f571a4fef77a2e424c29abcfc.bindPopup(popup_adf5ea148467a9261322410ad4e2f675)
+        ;
+
+        
+    
+    
+                marker_02bd9b7f571a4fef77a2e424c29abcfc.setIcon(icon_3c7fdd7e80b521bfe59389ade6a0edea);
+            
+    
+            var marker_6476dfc503a5ec41c2863568459784f3 = L.marker(
+                [59.5, 18.8],
+                {
+}
+            ).addTo(feature_group_b6f5a959b63399f10ac3e047267ce9f2);
+        
+    
+            var icon_b5ed323fdea760d5b73dbf98ea87137e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b2d811e4a06b256b986450e670e1374 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_908dc41608f9ab2c24e4a2ec3dd4640b = $(`<div id="html_908dc41608f9ab2c24e4a2ec3dd4640b" style="width: 100.0%; height: 100.0%;">         <div style="min-width:220px;font-size:13px;">           <b>File:202508 Finnhamn SAT 30.jpg</b><br>           <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/202508_Finnhamn_SAT_30.jpg" width="200"><br>           📤 Salgo60<br>           🕒 2025-08-21T03:23:18Z<br>           <a href="https://upload.wikimedia.org/wikipedia/commons/8/8a/202508_Finnhamn_SAT_30.jpg" target="_blank">Open on Commons</a>         </div>         </div>`)[0];
+                popup_4b2d811e4a06b256b986450e670e1374.setContent(html_908dc41608f9ab2c24e4a2ec3dd4640b);
+            
+        
+
+        marker_6476dfc503a5ec41c2863568459784f3.bindPopup(popup_4b2d811e4a06b256b986450e670e1374)
+        ;
+
+        
+    
+    
+                marker_6476dfc503a5ec41c2863568459784f3.setIcon(icon_b5ed323fdea760d5b73dbf98ea87137e);
+            
+    
+            feature_group_b6f5a959b63399f10ac3e047267ce9f2.addTo(map_6ebd80803d4c49b345c542e0935c7480);
+        
+    
+            var layer_control_1e1f70d5d79afad49cbcc456c9ff6499_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a59a28c7e0d8952fef70a32c2c7a8b61,
+                },
+                overlays :  {
+                    "\ud83d\udcf7 Latest Commons SAT uploads" : feature_group_b6f5a959b63399f10ac3e047267ce9f2,
+                },
+            };
+            let layer_control_1e1f70d5d79afad49cbcc456c9ff6499 = L.control.layers(
+                layer_control_1e1f70d5d79afad49cbcc456c9ff6499_layers.base_layers,
+                layer_control_1e1f70d5d79afad49cbcc456c9ff6499_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_6ebd80803d4c49b345c542e0935c7480);
+
+        
+</script>
+</html>
