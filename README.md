@@ -1,6 +1,9 @@
 # Stockholm Archipelago Trail
 * [SAT Dashboard](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html)
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a98388c6-478f-4d27-9189-5a0a6e267801" />
+
+
 # 🧭 Stockholm Archipelago Trail – En POC för framtidens vandringsledsdokumentation
 
 Det här projektet är ett **proof of concept (POC)** för hur vandringsleder bör dokumenteras – inte med PDF:er och stängda appar, utan med **öppna data, länkade resurser och användarcentrerad design**.
