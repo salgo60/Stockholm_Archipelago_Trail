@@ -1,6 +1,8 @@
 # Stockholm Archipelago Trail
 * [SAT Dashboard](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html)
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c6eac6ee-443b-43cb-93f7-c951199f1878" />
+
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a98388c6-478f-4d27-9189-5a0a6e267801" />
 
 
