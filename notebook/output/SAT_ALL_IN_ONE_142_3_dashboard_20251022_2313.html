@@ -4,60 +4,12 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <meta charset="utf-8">
-  <title>Stockholm Archipelago Trail — An Open Data Journey</title>
+  <title>SAT Dashboard — where do we walk on Stockholm Archipelago Trail</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body{margin:0;padding:20px;background:#f8fafc;font:14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;color:#111827}
-    .sat-wrap{max-width:1200px;margin:0 auto} 
-    .sat-hero {
-      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
-      color: white;
-      border-radius: 14px;
-      padding: 28px 26px 22px 26px;
-      margin-bottom: 18px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      justify-content: space-between;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-      position: relative;
-    }
-    
-    .sat-hero h1 {
-      margin: 0;
-      font-size: 1.8rem;
-      font-weight: 700;
-      letter-spacing: 0.3px;
-      line-height: 1.3;
-    }
-    
-    .sat-hero h1 .sub {
-      font-weight: 400;
-      opacity: 0.9;
-    }
-    
-    .sat-hero .tagline {
-      margin: 6px 0 0 0;
-      font-size: 1rem;
-      opacity: 0.85;
-      line-height: 1.4;
-      max-width: 720px;
-    }
-
-.hero-updated {
-  background: rgba(255,255,255,0.15);
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  letter-spacing: 0.3px;
-  font-weight: 500;
-  align-self: flex-start;
-}
-
-.hero-updated:hover {
-  background: rgba(255,255,255,0.25);
-}
+    .sat-wrap{max-width:1200px;margin:0 auto}
     .sat-hero{background:#111827;border-radius:14px;color:white;padding:16px 18px;margin-bottom:16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
     .sat-hero h1{margin:0;font-size:20px}
     .sat-hero a{color:#a5b4fc;text-decoration:none}
@@ -77,51 +29,32 @@
   </style>
 </head>
 <body>
+  <div class="sat-wrap">
+    <div class="sat-hero">
+      <h1>SAT Dashboard — where do we walk on Stockholm Archipelago Trail</h1>
+      <div class="muted" style="margin-left:auto">Updated: 20251022_2313</div>
+    </div>
 
     
     <section class="sat-panel" style="padding:6px 0">
       <div class="sat-intro">
     <section class="sat-panel" style="padding:6px 0">
       <div class="sat-intro">
-<!-- Hero-banner: Från vandringsled till dataled -->
-<section style="
-  background:linear-gradient(135deg,#1e3a8a 0%,#2563eb 100%);
-  color:white; padding:22px 24px; border-radius:10px;
-  margin-bottom:16px; box-shadow:0 2px 8px rgba(0,0,0,0.25);
-  font-family:system-ui,Segoe UI,Roboto,sans-serif;">
-  <h2 style="margin:0 0 8px 0; font-size:1.45rem; font-weight:700;">
-    🧭 Från vandringsled till dataled – smarta vandrare kräver smart öppen data
-  </h2>
-  <p style="margin:6px 0 10px 0; font-size:1.05rem; font-weight:500; line-height:1.4;">
-    2025 behövs mer än blågula band på träden – vi bygger en digital twin av verkligheten.
-  </p>
-  <p style="margin:8px 0 0 0; font-size:0.95rem; line-height:1.5;">
-    Den här dashboarden visar vad som blir möjligt när fysiska upplevelser möter öppen data.<br>
-    Kommuner, myndigheter och föreningar är välkomna att återanvända datan via 
-    <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Stockholm_Archipelago_Trail"
-       target="_blank" style="color:#facc15; text-decoration:none; font-weight:600;">
-       Wikidata-projektet</a>.
-  </p>
+<section style="background:#f8fafc; padding:10px 15px; border-radius:8px; margin-bottom:12px; font-family:system-ui;">
+  <h3>🧭 Proof by Doing – SAT Open Data</h3>
+  <p>500+ Wikidataobjekt • 5000 fria bilder • 27 mils vandring</p>
+  <p>Den här dashboarden visar vad som blir möjligt när fysiska upplevelser möter öppen data.
+  Kommuner, myndigheter och föreningar är välkomna att återanvända datan via
+  <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Stockholm_Archipelago_Trail" target="_blank">Wikidata-projektet</a>.</p>
 </section>
 
-<!-- Länk-lista -->
-<ul style="list-style-type:none; padding-left:0;
-  font-family:system-ui,Segoe UI,Roboto,sans-serif;
-  font-size:14px; line-height:1.65; margin-top:0;">
+<ul style="list-style-type: none; padding-left: 0; font-family: Arial, sans-serif; font-size:14px; line-height:1.6;">
   <li style="margin-bottom:6px;">🔗 Projektyta <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues?q=is%3Aissue" target="_blank">GITHUB</a></li>
-  <li style="margin-bottom:6px;">🖼️ <a href="https://commons.wikimedia.org/wiki/Category:Stockholm%20Archipelago%20Trail" target="_blank">Bilder på leden</a> – Wikicommons – <a href="https://wikimap.toolforge.org/?cat=Stockholm_Archipelago_Trail&subcats=true&subcatdepth=4&cluster=false">Karta (tar tid)</a></li>
-  <li style="margin-bottom:6px;">👣 Icke officiell <a href="https://www.facebook.com/groups/2875020699552247" target="_blank">FB-grupp om leden</a> av vandrare för vandrare (> <a href='https://www.facebook.com/groups/2875020699552247/people/'>5000 medlemmar</a>)</li>
-  <li style="margin-bottom:6px;">📚 <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Stockholm_Archipelago_Trail" target="_blank">Wikipedia-projekt</a> / Umap: 
-    <a target=_blank href="https://umap.openstreetmap.fr/en/map/boende-nordsydlinjen-och-stockholm-archipelago-tra_1257362">NordSyd</a>, 
-    <a target=_blank href="https://umap.openstreetmap.fr/en/map/stockholm-archipelago-trail-naturreservat-talta_1280785">Tälta</a>
-  </li>
-  <li style="margin-bottom:6px;">🎥 Video om denna yta <a href="https://youtu.be/vy_746Wn4pc" target="_blank">YouTube</a> / 
-    <a target="_blank" href="https://www.youtube.com/playlist?list=PLNWUKRLAYDeSSHsFOAOy8L_cAtbsOQ41R">SAT-spellista</a>
-  </li>
-  <li style="margin-bottom:6px;">💬 Samtal med: 
-    <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/146" target="_blank">Tillväxtverket</a>, 
-    <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/174" target="_blank">Naturvårdsverket</a> om de brister vi ser.
-  </li>
+  <li style="margin-bottom:6px;">🖼️ <a href="https://commons.wikimedia.org/wiki/Category:Stockholm%20Archipelago%20Trail" target="_blank">Bilder på leden</a> – Wikicommons - <a href="https://wikimap.toolforge.org/?cat=Stockholm_Archipelago_Trail&subcats=true&subcatdepth=4&cluster=false">Karta (tar tid)</a></li>
+  <li style="margin-bottom:6px;">👣 Icke officiell <a href="https://www.facebook.com/groups/2875020699552247" target="_blank">FB grupp om leden</a> av vandrare för vandrare > <a href='https://www.facebook.com/groups/2875020699552247/people/'>5000 medlemmar</a></li>
+  <li style="margin-bottom:6px;">📚 <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Stockholm_Archipelago_Trail" target="_blank">Wikipedia projekt</a> / Umap: <a target=_blank href="https://umap.openstreetmap.fr/en/map/boende-nordsydlinjen-och-stockholm-archipelago-tra_1257362?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=true&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&datalayers=35da97a6-893b-46de-b7b3-4ed341b042c3%2Cb3a4a332-36f7-4949-80dd-2468d4a712ea%2C752d2480-e5a5-4fa2-9b78-15c75e545f64%2C7b203db0-53d4-4a1a-9f7d-a298344c6da5&locateControl=true&measureControl=true">NordSyd</a>, <a target=_blank href="https://umap.openstreetmap.fr/en/map/stockholm-archipelago-trail-naturreservat-talta_1280785?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Tälta</a></li>
+  <li style="margin-bottom:6px;">🔗 Video om denna yta <a href="https://youtu.be/vy_746Wn4pc" target="_blank">youtube</a> / <a target="_blank" href="https://www.youtube.com/playlist?list=PLNWUKRLAYDeSSHsFOAOy8L_cAtbsOQ41R">SAT spelista</a></li>
+  <li style="margin-bottom:6px;">🔗 Samtal med: <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/146" target="_blank">Tillväxtverket</a>, <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/174" target="_blank">Naturvårdsverket</a> om dom brister vi ser.</li>
 </ul>
 </div>
     </section>
