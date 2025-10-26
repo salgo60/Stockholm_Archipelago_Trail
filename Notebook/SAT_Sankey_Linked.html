@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stockholm Archipelago Trail — Linked Amenities Explorer</title>
+<style>
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #222;
+}
+header {
+  background: linear-gradient(90deg, #004B87, #0077b6);
+  color: white;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+h1 { margin: 0; font-size: 1.8em; }
+.container { max-width: 1200px; margin: auto; padding: 1em; }
+iframe { width: 100%; border: none; border-radius: 12px; margin-top: 10px; }
+.legend {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 10px 0;
+}
+.legend-item { display: flex; align-items: center; background:#f1f1f1; border-radius:8px; padding:4px 8px; }
+.color-box { width:16px; height:16px; border-radius:3px; margin-right:6px; border:1px solid #ccc; }
+footer { text-align:center; font-size:0.85em; color:#666; padding:1em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Stockholm Archipelago Trail — Linked Amenities Explorer</h1>
+  <p>Click a SAT section in the Sankey to zoom to it on the map.</p>
+</header>
+
+<div class="container">
+  <section>
+    <h2>1️⃣ SAT Sections → Amenity Flow</h2>
+    <iframe src="SAT_Sankey_interactive.html" height="500"></iframe>
+
+    <div class="legend">
+      <div class="legend-item"><div class="color-box" style="background:#1f77b4;"></div>Facilities</div>
+      <div class="legend-item"><div class="color-box" style="background:#ff7f0e;"></div>Food</div>
+      <div class="legend-item"><div class="color-box" style="background:#2ca02c;"></div>Shop</div>
+      <div class="legend-item"><div class="color-box" style="background:#9467bd;"></div>Accommodation</div>
+      <div class="legend-item"><div class="color-box" style="background:#17becf;"></div>Nature</div>
+      <div class="legend-item"><div class="color-box" style="background:#7f7f7f;"></div>Other</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2️⃣ SAT Trail Map with Amenities</h2>
+    <iframe src="SAT_Sankey_Map_interactive.html" height="600"></iframe>
+  </section>
+</div>
+
+<footer>
+  Data from OpenStreetMap & Wikidata — Last updated: 2025-10-26 |
+  <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail" target="_blank">GitHub project</a>
+</footer>
+</body>
+</html>
