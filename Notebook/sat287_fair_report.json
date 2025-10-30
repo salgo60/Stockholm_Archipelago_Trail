@@ -1,0 +1,28 @@
+{
+    "dataset": "Stockholm Archipelago Trail Website Scan",
+    "generated": "2025-10-30T19:25:52.834762",
+    "source": "https://stockholmarchipelagotrail.com/",
+    "file_count": 148,
+    "changed_files": 0,
+    "new_files": 0,
+    "deleted_files": 0,
+    "unchanged_files": 148,
+    "FAIR": {
+        "Findable": {
+            "score": 3,
+            "comment": "GPX-filer kan hittas men saknar datakatalog och persistent identifier."
+        },
+        "Accessible": {
+            "score": 2,
+            "comment": "Data kan laddas ner men inget öppet API finns."
+        },
+        "Interoperable": {
+            "score": 1,
+            "comment": "Begränsad interoperabilitet, endast GPX-format."
+        },
+        "Reusable": {
+            "score": 2,
+            "comment": "Saknar licensinformation och standardiserad metadata."
+        }
+    }
+}
