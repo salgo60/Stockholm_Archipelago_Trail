@@ -1,5 +1,5 @@
 # Stockholm Archipelago Trail
-* [SAT Dashboard](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html)
+* [SAT Dashboard](https://salgo60.github.io/Stockholm_Archipelago_Trail/Notebook/output/dashboard.html)
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c6eac6ee-443b-43cb-93f7-c951199f1878" />
 
@@ -34,7 +34,7 @@ Att skapa en **nationell modell för digital friluftsinfrastruktur** där data �
 
 ## 📦 Innehåll
 
-- 🔗 Dashboard: [SAT_ALL_IN_ONE](https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html)
+- 🔗 Dashboard: [dashboard.html](https://salgo60.github.io/Stockholm_Archipelago_Trail/Notebook/output/dashboard.html)
 - 📁 Notebook: Datakopplingar, användningsfall, metadataförslag
 - 🧪 Exempel: Hundägare, skolgrupper, digitala nomader, utländska turister
 - 🧵 Diskussion: [Issue #234 – Så här borde vi göra](https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/234)
