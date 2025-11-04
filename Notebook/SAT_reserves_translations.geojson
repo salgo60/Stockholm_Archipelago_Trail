@@ -274,6 +274,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Fjärdlångs naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/fjardlang.html",
+        "nvrid": "2002299",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2002299",
+        "wdid": "Q1422492",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Fj%C3%A4rdl%C3%A5ngs_naturreservat",
+        "osmrel": "1463788",
+        "osmway": null,
+        "commonscat": "Fjärdlång",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
@@ -295,7 +305,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffjardlang.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -749,6 +759,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Utö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/uto.html",
+        "nvrid": "2002296",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2002296",
+        "wdid": "Q2301512",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Ut%C3%B6_naturreservat",
+        "osmrel": "1463748",
+        "osmway": null,
+        "commonscat": "Utö naturreservat",
+        "naturkartan": "2522",
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
@@ -770,7 +790,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Futo.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -2036,6 +2056,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Nämdö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/namdo.html",
+        "nvrid": "2000955",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2000955",
+        "wdid": "Q10605047",
+        "wikipedia": "https://sv.wikipedia.org/wiki/N%C3%A4md%C3%B6_naturreservat",
+        "osmrel": "1463777",
+        "osmway": null,
+        "commonscat": "Nämdö nature reserve",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": "1585770318331508",
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
@@ -2057,7 +2087,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnamdo.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -2421,6 +2451,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Lidö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/lido.html",
+        "nvrid": "2000879",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2000879",
+        "wdid": "Q30158128",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Lid%C3%B6_naturreservat",
+        "osmrel": "1463761",
+        "osmway": null,
+        "commonscat": "Lidö naturreservat",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
@@ -2442,7 +2482,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Flido.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -3996,6 +4036,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Finnhamns naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/finnhamn.html",
+        "nvrid": "2001102",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2001102",
+        "wdid": "Q30161368",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Finnhamns_naturreservat",
+        "osmrel": "1463800",
+        "osmway": null,
+        "commonscat": "Finnhamns naturreservat",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
@@ -4017,7 +4067,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Ffinnhamn.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -9453,6 +9503,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Kålgårdsöns naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/kalgardson.html",
+        "nvrid": "2000890",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2000890",
+        "wdid": "Q30162906",
+        "wikipedia": "https://sv.wikipedia.org/wiki/K%C3%A5lg%C3%A5rds%C3%B6ns_naturreservat",
+        "osmrel": "10626459",
+        "osmway": null,
+        "commonscat": "Kålgårdsön nature reserve",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
@@ -9474,7 +9534,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fkalgardson.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -10190,6 +10250,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Ålö-Rånö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/alo-rano.html",
+        "nvrid": "2014211",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2014211",
+        "wdid": "Q30164971",
+        "wikipedia": "https://sv.wikipedia.org/wiki/%C3%85l%C3%B6-R%C3%A5n%C3%B6_naturreservat",
+        "osmrel": "1463767",
+        "osmway": null,
+        "commonscat": "Ålö-Rånö nature reserv",
+        "naturkartan": "2766",
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
@@ -10211,7 +10281,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Falo-rano.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -12653,6 +12723,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Arholma-Idö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/arholma-ido.html",
+        "nvrid": "2000846",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2000846",
+        "wdid": "Q30165452",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Arholma-Id%C3%B6_naturreservat",
+        "osmrel": "1463750",
+        "osmway": null,
+        "commonscat": "Arholma-Idö",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
@@ -12674,7 +12754,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Farholma-ido.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -13012,6 +13092,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Grinda naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/grinda.html",
+        "nvrid": "2000152",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2000152",
+        "wdid": "Q30167695",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Grinda_naturreservat",
+        "osmrel": "1463789",
+        "osmway": null,
+        "commonscat": "Grinda naturreservat",
+        "naturkartan": null,
+        "inatplace": "198603",
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
@@ -13033,7 +13123,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fgrinda.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -13107,6 +13197,16 @@
         "IUCNKAT": "V, Skyddat landskap/havsområde (Protected Landscape/Seascape)",
         "FORVALTARE": "Skärgårdsstiftelsen i Stockholms län",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/oja-landsort.html",
+        "nvrid": "2001386",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2001386",
+        "wdid": "Q108159298",
+        "wikipedia": "https://sv.wikipedia.org/wiki/%C3%96ja-Landsorts_naturv%C3%A5rdsomr%C3%A5de",
+        "osmrel": null,
+        "osmway": "103228585",
+        "commonscat": "Öja-Landsort nature reserve",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
@@ -13128,7 +13228,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Foja-landsort.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -13509,6 +13609,16 @@
         "IUCNKAT": "V, Skyddat landskap/havsområde (Protected Landscape/Seascape)",
         "FORVALTARE": "Länsstyrelsen i Stockholms län",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/om-oss/om-lansstyrelsen-stockholm/lanets-forfattningssamling/forfattningar-2024/forfattningssamling-2024/2024-11-27-01fs-202441.html",
+        "nvrid": "2062541",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2062541",
+        "wdid": "Q133794691",
+        "wikipedia": "https://sv.wikipedia.org/wiki/Norra_skogens_naturreservat",
+        "osmrel": null,
+        "osmway": "1331536835",
+        "commonscat": "Northern Forest Nature Reserve",
+        "naturkartan": null,
+        "inatplace": null,
+        "instaplace": null,
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
@@ -13530,7 +13640,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fom-oss%2Fom-lansstyrelsen-stockholm%2Flanets-forfattningssamling%2Fforfattningar-2024%2Fforfattningssamling-2024%2F2024-11-27-01fs-202441.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     },
     {
@@ -13792,6 +13902,16 @@
         "BESLMYND": "Länsstyrelse",
         "name": "Nåttarö naturreservat",
         "foreskrift_sv": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/nattaro.html",
+        "nvrid": "2014210",
+        "nvrid_link": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=2014210",
+        "wdid": "Q134587569",
+        "wikipedia": "https://sv.wikipedia.org/wiki/N%C3%A5ttar%C3%B6_naturreservat",
+        "osmrel": "1463792",
+        "osmway": null,
+        "commonscat": "Nåttarö nature reserve",
+        "naturkartan": "2781",
+        "inatplace": null,
+        "instaplace": "282218062",
         "trans_ar": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ar&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
         "trans_ckb": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ckb&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
         "trans_da": "https://translate.google.com/translate?hl=sv&sl=sv&tl=da&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
@@ -13813,7 +13933,7 @@
         "trans_ti": "https://translate.google.com/translate?hl=sv&sl=sv&tl=ti&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
         "trans_tr": "https://translate.google.com/translate?hl=sv&sl=sv&tl=tr&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
         "trans_zh": "https://translate.google.com/translate?hl=sv&sl=sv&tl=zh&u=https%3A%2F%2Fwww.lansstyrelsen.se%2Fstockholm%2Fbesoksmal%2Fnaturreservat%2Fnattaro.html",
-        "source": "Wikidata P3018/P856/P3896; Commons/GeoJSON där tillgängligt"
+        "source": "Wikidata P3018/P856/P3896/P3613 + Linked Open Data"
       }
     }
   ]
