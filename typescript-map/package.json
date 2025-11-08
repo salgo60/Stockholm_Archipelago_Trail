@@ -1,0 +1,17 @@
+{
+  "name": "typescript-map",
+  "version": "1.0.0",
+  "description": "Leaflet map demo for Stockholm Archipelago Trail",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx http-server ./"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.8",
+    "http-server": "^14.1.1",
+    "typescript": "^5.4.0"
+  }
+}

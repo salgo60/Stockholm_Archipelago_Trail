@@ -1,0 +1,12 @@
+{
+  "name": "stockholm_archipelago_trail",
+  "version": "1.0.0",
+  "description": "* [SAT Dashboard](https://salgo60.github.io/Stockholm_Archipelago_Trail/Notebook/output/dashboard.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
