@@ -83,68 +83,19 @@
       <div class="sat-intro">
     <section class="sat-panel" style="padding:6px 0">
       <div class="sat-intro">
-<!-- Hero-banner klickbar -->
-<section id="hero"
-  onclick="expandImage()"
-  title="Klicka för att förstora"
-  style="
-    position:relative;
-    background: url('OpenDataMotorniSverigesFriluftsliv.png');
-    background-size: cover;
-    background-position: center;
-    height: 260px;
-    border-radius:10px;
-    margin-bottom:16px;
-    cursor: zoom-in;
-    box-shadow:0 2px 8px rgba(0,0,0,0.25);">
-
-  <!-- Hint -->
-  <div style="
-    position:absolute;
-    bottom:8px;
-    right:12px;
-    background:rgba(0,0,0,0.55);
-    color:white;
-    padding:4px 8px;
-    border-radius:6px;
-    font-size:0.8rem;">
-    🔍 Klicka för förstoring
-  </div>
+<!-- Hero-banner endast bild -->
+<section style="
+  background: url('OpenDataMotorniSverigesFriluftsliv.png');
+  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f8fafc;
+  height: 240px;
+  border-radius:10px;
+  margin-bottom:16px; 
+  box-shadow:0 2px 8px rgba(0,0,0,0.25);">
 </section>
-
-<!-- Fullscreen overlay -->
-<div id="overlay"
-  onclick="collapseImage()"
-  style="
-    display:none;
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,0.85);
-    z-index:9999;
-    align-items:center;
-    justify-content:center;
-  ">
-
-  <img src="OpenDataMotorniSverigesFriluftsliv.png"
-       style="
-         max-width:95%;
-         max-height:95%;
-         border-radius:8px;
-         box-shadow:0 10px 40px rgba(0,0,0,0.6);
-         cursor: zoom-out;
-       ">
-
-  <div onclick="collapseImage()"
-    style="
-      position:absolute;
-      top:16px;
-      right:20px;
-      font-size:32px;
-      color:white;
-      cursor:pointer;">
-    ✕
-  </div>
-</div>
 
 <!-- Textsektion under bilden -->
 <section style="
@@ -158,35 +109,11 @@
     Kommuner, myndigheter och föreningar är välkomna att återanvända datan via 
     <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Stockholm_Archipelago_Trail" 
        target="_blank" style="color:#2563eb; text-decoration:none; font-weight:600;">
-       Wikidata</a> – jmf video om 
-    <a href="https://www.youtube.com/watch?v=5atWdmH1StA">dagens digitala spöke</a> – 
-    <a href="https://www.youtube.com/playlist?list=PLNWUKRLAYDeTeJjC4RklcS0M_Kp_1htMd">fler filmer</a><br><br>
-
-    💡 Genom att skapa en 
-    <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/243">
-      digital tvilling</a> 
-    av vandringsleden kan öppna data, kartor, 
-    <a href="https://en.wikipedia.org/wiki/Single_source_of_truth">SSOT</a> 
-    och användarfeedback vävas samman till ett levande beslutsstöd för både vandrare och förvaltare – 
-    <a href="https://www.youtube.com/watch?v=NKDyRAtjvDI">
-      video ”Från kaos till smart data”
-    </a>.
+       Wikidata</a> - jmf video om <a href=https://www.youtube.com/watch?v=5atWdmH1StA">dagens digitala spöke</a> - <a href="https://www.youtube.com/playlist?list=PLNWUKRLAYDeTeJjC4RklcS0M_Kp_1htMd">fler filmer</a><br><br>
+  💡 Genom att skapa en <a href="https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/243">digital tvilling</a> av vandringsleden kan öppna data, kartor, <a href="https://en.wikipedia.org/wiki/Single_source_of_truth">SSOT</a> och 
+    användarfeedback vävas samman till ett levande beslutsstöd för både vandrare och förvaltare - <a href=https://www.youtube.com/watch?v=NKDyRAtjvDI">video "Från kaos till smart data" </a>.
   </p>
 </section>
-
-<!-- JS för expand/collapse -->
-<script>
-function expandImage() {
-  document.getElementById("overlay").style.display = "flex";
-}
-function collapseImage() {
-  document.getElementById("overlay").style.display = "none";
-}
-// ESC för stäng
-document.addEventListener("keydown", function(e) {
-  if (e.key === "Escape") collapseImage();
-});
-</script>
 </div>
     </section>
     <style>
