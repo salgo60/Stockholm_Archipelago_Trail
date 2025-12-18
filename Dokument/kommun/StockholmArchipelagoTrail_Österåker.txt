@@ -1,0 +1,78 @@
+**Till Österåkers kommun**
+
+Jag begär härmed att få ta del av information och handlingar avseende kommunens engagemang i projektet _Stockholm Archipelago Trail (SAT)_.
+
+Om utlämnandet av handlingar eller uppgifter är förenat med avgift önskar jag, i enlighet med gällande regelverk, att i förväg få information om avgiftens storlek och beräkningsgrund innan utlämnande sker.
+
+Jag önskar särskilt ta del av följande:
+
+**1. Kommunens kostnader för Stockholm Archipelago Trail**
+
+Hur mycket Österåkers kommun har bekostat SAT, inklusive men inte begränsat till:
+* direkta ekonomiska bidrag,
+* arbete i egen regi (t.ex. personalinsatser och projekttid),
+* eventuella bidrag via samverkansprojekt eller externa finansiärer.
+
+**2. Krav på leverans**
+
+Vilka krav kommunen har ställt på leveransen inom SAT-projektet, inklusive:
+* beslutade mål,
+* specificerade leverabler,
+* eventuella krav på dokumentation, uppföljning och/eller tillgängliggörande av öppna data.
+
+**3. Uppföljning och kontroll**
+
+Hur kommunen följer upp:
+* vad som faktiskt har levererats inom projektet,
+* att leveransen motsvarar beslutade mål och utlovade resultat,
+* att offentliga medel har använts i enlighet med dessa mål.
+
+**Bakgrund**
+
+Bakgrunden till min begäran är att det, enligt min och andras genomgång, saknas fungerande och verifierbar uppföljning på nationell nivå av SAT-projektet. Tillväxtverket har exempelvis inte kunnat visa att de cirka 7 miljoner kronor som satsats har resulterat i leveranser i enlighet med vad som kommunicerats.
+
+Vidare kan konstateras att Stockholm Archipelago Trail i dagsläget inte tillhandahåller öppna data om grundläggande anläggningar längs leden, trots att sådana anläggningar uppges ingå i projektets leverans.
+
+Projektet Stockholm Archipelago Trail är helt eller delvis finansierat med offentliga medel, inklusive EU-medel. Mot denna bakgrund är det relevant att beakta EU:s direktiv (EU) 2019/1024 om öppna data och vidareutnyttjande av information från den offentliga sektorn, inklusive bestämmelserna om så kallade viktiga datamängder. Geografisk information och uppgifter om publik infrastruktur för friluftsliv är exempel på datatyper som enligt direktivet bör göras tillgängliga på ett öppet, strukturerat och återanvändbart sätt.
+
+I samband med detta är även FAIR-principerna (Findable, Accessible, Interoperable, Reusable) relevanta. En pedagogisk genomgång av dessa principer finns i videopresentationen ”Lås upp leden – En guide till FAIR data”:
+https://www.youtube.com/watch?v=pEIF42EJh7M
+
+Avsaknaden av tillgängliga öppna data inom SAT-projektet väcker därför frågor om hur dessa principer har beaktats i projektets genomförande och uppföljning.
+
+Exempel på uppgivna respektive observerade förhållanden:
+
+
+*** Vindskydd**
+Enligt uppgifter ska 11 vindskydd ha beställts. Vid inventering sommaren 2025 har endast 3 platser med sammanlagt 4 vindskydd kunnat identifieras. Avsaknad av öppen information om vindskyddens lokalisering försvårar planering och väcker frågor om transparens i leveransen.
+
+*** Spänger, trappor och broar**
+Uppgifter har lämnats om cirka 820 meter spänger, 200 meter trappor samt 3 broar. Efter att ha vandrat hela leden har jag inte kunnat verifiera förekomsten av 200 meter trappor längs leden, i synnerhet inte nybyggda sådana.
+
+**Grillplatser**
+Vissa grillplatser har levererats, men dessa är i huvudsak placerade där grillplatser redan fanns sedan tidigare. Nya grillplatser förefaller dessutom etableras utanför själva leden, vilket riskerar att vilseleda vandrare när information om anläggningarnas faktiska läge saknas.
+
+Sammanfattningsvis saknas tillgänglig, öppen och verifierbar information om var anläggningar finns längs leden, trots att detta utgör central infrastruktur för friluftsliv.
+
+Vid kontakt med projektorganisationen har detta motiverats med att informationen ska vara ”en överraskning”, vilket även har återgivits av Tillväxtverket. Den dokumentation som visats upp förefaller dock vara internt framtagen snarare än baserad på verifierbara och fältkontrollerade leveranser.
+
+**Referenser**
+
+För sammanhang och transparens hänvisar jag till följande öppet dokumenterade ärenden:
+
+1. SAT – leveransen hemlig, varför?
+https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/148
+2. Request for Enhancement – Information on Open Facilities along the Stockholm Archipelago Trail (SAT)
+https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/149
+3. Tillväxtverket – vilka krav ställer de?
+https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/146
+
+Min interna referens:
+https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/318
+
+Jag önskar svar i elektronisk form.
+
+Med vänlig hälsning
+
+Magnus Sälgö
+Telefon: 073-515 28 02
