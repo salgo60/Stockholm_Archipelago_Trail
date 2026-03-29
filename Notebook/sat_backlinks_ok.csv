@@ -1,5 +1,6 @@
 qid,label,osm_type,osm_id,osm_url,url,wikidata_tag,name
 Q133885585,Arholma brygga,node,1611299356,https://www.openstreetmap.org/node/1611299356,https://www.openstreetmap.org/node/1611299356,Q133885585,Arholma
+Q134688756,Granö brygga,way,605734271,https://www.openstreetmap.org/way/605734271,https://www.openstreetmap.org/way/605734271,Q134688756,Granö brygga
 Q133867299,Lidö brygga,node,1823005981,https://www.openstreetmap.org/node/1823005981,https://www.openstreetmap.org/node/1823005981,Q133867299,Lidö
 Q134307047,Landsort norra hamn,node,9724390439,https://www.openstreetmap.org/node/9724390439,https://www.openstreetmap.org/node/9724390439,Q134307047,Landsort (Norrhamn)
 Q134007303,Landsort västra hamn,node,2942213200,https://www.openstreetmap.org/node/2942213200,https://www.openstreetmap.org/node/2942213200,Q134007303,Landsort (Västerhamn)
