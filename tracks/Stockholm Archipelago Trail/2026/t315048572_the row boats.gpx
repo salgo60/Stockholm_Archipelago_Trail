@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>The row boats</name>
+    <author>
+      <name>Michael Lemmel - Community</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/315048572"/>
+    <time>2025-05-04T15:43:27.872Z</time>
+    <extensions>
+      <oa:oaCategory>boatTour</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>The row boats</name>
+    <type>boatTour</type>
+    <trkseg>
+      <trkpt lat="59.48211" lon="18.804459">
+        <ele>5.48</ele>
+        <name>59.482110N, 18.804459E</name>
+      </trkpt>
+      <trkpt lat="59.482011" lon="18.804185">
+        <ele>5.69</ele>
+      </trkpt>
+      <trkpt lat="59.481612" lon="18.80392">
+        <ele>6.12</ele>
+      </trkpt>
+      <trkpt lat="59.481257" lon="18.802916">
+        <ele>5.41</ele>
+      </trkpt>
+      <trkpt lat="59.481149" lon="18.801435">
+        <ele>0.46</ele>
+      </trkpt>
+      <trkpt lat="59.481047" lon="18.798495">
+        <ele>8.24</ele>
+        <name>184 99 Husarö, Sverige</name>
+        <extensions>
+          <oa:address>{
+  &quot;administrativeArea&quot; : &quot;Stockholms län&quot;,
+  &quot;country&quot; : &quot;Sverige&quot;,
+  &quot;subAdministrativeArea&quot; : &quot;Österåker&quot;,
+  &quot;town&quot; : &quot;Husarö&quot;,
+  &quot;zipcode&quot; : &quot;184 99&quot;
+}</oa:address>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

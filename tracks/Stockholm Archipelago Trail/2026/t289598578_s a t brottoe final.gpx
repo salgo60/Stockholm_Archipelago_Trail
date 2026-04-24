@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>S A T Brottö Final</name>
+    <author>
+      <name>Michael Lemmel - Community</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/289598578"/>
+    <time>2024-07-01T15:26:05.943Z</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>S A T Brottö Final</name>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="59.4658" lon="18.727583">
+        <ele>7.1</ele>
+        <name>59.465795,18.727570</name>
+        <extensions>
+          <oa:locType>routingNode</oa:locType>
+          <oa:mapZoom>15</oa:mapZoom>
+        </extensions>
+      </trkpt>
+      <trkpt lat="59.466107" lon="18.727104">
+        <ele>7.0</ele>
+      </trkpt>
+      <trkpt lat="59.46639" lon="18.726976">
+        <ele>7.1</ele>
+      </trkpt>
+      <trkpt lat="59.466597" lon="18.726761">
+        <ele>8.7</ele>
+      </trkpt>
+      <trkpt lat="59.466784" lon="18.726537">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.466784" lon="18.726537">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.466784" lon="18.726537">
+        <ele>9.7</ele>
+      </trkpt>
+      <trkpt lat="59.466746" lon="18.727344">
+        <ele>10.8</ele>
+      </trkpt>
+      <trkpt lat="59.466817" lon="18.72801">
+        <ele>11.1</ele>
+      </trkpt>
+      <trkpt lat="59.466889" lon="18.728676">
+        <ele>11.6</ele>
+      </trkpt>
+      <trkpt lat="59.466942" lon="18.729172">
+        <ele>13.0</ele>
+      </trkpt>
+      <trkpt lat="59.466994" lon="18.729669">
+        <ele>15.1</ele>
+      </trkpt>
+      <trkpt lat="59.467012" lon="18.730139">
+        <ele>18.0</ele>
+      </trkpt>
+      <trkpt lat="59.467003" lon="18.730574">
+        <ele>20.4</ele>
+      </trkpt>
+      <trkpt lat="59.46704" lon="18.730968">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="59.467096" lon="18.731353">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="59.467251" lon="18.731571">
+        <ele>23.1</ele>
+      </trkpt>
+      <trkpt lat="59.467441" lon="18.731686">
+        <ele>23.9</ele>
+      </trkpt>
+      <trkpt lat="59.467699" lon="18.732205">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="59.467957" lon="18.732724">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="59.468193" lon="18.733355">
+        <ele>23.5</ele>
+      </trkpt>
+      <trkpt lat="59.468292" lon="18.733829">
+        <ele>23.1</ele>
+      </trkpt>
+      <trkpt lat="59.468392" lon="18.734302">
+        <ele>22.3</ele>
+      </trkpt>
+      <trkpt lat="59.468545" lon="18.734749">
+        <ele>20.8</ele>
+      </trkpt>
+      <trkpt lat="59.468588" lon="18.735237">
+        <ele>20.0</ele>
+      </trkpt>
+      <trkpt lat="59.468556" lon="18.735672">
+        <ele>18.8</ele>
+      </trkpt>
+      <trkpt lat="59.46855" lon="18.736351">
+        <ele>17.8</ele>
+      </trkpt>
+      <trkpt lat="59.468543" lon="18.737029">
+        <ele>16.7</ele>
+      </trkpt>
+      <trkpt lat="59.468615" lon="18.737361">
+        <ele>16.5</ele>
+      </trkpt>
+      <trkpt lat="59.468693" lon="18.737653">
+        <ele>16.6</ele>
+      </trkpt>
+      <trkpt lat="59.468814" lon="18.73828">
+        <ele>15.6</ele>
+      </trkpt>
+      <trkpt lat="59.468901" lon="18.738562">
+        <ele>15.3</ele>
+      </trkpt>
+      <trkpt lat="59.469004" lon="18.738824">
+        <ele>13.9</ele>
+      </trkpt>
+      <trkpt lat="59.469126" lon="18.739062">
+        <ele>12.6</ele>
+      </trkpt>
+      <trkpt lat="59.469274" lon="18.739267">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.469387" lon="18.739428">
+        <ele>11.7</ele>
+      </trkpt>
+      <trkpt lat="59.469396" lon="18.739455">
+        <ele>11.7</ele>
+        <name>Ramsdal 5, 130 25 Ingmarsö</name>
+        <extensions>
+          <oa:address>{
+  &quot;administrativeArea&quot; : &quot;AB&quot;,
+  &quot;country&quot; : &quot;Sverige&quot;,
+  &quot;streetAddress&quot; : &quot;Ramsdal 5&quot;,
+  &quot;subAdministrativeArea&quot; : &quot;Österåker&quot;,
+  &quot;town&quot; : &quot;Ingmarsö&quot;,
+  &quot;zipcode&quot; : &quot;130 25&quot;
+}</oa:address>
+          <oa:mapZoom>16</oa:mapZoom>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
