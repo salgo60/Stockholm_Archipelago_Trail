@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "dataset": "sat-passport-service-points",
-  "export_version": "2026.1_2",
-  "schema_version": "1.0",
-  "generated": "2026-06-05T11:42:06.937683+00:00",
+  "export_version": "2026.1_3",
+  "schema_version": "1.1",
+  "generated": "2026-06-05T12:23:19.573981+00:00",
   "source_system": "Wikidata",
   "source_license": "CC0-1.0",
   "location_count": 32,
@@ -58,6 +58,7 @@
           "label": "SAT Arholma"
         },
         "website": "https://arholmanord.se/boende/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
         "social": {
           "facebook_username": "arholmanord",
           "instagram_username": "arholmanord"
@@ -118,6 +119,7 @@
           "label": "SAT Arholma"
         },
         "website": "https://arholmahandel.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
         "social": {
           "facebook_username": "Arholmahandelcafe",
           "instagram_username": "arholma.handel"
@@ -171,6 +173,7 @@
           "label": "SAT Ornö"
         },
         "website": "https://www.orno.se/orno-museum/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
         "social": {
           "instagram_username": "ornomuseum"
         },
@@ -223,6 +226,7 @@
           "label": "SAT Ålö"
         },
         "website": "https://www.batshaket.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
         "social": {
           "facebook_username": "100063724382496",
           "instagram_username": "batshaket"
@@ -283,6 +287,7 @@
           "label": "SAT Grinda"
         },
         "website": "https://grinda.se/mat-fest/wardshuset/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
         "social": {
           "facebook_username": "GrindaWardshus",
           "instagram_username": "grindawardshus"
@@ -342,6 +347,7 @@
           "label": "SAT Furusund"
         },
         "website": "https://hotellfurusund.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
         "social": {
           "facebook_username": "furusundiroslagen",
           "instagram_username": "hotellfurusund"
@@ -395,6 +401,7 @@
           "label": "SAT Ingmarsö"
         },
         "website": "https://ingmarsobageri.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
         "social": {
           "facebook_username": "ingmarsobageri",
           "instagram_username": "ingmarsobageri"
@@ -502,6 +509,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
           "label": "SAT Möja"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2002%20Jeppes.jpg",
         "social": {
           "facebook_username": "jeppesgastgiveri",
           "instagram_username": "jeppesgastgiveri"
@@ -559,6 +567,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724250",
           "label": "SAT Yxlan"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Yxlan%20K%C3%B6pmanholms%20lanthandel.jpg",
         "social": {
           "facebook_username": "kjorren",
           "instagram_username": "kopmanholm_lanthandel"
@@ -612,6 +621,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724249",
           "label": "SAT Finnhamn"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Finnhamn%202025%20april%20aff%C3%A4ren.jpg",
         "social": {
           "instagram_username": "finnhamnslanthandel"
         },
@@ -666,6 +676,7 @@
           "label": "SAT Lidö"
         },
         "website": "https://lidovardshus.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
         "social": {
           "facebook_username": "lidovardshus",
           "instagram_username": "lido_vardshus"
@@ -724,6 +735,7 @@
           "label": "SAT Utö"
         },
         "website": "https://www.namdosolvik.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
         "social": {
           "facebook_username": "namdosolvik",
           "instagram_username": "namdosolvik"
@@ -774,6 +786,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
           "label": "SAT Möja"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2020250815%2003.jpg",
         "osm": {
           "type": "node",
           "id": 2349013040
@@ -824,6 +837,7 @@
           "label": "SAT Nåttarö"
         },
         "website": "https://www.nattaroboden.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
         "social": {
           "instagram_username": "nattaroboden"
         },
@@ -876,6 +890,7 @@
           "label": "SAT Nåttarö"
         },
         "website": "https://nattaro.se/mat_pa_on/nattaro-krog/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
         "social": {
           "facebook_username": "nattaroresort",
           "instagram_username": "nattarogard"
@@ -940,6 +955,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724236",
           "label": "SAT Ornö"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gulf%20macken%20Kyrkviken%20Orn%C3%B6%20%281%29.jpg",
         "social": {
           "facebook_username": "ornomackenbutiken",
           "instagram_username": "ornomackenbutiken"
@@ -985,6 +1001,7 @@
           "label": "SAT Nämdö"
         },
         "website": "https://www.idoborg.se/strandbaren",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
         "social": {
           "facebook_username": "strandbarenidoborg"
         },
@@ -1037,6 +1054,7 @@
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724246",
           "label": "SAT Runmarö"
         },
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%2014.jpg",
         "social": {
           "facebook_username": "svangensvanner",
           "instagram_username": "svangensvanner"
@@ -1096,6 +1114,7 @@
           "label": "SAT Runmarö"
         },
         "website": "https://www.runmarolanthandel.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
         "social": {
           "facebook_username": "RunmaroLanthandel",
           "instagram_username": "runmarolanthandel"
@@ -1154,6 +1173,7 @@
           "label": "SAT Rånö"
         },
         "website": "https://rano.se/krog/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
         "social": {
           "instagram_username": "ranobrygga"
         },
@@ -1207,6 +1227,7 @@
           "label": "SAT Finnhamn"
         },
         "website": "https://www.svenskaturistforeningen.se/boende/stf-finnhamns-vandrarhem/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
         "social": {
           "facebook_username": "finnhamn",
           "instagram_username": "finnhamn"
@@ -1261,6 +1282,7 @@
           "label": "SAT Möja"
         },
         "website": "https://mojavandrarhem.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
         "social": {
           "facebook_username": "mojavandrarhem",
           "facebook_id": "840929899346541",
@@ -1314,6 +1336,7 @@
           "label": "SAT Landsort"
         },
         "website": "https://www.landsort.com/saltboden/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
         "social": {
           "instagram_username": "saltbodenlandsort"
         },
@@ -1370,6 +1393,7 @@
           "label": "SAT Sandhamn"
         },
         "website": "https://www.sandhamn.se/aktiviteter/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
         "social": {
           "facebook_username": "sandhamnsguiderna",
           "instagram_username": "sandhamnsguiderna"
@@ -1429,6 +1453,7 @@
           "label": "SAT Sandhamn"
         },
         "website": "https://www.sandhamn.com/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
         "social": {
           "facebook_username": "sandhmnseglarhotell",
           "instagram_username": "sandhamnseglarhotell"
@@ -1484,6 +1509,7 @@
           "label": "SAT Sandhamn"
         },
         "website": "https://sandhamns-vardshus.se",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
         "social": {
           "facebook_username": "SandhamnsVardshus",
           "instagram_username": "sandhamnsvardshus"
@@ -1543,6 +1569,7 @@
           "label": "SAT Svartsö"
         },
         "website": "https://www.svartsonorra.se/boende/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
         "social": {
           "facebook_username": "svartsonorra",
           "instagram_username": "svartsonorra"
@@ -1597,6 +1624,7 @@
           "label": "SAT Landsort"
         },
         "website": "https://www.g-mo.se/restaurang-svedtiljas/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
         "social": {
           "facebook_username": "Lotstornet",
           "instagram_username": "svedtiljas"
@@ -1657,6 +1685,7 @@
           "label": "SAT Utö"
         },
         "website": "https://www.utovardshus.se/",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
         "social": {
           "facebook_username": "utovardshus.se",
           "instagram_username": "utovardshus"

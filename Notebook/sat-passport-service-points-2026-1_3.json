@@ -1,10 +1,11 @@
 {
   "dataset": "sat-passport-service-points",
-  "export_version": "2026.1_2",
-  "schema_version": "1.0",
-  "generated": "2026-06-05T11:42:06.937683+00:00",
+  "export_version": "2026.1_3",
+  "schema_version": "1.1",
+  "generated": "2026-06-05T12:23:19.573981+00:00",
   "source_system": "Wikidata",
   "source_license": "CC0-1.0",
+  "source_repository": "https://github.com/salgo60/Stockholm_Archipelago_Trail",
   "query_service": "https://query.wikidata.org/",
   "generated_by": "SAT Passport Notebook",
   "location_count": 32,
@@ -46,7 +47,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
       "sat_part": {
         "wikidata": "Q133374147",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133374147",
@@ -61,7 +63,9 @@
         "type": "node",
         "id": 5745003239
       },
-      "osm_url": "https://www.openstreetmap.org/node/5745003239"
+      "osm_url": "https://www.openstreetmap.org/node/5745003239",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5745003239",
+      "sat_map_id": "osm:node:5745003239"
     },
     {
       "wikidata": "Q134007891",
@@ -99,7 +103,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
       "sat_part": {
         "wikidata": "Q133374147",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133374147",
@@ -114,7 +119,9 @@
         "type": "node",
         "id": 1611299267
       },
-      "osm_url": "https://www.openstreetmap.org/node/1611299267"
+      "osm_url": "https://www.openstreetmap.org/node/1611299267",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A1611299267",
+      "sat_map_id": "osm:node:1611299267"
     },
     {
       "wikidata": "Q15695240",
@@ -145,7 +152,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
       "sat_part": {
         "wikidata": "Q133724236",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724236",
@@ -159,7 +167,9 @@
         "type": "way",
         "id": 227701074
       },
-      "osm_url": "https://www.openstreetmap.org/way/227701074"
+      "osm_url": "https://www.openstreetmap.org/way/227701074",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A227701074",
+      "sat_map_id": "osm:way:227701074"
     },
     {
       "wikidata": "Q134589221",
@@ -190,7 +200,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
       "sat_part": {
         "wikidata": "Q133724232",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724232",
@@ -205,7 +216,9 @@
         "type": "node",
         "id": 1412248135
       },
-      "osm_url": "https://www.openstreetmap.org/node/1412248135"
+      "osm_url": "https://www.openstreetmap.org/node/1412248135",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A1412248135",
+      "sat_map_id": "osm:node:1412248135"
     },
     {
       "wikidata": "Q133502889",
@@ -243,7 +256,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
       "sat_part": {
         "wikidata": "Q133502246",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133502246",
@@ -258,7 +272,9 @@
         "type": "node",
         "id": 4428110501
       },
-      "osm_url": "https://www.openstreetmap.org/node/4428110501"
+      "osm_url": "https://www.openstreetmap.org/node/4428110501",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A4428110501",
+      "sat_map_id": "osm:node:4428110501"
     },
     {
       "wikidata": "Q134523792",
@@ -295,7 +311,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
       "sat_part": {
         "wikidata": "Q133724254",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724254",
@@ -310,7 +327,9 @@
         "type": "node",
         "id": 443132454
       },
-      "osm_url": "https://www.openstreetmap.org/node/443132454"
+      "osm_url": "https://www.openstreetmap.org/node/443132454",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A443132454",
+      "sat_map_id": "osm:node:443132454"
     },
     {
       "wikidata": "Q134705637",
@@ -341,7 +360,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
       "sat_part": {
         "wikidata": "Q133724247",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724247",
@@ -356,7 +376,9 @@
         "type": "node",
         "id": 9937193058
       },
-      "osm_url": "https://www.openstreetmap.org/node/9937193058"
+      "osm_url": "https://www.openstreetmap.org/node/9937193058",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A9937193058",
+      "sat_map_id": "osm:node:9937193058"
     },
     {
       "wikidata": "Q134705878",
@@ -402,7 +424,9 @@
         "type": "node",
         "id": 5856137503
       },
-      "osm_url": "https://www.openstreetmap.org/node/5856137503"
+      "osm_url": "https://www.openstreetmap.org/node/5856137503",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5856137503",
+      "sat_map_id": "osm:node:5856137503"
     },
     {
       "wikidata": "Q133812682",
@@ -434,7 +458,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2002%20Jeppes.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2002%20Jeppes.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2002%20Jeppes.jpg",
       "sat_part": {
         "wikidata": "Q133724252",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
@@ -448,7 +473,9 @@
         "type": "node",
         "id": 5012735219
       },
-      "osm_url": "https://www.openstreetmap.org/node/5012735219"
+      "osm_url": "https://www.openstreetmap.org/node/5012735219",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5012735219",
+      "sat_map_id": "osm:node:5012735219"
     },
     {
       "wikidata": "Q134527248",
@@ -484,7 +511,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Yxlan%20K%C3%B6pmanholms%20lanthandel.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Yxlan%20K%C3%B6pmanholms%20lanthandel.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Yxlan%20K%C3%B6pmanholms%20lanthandel.jpg",
       "sat_part": {
         "wikidata": "Q133724250",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724250",
@@ -498,7 +526,9 @@
         "type": "node",
         "id": 12072082597
       },
-      "osm_url": "https://www.openstreetmap.org/node/12072082597"
+      "osm_url": "https://www.openstreetmap.org/node/12072082597",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12072082597",
+      "sat_map_id": "osm:node:12072082597"
     },
     {
       "wikidata": "Q134006996",
@@ -530,7 +560,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Finnhamn%202025%20april%20aff%C3%A4ren.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Finnhamn%202025%20april%20aff%C3%A4ren.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Finnhamn%202025%20april%20aff%C3%A4ren.jpg",
       "sat_part": {
         "wikidata": "Q133724249",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724249",
@@ -543,7 +574,9 @@
         "type": "node",
         "id": 268910308
       },
-      "osm_url": "https://www.openstreetmap.org/node/268910308"
+      "osm_url": "https://www.openstreetmap.org/node/268910308",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A268910308",
+      "sat_map_id": "osm:node:268910308"
     },
     {
       "wikidata": "Q18291743",
@@ -576,7 +609,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
       "sat_part": {
         "wikidata": "Q133374185",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133374185",
@@ -591,7 +625,9 @@
         "type": "way",
         "id": 455176637
       },
-      "osm_url": "https://www.openstreetmap.org/way/455176637"
+      "osm_url": "https://www.openstreetmap.org/way/455176637",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A455176637",
+      "sat_map_id": "osm:way:455176637"
     },
     {
       "wikidata": "Q134311548",
@@ -627,7 +663,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
       "sat_part": {
         "wikidata": "Q133724234",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724234",
@@ -642,7 +679,9 @@
         "type": "node",
         "id": 12085619948
       },
-      "osm_url": "https://www.openstreetmap.org/node/12085619948"
+      "osm_url": "https://www.openstreetmap.org/node/12085619948",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12085619948",
+      "sat_map_id": "osm:node:12085619948"
     },
     {
       "wikidata": "Q136337707",
@@ -671,7 +710,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2020250815%2003.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2020250815%2003.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2020250815%2003.jpg",
       "sat_part": {
         "wikidata": "Q133724252",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
@@ -681,7 +721,9 @@
         "type": "node",
         "id": 2349013040
       },
-      "osm_url": "https://www.openstreetmap.org/node/2349013040"
+      "osm_url": "https://www.openstreetmap.org/node/2349013040",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A2349013040",
+      "sat_map_id": "osm:node:2349013040"
     },
     {
       "wikidata": "Q134311495",
@@ -713,7 +755,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
       "sat_part": {
         "wikidata": "Q133724230",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724230",
@@ -727,7 +770,9 @@
         "type": "way",
         "id": 186188140
       },
-      "osm_url": "https://www.openstreetmap.org/way/186188140"
+      "osm_url": "https://www.openstreetmap.org/way/186188140",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A186188140",
+      "sat_map_id": "osm:way:186188140"
     },
     {
       "wikidata": "Q134776972",
@@ -758,7 +803,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
       "sat_part": {
         "wikidata": "Q133724230",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724230",
@@ -773,7 +819,9 @@
         "type": "way",
         "id": 186188154
       },
-      "osm_url": "https://www.openstreetmap.org/way/186188154"
+      "osm_url": "https://www.openstreetmap.org/way/186188154",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A186188154",
+      "sat_map_id": "osm:way:186188154"
     },
     {
       "wikidata": "Q134529162",
@@ -816,7 +864,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gulf%20macken%20Kyrkviken%20Orn%C3%B6%20%281%29.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gulf%20macken%20Kyrkviken%20Orn%C3%B6%20%281%29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Gulf%20macken%20Kyrkviken%20Orn%C3%B6%20%281%29.jpg",
       "sat_part": {
         "wikidata": "Q133724236",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724236",
@@ -830,7 +879,9 @@
         "type": "node",
         "id": 6564670185
       },
-      "osm_url": "https://www.openstreetmap.org/node/6564670185"
+      "osm_url": "https://www.openstreetmap.org/node/6564670185",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A6564670185",
+      "sat_map_id": "osm:node:6564670185"
     },
     {
       "wikidata": "Q135437122",
@@ -853,7 +904,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
       "sat_part": {
         "wikidata": "Q133554956",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133554956",
@@ -867,7 +919,9 @@
         "type": "way",
         "id": 224465745
       },
-      "osm_url": "https://www.openstreetmap.org/way/224465745"
+      "osm_url": "https://www.openstreetmap.org/way/224465745",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A224465745",
+      "sat_map_id": "osm:way:224465745"
     },
     {
       "wikidata": "Q134589066",
@@ -899,7 +953,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%2014.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%2014.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%2014.jpg",
       "sat_part": {
         "wikidata": "Q133724246",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724246",
@@ -913,7 +968,9 @@
         "type": "node",
         "id": 2208326930
       },
-      "osm_url": "https://www.openstreetmap.org/node/2208326930"
+      "osm_url": "https://www.openstreetmap.org/node/2208326930",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A2208326930",
+      "sat_map_id": "osm:node:2208326930"
     },
     {
       "wikidata": "Q134311974",
@@ -950,7 +1007,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
       "sat_part": {
         "wikidata": "Q133724246",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724246",
@@ -965,7 +1023,9 @@
         "type": "way",
         "id": 495386320
       },
-      "osm_url": "https://www.openstreetmap.org/way/495386320"
+      "osm_url": "https://www.openstreetmap.org/way/495386320",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A495386320",
+      "sat_map_id": "osm:way:495386320"
     },
     {
       "wikidata": "Q134587974",
@@ -1001,7 +1061,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
       "sat_part": {
         "wikidata": "Q133724231",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724231",
@@ -1015,7 +1076,9 @@
         "type": "node",
         "id": 3053395678
       },
-      "osm_url": "https://www.openstreetmap.org/node/3053395678"
+      "osm_url": "https://www.openstreetmap.org/node/3053395678",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A3053395678",
+      "sat_map_id": "osm:node:3053395678"
     },
     {
       "wikidata": "Q133829736",
@@ -1047,7 +1110,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
       "sat_part": {
         "wikidata": "Q133724249",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724249",
@@ -1062,7 +1126,9 @@
         "type": "node",
         "id": 268908517
       },
-      "osm_url": "https://www.openstreetmap.org/node/268908517"
+      "osm_url": "https://www.openstreetmap.org/node/268908517",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A268908517",
+      "sat_map_id": "osm:node:268908517"
     },
     {
       "wikidata": "Q133812552",
@@ -1094,7 +1160,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
       "sat_part": {
         "wikidata": "Q133724252",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
@@ -1110,7 +1177,9 @@
         "type": "way",
         "id": 226043396
       },
-      "osm_url": "https://www.openstreetmap.org/way/226043396"
+      "osm_url": "https://www.openstreetmap.org/way/226043396",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A226043396",
+      "sat_map_id": "osm:way:226043396"
     },
     {
       "wikidata": "Q134306927",
@@ -1140,7 +1209,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
       "sat_part": {
         "wikidata": "Q133449160",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133449160",
@@ -1154,7 +1224,9 @@
         "type": "node",
         "id": 9731151623
       },
-      "osm_url": "https://www.openstreetmap.org/node/9731151623"
+      "osm_url": "https://www.openstreetmap.org/node/9731151623",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A9731151623",
+      "sat_map_id": "osm:node:9731151623"
     },
     {
       "wikidata": "Q134581015",
@@ -1189,7 +1261,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
       "sat_part": {
         "wikidata": "Q133724255",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
@@ -1204,7 +1277,9 @@
         "type": "node",
         "id": 12864971430
       },
-      "osm_url": "https://www.openstreetmap.org/node/12864971430"
+      "osm_url": "https://www.openstreetmap.org/node/12864971430",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12864971430",
+      "sat_map_id": "osm:node:12864971430"
     },
     {
       "wikidata": "Q134572952",
@@ -1241,7 +1316,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
       "sat_part": {
         "wikidata": "Q133724255",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
@@ -1256,7 +1332,9 @@
         "type": "way",
         "id": 301302737
       },
-      "osm_url": "https://www.openstreetmap.org/way/301302737"
+      "osm_url": "https://www.openstreetmap.org/way/301302737",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A301302737",
+      "sat_map_id": "osm:way:301302737"
     },
     {
       "wikidata": "Q134473761",
@@ -1289,7 +1367,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
       "sat_part": {
         "wikidata": "Q133724255",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
@@ -1304,7 +1383,9 @@
         "type": "node",
         "id": 794630768
       },
-      "osm_url": "https://www.openstreetmap.org/node/794630768"
+      "osm_url": "https://www.openstreetmap.org/node/794630768",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A794630768",
+      "sat_map_id": "osm:node:794630768"
     },
     {
       "wikidata": "Q134571436",
@@ -1341,7 +1422,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
       "sat_part": {
         "wikidata": "Q133724239",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724239",
@@ -1356,7 +1438,9 @@
         "type": "relation",
         "id": 15033302
       },
-      "osm_url": "https://www.openstreetmap.org/relation/15033302"
+      "osm_url": "https://www.openstreetmap.org/relation/15033302",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Arelation%3A15033302",
+      "sat_map_id": "osm:relation:15033302"
     },
     {
       "wikidata": "Q135003463",
@@ -1388,7 +1472,8 @@
       "passport_services": [
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
       "sat_part": {
         "wikidata": "Q133449160",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133449160",
@@ -1403,7 +1488,9 @@
         "type": "way",
         "id": 383557275
       },
-      "osm_url": "https://www.openstreetmap.org/way/383557275"
+      "osm_url": "https://www.openstreetmap.org/way/383557275",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A383557275",
+      "sat_map_id": "osm:way:383557275"
     },
     {
       "wikidata": "Q133840505",
@@ -1441,7 +1528,8 @@
         "sale",
         "stamp"
       ],
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
       "sat_part": {
         "wikidata": "Q133724234",
         "wikidata_url": "https://www.wikidata.org/wiki/Q133724234",
@@ -1456,7 +1544,9 @@
         "type": "way",
         "id": 229110282
       },
-      "osm_url": "https://www.openstreetmap.org/way/229110282"
+      "osm_url": "https://www.openstreetmap.org/way/229110282",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A229110282",
+      "sat_map_id": "osm:way:229110282"
     },
     {
       "wikidata": "Q140053969",
@@ -1493,7 +1583,9 @@
         "type": "node",
         "id": 424073481
       },
-      "osm_url": "https://www.openstreetmap.org/node/424073481"
+      "osm_url": "https://www.openstreetmap.org/node/424073481",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A424073481",
+      "sat_map_id": "osm:node:424073481"
     },
     {
       "wikidata": "Q140054528",
