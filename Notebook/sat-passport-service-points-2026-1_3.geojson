@@ -3,7 +3,7 @@
   "dataset": "sat-passport-service-points",
   "export_version": "2026.1_3",
   "schema_version": "1.1",
-  "generated": "2026-06-05T12:23:19.573981+00:00",
+  "generated": "2026-06-05T12:58:21.509345+00:00",
   "source_system": "Wikidata",
   "source_license": "CC0-1.0",
   "location_count": 32,
@@ -52,12 +52,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5745003239",
+        "sat_map_id": "osm:node:5745003239",
+        "website": "https://arholmanord.se/boende/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
         "sat_part": {
           "wikidata": "Q133374147",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133374147",
           "label": "SAT Arholma"
         },
-        "website": "https://arholmanord.se/boende/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BatteriArholma20120714-9.JPG",
         "social": {
           "facebook_username": "arholmanord",
@@ -113,12 +116,15 @@
             "label": "livsmedelsbutik"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A1611299267",
+        "sat_map_id": "osm:node:1611299267",
+        "website": "https://arholmahandel.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
         "sat_part": {
           "wikidata": "Q133374147",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133374147",
           "label": "SAT Arholma"
         },
-        "website": "https://arholmahandel.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arholma20120713-3.JPG",
         "social": {
           "facebook_username": "Arholmahandelcafe",
@@ -167,12 +173,15 @@
             "label": "hembygdsmuseum"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A227701074",
+        "sat_map_id": "osm:way:227701074",
+        "website": "https://www.orno.se/orno-museum/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
         "sat_part": {
           "wikidata": "Q133724236",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724236",
           "label": "SAT Ornö"
         },
-        "website": "https://www.orno.se/orno-museum/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Orn%C3%B6%20museum%2C%20baksidan%20med%20g%C3%A5rdsplanen.jpg",
         "social": {
           "instagram_username": "ornomuseum"
@@ -220,12 +229,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A1412248135",
+        "sat_map_id": "osm:node:1412248135",
+        "website": "https://www.batshaket.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
         "sat_part": {
           "wikidata": "Q133724232",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724232",
           "label": "SAT Ålö"
         },
-        "website": "https://www.batshaket.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5tshaket%202025%20maj%20%284%29.jpg",
         "social": {
           "facebook_username": "100063724382496",
@@ -281,12 +293,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A4428110501",
+        "sat_map_id": "osm:node:4428110501",
+        "website": "https://grinda.se/mat-fest/wardshuset/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
         "sat_part": {
           "wikidata": "Q133502246",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133502246",
           "label": "SAT Grinda"
         },
-        "website": "https://grinda.se/mat-fest/wardshuset/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grinda%20V%C3%A4rdshuset.jpg",
         "social": {
           "facebook_username": "GrindaWardshus",
@@ -341,12 +356,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A443132454",
+        "sat_map_id": "osm:node:443132454",
+        "website": "https://hotellfurusund.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
         "sat_part": {
           "wikidata": "Q133724254",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724254",
           "label": "SAT Furusund"
         },
-        "website": "https://hotellfurusund.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D810%200283%20%2814538737880%29.jpg",
         "social": {
           "facebook_username": "furusundiroslagen",
@@ -395,12 +413,15 @@
             "label": "bageri"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A9937193058",
+        "sat_map_id": "osm:node:9937193058",
+        "website": "https://ingmarsobageri.com/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
         "sat_part": {
           "wikidata": "Q133724247",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724247",
           "label": "SAT Ingmarsö"
         },
-        "website": "https://ingmarsobageri.com/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingmars%C3%B6%20bageri.jpg",
         "social": {
           "facebook_username": "ingmarsobageri",
@@ -450,12 +471,14 @@
             "label": "rum och frukost"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5856137503",
+        "sat_map_id": "osm:node:5856137503",
+        "website": "https://www.ingmarsobnb.se/",
         "sat_part": {
           "wikidata": "Q133724247",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724247",
           "label": "SAT Ingmarsö"
         },
-        "website": "https://www.ingmarsobnb.se/",
         "social": {
           "facebook_username": "61557968919905",
           "instagram_username": "ingmarsobnb"
@@ -504,6 +527,9 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A5012735219",
+        "sat_map_id": "osm:node:5012735219",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2002%20Jeppes.jpg",
         "sat_part": {
           "wikidata": "Q133724252",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
@@ -562,6 +588,9 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12072082597",
+        "sat_map_id": "osm:node:12072082597",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Yxlan%20K%C3%B6pmanholms%20lanthandel.jpg",
         "sat_part": {
           "wikidata": "Q133724250",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724250",
@@ -616,6 +645,9 @@
             "label": "livsmedelsbutik"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A268910308",
+        "sat_map_id": "osm:node:268910308",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Finnhamn%202025%20april%20aff%C3%A4ren.jpg",
         "sat_part": {
           "wikidata": "Q133724249",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724249",
@@ -670,12 +702,15 @@
             "label": "krog"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A455176637",
+        "sat_map_id": "osm:way:455176637",
+        "website": "https://lidovardshus.com/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
         "sat_part": {
           "wikidata": "Q133374185",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133374185",
           "label": "SAT Lidö"
         },
-        "website": "https://lidovardshus.com/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Q18291743.jpg",
         "social": {
           "facebook_username": "lidovardshus",
@@ -729,12 +764,15 @@
             "label": "livsmedelsbutik"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12085619948",
+        "sat_map_id": "osm:node:12085619948",
+        "website": "https://www.namdosolvik.com/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
         "sat_part": {
           "wikidata": "Q133724234",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724234",
           "label": "SAT Utö"
         },
-        "website": "https://www.namdosolvik.com/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20N%C3%A4md%C3%B6%20vandring%20aff%C3%A4ren%20handlaren.jpg",
         "social": {
           "facebook_username": "namdosolvik",
@@ -781,6 +819,9 @@
             "label": "turistbyrå"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A2349013040",
+        "sat_map_id": "osm:node:2349013040",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%2020250815%2003.jpg",
         "sat_part": {
           "wikidata": "Q133724252",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
@@ -831,12 +872,15 @@
             "label": "livsmedelsbutik"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A186188140",
+        "sat_map_id": "osm:way:186188140",
+        "website": "https://www.nattaroboden.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
         "sat_part": {
           "wikidata": "Q133724230",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724230",
           "label": "SAT Nåttarö"
         },
-        "website": "https://www.nattaroboden.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A5ttar%C3%B6%20handelsbod.jpg",
         "social": {
           "instagram_username": "nattaroboden"
@@ -884,12 +928,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A186188154",
+        "sat_map_id": "osm:way:186188154",
+        "website": "https://nattaro.se/mat_pa_on/nattaro-krog/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
         "sat_part": {
           "wikidata": "Q133724230",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724230",
           "label": "SAT Nåttarö"
         },
-        "website": "https://nattaro.se/mat_pa_on/nattaro-krog/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SATN%C3%A5ttar%C3%B6%202025%20april%20%28264%29%20krogen.jpg",
         "social": {
           "facebook_username": "nattaroresort",
@@ -950,6 +997,9 @@
             "label": "bensinstation"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A6564670185",
+        "sat_map_id": "osm:node:6564670185",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Gulf%20macken%20Kyrkviken%20Orn%C3%B6%20%281%29.jpg",
         "sat_part": {
           "wikidata": "Q133724236",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724236",
@@ -995,12 +1045,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A224465745",
+        "sat_map_id": "osm:way:224465745",
+        "website": "https://www.idoborg.se/strandbaren",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
         "sat_part": {
           "wikidata": "Q133554956",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133554956",
           "label": "SAT Nämdö"
         },
-        "website": "https://www.idoborg.se/strandbaren",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dux%20NordSydlinjen%20Id%C3%B6borg%202025%20juli.jpg",
         "social": {
           "facebook_username": "strandbarenidoborg"
@@ -1049,6 +1102,9 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A2208326930",
+        "sat_map_id": "osm:node:2208326930",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%2014.jpg",
         "sat_part": {
           "wikidata": "Q133724246",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724246",
@@ -1108,12 +1164,15 @@
             "label": "livsmedelsbutik"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A495386320",
+        "sat_map_id": "osm:way:495386320",
+        "website": "https://www.runmarolanthandel.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
         "sat_part": {
           "wikidata": "Q133724246",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724246",
           "label": "SAT Runmarö"
         },
-        "website": "https://www.runmarolanthandel.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Runmar%C3%B6%20vandring%201%20april%2001.jpg",
         "social": {
           "facebook_username": "RunmaroLanthandel",
@@ -1167,12 +1226,15 @@
             "label": "pub"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A3053395678",
+        "sat_map_id": "osm:node:3053395678",
+        "website": "https://rano.se/krog/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
         "sat_part": {
           "wikidata": "Q133724231",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724231",
           "label": "SAT Rånö"
         },
-        "website": "https://rano.se/krog/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20R%C3%A5n%C3%B6%20Livs%20och%20krog.jpg",
         "social": {
           "instagram_username": "ranobrygga"
@@ -1221,12 +1283,15 @@
             "label": "vandrarhem"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A268908517",
+        "sat_map_id": "osm:node:268908517",
+        "website": "https://www.svenskaturistforeningen.se/boende/stf-finnhamns-vandrarhem/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
         "sat_part": {
           "wikidata": "Q133724249",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724249",
           "label": "SAT Finnhamn"
         },
-        "website": "https://www.svenskaturistforeningen.se/boende/stf-finnhamns-vandrarhem/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Finnhamn%20July%202015%2002.jpg",
         "social": {
           "facebook_username": "finnhamn",
@@ -1276,12 +1341,15 @@
             "label": "vandrarhem"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A226043396",
+        "sat_map_id": "osm:way:226043396",
+        "website": "https://mojavandrarhem.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
         "sat_part": {
           "wikidata": "Q133724252",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724252",
           "label": "SAT Möja"
         },
-        "website": "https://mojavandrarhem.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20M%C3%B6ja%20vandring%202025%20april%2009%20STF%20vandrarhem.jpg",
         "social": {
           "facebook_username": "mojavandrarhem",
@@ -1330,12 +1398,15 @@
             "label": "pub"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A9731151623",
+        "sat_map_id": "osm:node:9731151623",
+        "website": "https://www.landsort.com/saltboden/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
         "sat_part": {
           "wikidata": "Q133449160",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133449160",
           "label": "SAT Landsort"
         },
-        "website": "https://www.landsort.com/saltboden/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Landsort%2003.jpg",
         "social": {
           "instagram_username": "saltbodenlandsort"
@@ -1387,12 +1458,15 @@
             "label": "cykeluthyrning"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A12864971430",
+        "sat_map_id": "osm:node:12864971430",
+        "website": "https://www.sandhamn.se/aktiviteter/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
         "sat_part": {
           "wikidata": "Q133724255",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
           "label": "SAT Sandhamn"
         },
-        "website": "https://www.sandhamn.se/aktiviteter/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20guiderna%202025%20juli.jpg",
         "social": {
           "facebook_username": "sandhamnsguiderna",
@@ -1447,12 +1521,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A301302737",
+        "sat_map_id": "osm:way:301302737",
+        "website": "https://www.sandhamn.com/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
         "sat_part": {
           "wikidata": "Q133724255",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
           "label": "SAT Sandhamn"
         },
-        "website": "https://www.sandhamn.com/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamn%20Seglarhotellet.jpg",
         "social": {
           "facebook_username": "sandhmnseglarhotell",
@@ -1503,12 +1580,15 @@
             "label": "krog"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A794630768",
+        "sat_map_id": "osm:node:794630768",
+        "website": "https://sandhamns-vardshus.se",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
         "sat_part": {
           "wikidata": "Q133724255",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724255",
           "label": "SAT Sandhamn"
         },
-        "website": "https://sandhamns-vardshus.se",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandhamns%20W%C3%A4rdshus%202025%20juli.jpg",
         "social": {
           "facebook_username": "SandhamnsVardshus",
@@ -1563,12 +1643,15 @@
             "label": "hotell"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Arelation%3A15033302",
+        "sat_map_id": "osm:relation:15033302",
+        "website": "https://www.svartsonorra.se/boende/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
         "sat_part": {
           "wikidata": "Q133724239",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724239",
           "label": "SAT Svartsö"
         },
-        "website": "https://www.svartsonorra.se/boende/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svarts%C3%B6%20sk%C3%A4rg%C3%A5rdshotell%20vandrarhem%20%281%29.jpg",
         "social": {
           "facebook_username": "svartsonorra",
@@ -1618,12 +1701,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A383557275",
+        "sat_map_id": "osm:way:383557275",
+        "website": "https://www.g-mo.se/restaurang-svedtiljas/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
         "sat_part": {
           "wikidata": "Q133449160",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133449160",
           "label": "SAT Landsort"
         },
-        "website": "https://www.g-mo.se/restaurang-svedtiljas/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Svedtilja%27s%20Pilot%20Tower.jpg",
         "social": {
           "facebook_username": "Lotstornet",
@@ -1679,12 +1765,15 @@
             "label": "restaurang"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A229110282",
+        "sat_map_id": "osm:way:229110282",
+        "website": "https://www.utovardshus.se/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
         "sat_part": {
           "wikidata": "Q133724234",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724234",
           "label": "SAT Utö"
         },
-        "website": "https://www.utovardshus.se/",
         "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SAT%20Ut%C3%B6%202025%20april%2023.jpg",
         "social": {
           "facebook_username": "utovardshus.se",
@@ -1729,12 +1818,14 @@
             "label": "kafé"
           }
         ],
+        "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A424073481",
+        "sat_map_id": "osm:node:424073481",
+        "website": "https://www.utogasthamn.se/",
         "sat_part": {
           "wikidata": "Q133724234",
           "wikidata_url": "https://www.wikidata.org/wiki/Q133724234",
           "label": "SAT Utö"
         },
-        "website": "https://www.utogasthamn.se/",
         "osm": {
           "type": "node",
           "id": 424073481
