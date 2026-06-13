@@ -1,0 +1,811 @@
+{
+  "dataset": "sat-passport-locations",
+  "version": "2026.1_2",
+  "generated": "2026-06-04T18:05:24.512633+00:00",
+  "generated_by": "SAT Passport Notebook",
+  "location_count": 33,
+  "locations": [
+    {
+      "wikidata": "Q134676671",
+      "name": "Arholma Nord",
+      "names": {
+        "sv": "Arholma Nord",
+        "en": "Arholma Nord",
+        "de": "Arholma Nord",
+        "fr": "Arholma Nord",
+        "ar": "أرهولما نورد",
+        "es": "Arholma Nord",
+        "da": "Arholma Nord",
+        "fi": "Arholma Nord",
+        "ru": "Архольма Норд",
+        "it": "Arholma Nord",
+        "zh": "Arholma Nord"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.86079312,
+      "longitude": 19.123592134,
+      "osm": {
+        "type": "node",
+        "id": "5745003239"
+      },
+      "sat_part": "SAT Arholma"
+    },
+    {
+      "wikidata": "Q134007891",
+      "name": "Arholma handel",
+      "names": {
+        "sv": "Arholma handel",
+        "en": "Arholma grocery",
+        "de": "Arholma handel",
+        "fr": "Arholma épicerie",
+        "ar": "تجارة أرهولما",
+        "es": "Tienda Arholma",
+        "nn": "Arholma Handel",
+        "da": "Arholma Handel",
+        "fi": "Arholma Kauppa",
+        "ru": "Магазин Arholma",
+        "it": "Commercio di Arholma",
+        "zh": "Arholma 商店"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.851166,
+      "longitude": 19.108069,
+      "osm": {
+        "type": "node",
+        "id": "1611299267"
+      },
+      "sat_part": "SAT Arholma"
+    },
+    {
+      "wikidata": "Q15695240",
+      "name": "Bygdemuseet Ornö sockenstuga",
+      "names": {
+        "sv": "Bygdemuseet Ornö sockenstuga",
+        "en": "The local museum Ornö parish cottage",
+        "de": "Das Landmuseum Ornö Pfarrhaus",
+        "fr": "Le musée du village Gîte paroissial d’Ornö",
+        "es": "El museo local Cabaña parroquial de Ornö",
+        "nn": "Lokalhistorisk museum Ornö soknestove",
+        "da": "Bygdemuseet Ornö sognestue",
+        "ru": "Местный музей Орнё приходской коттедж",
+        "it": "Vietos muziejus Ornö parapijos trobelė",
+        "zh": "地方博物馆 Ornö 教区小屋"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.051175,
+      "longitude": 18.42958056,
+      "osm": {
+        "type": "way",
+        "id": "227701074"
+      },
+      "sat_part": "SAT Ornö"
+    },
+    {
+      "wikidata": "Q134589221",
+      "name": "Båtshaket",
+      "names": {
+        "sv": "Båtshaket",
+        "en": "Båtshaket",
+        "de": "Båtshaket",
+        "fr": "Le Båtshaket'",
+        "ar": "خطاف القارب",
+        "es": "Gancho de bote",
+        "da": "Båtshaket",
+        "ru": "Лодочный крючок",
+        "it": "Gancio della barca",
+        "zh": "船钩"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 58.919339,
+      "longitude": 18.192144,
+      "osm": {
+        "type": "node",
+        "id": "1412248135"
+      },
+      "sat_part": "SAT Ålö"
+    },
+    {
+      "wikidata": "Q133502889",
+      "name": "Grinda Wärdshus",
+      "names": {
+        "sv": "Grinda Wärdshus",
+        "en": "Grinda Inn",
+        "de": "Grinda Wirtshaus",
+        "fr": "Auberge de Grinda",
+        "ar": "Grinda Wärdshus",
+        "es": "Posada de Grinda",
+        "nn": "Grindas Gjestgiveri",
+        "da": "Grindas Gæstgiveri",
+        "fi": "Grindan Majatalo",
+        "ru": "Гостевой дом Гринды",
+        "it": "Locanda di Grinda",
+        "zh": "格林达客栈"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.413505,
+      "longitude": 18.558754,
+      "osm": {
+        "type": "node",
+        "id": "4428110501"
+      },
+      "sat_part": "SAT Grinda"
+    },
+    {
+      "wikidata": "Q134523792",
+      "name": "Hotell Furusund",
+      "names": {
+        "sv": "Hotell Furusund",
+        "en": "Hotel Furusund",
+        "de": "Hotel Furusund",
+        "fr": "Hôtel Furusund",
+        "ar": "فندق فوروسوند",
+        "es": "Hotel Furusund",
+        "nn": "Hotell Furusund",
+        "da": "Hotel Furusund",
+        "fi": "Hotelli Furusund",
+        "ru": "Отель Фурусунд",
+        "it": "Hotel Furusund",
+        "zh": "Furusund 酒店"
+      },
+      "type": "stamp_only",
+      "latitude": 59.659002,
+      "longitude": 18.916161,
+      "osm": {
+        "type": "node",
+        "id": "443132454"
+      },
+      "sat_part": "SAT Furusund"
+    },
+    {
+      "wikidata": "Q134705637",
+      "name": "Ingmarsö bageri",
+      "names": {
+        "sv": "Ingmarsö bageri",
+        "en": "Ingmarsö bakery",
+        "de": "Ingmarsö Bäckerei",
+        "fr": "Boulangerie d'Ingmarsö",
+        "ar": "Ingmarsö Bakery",
+        "es": "Ingmarsö panadería",
+        "da": "Ingmarsö bageri",
+        "fi": "Ingmarsö -leipomo",
+        "ru": "ИНГМАРСЕЕ ПЕРЕКТОЕ",
+        "it": "Ingmarsö Bakery",
+        "zh": "Ingmarsö面包店"
+      },
+      "type": "stamp_only",
+      "latitude": 59.467456574,
+      "longitude": 18.75717491,
+      "osm": {
+        "type": "node",
+        "id": "9937193058"
+      },
+      "sat_part": "SAT Ingmarsö"
+    },
+    {
+      "wikidata": "Q134705878",
+      "name": "Ingmarsö bread and breakfast",
+      "names": {
+        "sv": "Ingmarsö bread and breakfast",
+        "en": "Ingmarsö bread and breakfast",
+        "de": "Ingmarsö Frühstückspension",
+        "fr": "Ingmarsö Bed and Breakfast",
+        "ar": "إنغمارو خبز ووجبة الإفطار",
+        "es": "Ingmarsö pan y desayuno",
+        "da": "Ingmarsö bed and breakfast",
+        "fi": "Ingmarsön leipä ja aamiainen",
+        "ru": "Ингмарсё хлеб и завтрак",
+        "it": "Ingmarsö pane e colazione",
+        "zh": "Ingmarsö面包和早餐"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.473687973,
+      "longitude": 18.75484307,
+      "osm": {
+        "type": "node",
+        "id": "5856137503"
+      },
+      "sat_part": "SAT Ingmarsö"
+    },
+    {
+      "wikidata": "Q133812682",
+      "name": "Jeppes Gästgiveri",
+      "names": {
+        "sv": "Jeppes Gästgiveri",
+        "en": "Jeppes Inn",
+        "de": "Jeppes Gasthof",
+        "fr": "Jeppes Auberge",
+        "ar": "نزل Jeppe",
+        "es": "Posada de Jeppes",
+        "nn": "Jeppes Gjestgiveri",
+        "da": "Jeppes Gæstgiveri",
+        "ru": "Гостевой дом Йеппеса",
+        "it": "Locanda di Jeppes",
+        "zh": "耶佩斯客栈"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.441299,
+      "longitude": 18.917862,
+      "osm": {
+        "type": "node",
+        "id": "5012735219"
+      },
+      "sat_part": "SAT Möja"
+    },
+    {
+      "wikidata": "Q134527248",
+      "name": "Köpmanholms Lanthandel och Grill",
+      "names": {
+        "sv": "Köpmanholms Lanthandel och Grill",
+        "en": "Köpmanholm's local shop",
+        "de": "Köpmanholm Landhandel",
+        "fr": "Köpmanholm épicerie",
+        "ar": "Köpmanholms Lanthandel",
+        "es": "Köpmanholms Lanthandel",
+        "da": "Köpmanholms landhandel",
+        "fi": "Köpmanholms Lanthandel",
+        "ru": "Köpmanholms Lanthandel",
+        "it": "Köpmanholms Lanthandel",
+        "zh": "Köpmanholmslanthandel"
+      },
+      "type": "stamp_only",
+      "latitude": 59.659515,
+      "longitude": 18.932257,
+      "osm": {
+        "type": "node",
+        "id": "12072082597"
+      },
+      "sat_part": "SAT Yxlan"
+    },
+    {
+      "wikidata": "Q134006996",
+      "name": "Lanthandel på Finnhamn",
+      "names": {
+        "sv": "Lanthandel på Finnhamn",
+        "en": "Grocery Finnhamn",
+        "de": "Laden auf Finnhamn",
+        "fr": "Finnhamn épicerie",
+        "ar": "لانثاندل على فينهامن",
+        "es": "Lanthandel en Finnhamn",
+        "da": "Landhandel på Finnhamn",
+        "fi": "Lanthandel Finnhamnissa",
+        "ru": "Лантхандель на Финнхэмн",
+        "it": "Lanthandel su Finnhamn",
+        "zh": "芬特尔（Lanthandel）在芬纳姆（Finnhamn）"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.482819,
+      "longitude": 18.824389,
+      "osm": {
+        "type": "node",
+        "id": "268910308"
+      },
+      "sat_part": "SAT Finnhamn"
+    },
+    {
+      "wikidata": "Q18291743",
+      "name": "Lidö värdshus",
+      "names": {
+        "sv": "Lidö värdshus",
+        "en": "Lidö inn",
+        "de": "Gasthaus Lidö",
+        "fr": "auberge Lidö",
+        "ar": "مهمانخانه Lidö",
+        "es": "posada Lidö",
+        "nn": "Lidö gjestgiveri",
+        "da": "Lidö kro",
+        "fi": "Lidö majatalo",
+        "ru": "гостевой дом Lidö",
+        "it": "Lidö užeiga",
+        "zh": "Lidö 客栈"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.77133333,
+      "longitude": 19.07997222,
+      "osm": {
+        "type": "way",
+        "id": "455176637"
+      },
+      "sat_part": "SAT Lidö"
+    },
+    {
+      "wikidata": "Q134311548",
+      "name": "Livsmedelbutiken på Nämdö Solvik",
+      "names": {
+        "sv": "Livsmedelbutiken på Nämdö Solvik",
+        "en": "Handlaren, Nämdö",
+        "de": "Der Lebensmittelgeschäft in Nämdö Solvik",
+        "fr": "Nämdö Solvik épicerie",
+        "ar": "متجر البقالة في Nämdö Solvik",
+        "es": "La tienda de comestibles en Nämdö Solvik",
+        "da": "Dagligvarebutikken på Nämdö Solvik",
+        "fi": "Ruokakauppa Nämdö Solvikissa",
+        "ru": "Продуктовый магазин в Nämdö solvik",
+        "it": "Il negozio di alimentari a Nämdö Solvik",
+        "zh": "Nämdösolvik的杂货店"
+      },
+      "type": "stamp_only",
+      "latitude": 59.1852269,
+      "longitude": 18.7004888,
+      "osm": {
+        "type": "node",
+        "id": "12085619948"
+      },
+      "sat_part": "SAT Utö"
+    },
+    {
+      "wikidata": "Q136337707",
+      "name": "Möja Turistförening",
+      "names": {
+        "sv": "Möja Turistförening",
+        "en": "Möja turistinfo",
+        "de": "Möja Touristenvereinigung",
+        "fr": "Association touristique de Möja",
+        "es": "Asociación de Turismo de Möja",
+        "nn": "Möja Turistforening",
+        "da": "Möja Turistforening",
+        "fi": "Möjan Matkailuyhdistys"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.40651,
+      "longitude": 18.8873387,
+      "osm": {
+        "type": "node",
+        "id": "2349013040"
+      },
+      "sat_part": "SAT Möja"
+    },
+    {
+      "wikidata": "Q134311495",
+      "name": "Nåttarö handelsbod",
+      "names": {
+        "sv": "Nåttarö handelsbod",
+        "en": "Nåttarö grocery",
+        "de": "Nåttarö Laden",
+        "fr": "Nåttarö épicerie",
+        "ar": "كشك تداول Nättarö",
+        "es": "Nättarö stand de comercio",
+        "da": "Nåttarö handelsbod",
+        "fi": "Nättarö Trading Booth",
+        "ru": "Nättarö Trading Booth",
+        "it": "Nättarö Trading Booth",
+        "zh": "Nättarö贸易摊位"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 58.879549,
+      "longitude": 18.11209,
+      "osm": {
+        "type": "way",
+        "id": "186188140"
+      },
+      "sat_part": "SAT Nåttarö"
+    },
+    {
+      "wikidata": "Q134776972",
+      "name": "Nåttarö krog",
+      "names": {
+        "sv": "Nåttarö krog",
+        "en": "Nåttarö restaurant",
+        "de": "Nåttarö krog",
+        "fr": "Le restaurant de Nåttra",
+        "ar": "Nättarö Krog",
+        "es": "Nättarö krog",
+        "da": "Nåttarö kro",
+        "fi": "Nättarö Krog",
+        "ru": "Nättarö Krog",
+        "it": "Nättarö Krog",
+        "zh": "NättaröKrog"
+      },
+      "type": "stamp_only",
+      "latitude": 58.880849,
+      "longitude": 18.11251,
+      "osm": {
+        "type": "way",
+        "id": "186188154"
+      },
+      "sat_part": "SAT Nåttarö"
+    },
+    {
+      "wikidata": "Q134529162",
+      "name": "Ornö macken",
+      "names": {
+        "sv": "Ornö macken",
+        "en": "Ornö gas station",
+        "de": "Ornö Tankstelle",
+        "fr": "station-service Ornö",
+        "ar": "Ornö Macken",
+        "es": "Gasolinera de Ornö",
+        "nn": "Ornö bensinstasjon",
+        "da": "Ornö tankstation",
+        "fi": "Ornön huoltoasema",
+        "ru": "Автозаправочная станция Орнё",
+        "it": "Ornö degalinė",
+        "zh": "Ornö 加油站"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.051773,
+      "longitude": 18.432768,
+      "osm": {
+        "type": "node",
+        "id": "6564670185"
+      },
+      "sat_part": "SAT Ornö"
+    },
+    {
+      "wikidata": "Q135437122",
+      "name": "Restaurang Strandbaren Idöborg",
+      "names": {
+        "sv": "Restaurang Strandbaren Idöborg",
+        "en": "Restaurant Strandbaren Idöborg"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.203912,
+      "longitude": 18.760389,
+      "osm": {
+        "type": "way",
+        "id": "224465745"
+      },
+      "sat_part": "SAT Nämdö"
+    },
+    {
+      "wikidata": "Q134589066",
+      "name": "Restaurang Svängen",
+      "names": {
+        "sv": "Restaurang Svängen",
+        "en": "Restaurant Svängen",
+        "de": "Restaurant Svängen",
+        "fr": "Restaurant Svängen",
+        "ar": "مطعم Svängen",
+        "es": "Restaurante Svängen",
+        "nn": "Restaurant Svängen",
+        "da": "Restaurant Svängen",
+        "fi": "Ravintola Svängen",
+        "ru": "Ресторан Svängen",
+        "it": "Restoranas Svängen",
+        "zh": "Svängen 餐厅"
+      },
+      "type": "stamp_only",
+      "latitude": 59.275880049,
+      "longitude": 18.742991181,
+      "osm": {
+        "type": "node",
+        "id": "2208326930"
+      },
+      "sat_part": "SAT Runmarö"
+    },
+    {
+      "wikidata": "Q134311974",
+      "name": "Runmarö lanthandel",
+      "names": {
+        "sv": "Runmarö lanthandel",
+        "en": "Runmarö grocery store",
+        "de": "Runmarö Landhandel",
+        "fr": "Épicerie Runmarö",
+        "ar": "متجر Runmarö",
+        "es": "Tienda de comestibles Runmarö",
+        "nn": "Runmarö landhandel",
+        "da": "Runmarö landhandel",
+        "fi": "Runmarön kyläkauppa",
+        "ru": "Магазин Runmarö",
+        "it": "Runmarö kaimo parduotuvė",
+        "zh": "Runmarö 村店"
+      },
+      "type": "stamp_only",
+      "latitude": 59.278984,
+      "longitude": 18.735844,
+      "osm": {
+        "type": "way",
+        "id": "495386320"
+      },
+      "sat_part": "SAT Runmarö"
+    },
+    {
+      "wikidata": "Q134587974",
+      "name": "Rånö Brygga",
+      "names": {
+        "sv": "Rånö Brygga",
+        "en": "Rånö Brygga",
+        "de": "Rånö Brygga",
+        "fr": "Quai de Rånö",
+        "ar": "رينو بريغا",
+        "es": "Rånö brygga",
+        "da": "Rånö brygge",
+        "fi": "Rånö brygga",
+        "ru": "РОНЕЕ БРИГГА",
+        "it": "Rånö Brygga",
+        "zh": "RånöBrygga"
+      },
+      "type": "stamp_only",
+      "latitude": 58.919776,
+      "longitude": 18.176366,
+      "osm": {
+        "type": "node",
+        "id": "3053395678"
+      },
+      "sat_part": "SAT Rånö"
+    },
+    {
+      "wikidata": "Q133829736",
+      "name": "STF Finnhamn vandrarhem",
+      "names": {
+        "sv": "STF Finnhamn vandrarhem",
+        "en": "Finnhamn hostel",
+        "de": "STF Finnhamn Jugendherberge",
+        "fr": "STF Finnhamn  auberge",
+        "ar": "STF Finnhamn Hostel",
+        "es": "STF Finnhamn Hostel",
+        "da": "STF Finnhamn vandrehjem",
+        "fi": "Stf Finnhamn Hostelli",
+        "ru": "STF Finnhamn Hostel",
+        "it": "STF Finnhamn Hostel",
+        "zh": "STF Finnhamn旅馆"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.479525,
+      "longitude": 18.823645,
+      "osm": {
+        "type": "node",
+        "id": "268908517"
+      },
+      "sat_part": "SAT Finnhamn"
+    },
+    {
+      "wikidata": "Q133812552",
+      "name": "STF Möja vandrarhem",
+      "names": {
+        "sv": "STF Möja vandrarhem",
+        "en": "STF Möja Hostel",
+        "de": "Stf Möja Hostel",
+        "fr": "Auberge STF Möja",
+        "ar": "STF Möja Hostel",
+        "es": "STF Möja Hostel",
+        "da": "STF Möja Hostel",
+        "fi": "Stf Möja -hostelli",
+        "ru": "STF Möja Hostel",
+        "it": "STF Möja Hostel",
+        "zh": "STFMöja旅馆"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.408392,
+      "longitude": 18.886607,
+      "osm": {
+        "type": "way",
+        "id": "226043396"
+      },
+      "sat_part": "SAT Möja"
+    },
+    {
+      "wikidata": "Q134306927",
+      "name": "Saltboden, Landsort",
+      "names": {
+        "sv": "Saltboden, Landsort",
+        "en": "Saltboden, Landsort",
+        "de": "Saltboden, Landsort",
+        "nn": "Saltboden, Landsort",
+        "da": "Saltboden, Landsort"
+      },
+      "type": "stamp_only",
+      "latitude": 58.744271,
+      "longitude": 17.865339,
+      "osm": {
+        "type": "node",
+        "id": "9731151623"
+      },
+      "sat_part": "SAT Landsort"
+    },
+    {
+      "wikidata": "Q134581015",
+      "name": "Sandhamns guiderna",
+      "names": {
+        "sv": "Sandhamns guiderna",
+        "en": "The Sandhamn Guides",
+        "de": "Sandhamns Führer",
+        "fr": "Guides de Sandhamn",
+        "ar": "أدلة Sandhamn",
+        "es": "Guías de Sandhamn",
+        "da": "Sandhamns guider",
+        "ru": "Гиды Сандхэмна",
+        "it": "Le guide di Sandhamn",
+        "zh": "桑德姆的向导"
+      },
+      "type": "stamp_only",
+      "latitude": 59.288053,
+      "longitude": 18.917372,
+      "osm": {
+        "type": "node",
+        "id": "12864971430"
+      },
+      "sat_part": "SAT Sandhamn"
+    },
+    {
+      "wikidata": "Q134572952",
+      "name": "Sandhamns seglarhotell",
+      "names": {
+        "sv": "Sandhamns seglarhotell",
+        "en": "Sandhamn's sailing hotel",
+        "de": "Sandhamns Seglerhotel",
+        "fr": "Hôtel de voile de Sandhamn",
+        "ar": "فندق Sandhamn's Sailing Hotel",
+        "es": "Sandhamn's Sailing Hotel",
+        "da": "Sandhamns sejlerhotel",
+        "fi": "Sandhamnin purjehdushotelli",
+        "ru": "Sandhamn's Sailing Hotel",
+        "it": "Sandhamn's Sailing Hotel",
+        "zh": "桑德姆的帆船酒店"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.287929,
+      "longitude": 18.918637,
+      "osm": {
+        "type": "way",
+        "id": "301302737"
+      },
+      "sat_part": "SAT Sandhamn"
+    },
+    {
+      "wikidata": "Q134473761",
+      "name": "Sandhamns värdshus",
+      "names": {
+        "sv": "Sandhamns värdshus",
+        "en": "Sandhamn Inn",
+        "de": "Sandhamns Gasthof",
+        "fr": "Auberge de Sandhamn",
+        "ar": "نزل Sandhamn",
+        "es": "Posada de Sandhamn",
+        "nn": "Sandhamns Gjestgiveri",
+        "da": "Sandhamns Gæstgiveri",
+        "fi": "Sandhamnin Majatalo",
+        "ru": "Sandhamn's Inn",
+        "it": "Locanda di Sandhamn",
+        "zh": "Sandhamn's Inn"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.289487,
+      "longitude": 18.914312,
+      "osm": {
+        "type": "node",
+        "id": "794630768"
+      },
+      "sat_part": "SAT Sandhamn"
+    },
+    {
+      "wikidata": "Q134571436",
+      "name": "Svartsö skärgårdshotell och vandrarhem",
+      "names": {
+        "sv": "Svartsö skärgårdshotell och vandrarhem",
+        "en": "Svartsö Archipelago Hotel and Hostel",
+        "de": "Svartsö Archipel Hotel und Hostel",
+        "fr": "Hôtel et auberge de jeunesse de l'archipel de Svartsö",
+        "ar": "فندق Svartsö Archipelago Hotel and Hostel",
+        "es": "Svartsö Archipelago Hotel and Hostel",
+        "da": "Svartsö skærgårdshotel og vandrehjem",
+        "fi": "Svartsön saaristohotelli ja hostelli",
+        "ru": "Svartsö Archipelago Hotel and Hostel",
+        "it": "Svartsö Archipelago Hotel and Hostel",
+        "zh": "Svartsö群岛酒店和旅馆"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.457522,
+      "longitude": 18.677283,
+      "osm": {
+        "type": "relation",
+        "id": "15033302"
+      },
+      "sat_part": "SAT Svartsö"
+    },
+    {
+      "wikidata": "Q135003463",
+      "name": "Svedtiljas restaurang",
+      "names": {
+        "sv": "Svedtiljas restaurang",
+        "en": "Svedtiljas restaurant",
+        "de": "Restaurant Svedtiljas",
+        "fr": "Restaurant Svedtiljas",
+        "ar": "مطعم سفيدتيلياس",
+        "es": "Restaurante Svedtiljas",
+        "nn": "Svedtiljas restaurant",
+        "da": "Svedtiljas restaurant",
+        "fi": "Svedtiljas ravintola",
+        "ru": "Ресторан Svedtiljas",
+        "it": "Ristorante Svedtiljas",
+        "zh": "Svedtiljas 餐厅"
+      },
+      "type": "stamp_only",
+      "latitude": 58.742515,
+      "longitude": 17.866878,
+      "osm": {
+        "type": "way",
+        "id": "383557275"
+      },
+      "sat_part": "SAT Landsort"
+    },
+    {
+      "wikidata": "Q133840505",
+      "name": "Utö Värdshus",
+      "names": {
+        "sv": "Utö Värdshus",
+        "en": "Utö inn",
+        "de": "Utö Gasthaus",
+        "fr": "Utö Hôtel",
+        "ar": "Utö Inn",
+        "es": "posada Utö",
+        "nn": "Utø vertshus",
+        "da": "Utø kro",
+        "fi": "Utön majatalo",
+        "ru": "гостиница Ютё",
+        "it": "locanda Utö",
+        "zh": "乌特岛旅馆"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 58.967309,
+      "longitude": 18.329475,
+      "osm": {
+        "type": "way",
+        "id": "229110282"
+      },
+      "sat_part": "SAT Utö"
+    },
+    {
+      "wikidata": "Q133840505",
+      "name": "Utö Värdshus",
+      "names": {
+        "sv": "Utö Värdshus",
+        "en": "Utö inn",
+        "de": "Utö Gasthaus",
+        "fr": "Utö Hôtel",
+        "ar": "Utö Inn",
+        "es": "posada Utö",
+        "nn": "Utø vertshus",
+        "da": "Utø kro",
+        "fi": "Utön majatalo",
+        "ru": "гостиница Ютё",
+        "it": "locanda Utö",
+        "zh": "乌特岛旅馆"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 58.969469,
+      "longitude": 18.326217,
+      "osm": {
+        "type": "way",
+        "id": "229110282"
+      },
+      "sat_part": "SAT Utö"
+    },
+    {
+      "wikidata": "Q140053969",
+      "name": "Utö gästhamn och café",
+      "names": {
+        "sv": "Utö gästhamn och café",
+        "en": "Utö Harbor office & café",
+        "de": "Utö Gästehafen und Café",
+        "fr": "Port de plaisance et café d'Utö",
+        "nn": "Utö gjestehavn og kafé",
+        "da": "Utö gæstehavn og café"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 58.970219,
+      "longitude": 18.324605,
+      "osm": {
+        "type": "node",
+        "id": "424073481"
+      },
+      "sat_part": "SAT Utö"
+    },
+    {
+      "wikidata": "Q140054528",
+      "name": "Vaxholms Turistbyrå",
+      "names": {
+        "sv": "Vaxholms Turistbyrå",
+        "en": "Vaxholm Tourist Office",
+        "de": "Vaxholms Touristenbüro",
+        "fr": "Office de tourisme de Vaxholm",
+        "es": "Oficina de Turismo de Vaxholm",
+        "nn": "Vaxholms Turistkontor",
+        "da": "Vaxholms Turistbureau",
+        "it": "Ufficio turistico di Vaxholm"
+      },
+      "type": "sale_and_stamp",
+      "latitude": 59.40359274,
+      "longitude": 18.351372918
+    }
+  ]
+}

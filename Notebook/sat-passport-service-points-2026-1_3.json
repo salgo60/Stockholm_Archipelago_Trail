@@ -2,7 +2,7 @@
   "dataset": "sat-passport-service-points",
   "export_version": "2026.1_3",
   "schema_version": "1.1",
-  "generated": "2026-06-05T12:58:21.509345+00:00",
+  "generated": "2026-06-08T01:21:57.837657+00:00",
   "source_system": "Wikidata",
   "source_license": "CC0-1.0",
   "source_repository": "https://github.com/salgo60/Stockholm_Archipelago_Trail",
@@ -1329,12 +1329,12 @@
         "instagram_username": "sandhamnseglarhotell"
       },
       "osm": {
-        "type": "way",
-        "id": 301302737
+        "type": "node",
+        "id": 864356451
       },
-      "osm_url": "https://www.openstreetmap.org/way/301302737",
-      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Away%3A301302737",
-      "sat_map_id": "osm:way:301302737"
+      "osm_url": "https://www.openstreetmap.org/node/864356451",
+      "sat_map_url": "https://map.stockholmarchipelagotrail.com/?poi=osm%3Anode%3A864356451",
+      "sat_map_id": "osm:node:864356451"
     },
     {
       "wikidata": "Q134473761",
