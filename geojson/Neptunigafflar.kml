@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Neptunigafflar</name>
+    <description/>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Gafflar</name>
+      <Placemark>
+        <name><![CDATA[Gaffel nr 1 & 28]]></name>
+        <description><![CDATA[8-9 augusti 1812. Sverigeholmen vid Skurusundet. Borta men ersatt med<br>ny gaffel Nr 28 7 juni 1989. Återbesök 3 juni 1992, 4 juni 1997.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.2140784,59.3354843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 2</name>
+        <description><![CDATA[7-8 augusti 1813. Klippuddens brygga å Lidingö, tidigare Käppala.<br>Gaffeln återfunnen 2002, kraftigt rostad med endast centerdelen av gaffeln kvar.<br>Återbesök 5 juni 2003 samt 5 juni 2013.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.2244574,59.3466021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 3</name>
+        <description><![CDATA[27-28 juli 1816. Svangrundet i inloppet till Hustegafjärden, Lidingö.<br>Inga spår kvar.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.2419692,59.360984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 4</name>
+        <description>27-28 juli 1822. Brevik, Lidingö. Inga spår kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.2116927,59.3432688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 5</name>
+        <description><![CDATA[27 juli 1836. Slandö Kalv i Södra Björkfjärden, Mälaren. Endast dubbar finns i klippan på<br>N-udden. Ny gaffel uppsatt vid återbesök 8 juni 2011.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.5290129,59.2868554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 6</name>
+        <description>6 augusti 1837. Ådö, Norra Björkfjärden. Inga spår kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.5722812,59.4566221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 7</name>
+        <description><![CDATA[4 aug 1839 Tullgarns Slott mellan slottet och ångbåtsbrygga. Inga spår kvar.<br>Ny gaffel uppsatt den 2 aug 2014 vid Sommarloge med Eskader.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.5877243,58.9496077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 8</name>
+        <description>3 augusti 1851. Östanå, mitt emot Ljusterö. Inga spår kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.5758764,59.5490182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 9</name>
+        <description><![CDATA[18 juli 1852. Näsby vid Gripsholmsviken, Taxinge i Mälaren.Inga spår kvar.<br>Ny gaffel uppsatt i grässlänten ca 100 m nordväst slottet<br>den 19 augusti 2006 vid Sommarloge med Eskader.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.3081936,59.2472987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 11</name>
+        <description>21 juli 1861. Halls holme syd Södertälje. Endast en dubb kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.6690084,59.1605921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 12</name>
+        <description>19 juli 1863. Norsborg mittt emot Ekerö. Stod kvar tom 1990-talet men nu förkommen.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.8062729,59.2564829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 13</name>
+        <description>21 juli 1867. Rosersberg. Endast en dubb kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.8279446,59.5717106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 14</name>
+        <description>17 juli 1870. Norrnäs å Värmdö strax syd Oxdjupet. Endast fundamentet kvar. Ny gaffel uppsatt 4 juni 2008.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.4556581,59.378897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 15</name>
+        <description>5 juli 1874 Skärholmen mitt emot Kungshatt i Mälaren. Inspekterad 1947 men nu endast en dubb kvar. Ny gaffel uppsatt den 3 juni 2015 nedanför trappor till Skärholmens Gård.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            17.8891966,59.2831765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 16</name>
+        <description>13 augusti 1893. Saltsjöbaden på Kvarnholmen. Endast fundamentet kvar.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.3119091,59.2744577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 17</name>
+        <description>15-16 juli 1899. Sollenkroka. I gott skick på en klippa ca 100 m.ost Oscarskanalens mynning. Återbesök 9 juni 2004.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.6799571,59.3681349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 18</name>
+        <description><![CDATA[28-29 juni 1913. Sandhamn på en klippa ca 150 m. ost klubbhuset. Gamla fundamentet kvar.<br>Ny gaffel uppsatt den 21 augusti 2010 vid Sommarloge med Eskader.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.9227578,59.2856713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 19</name>
+        <description>21 juli 1929 Sippsö vid Lindalsundet. Vårdas av markägaren Flankerad av tvenne kanoner. Återbesök 2 juni 1993 och 12 juni 2019</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.4884976,59.422224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 20</name>
+        <description>13-14 juli 1935. Maderö, väst Kofotens fyr vid Nämdöfjärden. Återbesök 8 juni 2005.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.6033331,59.2261681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 21</name>
+        <description>13 augusti 1950. Lilla Askholmen 300 m N om Kalvö vid Vindöström. I gott skick. Återbesök 7 juni 2000 efter 50 år.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.6153556,59.3831245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 22</name>
+        <description>23 augusti 1959. Ingarö på en udde syd Småängsviken. Återbesök 3 juni 2009.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.5546363,59.2202273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 23</name>
+        <description><![CDATA[1966. Skeppsmalen, Skagsudde. NO:s gåva till förre StCh Emanuel Högberg på 75-årsdagen<br>då familjen Högberg har sitt ursprung i trakten.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            19.0158495,63.1919305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 24</name>
+        <description>28 augusti 1966. Utö, planen 200 m ost ångbåtsbryggan. Gaffeln återuppförd 100 m. sydost ångbåtsbryggan vid Sommarloge med Eskader 16 augusti 2002.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.3259865,58.9700108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 25</name>
+        <description><![CDATA[2 juni 1982. Djursholm. N. udden vid Germaniaviken. Återbesök 8 juni 1983, 7 juni 1984, 6 juni 1985, 5 juni 1996.<br>Gaffeln vandaliserad men omhändertogs av Orden 1998. Senare uppsatt i London utanför Svenska Sjömanskyrkan]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.1015553,59.40054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 26</name>
+        <description><![CDATA[4 juni 1986. Fjäderholmarna på sydvästudden.<br>Återbesök 3 juni 1998 och 14 juni 2007.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.1744557,59.3270646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 27</name>
+        <description>3 juni 1987. Vaxholm, på kastellets sydvästra strandskoning. Återbesök 6 juni 1990, 7 juni 1995, 7 juni 2017.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.3589277,59.402533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 29</name>
+        <description>5 juni 1991. Långholmen, Mälaren. Står i parken till Carlshälls Gård. Återbesök 1 juni 1994, 2 juni 1999, 1 juni 2016.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.0196622,59.3223972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 30 </name>
+        <description><![CDATA[16 april 1996. Staden Gustavia på gamla svenskön S:t Barthélemy. Står framför "The Wall House", museum om den svenska tiden 1784-1877.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -62.8512932,17.8968947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 31</name>
+        <description>7 september 2001. London utanför Svenska Sjömanskyrkan. Återbesök den 9 september 2011</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.1644628,51.5199177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 32</name>
+        <description>6 juni 2012. Ny gaffel Sjöhistoriska museet vid trapp mot Djurgårdsbrunnsviken.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.1155838,59.3324469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 33</name>
+        <description>3 september 2016 i Visby utanför Gotlandsbolagets entré.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.2900472,57.6387844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 34</name>
+        <description>25 augusti 2018 på Möja, Långvik vid sommarloge med Eskader.</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            18.9201839,59.442762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 35</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyIr0Tnk5jFcLaZ4v04mfxstooSYz4x8TAHpn6bCdNC2XchEGHSwv5evx4ShIN0zMQ5x2qkaZLJ9UwcGdIQAn3rQveiKJrYhBUwQ67jrSFerAcOrL1tWk4Koap22exu3js0RFtvZnuqfJ8KEflLgnyerHpwnEXq3ipKzER8n5lA4mVYXOsU0nTR2VKNM70Uw33VFBA9pLSqrEU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Uppförd 9 juni 2021]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyIr0Tnk5jFcLaZ4v04mfxstooSYz4x8TAHpn6bCdNC2XchEGHSwv5evx4ShIN0zMQ5x2qkaZLJ9UwcGdIQAn3rQveiKJrYhBUwQ67jrSFerAcOrL1tWk4Koap22exu3js0RFtvZnuqfJ8KEflLgnyerHpwnEXq3ipKzER8n5lA4mVYXOsU0nTR2VKNM70Uw33VFBA9pLSqrEU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.0936925,59.3922501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaffel nr 10</name>
+        <description>Hesselbyholm </description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            16.8657777777778,59.4803888888889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
