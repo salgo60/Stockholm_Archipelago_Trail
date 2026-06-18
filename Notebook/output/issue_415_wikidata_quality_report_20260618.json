@@ -1,0 +1,197 @@
+{
+  "alive": 178,
+  "redirects": [
+    {
+      "status": "redirect",
+      "qid": "Q134871089",
+      "target": "Q106678630",
+      "sat_id": "sat:poi:978hx",
+      "osm": [
+        "osm:node:12905547872"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q135040652",
+      "target": "Q134692920",
+      "sat_id": "sat:poi:zqc6r",
+      "osm": [
+        "osm:node:12881274960"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q136337450",
+      "target": "Q135110110",
+      "sat_id": "sat:poi:pvz9y",
+      "osm": [
+        "osm:node:13157558827"
+      ]
+    }
+  ],
+  "deleted": [
+    {
+      "status": "deleted",
+      "qid": "Q134605030",
+      "target": "",
+      "sat_id": "sat:poi:c8je6",
+      "osm": [
+        "osm:node:3431736753"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134607564",
+      "target": "",
+      "sat_id": "sat:poi:b7nxb",
+      "osm": [
+        "osm:node:1392309442"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134607783",
+      "target": "",
+      "sat_id": "sat:poi:mxxwb",
+      "osm": [
+        "osm:node:863394662"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134717347",
+      "target": "",
+      "sat_id": "sat:poi:g3k29",
+      "osm": [
+        "osm:node:12090393146"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134717362",
+      "target": "",
+      "sat_id": "sat:poi:kkevg",
+      "osm": [
+        "osm:node:9936118752"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134726995",
+      "target": "",
+      "sat_id": "sat:poi:b3bvp",
+      "osm": [
+        "osm:node:4958553279"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134985579",
+      "target": "",
+      "sat_id": "sat:poi:nsjj5",
+      "osm": [
+        "osm:node:5728811330"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134985660",
+      "target": "",
+      "sat_id": "sat:poi:65far",
+      "osm": [
+        "osm:node:5798509123"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134985757",
+      "target": "",
+      "sat_id": "sat:poi:95d39",
+      "osm": [
+        "osm:node:10948911479"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134986918",
+      "target": "",
+      "sat_id": "sat:poi:2var9",
+      "osm": [
+        "osm:node:12945087542"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134987122",
+      "target": "",
+      "sat_id": "sat:poi:4z558",
+      "osm": [
+        "osm:node:4879006116"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135011579",
+      "target": "",
+      "sat_id": "sat:poi:rjyg9",
+      "osm": [
+        "osm:node:12942415533"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135197036",
+      "target": "",
+      "sat_id": "sat:poi:zxxhc",
+      "osm": [
+        "osm:node:5630510921"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135197156",
+      "target": "",
+      "sat_id": "sat:poi:nvh64",
+      "osm": [
+        "osm:node:6535493386"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135230746",
+      "target": "",
+      "sat_id": "sat:poi:v2vea",
+      "osm": [
+        "osm:node:4936508701"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135267999",
+      "target": "",
+      "sat_id": "sat:poi:zmh6w",
+      "osm": [
+        "osm:node:5745003240"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135268016",
+      "target": "",
+      "sat_id": "sat:poi:n47kg",
+      "osm": [
+        "osm:node:4990875342"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135458780",
+      "target": "",
+      "sat_id": "sat:poi:dkshm",
+      "osm": [
+        "osm:node:4936509760"
+      ]
+    }
+  ],
+  "errors": []
+}
