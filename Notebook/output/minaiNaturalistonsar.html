@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="obs"></div>
+
+<script>
+fetch("https://api.inaturalist.org/v1/observations?user_login=salgo60&order_by=created_at&order=desc&per_page=20")
+  .then(r => r.json())
+  .then(data => {
+    data.results.forEach(o => {
+      document.getElementById("obs").innerHTML += `
+        <p>
+          ${o.species_guess || "okänd art"}<br>
+          ${o.observed_on}<br>
+          <a href="${o.uri}">Visa observation</a>
+        </p>
+      `;
+    });
+  });
+</script>
+</body>
+</html>

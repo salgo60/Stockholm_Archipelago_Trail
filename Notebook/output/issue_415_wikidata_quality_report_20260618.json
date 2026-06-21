@@ -1,5 +1,5 @@
 {
-  "alive": 161,
+  "alive": 173,
   "redirects": [
     {
       "status": "redirect",
@@ -182,63 +182,24 @@
       "osm": [
         "osm:node:4990875342"
       ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135458780",
+      "target": "",
+      "sat_id": "sat:poi:dkshm",
+      "osm": [
+        "osm:node:4936509760"
+      ]
     }
   ],
   "errors": [
-    {
-      "qid": "Q135423626",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135428249",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135437122",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135458780",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135890833",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135905118",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135969918",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135972088",
-      "status_code": 429
-    },
-    {
-      "qid": "Q136036748",
-      "status_code": 429
-    },
-    {
-      "qid": "Q136087206",
-      "status_code": 429
-    },
-    {
-      "qid": "Q136193620",
-      "status_code": 429
-    },
-    {
-      "qid": "Q136207103",
-      "status_code": 429
-    },
     {
       "qid": "Q136337707",
       "status_code": 429
     },
     {
-      "qid": "Q136433169",
+      "qid": "Q136374558",
       "status_code": 429
     },
     {
@@ -251,10 +212,6 @@
     },
     {
       "qid": "Q18291743",
-      "status_code": 429
-    },
-    {
-      "qid": "Q63615597",
       "status_code": 429
     }
   ]
