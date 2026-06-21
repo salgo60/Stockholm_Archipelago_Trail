@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>Mina senaste iNaturalist-observationer</title>
+
+<link rel="stylesheet"
+ href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#map {
+    height: 50vh;
+}
+
+#observations {
+    padding: 1em;
+}
+
+.card {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.meta {
+    flex: 1;
+}
+</style>
+</head>
+
+<body>
+
+<h1 style="padding:10px">🌿 Mina senaste observationer</h1>
+
+<div id="map"></div>
+
+<div id="observations"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+
+const username = "salgo60";
+
+const map = L.map('map').setView([59.3,18.0],8);
+
+L.tileLayer(
+'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+    attribution:'© OpenStreetMap'
+}
+).addTo(map);
+
+fetch(
+`https://api.inaturalist.org/v1/observations?user_login=${username}&per_page=50&order=desc&locale=sv`
+)
+.then(r => r.json())
+.then(data => {
+
+    const markers = [];
+
+    data.results.forEach(obs => {
+
+        const lat = obs.geojson?.coordinates?.[1];
+        const lon = obs.geojson?.coordinates?.[0];
+
+        if (!lat || !lon) return;
+
+        const photo =
+            obs.photos?.[0]?.url?.replace("square","medium");
+
+        const svensktNamn =
+            obs.taxon?.preferred_common_name ||
+            obs.species_guess ||
+            "Okänd art";
+
+        const popup = `
+            <b>${svensktNamn}</b><br>
+            ${obs.observed_on}<br>
+            <a href="${obs.uri}" target="_blank">
+            Visa observation
+            </a>
+        `;
+
+        const marker =
+            L.marker([lat,lon])
+            .addTo(map)
+            .bindPopup(popup);
+
+        markers.push(marker);
+
+        document.getElementById("observations")
+            .insertAdjacentHTML(
+                "beforeend",
+                `
+                <div class="card">
+                    <img src="${photo}">
+                    <div class="meta">
+                        <h3>${svensktNamn}</h3>
+                        <p>${obs.place_guess || ""}</p>
+                        <p>${obs.observed_on}</p>
+                        <a href="${obs.uri}" target="_blank">
+                        Visa på iNaturalist
+                        </a>
+                    </div>
+                </div>
+                `
+            );
+    });
+
+    const group = L.featureGroup(markers);
+
+    if (markers.length) {
+        map.fitBounds(group.getBounds());
+    }
+});
+</script>
+
+</body>
+</html>
