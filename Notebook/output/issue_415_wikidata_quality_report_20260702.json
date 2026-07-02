@@ -1,0 +1,331 @@
+{
+  "alive": 226,
+  "redirects": [
+    {
+      "status": "redirect",
+      "qid": "Q133824830",
+      "target": "Q129324487",
+      "sat_id": "sat:poi:6p8zd",
+      "osm": [
+        "osm:way:229110281"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q134871089",
+      "target": "Q106678630",
+      "sat_id": "sat:poi:978hx",
+      "osm": [
+        "osm:node:12905547872"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q136337450",
+      "target": "Q135110110",
+      "sat_id": "sat:poi:pvz9y",
+      "osm": [
+        "osm:node:13157558827"
+      ]
+    }
+  ],
+  "deleted": [
+    {
+      "status": "deleted",
+      "qid": "Q134605030",
+      "target": "",
+      "sat_id": "sat:poi:c8je6",
+      "osm": [
+        "osm:node:3431736753"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134607564",
+      "target": "",
+      "sat_id": "sat:poi:b7nxb",
+      "osm": [
+        "osm:node:1392309442"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134607783",
+      "target": "",
+      "sat_id": "sat:poi:mxxwb",
+      "osm": [
+        "osm:node:863394662"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134717347",
+      "target": "",
+      "sat_id": "sat:poi:g3k29",
+      "osm": [
+        "osm:node:12090393146"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134717362",
+      "target": "",
+      "sat_id": "sat:poi:kkevg",
+      "osm": [
+        "osm:node:9936118752"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134726995",
+      "target": "",
+      "sat_id": "sat:poi:b3bvp",
+      "osm": [
+        "osm:node:4958553279"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134985660",
+      "target": "",
+      "sat_id": "sat:poi:65far",
+      "osm": [
+        "osm:node:5798509123"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134986918",
+      "target": "",
+      "sat_id": "sat:poi:2var9",
+      "osm": [
+        "osm:node:12945087542"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135197036",
+      "target": "",
+      "sat_id": "sat:poi:zxxhc",
+      "osm": [
+        "osm:node:5630510921"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135230746",
+      "target": "",
+      "sat_id": "sat:poi:v2vea",
+      "osm": [
+        "osm:node:4936508701"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135267999",
+      "target": "",
+      "sat_id": "sat:poi:zmh6w",
+      "osm": [
+        "osm:node:5745003240"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "qid": "Q134985579",
+      "status_code": 429
+    },
+    {
+      "qid": "Q134985757",
+      "status_code": 429
+    },
+    {
+      "qid": "Q134987122",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135011579",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135024167",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135027143",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135040652",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135103433",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135107443",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135109946",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135110110",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135114682",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135152513",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135152816",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135153326",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135153361",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135197156",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135217025",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135226572",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135267113",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135267910",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135268016",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135268035",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135414637",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135423626",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135428282",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135443020",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135458780",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135890833",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135905118",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135969918",
+      "status_code": 429
+    },
+    {
+      "qid": "Q135972088",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136036748",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136164699",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136198240",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136207103",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136337707",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136433169",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136437056",
+      "status_code": 429
+    },
+    {
+      "qid": "Q139591732",
+      "status_code": 429
+    },
+    {
+      "qid": "Q139882382",
+      "status_code": 429
+    },
+    {
+      "qid": "Q140054528",
+      "status_code": 429
+    },
+    {
+      "qid": "Q140302852",
+      "status_code": 429
+    },
+    {
+      "qid": "Q140313515",
+      "status_code": 429
+    },
+    {
+      "qid": "Q140389015",
+      "status_code": 429
+    },
+    {
+      "qid": "Q15695240",
+      "status_code": 429
+    },
+    {
+      "qid": "Q28375395",
+      "status_code": 429
+    },
+    {
+      "qid": "Q32904803",
+      "status_code": 429
+    },
+    {
+      "qid": "Q842877",
+      "status_code": 429
+    }
+  ]
+}

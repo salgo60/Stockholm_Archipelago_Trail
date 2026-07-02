@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>SAT QA report</title>
+
+<style>
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin:40px;
+}
+
+table {
+
+    border-collapse: collapse;
+    width:100%;
+}
+
+th,td {
+
+    border:1px solid #ccc;
+    padding:6px;
+}
+
+th {
+
+    background:#efefef;
+}
+
+h2 {
+
+    margin-top:40px;
+}
+
+.summary td:first-child {
+
+    font-weight:bold;
+}
+
+code {
+
+    background:#eee;
+    padding:2px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Stockholm Archipelago Trail</h1>
+
+<h2>QA report – Issue #415</h2>
+
+<p><b>Status:</b> 🟡 WARN</p>
+
+<p>
+
+Generated: 2026-07-02 20:19:18<br>
+
+Notebook: <code>415_check_WD_object.ipynb</code>
+
+</p>
+
+<h2>Summary</h2>
+
+<table class="summary">
+
+<tr><td>OSM objects</td><td>546</td></tr>
+
+<tr><td>Deleted OSM objects</td><td>0</td></tr>
+
+<tr><td>OSM ref mismatches</td><td>15</td></tr>
+
+<tr><td>OSM API errors</td><td>5</td></tr>
+
+<tr><td>Wikidata backlink issues</td><td>0</td></tr>
+
+</table>
+
+
+<h2>TODO</h2>
+
+<ul>
+
+<li>Verify every SAT → Wikidata mapping.</li>
+
+<li>Verify every Wikidata object points back to the SAT identifier.</li>
+
+<li>Verify every SAT → OSM mapping.</li>
+
+<li>Verify every OSM object has the correct <code>ref:stockholmarchipelagotrail</code>.</li>
+
+<li>Verify OSM <code>wikidata=*</code> matches the SAT concordance.</li>
+
+<li>Detect duplicate SAT ids.</li>
+
+<li>Detect duplicate Wikidata ids.</li>
+
+<li>Detect duplicate OSM ids.</li>
+
+</ul>
+
+<h2>Wikidata backlink issues</h2>
+
+<p><em>No issues found.</em></p>
+
+<h2>OSM backlink issues</h2>
+
+<table>
+<thead><tr>
+<th>SAT id</th>
+<th>OSM object</th>
+<th>ref:stockholmarchipelagotrail</th>
+</tr></thead><tbody>
+<tr>
+<td>sat:poi:9xkjj</td>
+<td>osm:node:1033001787</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:f57he</td>
+<td>osm:node:12151384563</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:n83ax</td>
+<td>osm:node:473209671</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:gn35x</td>
+<td>osm:node:4990429702</td>
+<td>sat:poi:5qbbt</td>
+</tr>
+<tr>
+<td>sat:poi:wfdxn</td>
+<td>osm:node:5008269761</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:scqp2</td>
+<td>osm:node:5028980495</td>
+<td>Arholma minneslund utsikten</td>
+</tr>
+<tr>
+<td>sat:poi:3g2t3</td>
+<td>osm:node:8524303978</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:rcx5k</td>
+<td>osm:node:8846898703</td>
+<td>sat:poi:cbt7n</td>
+</tr>
+<tr>
+<td>sat:poi:hvm2x</td>
+<td>osm:way:1236446195</td>
+<td>sat:poi:hvm2x&quot;</td>
+</tr>
+<tr>
+<td>sat:poi:6b24m</td>
+<td>osm:way:292969768</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:h4ben</td>
+<td>osm:way:301259865</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:f8bsx</td>
+<td>osm:way:465662338</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:gqg6p</td>
+<td>osm:way:615513435</td>
+<td>sat:poi:gqg6p&quot;</td>
+</tr>
+<tr>
+<td>sat:poi:esdwr</td>
+<td>osm:way:834655198</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>sat:poi:e97a2</td>
+<td>osm:way:941508110</td>
+<td>unknown</td>
+</tr>
+</tbody></table>
+
+<h2>OSM API errors</h2>
+
+<table>
+<thead><tr>
+<th>OSM object</th>
+<th>HTTP</th>
+<th>Error</th>
+</tr></thead><tbody>
+<tr>
+<td>osm:node:12956347396</td>
+<td>410</td>
+<td></td>
+</tr>
+<tr>
+<td>osm:node:12959406894</td>
+<td>410</td>
+<td></td>
+</tr>
+<tr>
+<td>osm:node:13820131465</td>
+<td>410</td>
+<td></td>
+</tr>
+<tr>
+<td>osm:node:13953909169</td>
+<td>410</td>
+<td></td>
+</tr>
+<tr>
+<td>osm:node:1848869435</td>
+<td>410</td>
+<td></td>
+</tr>
+</tbody></table>
+
+</body>
+
+</html>
