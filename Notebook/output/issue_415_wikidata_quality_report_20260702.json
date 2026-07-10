@@ -1,5 +1,5 @@
 {
-  "alive": 226,
+  "alive": 242,
   "redirects": [
     {
       "status": "redirect",
@@ -17,6 +17,24 @@
       "sat_id": "sat:poi:978hx",
       "osm": [
         "osm:node:12905547872"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q135040652",
+      "target": "Q134692920",
+      "sat_id": "sat:poi:zqc6r",
+      "osm": [
+        "osm:node:12881274960"
+      ]
+    },
+    {
+      "status": "redirect",
+      "qid": "Q135103433",
+      "target": "Q134839262",
+      "sat_id": "sat:poi:9hzqe",
+      "osm": [
+        "osm:node:13943777187"
       ]
     },
     {
@@ -86,11 +104,29 @@
     },
     {
       "status": "deleted",
+      "qid": "Q134985579",
+      "target": "",
+      "sat_id": "sat:poi:nsjj5",
+      "osm": [
+        "osm:node:5728811330"
+      ]
+    },
+    {
+      "status": "deleted",
       "qid": "Q134985660",
       "target": "",
       "sat_id": "sat:poi:65far",
       "osm": [
         "osm:node:5798509123"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q134985757",
+      "target": "",
+      "sat_id": "sat:poi:95d39",
+      "osm": [
+        "osm:node:10948911479"
       ]
     },
     {
@@ -104,11 +140,38 @@
     },
     {
       "status": "deleted",
+      "qid": "Q134987122",
+      "target": "",
+      "sat_id": "sat:poi:4z558",
+      "osm": [
+        "osm:node:4879006116"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135011579",
+      "target": "",
+      "sat_id": "sat:poi:rjyg9",
+      "osm": [
+        "osm:node:12942415533"
+      ]
+    },
+    {
+      "status": "deleted",
       "qid": "Q135197036",
       "target": "",
       "sat_id": "sat:poi:zxxhc",
       "osm": [
         "osm:node:5630510921"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135197156",
+      "target": "",
+      "sat_id": "sat:poi:nvh64",
+      "osm": [
+        "osm:node:6535493386"
       ]
     },
     {
@@ -128,119 +191,29 @@
       "osm": [
         "osm:node:5745003240"
       ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135268016",
+      "target": "",
+      "sat_id": "sat:poi:n47kg",
+      "osm": [
+        "osm:node:4990875342"
+      ]
+    },
+    {
+      "status": "deleted",
+      "qid": "Q135458780",
+      "target": "",
+      "sat_id": "sat:poi:dkshm",
+      "osm": [
+        "osm:node:4936509760"
+      ]
     }
   ],
   "errors": [
     {
-      "qid": "Q134985579",
-      "status_code": 429
-    },
-    {
-      "qid": "Q134985757",
-      "status_code": 429
-    },
-    {
-      "qid": "Q134987122",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135011579",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135024167",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135027143",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135040652",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135103433",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135107443",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135109946",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135110110",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135114682",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135152513",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135152816",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135153326",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135153361",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135197156",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135217025",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135226572",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135267113",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135267910",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135268016",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135268035",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135414637",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135423626",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135428282",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135443020",
-      "status_code": 429
-    },
-    {
-      "qid": "Q135458780",
+      "qid": "Q135475767",
       "status_code": 429
     },
     {
@@ -252,15 +225,11 @@
       "status_code": 429
     },
     {
-      "qid": "Q135969918",
+      "qid": "Q135971987",
       "status_code": 429
     },
     {
-      "qid": "Q135972088",
-      "status_code": 429
-    },
-    {
-      "qid": "Q136036748",
+      "qid": "Q135972992",
       "status_code": 429
     },
     {
@@ -268,7 +237,11 @@
       "status_code": 429
     },
     {
-      "qid": "Q136198240",
+      "qid": "Q136196939",
+      "status_code": 429
+    },
+    {
+      "qid": "Q136198334",
       "status_code": 429
     },
     {
@@ -280,15 +253,19 @@
       "status_code": 429
     },
     {
-      "qid": "Q136433169",
+      "qid": "Q136342734",
       "status_code": 429
     },
     {
-      "qid": "Q136437056",
+      "qid": "Q136374558",
       "status_code": 429
     },
     {
-      "qid": "Q139591732",
+      "qid": "Q136434518",
+      "status_code": 429
+    },
+    {
+      "qid": "Q139629431",
       "status_code": 429
     },
     {
@@ -296,7 +273,7 @@
       "status_code": 429
     },
     {
-      "qid": "Q140054528",
+      "qid": "Q140053969",
       "status_code": 429
     },
     {
@@ -304,11 +281,7 @@
       "status_code": 429
     },
     {
-      "qid": "Q140313515",
-      "status_code": 429
-    },
-    {
-      "qid": "Q140389015",
+      "qid": "Q140355511",
       "status_code": 429
     },
     {
@@ -316,11 +289,19 @@
       "status_code": 429
     },
     {
+      "qid": "Q2530171",
+      "status_code": 429
+    },
+    {
       "qid": "Q28375395",
       "status_code": 429
     },
     {
-      "qid": "Q32904803",
+      "qid": "Q33190920",
+      "status_code": 429
+    },
+    {
+      "qid": "Q56301720",
       "status_code": 429
     },
     {
