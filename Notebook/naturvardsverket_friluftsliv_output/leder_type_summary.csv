@@ -1,0 +1,33 @@
+﻿LEDTYP,LEDKATEGORI,count
+Vandringsled,Barmarksled,9048
+"Skidled, Skoterled",Led på snö,690
+Skidled,Led på snö,428
+Omarkerad stig,Barmarksled,343
+Naturstig,Barmarksled,245
+Skoterled,Led på snö,244
+"Naturstig, Vandringsled",Barmarksled,194
+"Skidled, Vinterled",Led på snö,164
+"Skoterled, Vinterled",Led på snö,115
+Vinterled,Led på snö,113
+Cykelled,Barmarksled,89
+"Skidled, Skoterled, Vinterled",Led på snö,49
+"Cykelled, Vandringsled",Barmarksled,43
+"Omarkerad stig, Vandringsled",Barmarksled,43
+Ridled,Barmarksled,36
+"Cykelled, Naturstig",Barmarksled,18
+"Cykelled, Omarkerad stig, Vandringsled",Barmarksled,18
+Elljusspår,Barmarksled,16
+"Naturstig, Omarkerad stig, Vandringsled",Barmarksled,16
+"Naturstig, Omarkerad stig",Barmarksled,15
+Båttrafikled,Led på/i vatten,13
+"Cykelled, Ridled, Vandringsled",Barmarksled,13
+"Naturstig, Ridled",Barmarksled,12
+Kanotled,Led på/i vatten,10
+"Cykelled, Ridled",Barmarksled,10
+"Ridled, Vandringsled",Barmarksled,8
+"Elljusspår, Vandringsled",Barmarksled,7
+"Preparerat skidspår, Skidled",Led på snö,5
+Båtpassage längs vandringsled,Led på/i vatten,3
+"Cykelled, Omarkerad stig",Barmarksled,1
+Roddpassage längs vandringsled,Led på/i vatten,1
+Snorkelled,Led på/i vatten,1
