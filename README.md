@@ -1,6 +1,6 @@
 # Stockholm Archipelago Trail
 Magnus Sälgös öppna leddata
-Ett fristående projekt med kartor och analyser om Stockholm Archipelago Trail.
+Ett fristående projekt med kartor och analyser om Stockholm Archipelago Trail. Projektet uppdateras inte längre. Materialet finns kvar för dokumentation och återanvändning. Uppgifter om exempelvis ledsträckning, transporter och service kan vara inaktuella.
 
 * [SAT websida](https://salgo60.github.io/Stockholm_Archipelago_Trail)
 * [SAT Dashboard](https://salgo60.github.io/Stockholm_Archipelago_Trail/Notebook/output/dashboard.html)
